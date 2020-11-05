@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma_eXtended_Environment">
+
+	<!-- ####################################################################################### -->
+	<Package name="DPSO_Main">
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Container name="Main">
+			<!-- =============================================================================== -->
+			<Key ID="STR_DPSO_Main_Title">
+				<Original>DPSO Main</Original>
+			</Key>
+			<Key ID="STR_dpso_main_Author">
+				<Original>DPSO-Team</Original>
+			</Key>
+			<Key ID="STR_DPSO_Main_URL">
+				<Original>https://github.com/DPSOmod/DPSO</Original>
+			</Key>
+			<!-- =============================================================================== -->
+		</Container>
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Container name="EditorCategories">
+			<!-- =============================================================================== -->
+			<Key ID="STR_DPSO_EdCat">
+				<Original>DPSO</Original>
+			</Key>
+			<!-- =============================================================================== -->
+		</Container>
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Container name="FactionClasses">
+			<!-- =============================================================================== -->
+			<Key ID="STR_DPSO_FactionClass">
+				<Original>DPSO</Original>
+			</Key>
+			<!-- =============================================================================== -->
+		</Container>
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	</Package>
+	<!-- ####################################################################################### -->
+
+	<!-- ####################################################################################### -->
+	<Package name="DPSO">
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Container name="Addon">
+			<!-- =============================================================================== -->
+			<Key ID="STR_DPSO_Addon_Author">
+				<Original>DPSO-Team</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Title">
+				<Original>DPSO Custom W/RHS</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Name">
+				<Original>DPSO Custom</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Short">
+				<Original>DPSO</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Description">
+				<Original>Bugtracker: https://github.com/DPSO/dpso/issues</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Tooltip">
+				<Original>DPSO</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Logo">
+				<Original>\z\dpso\addons\media\images\logo_sm_ca.paa</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Logo_Over">
+				<Original>\z\dpso\addons\media\images\logo_sm_ca.paa</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Logo_Small">
+				<Original>\z\dpso\addons\media\images\logo_sm_ca.paa</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Picture">
+				<Original>\dpso_main\data\picture.paa</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Overview">
+				<Original>DPSO Custom Mod adds a variety of additional functions and features on top of Arma3, CBA and the ACE3 framework.</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Footnote">
+				<Original>&lt;br /&gt;&lt;br /&gt;&lt;t color='#999999'&gt;DPSO Copyright &copy; 2019 by DPSO-Team&lt;t /&gt;</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_Action">
+				<Original>Website</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_URL">
+				<Original>https://github.com/DPSO/dpso/</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_URL_Issues">
+				<Original>https://github.com/DPSO/dpso/issues</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_URL_Releases">
+				<Original>https://github.com/DPSO/dpso/releases</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_URL_Version">
+				<Original>https://github.com/DPSO/dpso/</Original>
+			</Key>
+			<Key ID="STR_DPSO_Addon_URL_Wiki">
+				<Original>https://github.com/DPSO/dpso/wiki</Original>
+			</Key>
+			<!-- =============================================================================== -->
+		</Container>
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	</Package>
+	<!-- ####################################################################################### -->
+
+</Project>

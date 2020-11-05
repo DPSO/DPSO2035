@@ -1,0 +1,201 @@
+Format: Development Release 07-07-2013 (1.52 base)
+
+
+Title: DPSO Fundamentals
+SubTitle: Last Resort Gaming - DPSO Fundamentals
+
+Footer: Copyright (c) MitchJC &amp; Mokka and contributors
+Timestamp: year
+#   m     - One or two digit month.  January is "1"
+#   mm    - Always two digit month.  January is "01"
+#   mon   - Short month word.  January is "Jan"
+#   month - Long month word.  January is "January"
+#   d     - One or two digit day.  1 is "1"
+#   dd    - Always two digit day.  1 is "01"
+#   day   - Day with letter extension.  1 is "1st"
+#   yy    - Two digit year.  2006 is "06"
+#   yyyy  - Four digit year.  2006 is "2006"
+#   year  - Four digit year.  2006 is "2006"
+
+# These are indexes you deleted, so Natural Docs will not add them again
+# unless you remove them from this line.
+
+Don't Index: Files
+
+
+# --------------------------------------------------------------------------
+#
+# Cut and paste the lines below to change the order in which your files
+# appear on the menu.  Don't worry about adding or removing files, Natural
+# Docs will take care of that.
+#
+# You can further organize the menu by grouping the entries.  Add a
+# "Group: [name] {" line to start a group, and add a "}" to end it.
+#
+# You can add text and web links to the menu by adding "Text: [text]" and
+# "Link: [name] ([URL])" lines, respectively.
+#
+# The formatting and comments are auto-generated, so don't worry about
+# neatness when editing the file.  Natural Docs will clean it up the next
+# time it is run.  When working with groups, just deal with the braces and
+# forget about the indentation and comments.
+#
+# --------------------------------------------------------------------------
+
+
+File: AIS_Core_fnc_onNextFrame  (AIS Revive\Functions\Core\fn_onNextFrame.sqf)
+File: AIS_Core_fnc_waitUntilAndExecute  (AIS Revive\Functions\Core\fn_waitUntilAndExecute.sqf)
+File: Overview  (no auto-title, overview.txt)
+Index: Index (Everything)
+Function Index: Index (Functions)
+
+Group: Project  {
+
+   Link: Project  (https://github.com/last-resort-gaming/DPSO-Fundamentals)
+   Link: Issues  (https://github.com/last-resort-gaming/DPSO-Fundamentals/issues)
+   Link: Download  (https://steamcommunity.com/sharedfiles/filedetails/?id=1448755472)
+   Link: Reference  (https://last-resort-gaming.github.io/DPSO-Fundamentals/docs)
+   Link: Discord  (http://discord.lastresortgaming.net)
+   }  # Group: Project
+
+Group: Functions  {
+
+   Group: AI  {
+
+      File: derp_fnc_AIOccupyBuilding  (AI\Functions\fn_AIOccupyBuilding.sqf)
+      File: DPSO_fnc_infantryGarrison  (AI\Functions\fn_infantryGarrison.sqf)
+      File: derp_fnc_randomPos  (AI\Functions\fn_randomPos.sqf)
+      File: DPSO_fnc_RoadPatrol  (AI\Functions\fn_RoadPatrol.sqf)
+      File: DPSO_fnc_SetUnitSkill  (AI\Functions\fn_setUnitSkill.sqf)
+      File: DPSO_fnc_SpawnAI  (AI\Functions\fn_SpawnAI.sqf)
+      File: derp_fnc_ZenOccupy  (AI\Functions\fn_ZenOccupy.sqf)
+
+      Group: Civilians  {
+
+         File: DPSO_fnc_CivBreakPatrol  (AI\Functions\Civilians\fn_CivBreakPatrol.sqf)
+         File: DPSO_fnc_CivilianGarrison  (AI\Functions\Civilians\fn_CivilianGarrison.sqf)
+         File: DPSO_fnc_CivilianPatrol  (AI\Functions\Civilians\fn_CivilianPatrol.sqf)
+         File: DPSO_fnc_SpawnCivilians  (AI\Functions\Civilians\fn_SpawnCivilians.sqf)
+         File: DPSO_fnc_SpawnCivZeusWrapper  (AI\Functions\Civilians\fn_SpawnCivZeusWrapper.sqf)
+         }  # Group: Civilians
+
+      File: DPSO_fnc_GetAvailableFactions  (AI\Functions\fn_GetAvailableFactions.sqf)
+      File: DPSO_fnc_SpawnAIZeusWrapper  (AI\Functions\fn_SpawnAIZeusWrapper.sqf)
+      }  # Group: AI
+
+   Group: Equipment  {
+
+      File: DPSO_fnc_Ammobox  (Equipment\Functions\fn_AmmoBox.sqf)
+      File: DPSO_fnc_FullArsenal  (Equipment\Functions\fn_FullArsenal.sqf)
+      File: DPSO_fnc_LimitedArsenal  (Equipment\Functions\fn_LimitedArsenal.sqf)
+      File: DPSO_fnc_Loadouts  (Equipment\Functions\fn_Loadouts.sqf)
+      File: DPSO_fnc_MedicalSupplies  (Equipment\Functions\fn_MedicalSupplies.sqf)
+      }  # Group: Equipment
+
+   Group: Explosives  {
+
+      File: DPSO_fnc_CrashSite  (Explosives\Functions\fn_CrashSite.sqf)
+      File: DPSO_fnc_IEDVehicle  (Explosives\Functions\fn_IEDVehicle.sqf)
+      File: DPSO_fnc_MakeIED  (no auto-title, Explosives\Functions\fn_MakeIED.sqf)
+      File: DPSO_fnc_SpawnExplosives  (Explosives\Functions\fn_SpawnExplosives.sqf)
+      }  # Group: Explosives
+
+   Group: FOBs  {
+
+      File: DPSO_fnc_checkFOBDeploy  (FOBs\Functions\fn_checkFOBDeploy.sqf)
+      File: DPSO_fnc_checkFOBPackUp  (FOBs\Functions\fn_checkFOBPackUp.sqf)
+      File: DPSO_fnc_checkFOBPos  (FOBs\Functions\fn_checkFOBPos.sqf)
+      File: DPSO_fnc_createPortableFOB  (FOBs\Functions\fn_createPortableFOB.sqf)
+      File: DPSO_fnc_deployFOB  (FOBs\Functions\fn_deployFOB.sqf)
+      File: DPSO_fnc_packUpFOB  (FOBs\Functions\fn_packUpFOB.sqf)
+      }  # Group: FOBs
+
+   Group: Interaction  {
+
+      File: DPSO_fnc_AddAction  (Interaction\Functions\fn_AddAction.sqf)
+      File: DPSO_fnc_AddCreatorAction  (Interaction\Functions\fn_AddCreatorAction.sqf)
+      File: DPSO_fnc_AddHoldAction  (Interaction\Functions\fn_AddHoldAction.sqf)
+      File: DPSO_fnc_AddSelfAction  (Interaction\Functions\fn_AddSelfAction.sqf)
+      File: DPSO_fnc_DynamicText  (Interaction\Functions\fn_DynamicText.sqf)
+      File: DPSO_fnc_initInspectableIntel  (Interaction\Functions\fn_InitInspectableIntel.sqf)
+      File: DPSO_fnc_LaptopHoldActions  (Interaction\Functions\fn_LaptopHoldActions.sqf)
+      }  # Group: Interaction
+
+   Group: Main  {
+
+      File: YAINA_F_fnc_formatDuration  (Main\Functions\YAINA\General\fn_formatDuration.sqf)
+      File: YAINA_F_fnc_getFunctions  (Main\Functions\YAINA\General\fn_GetFunctions.sqf)
+      File: YAINA_F_fnc_hideTerrainObjects  (Main\Functions\YAINA\General\fn_hideTerrainObjects.sqf)
+      File: YAINA_F_fnc_hintC  (Main\Functions\YAINA\General\fn_hintC.sqf)
+      File: YAINA_F_fnc_log  (Main\Functions\YAINA\General\fn_log.sqf)
+      File: DPSO_fnc_DynamicSim  (Main\Functions\DPSO\fn_DynamicSim.sqf)
+      File: DPSO_fnc_findInArrayMap  (Main\Functions\DPSO\fn_FindInArrayMap.sqf)
+      File: DPSO_fnc_FindReplaceString  (Main\Functions\DPSO\fn_FindReplaceString.sqf)
+      File: DPSO_fnc_GetKeys  (Main\Functions\DPSO\fn_GetKeys.sqf)
+      File: DPSO_fnc_GetValues  (Main\Functions\DPSO\fn_GetValues.sqf)
+      File: DPSO_fnc_objectsMapper  (Main\Functions\DPSO\fn_objectsMapper.sqf)
+      File: DPSO_fnc_SafePos  (Main\Functions\DPSO\fn_SafePos.sqf)
+      }  # Group: Main
+
+   Group: Map Icons  {
+
+      File: LR_MI_fnc_allMarkers  (Map Icons\Functions\fn_allMarkers.sqf)
+      File: LR_MI_fnc_createMarkerPreview  (Map Icons\Functions\fn_createMarkerPreview.sqf)
+      File: LR_MI_fnc_findSaveInList  (Map Icons\Functions\fn_findSaveInList.sqf)
+      File: LR_MI_fnc_getMarkerChannel  (Map Icons\Functions\fn_getMarkerChannel.sqf)
+      File: LR_MI_fnc_getMarkersInArea  (Map Icons\Functions\fn_getMarkersInArea.sqf)
+      File: LR_MI_fnc_loadDisplay  (Map Icons\Functions\fn_loadDisplay.sqf)
+      File: LR_MI_fnc_loadHelp  (Map Icons\Functions\fn_loadHelp.sqf)
+      File: LR_MI_fnc_loadMarkers  (Map Icons\Functions\fn_loadMarkers.sqf)
+      File: LR_MI_fnc_loadNotification  (Map Icons\Functions\fn_loadNotification.sqf)
+      File: LR_MI_fnc_openDialog  (Map Icons\Functions\fn_openDialog.sqf)
+      File: LR_MI_fnc_saveMarkers  (Map Icons\Functions\fn_saveMarkers.sqf)
+      File: LR_MI_fnc_setButtonEnabled  (Map Icons\Functions\fn_setButtonEnabled.sqf)
+      File: LR_MI_fnc_setListSelected  (Map Icons\Functions\fn_setListSelected.sqf)
+      File: LR_MI_fnc_toggleHelp  (Map Icons\Functions\fn_toggleHelp.sqf)
+      }  # Group: Map Icons
+
+   Group: Media  {
+
+      File: DPSO_fnc_Patches  (Media\Functions\fn_Patches.sqf)
+      File: DPSO_fnc_Sound3D  (Media\Functions\fn_Sound3D.sqf)
+      File: DPSO_fnc_Sound3DFromPos  (Media\Functions\fn_Sound3DFromPos.sqf)
+      File: DPSO_fnc_Sound3DOnObject  (Media\Functions\fn_Sound3DOnObject.sqf)
+      }  # Group: Media
+
+   Group: Medical  {
+
+      File: DPSO_fnc_FacilityHeal  (Medical\Functions\fn_FacilityHeal.sqf)
+      File: DPSO_fnc_setMedicalFacility  (Medical\Functions\fn_setMedicalFacility.sqf)
+      }  # Group: Medical
+
+   Group: Player  {
+
+      File: DPSO_fnc_ConfigPlayer  (Player\Functions\fn_ConfigPlayer.sqf)
+      }  # Group: Player
+
+   Group: Safe Zone  {
+
+      File: DPSO_fnc_SafeZone  (Safe Zone\Functions\fn_SafeZone.sqf)
+      }  # Group: Safe Zone
+
+   Group: Training  {
+
+      File: DPSO_fnc_Casualty  (Training\Functions\fn_Casualty.sqf)
+      File: DPSO_fnc_ResetTargets  (Training\Functions\fn_ResetTargets.sqf)
+      }  # Group: Training
+
+   Group: Vehicles  {
+
+      File: DPSO_fnc_setRepairFacility  (Vehicles\Functions\fn_setRepairFacility.sqf)
+      File: general.sqf  (Vehicles\Scripts\general.sqf)
+      File: uav.sqf  (Vehicles\Scripts\uav.sqf)
+      }  # Group: Vehicles
+
+   Group: Zeus  {
+
+      File: DPSO_fnc_ConfigZeus  (Zeus\Functions\fn_ConfigZeus.sqf)
+      }  # Group: Zeus
+
+   }  # Group: Functions
+
