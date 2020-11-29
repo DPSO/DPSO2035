@@ -6,32 +6,62 @@ if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitwith {};
 _cueCardsData = [
 	// 	0 - CASEVAC Request Card
 	[
-		"z\dpso\addons\Media\images\Cue Cards\casevac_request_CA.paa",
+		"z\dpso\addons\Media\images\Cue Cards\medivac.paa",
 		"CASEVAC Request Card"
 	],
 
 	//	1 - Contact Report Card
 	[
-		"z\dpso\addons\Media\images\Cue Cards\contact_card_CA.paa",
+		"z\dpso\addons\Media\images\Cue Cards\tic.paa",
 		"Contact Report Card"
 	],
 
-	// 	2 - FAC 5-Liner Request Card
+	// 	2 - CAS Checkin  Card
 	[
-		"z\dpso\addons\Media\images\Cue Cards\fac_5_liner_request_CA.paa",
-		"FAC 5-Liner Request Card"
+		"z\dpso\addons\Media\images\Cue Cards\cascheck.paa",
+		"CAS Check IN Card"
 	],
 
-	// 	3 - Fire Control Orders Card
+	// 	3 - CAS Card
 	[
-		"z\dpso\addons\Media\images\Cue Cards\fire_control_orders_CA.paa",
-		"Fire Control Orders Card"
+		"z\dpso\addons\Media\images\Cue Cards\casbrief.paa",
+		"CAS Briefing Card"
 	],
 
-	// 	4 - Reorg (GASCARD) Card
+	// 	4 - Salute Card
 	[
-		"z\dpso\addons\Media\images\Cue Cards\reorg_gascard_CA.paa",
-		"Reorg (GASCARD) Card"
+		"z\dpso\addons\Media\images\Cue Cards\salute.paa",
+		"(SALUTE) Card"
+	],
+	// 	5 - ACE Card
+	[
+		"z\dpso\addons\Media\images\Cue Cards\ace.paa",
+		"(ACE) Card"
+	],
+	// 	6 - Front Line Trace ( POSREP ) Card
+	[
+		"z\dpso\addons\Media\images\Cue Cards\posrep.paa",
+		"Front Line Trace ( POSREP ) Card"
+	],
+	// 	7 - Vehicle Report (DEFREP) Card
+	[
+		"z\dpso\addons\Media\images\Cue Cards\venicle.paa",
+		"Vehicle Report (DEFREP) Card"
+	],
+	// 	8 - Bandages
+	[
+		"z\dpso\addons\Media\images\Cue Cards\bandages.paa",
+		"Bandages Notes"
+	],
+	// 	9 - Medical Notes
+	[
+		"z\dpso\addons\Media\images\Cue Cards\mednotes.paa",
+		"Medical Notes"
+	],
+	// 	10 - Medical Process
+	[
+		"z\dpso\addons\Media\images\Cue Cards\medproces.paa",
+		"Medical Process"
 	]
 ];
 

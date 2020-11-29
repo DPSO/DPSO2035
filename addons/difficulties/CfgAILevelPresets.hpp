@@ -1,8 +1,8 @@
 class CfgAILevelPresets {
     class Custom;
-    class DPSO: Custom {
+    class GVAR(DPSO): Custom {
         displayName = "DPSO";
-        precisionAI = 0.4;
+        precisionAI = 0.3;
         skillAI = 0.8;
     };
 };

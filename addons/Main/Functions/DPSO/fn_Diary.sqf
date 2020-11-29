@@ -2,8 +2,7 @@
 
 if (!hasInterface) exitWith {};
 
-
-/* player createDiaryRecord ["Diary", ["Long Range Frequencies",
+player createDiaryRecord ["Diary", ["Long Range Frequencies",
 "
 <br/><font face='PuristaLight' color='#ffcc00' font size='20' >**LISTENING ON AN UNAUTHORISED FREQUENCY IS STRICTLY PROHIBITED.**</font>
 <br/>

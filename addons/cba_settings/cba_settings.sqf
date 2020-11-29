@@ -21,7 +21,6 @@ force force USE_SSS_CAS = """76561198049209102"",""76561198000002705"",""7656119
 force force USE_SSS_TRANS = """76561198049209102"",""76561198000002705"",""76561198412358897"",""76561198027195894"",""76561198161159515"",""76561198059703779"",""76561198002438570""";
 force force USE_UAV = """76561198049209102"",""76561198000002705"",""76561198412358897"",""76561198027195894"",""76561198161159515"",""76561198059703779"",""76561198002438570""";
 
-
 // ACE Advanced Ballistics
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
@@ -52,7 +51,6 @@ force force ace_arsenal_allowSharedLoadouts = true;
 force force ace_arsenal_enableIdentityTabs = true;
 force force ace_arsenal_enableModIcons = true;
 force force ace_arsenal_EnableRPTLog = true;
-force ace_arsenal_fontHeight = 4.5;
 
 // ACE Artillery
 force force ace_artillerytables_advancedCorrections = true;
@@ -69,7 +67,6 @@ force force ace_captives_requireSurrender = 2;
 force force ace_captives_requireSurrenderAi = false;
 
 // ACE Common
-force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = false;
 force force ace_common_checkPBOsWhitelist = "[]";
@@ -107,7 +104,6 @@ force force ace_gforces_coef = 1;
 force force ace_gforces_enabledFor = 2;
 
 // ACE Goggles
-ace_goggles_effects = 2;
 force force ace_goggles_showClearGlasses = true;
 force force ace_goggles_showInThirdPerson = false;
 
@@ -169,7 +165,6 @@ force force ace_map_mapShowCursorCoordinates = false;
 force force ace_markers_moveRestriction = 0;
 
 // ACE Map Gestures
-
 force force ace_map_gestures_enabled = true;
 
 // ACE Map Tools
@@ -224,7 +219,7 @@ force force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicPAK = 1;
 force force ace_medical_treatment_medicSurgicalKit = 1;
 force force ace_medical_treatment_timeCoefficientPAK = 2;
-
+force force ace_medical_treatment_woundReopenChance = 1;
 
 // ACE Name Tags
 force force ace_nametags_showCursorTagForVehicles = false;
@@ -243,6 +238,7 @@ force force ace_nightvision_shutterEffects = true;
 force force ace_overheating_displayTextOnJam = true;
 force force ace_overheating_enabled = true;
 force force ace_overheating_overheatingDispersion = true;
+ace_overheating_showParticleEffects = true;
 force force ace_overheating_showParticleEffectsForEveryone = true;
 force force ace_overheating_unJamFailChance = 0.1;
 force force ace_overheating_unJamOnreload = true;
@@ -321,12 +317,14 @@ force force ace_ui_gunnerAmmoCount = false;
 force force ace_ui_gunnerLaunchableCount = false;
 force force ace_ui_gunnerZeroing = true;
 
+
 // ACE Vehicle Lock
 force force ace_vehiclelock_defaultLockpickStrength = 20;
 force force ace_vehiclelock_lockVehicleInventory = true;
 force force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE Vehicles
+
 force force ace_vehicles_keepEngineRunning = false;
 force force ace_vehicles_speedLimiterStep = 5;
 
@@ -365,6 +363,40 @@ force force ace_zeus_revealMines = 0;
 force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
+// ACEX Field Rations
+force acex_field_rations_affectAdvancedFatigue = true;
+force force acex_field_rations_enabled = false;
+acex_field_rations_hudShowLevel = 0;
+acex_field_rations_hudTransparency = -1;
+acex_field_rations_hudType = 0;
+force acex_field_rations_hungerSatiated = 1;
+force acex_field_rations_terrainObjectActions = true;
+force acex_field_rations_thirstQuenched = 1;
+force acex_field_rations_timeWithoutFood = 2;
+force acex_field_rations_timeWithoutWater = 2;
+force acex_field_rations_waterSourceActions = 2;
+
+// ACEX Fortify
+force force acex_fortify_settingHint = 1;
+
+// ACEX Headless
+force force acex_headless_delay = 15;
+force force acex_headless_enabled = true;
+force force acex_headless_endMission = 0;
+force force acex_headless_log = false;
+force force acex_headless_transferLoadout = 1;
+
+// ACEX Sitting
+force force acex_sitting_enable = true;
+
+// ACEX View Restriction
+force force acex_viewrestriction_mode = 0;
+force force acex_viewrestriction_modeSelectiveAir = 0;
+force force acex_viewrestriction_modeSelectiveFoot = 1;
+force force acex_viewrestriction_modeSelectiveLand = 0;
+force force acex_viewrestriction_modeSelectiveSea = 0;
+force force acex_viewrestriction_preserveView = true;
+
 // ACRE2
 force force acre_sys_core_automaticAntennaDirection = false;
 force force acre_sys_core_fullDuplex = false;
@@ -383,6 +415,7 @@ force force acre_sys_zeus_zeusDefaultVoiceSource = false;
 force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = false;
 
+
 // DPSO
 force force dpso_tmf_adminMenu_endLogToRPT = false;
 force force dpso_tmf_adminMenu_printToChat = 1;
@@ -400,58 +433,9 @@ force force dpso_tmf_spectator_freeCameraEnabled = true;
 force force dpso_tmf_spectator_isJIPAllowed = 1;
 force force dpso_tmf_spectator_showGroupMarkers = 1;
 
-// DPSO - ACRE (ACE) Gestures
+// DPSO ACRE (ACE) Gestures
 force force dpso_afm_acre_gestures_allowADS = true;
 force force dpso_afm_acre_gestures_enabled = true;
-
-// DPSO - AI Disembark
-force force dpso_afm_ai_disembark_enabled = true;
-force force dpso_afm_ai_disembark_stayInImmobileChance = 0.15;
-
-// DPSO - Back To Game
-force force dpso_afm_back_to_game_enableAddon = true;
-force force dpso_afm_back_to_game_removeBody = true;
-force force dpso_afm_back_to_game_teleportToLeader = true;
-force force dpso_afm_back_to_game_teleportToVehicle = true;
-
-// DPSO - Fatigue
-force force dpso_afm_fatigue_highJogCoef = 0.9;
-force force dpso_afm_fatigue_highJogCoefEnabled = true;
-
-// DPSO - Friendly Fire
-force force dpso_afm_friendly_fire_loggingEnabled = true;
-
-// DPSO - Grass
-force force dpso_afm_grass_enabled = true;
-
-// DPSO - Insurgents
-force force dpso_afm_insurgents_enabled_CUP = false;
-force force dpso_afm_insurgents_enabled_Vanilla = true;
-
-// DPSO - Pointing
-force force dpso_afm_pointing_vehicleEnabled = true;
-
-// DPSO - Respawn
-force force dpso_afm_respawn_enabled = true;
-force force dpso_afm_respawn_time = 6;
-
-// DPSO - Spectator
-force force dpso_afm_spectator_allowAI = false;
-force force dpso_afm_spectator_allowAIUnconscious = false;
-force force dpso_afm_spectator_allowUnconscious = true;
-force force dpso_afm_spectator_civilianSide = false;
-force force dpso_afm_spectator_civilianSideUnconscious = false;
-force force dpso_afm_spectator_enabled = true;
-force force dpso_afm_spectator_freeCamera = false;
-force force dpso_afm_spectator_freeCameraUnconscious = false;
-force force dpso_afm_spectator_sides = 1;
-force force dpso_afm_spectator_sidesUnconscious = 0;
-force force dpso_afm_spectator_TPPCamera = false;
-force force dpso_afm_spectator_TPPCameraUnconscious = false;
-force force dpso_afm_spectator_unconsciousDelay = 30;
-
-// DPSO - Tagging
-force force dpso_afm_tagging_enabled = true;
 
 // DPSO AI
 force force DPSO_AI_AimingAccuracy = 0.1;
@@ -464,6 +448,42 @@ force force DPSO_AI_InitialAI = true;
 force force DPSO_AI_ReloadSpeed = 0.5;
 force force DPSO_AI_SpotDistance = 0.4;
 force force DPSO_AI_SpotTime = 0.2;
+
+// DPSO AI Disembark
+force force dpso_afm_ai_disembark_enabled = true;
+force force dpso_afm_ai_disembark_stayInImmobileChance = 0.15;
+
+// DPSO Back To Game
+force force dpso_afm_back_to_game_enableAddon = true;
+force force dpso_afm_back_to_game_removeBody = true;
+force force dpso_afm_back_to_game_teleportToLeader = true;
+force force dpso_afm_back_to_game_teleportToVehicle = true;
+
+// DPSO BFT
+force force dpso_bft_bft_bftEnabled = true;
+force force dpso_bft_bft_friendlySides_CIVILIAN = [1];
+force force dpso_bft_bft_friendlySides_EAST = [2];
+force force dpso_bft_bft_friendlySides_RESISTANCE = [0];
+force force dpso_bft_bft_friendlySides_WEST = [3];
+force force dpso_bft_bft_friendlySidesDynamic = true;
+force force dpso_bft_bft_groupIconsInteraction = "hover";
+force force dpso_bft_bft_medicalSystem = "ACE";
+force force dpso_bft_bft_requireItemGPS = true;
+force force dpso_bft_bft_showAIGroups = true;
+force force dpso_bft_bft_showAINames = true;
+force force dpso_bft_bft_showCivilians = false;
+force force dpso_bft_bft_showGroupIcons = true;
+force force dpso_bft_bft_showGroupText = true;
+force force dpso_bft_bft_showLifeState = true;
+force force dpso_bft_bft_showOwnFactionOnly = false;
+force force dpso_bft_bft_showOwnGroup = true;
+force force dpso_bft_bft_showOwnGroupUnits = true;
+force force dpso_bft_bft_showPlayerNames = true;
+force force dpso_bft_bft_showUnitNames = true;
+force force dpso_bft_bft_teamColors = "ACE";
+force force dpso_bft_bft_updateInterval = 0;
+
+
 
 // DPSO Channels
 force force DPSO_Channels_CommandDuration = 0;
@@ -494,6 +514,20 @@ force force DPSO_CreatorActions_Channels = true;
 force force DPSO_CreatorActions_EndMission = true;
 force force DPSO_CreatorActions_Master = true;
 
+// DPSO Fatigue
+force force dpso_afm_fatigue_highJogCoef = 0.9;
+force force dpso_afm_fatigue_highJogCoefEnabled = true;
+
+// DPSO Friendly Fire
+force force dpso_afm_friendly_fire_loggingEnabled = true;
+
+// DPSO Grass
+force force dpso_afm_grass_enabled = true;
+
+// DPSO Insurgents
+force force dpso_afm_insurgents_enabled_CUP = false;
+force force dpso_afm_insurgents_enabled_Vanilla = true;
+
 // DPSO Main
 force force DPSO_Main_ArsenalSaveLoad = true;
 force force DPSO_Main_CHViewDistance = false;
@@ -504,6 +538,7 @@ force force DPSO_Main_DynamicSim = false;
 force force DPSO_Main_Earplugs = false;
 force force DPSO_Main_FatigueVanilla = true;
 force force DPSO_Main_FlipVehicle = true;
+force DPSO_Main_FPSCounter = false;
 force force DPSO_Main_LockCamVehicle = false;
 force force DPSO_Main_Logging = false;
 force force DPSO_Main_MapIcons = true;
@@ -519,8 +554,8 @@ force force DPSO_Main_ViewDistanceNoGrass = false;
 
 
 // DPSO Medical
-force force DPSO_medical_area_constuct_time = 30;
-force force DPSO_medical_area_dismantle_time = 30;
+force force DPSO_medical_area_constuct_time = 120;
+force force DPSO_medical_area_dismantle_time = 120;
 force force DPSO_medical_consume_tourniquet = false;
 force force DPSO_medical_return_items = true;
 force force DPSO_medical_return_tourniquets = 1;
@@ -531,9 +566,59 @@ force force DPSO_medical_usage_order_responder = 0;
 // DPSO Miscellaneous
 force force dpso_bodybag_destroyChance = 20;
 
+// DPSO Pointing
+force force dpso_afm_pointing_vehicleEnabled = true;
+
 // DPSO Quick Actions
 force force dpso_quickActions_add_detonator = true;
 force force dpso_quickActions_add_fast_rope = true;
+
+// DPSO Respawn
+force force dpso_afm_respawn_enabled = true;
+force force dpso_afm_respawn_time = 6;
+
+// DPSO Safestart
+force force dpso_afm_safestart_startLocked = true;
+
+// DPSO Spectator
+force force dpso_afm_spectator_allowAI = false;
+force force dpso_afm_spectator_allowAIUnconscious = false;
+force force dpso_afm_spectator_allowUnconscious = true;
+force force dpso_afm_spectator_civilianSide = false;
+force force dpso_afm_spectator_civilianSideUnconscious = false;
+force force dpso_afm_spectator_enabled = true;
+force force dpso_afm_spectator_freeCamera = true;
+force force dpso_afm_spectator_freeCameraUnconscious = true;
+force force dpso_afm_spectator_sides = 1;
+force force dpso_afm_spectator_sidesUnconscious = 0;
+force force dpso_afm_spectator_TPPCamera = false;
+force force dpso_afm_spectator_TPPCameraUnconscious = false;
+force force dpso_afm_spectator_unconsciousDelay = 12;
+
+// DPSO Tagging
+force force dpso_afm_tagging_enabled = true;
+
+
+// DPSO Zeus
+force DPSO_Zeus_Module_AISpawnsEast = true;
+force DPSO_Zeus_Module_AISpawnsIndep = true;
+force DPSO_Zeus_Module_AISpawnsWest = true;
+force DPSO_Zeus_Module_CivilianSpawns = true;
+force DPSO_Zeus_Module_SafeZone = true;
+
+// dzn Extended Jamming
+force force dzn_EJAM_dud_ChanceSettings = 30;
+force force dzn_EJAM_fail_to_eject_ChanceSettings = 20;
+force force dzn_EJAM_fail_to_extract_ChanceSettings = 20;
+force force dzn_EJAM_feed_failure_2_ChanceSettings = 20;
+force force dzn_EJAM_feed_failure_ChanceSettings = 30;
+force force dzn_EJAM_Force = true;
+force force dzn_EJAM_ForceOverallChance = true;
+force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
+force force dzn_EJAM_OverallChanceSetting = 0.01;
+force force dzn_EJAM_SubsonicJamEffectSetting = "20";
+force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
+
 
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
@@ -567,6 +652,7 @@ force force kat_breathing_spo2_small_value = 30;
 force force kat_breathing_Stable_spo2 = 80.25;
 
 // KAT - ADV Medical: Circulation
+kat_circulation_bloodgroup = "B";
 force force kat_circulation_CPR_Chance_Default = 20;
 force force kat_circulation_CPR_Chance_Doctor = 40;
 force force kat_circulation_CPR_Chance_RegularMedic = 30;
@@ -632,158 +718,8 @@ force force lambs_eventhandlers_ExplosionReactionTime = 9;
 // LAMBS Danger WP
 force force lambs_wp_autoAddArtillery = true;
 
-// MRH_MilsimTools - CAS Suppport
-force MRH_MilsimTools_CAS_DelayBetween = 120;
-force MRH_MilsimTools_FireSupport_CAS_ConditionIsFormLeader = false;
-force MRH_MilsimTools_FireSupport_CAS_CustomCondition = "[player, 'MRH_KeyCard_IND'] call BIS_fnc_hasItem;";
-force MRH_MilsimTools_FireSupport_CAS_isCustomConditionSet = true;
-force MRH_MilsimTools_FireSupport_CASPlanesBluFor = "rhsusf_f22,RHS_A10";
-force MRH_MilsimTools_FireSupport_CASPlanesInde = "I_Plane_Fighter_04_F,I_Plane_Fighter_03_dynamicLoadout_F";
-force MRH_MilsimTools_FireSupport_CASPlanesOpFor = "O_Plane_Fighter_02_F,O_UAV_02_dynamicLoadout_F,O_Plane_CAS_02_dynamicLoadout_F";
-force MRH_MilsimTools_FireSupport_CASShots = "-1";
-force force MRH_MilsimTools_FireSupport_useCASSupport = false;
-
-// MRH_MilsimTools - Core settings
-force force MRH_MilsimTools_AdminCasualtiesCap = 160;
-force MRH_MilsimTools_AllowAdminForZeus = true;
-force MRH_MilsimTools_AllowDeadReco = false;
-force MRH_MilsimTools_Core_ApplyMedicPatch = true;
-force MRH_MilsimTools_Delete_disconnected_body = false;
-force MRH_MilsimTools_hideAceMyLoadOuts = false;
-force MRH_MilsimTools_LD_loadoutDisplaySize = 100;
-force force MRH_MilsimTools_LD_ShowLoadOutInBrief = false;
-force force MRH_MilsimTools_PlayIntro_ToPlayer = false;
-force MRH_MilsimTools_ResetHasDiedOnRespawn = true;
-force MRH_MilsimTools_Rmv_map_nolead = false;
-force MRH_MilsimTools_ShowAdminDeadHint = true;
-
-// MRH_MilsimTools - Debug Mode
-force force MRH_MilsimTools_DebugTools_DoLogDebugMode = false;
-force force MRH_MilsimTools_DebugTools_isDebugMode = false;
-
-// MRH_MilsimTools - Deployable Fobs
-force MRH_MilsimTools_CAMP_composition = "MRH_SmallCamp_default";
-force MRH_MilsimTools_FOB_BIG_composition = "MRH_FieldHQSmall_default";
-force MRH_MilsimTools_MiscItems_CAMP_DeployTime = 10;
-force MRH_MilsimTools_MiscItems_CAMP_GRepackRadius = 10;
-force MRH_MilsimTools_MiscItems_CAMP_GRepackTime = 10;
-force MRH_MilsimTools_MiscItems_FOB_BIGDeployTime = 20;
-force MRH_MilsimTools_MiscItems_FOB_BIGRepackRadius = 50;
-force MRH_MilsimTools_MiscItems_FOB_BIGRepackTime = 20;
-
-// MRH_MilsimTools - Enhanced Map
-force MRH_MilsimTools_Map_FoldUseAceLight = true;
-force MRH_MilsimTools_Map_ReplaceVanillaMap = false;
-force MRH_MilsimTools_Map_ZoomRatio = 1;
-
-// MRH_MilsimTools - Fire Suppport
-force MRH_MilsimTools_Arty_DelayBetween = 60;
-force MRH_MilsimTools_FireSupport_ArtyMagazines = "RHS_mag_m1_he_12,rhs_mag_m314_ilum_4,rhs_mag_m60a2_smoke_4,rhs_mag_155mm_m795_28,rhs_mag_155mm_m825a1_2,rhs_mag_155mm_485_2,rhs_mag_155mm_m712_2,rhs_mag_155mm_m731_1,rhs_mag_155mm_raams_1,rhs_mag_155mm_m864_3,rhs_mag_m26a1_6";
-force MRH_MilsimTools_FireSupport_ArtyShots = "-1";
-force MRH_MilsimTools_FireSupport_ConditionIsFormLeader = false;
-force MRH_MilsimTools_FireSupport_CustomCondition = "[player, 'MRH_KeyCard_IND'] call BIS_fnc_hasItem;";
-force MRH_MilsimTools_FireSupport_isCustomConditionSet = true;
-force force MRH_MilsimTools_FireSupport_useFireSupport = false;
-
-// MRH_MilsimTools - Hacking settings
-force MRH_MilsimTools_RequireHackingTool = true;
-
-// MRH_MilsimTools - Halo Jumps
-MRH_MilsimTools_HaloGear_AADDefaultOpeningAltitude = "160";
-force MRH_MilsimTools_HaloGear_allowManualAADSetting = true;
-force MRH_MilsimTools_HaloGear_disableMaskHud = false;
-force MRH_MilsimTools_HaloGear_disableMaskHudAltimeter = false;
-force MRH_MilsimTools_HaloGear_disableMaskHudCompass = false;
-force MRH_MilsimTools_HaloGear_disableMaskHudVelocity = false;
-force MRH_MilsimTools_HaloGear_haloMaskBreakingChancePerc = 8;
-force force MRH_MilsimTools_HaloGear_hypoxiaAltitude = 4000;
-force MRH_MilsimTools_HaloGear_hypoxiaUse = true;
-force MRH_MilsimTools_HaloGear_missionConfiguredProtectiveGear = "MRH_HaloMask,MRH_HaloMaskNoESS,RHS_jetpilot_usaf,rhs_zsh7a,rhs_zsh7a_alt,RHS_TU95MS_vvs_old";
-force MRH_MilsimTools_HaloGear_playRebreatherSounds = true;
-
-// MRH_MilsimTools - Heli Taxi
-force MRH_MilsimTools_BluForCivs = "C_Heli_Light_01_civil_F";
-force MRH_MilsimTools_BluForHelis = "RHS_UH60M_d,RHS_CH_47F_10,RHS_MELB_MH6M";
-force MRH_MilsimTools_BluForInde = "AS_565,I_Heli_Transport_02_F,I_Heli_light_03_unarmed_F";
-force MRH_MilsimTools_BluForOpFor = "O_Heli_Transport_04_bench_F,O_Heli_Light_02_unarmed_F,O_Heli_Transport_04_covered_F";
-force MRH_MilsimTools_Heli_ConditionIsFormLeader = false;
-force MRH_MilsimTools_Heli_CustomCondition = "[player, 'MRH_KeyCard_IND'] call BIS_fnc_hasItem";
-force MRH_MilsimTools_Heli_isCustomConditionSet = true;
-force MRH_MilsimTools_Heli_NumberSimulTPerSide = "2";
-force force MRH_MilsimTools_Heli_UseHeliTaxiInMission = false;
-
-// MRH_MilsimTools - Insertion Handler
-force MRH_MilsimTools_InsertionHandler_allowHALO = true;
-force MRH_MilsimTools_InsertionHandler_allowStatic = true;
-force MRH_MilsimTools_InsertionHandler_allowSub = true;
-force MRH_MilsimTools_InsertionHandler_SupplyPlanesBluFor = "B_T_VTOL_01_infantry_F";
-force MRH_MilsimTools_InsertionHandler_SupplyPlanesInde = "O_T_VTOL_02_infantry_dynamicLoadout_F";
-force MRH_MilsimTools_InsertionHandler_SupplyPlanesOpFor = "I_C_Plane_Civil_01_F";
-
-// MRH_MilsimTools - JIP settings
-force force MRH_MilsimTools_Jip_Menu_sideOnly = false;
-force force MRH_MilsimTools_Jip_MenuAllow = false;
-force force MRH_MilsimTools_Jip_MenuIncludeAI = false;
-
-// MRH_MilsimTools - MEDEVAC
-force force MRH_MilsimTools_MEDEVAC_BluFor = "dpso_B_Heli_Medevac_031_F,dpso_B_Heli_Medevac_03dazt_F,dpso_B_Heli_Medevac_03daz_F";
-force force MRH_MilsimTools_MEDEVAC_Civs = "C_IDAP_Heli_Transport_02_F,C_Heli_Light_01_civil_F";
-force force MRH_MilsimTools_MEDEVAC_ConditionIsFormLeader = false;
-force force MRH_MilsimTools_MEDEVAC_CustomCondition = "(isForma([MRH_player, 'ACRE_PRC117F'] call acre_api_fnc_hasKindOfRadio)";
-force force MRH_MilsimTools_MEDEVAC_DelayBetween = 120;
-force force MRH_MilsimTools_MEDEVAC_ESCORT_BluFor = "B_Heli_Attack_01_dynamicLoadout_F";
-force force MRH_MilsimTools_MEDEVAC_ESCORT_BluForCivs = "C_Heli_Light_01_civil_F";
-force force MRH_MilsimTools_MEDEVAC_ESCORT_Inde = "I_Heli_light_03_dynamicLoadout_F";
-force force MRH_MilsimTools_MEDEVAC_ESCORT_OpFor = "O_Heli_Attack_02_dynamicLoadout_F";
-force force MRH_MilsimTools_MEDEVAC_Inde = "LOP_UN_Mi8MT_Cargo,rhs_uh1h_un";
-force force MRH_MilsimTools_MEDEVAC_isCustomConditionSet = true;
-force force MRH_MilsimTools_MEDEVAC_MEDICCLASS_BluFor = "B_mas_usl_recon_OPSTS_F";
-force force MRH_MilsimTools_MEDEVAC_MEDICCLASS_Civs = "C_Man_Paramedic_01_F";
-force force MRH_MilsimTools_MEDEVAC_MEDICCLASS_Inde = "LOP_PMC_Infantry_Corpsman";
-force force MRH_MilsimTools_MEDEVAC_MEDICCLASS_ItemsCall = "ACE_HandFlare_Red,SmokeShellOrange";
-force force MRH_MilsimTools_MEDEVAC_MEDICCLASS_OpFor = "O_medic_F";
-force force MRH_MilsimTools_MEDEVAC_OpFor = "O_Heli_Light_02_dynamicLoadout_F,O_Heli_Transport_04_medevac_F";
-force force MRH_MilsimTools_MEDEVAC_timeToReachLZ = 600;
-force force MRH_MilsimTools_MEDEVAC_UseMedEVACInMission = true;
-
-
-// MRH_MilsimTools - Medical Tent
-force MRH_MilsimTools_MiscItems_FieldMedicalTentDeployTime = 20;
-force MRH_MilsimTools_MiscItems_FieldMedicalTentRepackTime = 10;
-
-// MRH_MilsimTools - Roster settings
-force MRH_MilsimTools_Roster_AllowAllSides = false;
-force MRH_MilsimTools_Roster_ColorBF = [0.259,0.525,0.957,1];
-force MRH_MilsimTools_Roster_ColorCiv = [0.686,0.141,0.588,1];
-force MRH_MilsimTools_Roster_ColorInd = [0.212,0.847,0.286,1];
-force MRH_MilsimTools_Roster_ColorOp = [0.929,0.063,0.063,1];
-force MRH_MilsimTools_Roster_ColorUnknown = [0.929,0.82,0.118,1];
-force MRH_MilsimTools_Roster_ShowAIgroups = false;
-force MRH_MilsimTools_Roster_ShowAiWithinGrps = true;
-
-// MRH_MilsimTools - Supply drops
-force MRH_MilsimTools_FireSupport_NumberOfSuppliesDrops = "-1";
-force MRH_MilsimTools_FireSupport_Supplies_ConditionIsFormLeader = true;
-force MRH_MilsimTools_FireSupport_Supplies_CustomCondition = "[player, 'MRH_KeyCard_BLUFOR'] call BIS_fnc_hasItem;";
-force MRH_MilsimTools_FireSupport_Supplies_DistanceForAircraft = "2000";
-force MRH_MilsimTools_FireSupport_Supplies_isCustomConditionSet = false;
-force MRH_MilsimTools_FireSupport_Supplies_ListOfAvailableSupplies = "B_LSV_01_unarmed_F,ACE_Box_82mm_Mo_Combo,ACE_medicalSupplyCrate_advanced,ACE_Box_Misc,B_supplyCrate_F";
-force force MRH_MilsimTools_FireSupport_Supplies_useSupplyDrops = false;
-force MRH_MilsimTools_FireSupport_SupplyPlanesBluFor = "B_T_VTOL_01_vehicle_F,B_Heli_Transport_03_unarmed_F,B_Heli_Transport_01_F";
-force MRH_MilsimTools_FireSupport_SupplyPlanesInde = "I_Heli_Transport_02_F,I_Heli_light_03_unarmed_F,I_C_Plane_Civil_01_F";
-force MRH_MilsimTools_FireSupport_SupplyPlanesOpFor = "O_T_VTOL_02_vehicle_dynamicLoadout_F,O_Heli_Light_02_unarmed_F,O_Heli_Transport_04_box_F";
-force MRH_MilsimTools_SupplyDrop_DelayBetween = 600;
-
-// MRH_MilsimTools - Tablet settings
-force MRH_MilsimTools_AllowMapTablet = true;
-
-// MRH_MilsimTools - Zeus
-force force MRH_MilsimTools_Zeus_hideWaterMark = true;
-force MRH_MilsimTools_Zeus_waterMark = "UseSquadXml";
-force MRH_MilsimTools_Zeus_waterMarkCustomImg = "\MRHMilsimTools\Paa\zeusicon.paa";
-
 // Simplex Support Services
-force force SSS_setting_adminFullAccess = true;
+force force SSS_setting_adminFullAccess = false;
 force force SSS_setting_adminLimitSide = false;
 force force SSS_setting_cleanupCrew = true;
 force force SSS_setting_deleteVehicleOnEntityRemoval = true;
@@ -799,3 +735,125 @@ force force SSS_setting_restoreCrewOnRTB = true;
 force force SSS_setting_slingLoadSearchRadius = 100;
 force force SSS_setting_slingLoadWhitelist = "";
 force force SSS_setting_useChatNotifications = true;
+
+
+// Tao's Folding Map Rewrite
+force force tao_rewrite_main_allowadjust = true;
+force force tao_rewrite_main_allowshake = false;
+force force tao_rewrite_main_closemap = true;
+force force tao_rewrite_main_enablemap = true;
+force force tao_rewrite_main_gridref = true;
+tao_rewrite_main_isNightMap = false;
+force force tao_rewrite_main_mapicon = true;
+force force tao_rewrite_main_maplock = true;
+force force tao_rewrite_main_prefmap = false;
+force force tao_rewrite_main_reposmap = true;
+force force tao_rewrite_main_updateInterval = 0;
+
+// TFAR - Clientside settings
+TFAR_default_radioVolume = 6;
+TFAR_intercomDucking = 0.2;
+TFAR_intercomVolume = 0.1;
+TFAR_moveWhileTabbedOut = false;
+TFAR_oldVolumeHint = false;
+TFAR_pluginTimeout = 4;
+TFAR_PosUpdateMode = 0.1;
+TFAR_showChannelChangedHint = true;
+TFAR_ShowDiaryRecord = true;
+TFAR_showTransmittingHint = true;
+TFAR_ShowVolumeHUD = false;
+TFAR_tangentReleaseDelay = 0;
+TFAR_VolumeHudTransparency = 0;
+TFAR_volumeModifier_forceSpeech = false;
+
+// TFAR - Global settings
+force force TFAR_AICanHearPlayer = false;
+force force TFAR_AICanHearSpeaker = false;
+force force TFAR_allowDebugging = true;
+TFAR_curatorCamEars = false;
+force force TFAR_defaultIntercomSlot = 0;
+force force TFAR_enableIntercom = true;
+force force TFAR_experimentalVehicleIsolation = true;
+force force TFAR_fullDuplex = true;
+force force TFAR_giveLongRangeRadioToGroupLeaders = false;
+force force TFAR_giveMicroDagrToSoldier = true;
+force force TFAR_givePersonalRadioToRegularSoldier = false;
+force force TFAR_globalRadioRangeCoef = 1;
+force force TFAR_instantiate_instantiateAtBriefing = false;
+TFAR_noAutomoveSpectator = false;
+force force TFAR_objectInterceptionEnabled = true;
+force force TFAR_objectInterceptionStrength = 400;
+force force tfar_radiocode_east = "_opfor";
+force force tfar_radiocode_independent = "_independent";
+force force tfar_radiocode_west = "_bluefor";
+force force tfar_radioCodesDisabled = false;
+force TFAR_SameLRFrequenciesForSide = false;
+force TFAR_SameSRFrequenciesForSide = false;
+force TFAR_setting_defaultFrequencies_lr_east = "";
+force TFAR_setting_defaultFrequencies_lr_independent = "";
+force TFAR_setting_defaultFrequencies_lr_west = "";
+force TFAR_setting_defaultFrequencies_sr_east = "";
+force TFAR_setting_defaultFrequencies_sr_independent = "";
+force TFAR_setting_defaultFrequencies_sr_west = "";
+force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
+force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
+force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
+force TFAR_setting_DefaultRadio_Backpack_east = "TFAR_mr3000";
+force TFAR_setting_DefaultRadio_Backpack_Independent = "TFAR_anprc155";
+force TFAR_setting_DefaultRadio_Backpack_west = "TFAR_rt1523g";
+force TFAR_setting_DefaultRadio_Personal_east = "TFAR_fadak";
+force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
+force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
+force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
+force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
+force force TFAR_spectatorCanHearEnemyUnits = true;
+force force TFAR_spectatorCanHearFriendlies = true;
+force force TFAR_takingRadio = 2;
+force force tfar_terrain_interception_coefficient = 7;
+force force TFAR_voiceCone = true;
+
+// Turret Enhanced
+force force Fat_Lurch_Grid = true;
+force force Fat_Lurch_GridNum = 10;
+force force Fat_Lurch_MapSlew = true;
+force force Fat_Lurch_Markers = true;
+force force Fat_Lurch_Measure = true;
+force force Fat_Lurch_ShowAz = true;
+force force Fat_Lurch_ShowEl = true;
+force force Fat_Lurch_ShowNorth = true;
+force force Fat_Lurch_ShowTarget = true;
+
+// Zeus Enhanced
+zen_camera_adaptiveSpeed = true;
+zen_camera_defaultSpeedCoef = 1;
+zen_camera_fastSpeedCoef = 1;
+zen_camera_followTerrain = true;
+force zen_common_ascensionMessages = false;
+force zen_common_autoAddObjects = true;
+force zen_common_cameraBird = false;
+zen_common_darkMode = true;
+force zen_common_disableGearAnim = true;
+zen_common_preferredArsenal = 1;
+zen_compat_ace_hideModules = false;
+zen_context_menu_enabled = 2;
+zen_editor_addGroupIcons = true;
+zen_editor_declutterEmptyTree = true;
+zen_editor_disableLiveSearch = false;
+zen_editor_moveDisplayToEdge = true;
+force zen_editor_parachuteSounds = true;
+zen_editor_previews_enabled = true;
+zen_editor_randomizeCopyPaste = false;
+zen_editor_removeWatermark = true;
+zen_editor_unitRadioMessages = 0;
+zen_placement_enabled = false;
+zen_visibility_enabled = true;
+zen_vision_enableBlackHot = false;
+zen_vision_enableBlackHotGreenCold = false;
+zen_vision_enableBlackHotRedCold = false;
+zen_vision_enableGreenHotCold = false;
+zen_vision_enableNVG = true;
+zen_vision_enableRedGreenThermal = false;
+zen_vision_enableRedHotCold = false;
+zen_vision_enableWhiteHot = true;
+zen_vision_enableWhiteHotRedCold = false;

@@ -96,3 +96,20 @@ private _medical_area_action_lighton = [
 ] call ACE_interact_menu_fnc_createAction;
 
 [_menu, 0, ["ACE_MainActions"], _medical_area_action_lighton] call ACE_interact_menu_fnc_addActionToObject;
+
+// -------------------------------------------------------------------------------------------------
+
+private _medical_area_group_heal = [
+	"DPSO_Medical_Area_group_heal",
+	"Group Heal",
+	"",
+	{
+		[group] call ace_medical_treatment_fnc_fullHealLocal;
+	},
+	{true},
+	{},
+	[_area]
+] call ACE_interact_menu_fnc_createAction;
+
+[_menu, 0, ["ACE_MainActions"], _medical_area_group_heal] call ACE_interact_menu_fnc_addActionToObject;
+

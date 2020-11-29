@@ -38,7 +38,7 @@ class CfgPatches
 #include "Dialogs\CfgDisplays.hpp"
 
 #include "CfgRespawnTemplates.hpp"
-
+#include "CfgMarkers.hpp"
 #include "CfgEden.hpp"
 #include "CfgSettings.hpp"
 #include "CfgVehicleClasses.hpp"

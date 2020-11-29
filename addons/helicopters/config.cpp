@@ -315,7 +315,91 @@ class CfgVehicles
 			1
 		};
 	};
-	///////////////////////
+		///////////////////////////////////////////////////////////////////
+
+	class FIR_UH80R;
+	class CLASS(uh80_F_Sand): FIR_UH80R
+		{
+			author = AUTHOR;
+			_generalMacro="FIR_UH80R";
+			displayName="GhostHawk UH80R (Sand)"; /// how is the heli displayed in editor
+			vehicleClass = "Air";
+			faction="BLU_CTRG_F" ;
+			crew="B_Helipilot_F";
+			typicalCargo[]=
+			{
+				"B_Soldier_F"
+			};
+			side=1;
+			scope = 2;         // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+			scopeCurator = 2;  // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+			attendant=1;
+			armor = 250;
+			audible = 30;
+			radarTargetSize = 0.55;
+			maxSpeed = 360;
+			crewCrashProtection = 0.03;
+			pilotLight = false;
+			threat[]={.2,.2,.2};
+		soundEngine[] = {"",.7,.7};
+			irTarget = false;
+			class EventHandlers
+			{
+				class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+			};
+			hiddenSelectionsTextures[]=
+			{
+				QPATHTOF(data\cow\heli_transport_01_ext01_sand_co_dpso_cow.paa),
+				QPATHTOF(data\cow\heli_transport_01_ext02_sand_co_dpso_cow.paa)
+			};
+			textureList[]=
+			{
+				"sand1",
+				1
+			};
+		};
+	class CLASS(uh80_F_Tropic): FIR_UH80R
+	{
+		author = AUTHOR;
+		_generalMacro="FIR_UH80R";
+		displayName="GhostHawk UH80R(Tropic)"; /// how is the heli displayed in editor
+		vehicleClass = "Air";
+		faction="BLU_CTRG_F" ;
+		crew="B_Helipilot_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		side=1;
+		scope = 2;         // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;  // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+		attendant=1;
+		armor = 250;
+		audible = 30;
+		radarTargetSize = 0.55;
+		maxSpeed = 360;
+		crewCrashProtection = 0.03;
+		pilotLight = false;
+		threat[]={.2,.2,.2};
+		soundEngine[] = {"",.7,.7};
+		irTarget = false;
+		class EventHandlers
+		{
+			class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\cow\heli_transport_01_ext01_tropic_co_dpso_cow.paa),
+			QPATHTOF(data\cow\heli_transport_01_ext02_tropic_co_dpso_cow.paa)
+		};
+		textureList[]=
+		{
+			"sand1",
+			1
+		};
+	};
+
+    ////////////////////////////////
 	class CLASS(B_Heli_Transport_01_F_medic): B_Heli_Transport_01_F
 	{
 		author = AUTHOR;

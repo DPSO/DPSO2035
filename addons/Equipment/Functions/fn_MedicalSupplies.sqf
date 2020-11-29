@@ -131,4 +131,4 @@ if (_purge) then {
 	clearItemCargoGlobal _container;
 };
 
-{_container addItemCargoGlobal _x} foreach _ContainerItems;
+{_container addItemCargoGlobal _x} foreach _ContainerIte

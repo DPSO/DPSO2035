@@ -1,10 +1,10 @@
 class CfgDifficultyPresets {
     class Custom;
-    class DPSO: Custom {
+    class GVAR(DPSO): Custom {
         displayName = "DPSO";
         description = "Custom difficulty for DPSO gameplay.";
         optionDescription = "Custom difficulty for DPSO gameplay.";
-        levelAI = DPSO;
+        levelAI = QGVAR(DPSO);
         class Options {
 			// Simulation
 			reducedDamage = 0;		// Reduced damage		(0 = disabled, 1 = enabled)

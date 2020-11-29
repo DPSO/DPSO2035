@@ -348,3 +348,5 @@ _handle = [
 
 	}, 60, [_object, _duration]
 ] call CBA_fnc_addPerFrameHandler;
+
+

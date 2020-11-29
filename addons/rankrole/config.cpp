@@ -26,6 +26,11 @@ class CfgFunctions {
 
 			file = "z\dpso\addons\rankrole\Functions";
 			class rankrole {postInit = 1;};
+            class makecom {};
+            class makeeng {};
+            class makewep {};
+            class makemed {};
+            class role {};
 		};
 	};
 	class dpso_drongo {
@@ -38,6 +43,13 @@ class CfgFunctions {
 		};
 	};
 };
+
+
+
+
+
+
+
 
 class Extended_PreInit_EventHandlers {
 	dpsorankrole = "call compile preprocessFileLineNumbers 'z\dpso\addons\rankrole\XEH_preInit.sqf'";

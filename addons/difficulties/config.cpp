@@ -6,10 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"dpso_MAIN"};
-        author = AUTHOR;
-        authors[] = {"Jonpas", ACECSTRING(Common,ACETeam)};
-        url = URL;
+        requiredAddons[] = {"cba_settings"};
+        author = "";
+        authors[] = {"DPSO Team", "YonV"};
+        authorUrl = "http://purplesmoke.info";
         VERSION_CONFIG;
     };
 };
