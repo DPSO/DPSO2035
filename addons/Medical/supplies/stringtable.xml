@@ -31,6 +31,10 @@
 				<Original>Unpack Medical Kit</Original>
 				<German>Verbandskasten auspacken</German>
 			</Key>
+            <Key ID="STR_DPSO_Medical_Supplies_Action_mopp">
+				<Original>Unpack MOPP Bag</Original>
+				<German>Erste-Hilfe-Pack auspacken</German>
+			</Key>
 			<!-- =============================================================================== -->
 		</Container >
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -46,6 +50,10 @@
 				<Original>Unpack Medical Kit...</Original>
 				<German>Verbandskasten auspacken...</German>
 			</Key>
+			<Key ID="STR_DPSO_Medical_Supplies_Progress_mopp">
+				<Original>Unpack faster, come on faster...</Original>
+				<German>Erste-Hilfe-Pack auspacken...</German>
+			</Key>
 			<!-- =============================================================================== -->
 		</Container >
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -60,6 +68,15 @@
 			<Key ID="STR_DPSO_Item_Medical_FirstAid_Description">
 				<Original>Contains material for first aid</Original>
 				<German>Enthält Material für die Erste-Hilfe</German>
+			</Key>
+			<!-- =============================================================================== -->
+			<Key ID="STR_DPSO_Item_Medical_mopp_DisplayName">
+				<Original>o shit o shit o shit MOPP Bag</Original>
+				<German>MOPP4</German>
+			</Key>
+			<Key ID="STR_DPSO_Item_Medical_mopp_Description">
+				<Original>Contains material for MOPP 4</Original>
+				<German>MOPP 4</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_MedicKit_DisplayName">

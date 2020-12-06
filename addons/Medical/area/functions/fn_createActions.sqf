@@ -23,7 +23,7 @@ if (Not hasInterface) exitWith {};
 
 // -------------------------------------------------------------------------------------------------
 
-private ["_area", "_menu"];
+private ["_area", "_menu", "_thislist"];
 
 _area = [_this, 0, objNull, [objNull]] call BIS_fnc_param;
 _menu = [_this, 1, objNull, [objNull]] call BIS_fnc_param;
@@ -98,14 +98,14 @@ private _medical_area_action_lighton = [
 [_menu, 0, ["ACE_MainActions"], _medical_area_action_lighton] call ACE_interact_menu_fnc_addActionToObject;
 
 // -------------------------------------------------------------------------------------------------
-
+_thislist = units player;
 private _medical_area_group_heal = [
 	"DPSO_Medical_Area_group_heal",
 	"Group Heal",
 	"",
 	{
-		[group] call ace_medical_treatment_fnc_fullHealLocal;
-	},
+        {_x call ace_medical_treatment_fnc_fullHealLocal} foreach _thislist;
+    },
 	{true},
 	{},
 	[_area]

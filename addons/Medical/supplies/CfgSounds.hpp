@@ -17,5 +17,10 @@ class CfgSounds {
 		titles[] = {};
 		duration = 1.400;
 	};
-
+	class DPSO_Medical_mopp_Open_1 {
+		name = "";
+		sound[] = {"\z\dpso\addons\medical\supplies\data\sounds\mopp_open_1.ogg", db-0, 1};
+		titles[] = {};
+		duration = 1.000;
+	};
 };

@@ -52,6 +52,8 @@ _ArsenalType = call {
 	if (_Type isEqualTo "Vanilla") exitwith {
 		_AvailableItems = [
             "kat_X_AED",
+            "DPSO_mopp",
+            "ALIVE_Tablet",
             "MS_Strobe_Mag_1",
             "MS_Strobe_Mag_2",
             "kat_aatKit",
@@ -1881,6 +1883,7 @@ _ArsenalType = call {
 	if (_type isEqualTo "Winter") exitwith {
 		_AvailableItems = [
             "kat_X_AED",
+            "DPSO_mopp",
             "MS_Strobe_Mag_1",
             "MS_Strobe_Mag_2",
             "kat_aatKit",

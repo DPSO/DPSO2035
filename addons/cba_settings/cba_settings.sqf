@@ -182,8 +182,12 @@ force force ace_medical_feedback_bloodVolumeEffectType = 2;
 force force ace_medical_feedback_painEffectType = 2;
 force force ace_medical_fractureChance = 0.45;
 force force ace_medical_fractures = 1;
+ace_medical_gui_enableActions = 0;
+ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
+ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 3;
+ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 1;
 force force ace_medical_limping = 1;
 force force ace_medical_painCoefficient = 1;
@@ -191,26 +195,28 @@ force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.15;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
 force force ace_medical_statemachine_AIUnconsciousness = true;
+force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 360;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 2;
 force force ace_medical_treatment_advancedBandages = 1;
 force force ace_medical_treatment_advancedDiagnose = true;
 force force ace_medical_treatment_advancedMedication = true;
+force force ace_medical_treatment_allowBodyBagUnconscious = true;
 force force ace_medical_treatment_allowLitterCreation = true;
 force force ace_medical_treatment_allowSelfIV = 1;
 force force ace_medical_treatment_allowSelfPAK = 1;
 force force ace_medical_treatment_allowSelfStitch = 1;
 force force ace_medical_treatment_allowSharedEquipment = 0;
 force force ace_medical_treatment_clearTraumaAfterBandage = false;
-force force ace_medical_treatment_consumePAK = 0;
+force force ace_medical_treatment_consumePAK = 1;
 force force ace_medical_treatment_consumeSurgicalKit = 0;
 force force ace_medical_treatment_convertItems = 0;
 force force ace_medical_treatment_cprSuccessChance = 0.4;
 force force ace_medical_treatment_holsterRequired = 0;
 force force ace_medical_treatment_litterCleanupDelay = 600;
 force force ace_medical_treatment_locationEpinephrine = 0;
-force force ace_medical_treatment_locationPAK = 3;
+force force ace_medical_treatment_locationPAK = 0;
 force force ace_medical_treatment_locationsBoostTraining = true;
 force force ace_medical_treatment_locationSurgicalKit = 0;
 force force ace_medical_treatment_maxLitterObjects = 500;
@@ -218,8 +224,16 @@ force force ace_medical_treatment_medicEpinephrine = 1;
 force force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicPAK = 1;
 force force ace_medical_treatment_medicSurgicalKit = 1;
-force force ace_medical_treatment_timeCoefficientPAK = 2;
+force force ace_medical_treatment_timeCoefficientPAK = 5;
+force force ace_medical_treatment_treatmentTimeAutoinjector = 5;
+force force ace_medical_treatment_treatmentTimeBodyBag = 15;
+force force ace_medical_treatment_treatmentTimeCPR = 15;
+force force ace_medical_treatment_treatmentTimeIV = 12;
+force force ace_medical_treatment_treatmentTimeSplint = 7;
+force force ace_medical_treatment_treatmentTimeTourniquet = 7;
 force force ace_medical_treatment_woundReopenChance = 1;
+force force ace_medical_treatment_woundStitchTime = 5;
+
 
 // ACE Name Tags
 force force ace_nametags_showCursorTagForVehicles = false;
@@ -459,32 +473,6 @@ force force dpso_afm_back_to_game_removeBody = true;
 force force dpso_afm_back_to_game_teleportToLeader = true;
 force force dpso_afm_back_to_game_teleportToVehicle = true;
 
-// DPSO BFT
-force force dpso_bft_bft_bftEnabled = true;
-force force dpso_bft_bft_friendlySides_CIVILIAN = [1];
-force force dpso_bft_bft_friendlySides_EAST = [2];
-force force dpso_bft_bft_friendlySides_RESISTANCE = [0];
-force force dpso_bft_bft_friendlySides_WEST = [3];
-force force dpso_bft_bft_friendlySidesDynamic = true;
-force force dpso_bft_bft_groupIconsInteraction = "hover";
-force force dpso_bft_bft_medicalSystem = "ACE";
-force force dpso_bft_bft_requireItemGPS = true;
-force force dpso_bft_bft_showAIGroups = true;
-force force dpso_bft_bft_showAINames = true;
-force force dpso_bft_bft_showCivilians = false;
-force force dpso_bft_bft_showGroupIcons = true;
-force force dpso_bft_bft_showGroupText = true;
-force force dpso_bft_bft_showLifeState = true;
-force force dpso_bft_bft_showOwnFactionOnly = false;
-force force dpso_bft_bft_showOwnGroup = true;
-force force dpso_bft_bft_showOwnGroupUnits = true;
-force force dpso_bft_bft_showPlayerNames = true;
-force force dpso_bft_bft_showUnitNames = true;
-force force dpso_bft_bft_teamColors = "ACE";
-force force dpso_bft_bft_updateInterval = 0;
-
-
-
 // DPSO Channels
 force force DPSO_Channels_CommandDuration = 0;
 force force DPSO_Channels_CommandText = true;
@@ -551,11 +539,12 @@ force force DPSO_Main_VehicleCrewList = false;
 force force DPSO_Main_ViewDistanceMaxDistance = 10000;
 force force DPSO_Main_ViewDistanceMaxObjectDistance = 10000;
 force force DPSO_Main_ViewDistanceNoGrass = false;
+DPSO_Main_VoyagerCompass = true;
 
 
 // DPSO Medical
-force force DPSO_medical_area_constuct_time = 120;
-force force DPSO_medical_area_dismantle_time = 120;
+force force DPSO_medical_area_constuct_time = 90;
+force force DPSO_medical_area_dismantle_time = 90;
 force force DPSO_medical_consume_tourniquet = false;
 force force DPSO_medical_return_items = true;
 force force DPSO_medical_return_tourniquets = 1;
@@ -598,7 +587,6 @@ force force dpso_afm_spectator_unconsciousDelay = 12;
 // DPSO Tagging
 force force dpso_afm_tagging_enabled = true;
 
-
 // DPSO Zeus
 force DPSO_Zeus_Module_AISpawnsEast = true;
 force DPSO_Zeus_Module_AISpawnsIndep = true;
@@ -618,7 +606,6 @@ force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
 force force dzn_EJAM_OverallChanceSetting = 0.01;
 force force dzn_EJAM_SubsonicJamEffectSetting = "20";
 force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
-
 
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
@@ -669,54 +656,6 @@ force force kat_circulation_useLocation_AED = 0;
 
 // KAT - ADV Medical: Misc
 force force kat_misc_enable = true;
-
-// LAMBS Danger
-force force lambs_danger_combatShareRange = 200;
-force force lambs_danger_CQB_formations_COLUMN = true;
-force force lambs_danger_CQB_formations_DIAMOND = true;
-force force lambs_danger_CQB_formations_ECH LEFT = true;
-force force lambs_danger_CQB_formations_ECH RIGHT = true;
-force force lambs_danger_CQB_formations_FILE = true;
-force force lambs_danger_CQB_formations_LINE = true;
-force force lambs_danger_CQB_formations_STAG COLUMN = true;
-force force lambs_danger_CQB_formations_VEE = true;
-force force lambs_danger_CQB_formations_WEDGE = true;
-force force lambs_danger_CQB_range = 100;
-force force lambs_danger_debug_Drawing = false;
-force force lambs_danger_debug_FSM = false;
-force force lambs_danger_debug_FSM_civ = false;
-force force lambs_danger_debug_functions = false;
-force force lambs_danger_disableAIAutonomousManoeuvres = false;
-force force lambs_danger_disableAICallouts = false;
-force force lambs_danger_disableAIDeployStaticWeapons = false;
-force force lambs_danger_disableAIFindStaticWeapons = false;
-force force lambs_danger_disableAIFleeing = false;
-force force lambs_danger_disableAIGestures = false;
-force force lambs_danger_disableAIHideFromTanksAndAircraft = false;
-force force lambs_danger_disableAIImediateAction = false;
-force force lambs_danger_disableAIPlayerGroup = false;
-force force lambs_danger_disableAIPlayerGroupReaction = false;
-force force lambs_danger_disableAIPlayerGroupSuppression = false;
-force force lambs_danger_disableAutonomousFlares = false;
-force force lambs_danger_disableAutonomousSmokeGrenades = false;
-force force lambs_danger_maxRevealValue = 1;
-force force lambs_danger_minFriendlySuppressionDistance = 5;
-force force lambs_danger_minSuppression_range = 20;
-force force lambs_danger_panic_chance = 10;
-force force lambs_danger_radio_backpack = 2000;
-force force lambs_danger_radio_disabled = false;
-force force lambs_danger_radio_EAST = 500;
-force force lambs_danger_radio_GUER = 500;
-force force lambs_danger_radio_shout = 100;
-force force lambs_danger_radio_WEST = 500;
-force force lambs_danger_RenderExpectedDestination = false;
-
-// LAMBS Danger Eventhandlers
-force force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
-force force lambs_eventhandlers_ExplosionReactionTime = 9;
-
-// LAMBS Danger WP
-force force lambs_wp_autoAddArtillery = true;
 
 // Simplex Support Services
 force force SSS_setting_adminFullAccess = false;

@@ -10,5 +10,6 @@ class DPSO_Equipment {
 		class Loadouts {};
 		class MedicalSupplies {};
         class arsenal {postInit = 1;};
+        class AmmoCrate {};
 	};
 };

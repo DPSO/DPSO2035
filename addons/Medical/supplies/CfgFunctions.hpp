@@ -10,6 +10,8 @@ class CfgFunctions {
 			class canUnpackMedicKit {};
 			class doUnpackFirstAid {};
 			class doUnpackMedicKit {};
+            class doUnpackmopp {};
+            class canUnpackmopp {};
 			class initialize {};
 			class initSettings {};
 		};

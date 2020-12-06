@@ -20,7 +20,20 @@ class CfgWeapons {
 			mass = 10;
 		};
 	};
-
+	class DPSO_mopp: ACE_ItemCore {
+		scope = 2;
+		author = "$STR_DPSO_Medical_Supplies_Author";
+		displayName = "$STR_DPSO_Item_Medical_mopp_DisplayName";
+		descriptionShort = "$STR_DPSO_Item_Medical_mopp_Description";
+		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\mopp.jpg";
+		picture = "\z\dpso\addons\medical\supplies\data\ui\mopp.paa";
+		model = "\a3\weapons_f\ammo\mag_firstaidkit.p3d";
+		icon = "iconObject_1x1";
+		mapSize = 0.015;
+		class ItemInfo: CBA_MiscItem_ItemInfo {
+			mass = 25;
+		};
+	};
 	class DPSO_MedicKit: ACE_ItemCore {
 		scope = 2;
 		author = "$STR_DPSO_Medical_Supplies_Author";

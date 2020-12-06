@@ -1,7 +1,7 @@
 class CfgDifficultyPresets {
     class Custom;
-    class GVAR(DPSO): Custom {
-        displayName = "DPSO";
+    class GVAR(Custom): Custom {
+        displayName = QGVAR(Custom);
         description = "Custom difficulty for DPSO gameplay.";
         optionDescription = "Custom difficulty for DPSO gameplay.";
         levelAI = QGVAR(DPSO);
