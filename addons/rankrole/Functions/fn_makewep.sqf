@@ -12,6 +12,5 @@ if (hasInterface) then {
     player setUnitTrait ["LoadCoef",.5];
     player setVariable ["ace_advanced_fatigue_performanceFactor",2, true];
 
-    player setVariable ["dpsoisis",0, true];
 };
 echo "Pack Mule";

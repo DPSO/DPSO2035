@@ -25,7 +25,7 @@ force force USE_UAV = """76561198049209102"",""76561198000002705"",""76561198412
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force force ace_advanced_ballistics_bulletTraceEnabled = true;
-force force ace_advanced_ballistics_enabled = true;
+force force ace_advanced_ballistics_enabled = false;
 force force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force force ace_advanced_ballistics_simulationInterval = 0.05;
 
@@ -411,20 +411,6 @@ force force acex_viewrestriction_modeSelectiveLand = 0;
 force force acex_viewrestriction_modeSelectiveSea = 0;
 force force acex_viewrestriction_preserveView = true;
 
-// ACRE2
-force force acre_sys_core_automaticAntennaDirection = false;
-force force acre_sys_core_fullDuplex = false;
-force force acre_sys_core_ignoreAntennaDirection = false;
-force force acre_sys_core_interference = true;
-force force acre_sys_core_revealToAI = 1;
-force force acre_sys_core_terrainLoss = 0.85;
-force force acre_sys_core_ts3ChannelSwitch = true;
-force force acre_sys_core_unmuteClients = true;
-force force acre_sys_signal_signalModel = 3;
-
-// ACRE2 Zeus
-force force acre_sys_zeus_zeusDefaultVoiceSource = false;
-
 // CBA Weapons
 force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = false;
@@ -447,9 +433,6 @@ force force dpso_tmf_spectator_freeCameraEnabled = true;
 force force dpso_tmf_spectator_isJIPAllowed = 1;
 force force dpso_tmf_spectator_showGroupMarkers = 1;
 
-// DPSO ACRE (ACE) Gestures
-force force dpso_afm_acre_gestures_allowADS = true;
-force force dpso_afm_acre_gestures_enabled = true;
 
 // DPSO AI
 force force DPSO_AI_AimingAccuracy = 0.1;
@@ -472,6 +455,32 @@ force force dpso_afm_back_to_game_enableAddon = true;
 force force dpso_afm_back_to_game_removeBody = true;
 force force dpso_afm_back_to_game_teleportToLeader = true;
 force force dpso_afm_back_to_game_teleportToVehicle = true;
+
+// DPSO BFT
+force force dpso_bft_bft_bftEnabled = true;
+force force dpso_bft_bft_friendlySides_CIVILIAN = [0,2];
+force force dpso_bft_bft_friendlySides_EAST = [3];
+force force dpso_bft_bft_friendlySides_RESISTANCE = [1,3];
+force force dpso_bft_bft_friendlySides_WEST = [2];
+force force dpso_bft_bft_friendlySidesDynamic = true;
+force force dpso_bft_bft_groupIconsInteraction = "hover";
+force force dpso_bft_bft_medicalSystem = "ACE";
+force force dpso_bft_bft_requireItemGPS = true;
+force force dpso_bft_bft_showAIGroups = true;
+force force dpso_bft_bft_showAINames = false;
+force force dpso_bft_bft_showCivilians = false;
+force force dpso_bft_bft_showGroupIcons = true;
+force force dpso_bft_bft_showGroupText = true;
+force force dpso_bft_bft_showLifeState = true;
+force force dpso_bft_bft_showOwnFactionOnly = true;
+force force dpso_bft_bft_showOwnGroup = true;
+force force dpso_bft_bft_showOwnGroupUnits = true;
+force force dpso_bft_bft_showPlayerNames = true;
+force force dpso_bft_bft_showUnitNames = true;
+force force dpso_bft_bft_teamColors = "ACE";
+force force dpso_bft_bft_updateInterval = 0;
+
+
 
 // DPSO Channels
 force force DPSO_Channels_CommandDuration = 0;
@@ -539,8 +548,6 @@ force force DPSO_Main_VehicleCrewList = false;
 force force DPSO_Main_ViewDistanceMaxDistance = 10000;
 force force DPSO_Main_ViewDistanceMaxObjectDistance = 10000;
 force force DPSO_Main_ViewDistanceNoGrass = false;
-DPSO_Main_VoyagerCompass = true;
-
 
 // DPSO Medical
 force force DPSO_medical_area_constuct_time = 90;
@@ -557,6 +564,40 @@ force force dpso_bodybag_destroyChance = 20;
 
 // DPSO Pointing
 force force dpso_afm_pointing_vehicleEnabled = true;
+
+// DPSO QS Icons
+force DPSO_QS_ST_AINames = false;
+force DPSO_QS_ST_colorInjured = [0.75,0.55,0,0.75];
+force DPSO_QS_ST_enableGroupIcons = true;
+force DPSO_QS_ST_gps_enableUnitIcons = true;
+force DPSO_QS_ST_GPSDist = 300;
+force DPSO_QS_ST_GPSshowGroupOnly = false;
+force DPSO_QS_ST_GPSshowNames = false;
+force DPSO_QS_ST_groupTextFactionOnly = false;
+force DPSO_QS_ST_iconColor_CIVILIAN = [0.4,0,0.5,0.65];
+force DPSO_QS_ST_iconColor_EAST = [0.5,0,0,0.65];
+force DPSO_QS_ST_iconColor_RESISTANCE = [0,0.5,0,0.65];
+force DPSO_QS_ST_iconColor_UNKNOWN = [0.7,0.6,0,0.5];
+force DPSO_QS_ST_iconColor_WEST = [0,0.3,0.6,0.65];
+force DPSO_QS_ST_iconMapText = true;
+force DPSO_QS_ST_iconTextFonts = 5;
+force DPSO_QS_ST_iconUpdatePulseDelay = 0;
+force DPSO_QS_ST_map_enableUnitIcons = true;
+force DPSO_QS_ST_MasterEnable = false;
+force DPSO_QS_ST_MedicalIconColor = [1,0.41,0,1];
+force DPSO_QS_ST_MedicalSystem = 0;
+force DPSO_QS_ST_showAI = false;
+force DPSO_QS_ST_showAIGroups = false;
+force DPSO_QS_ST_showAINames = false;
+force DPSO_QS_ST_showCivilianIcons = false;
+force DPSO_QS_ST_showFactionOnly = true;
+force DPSO_QS_ST_showGroupHudIcons = false;
+force DPSO_QS_ST_showGroupMapIcons = true;
+force DPSO_QS_ST_showGroupOnly = false;
+force DPSO_QS_ST_showMedicalWounded = true;
+force DPSO_QS_ST_showMOS = true;
+force DPSO_QS_ST_showMOS_range = 3500;
+force DPSO_QS_ST_showOwnGroup = false;
 
 // DPSO Quick Actions
 force force dpso_quickActions_add_detonator = true;

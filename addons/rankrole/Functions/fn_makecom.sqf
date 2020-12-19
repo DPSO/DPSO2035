@@ -14,7 +14,6 @@ if (hasInterface) then {
     player setUnitTrait ["LoadCoef",.6];
     player setVariable ["ace_advanced_fatigue_performanceFactor",1.75, true];
 
-    player setVariable ["dpsoisis",1, true];
 };
 
 echo "Communications";

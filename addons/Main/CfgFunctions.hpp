@@ -27,7 +27,7 @@ class DPSO_Main {
 		class GetValues {};
 		class DLog {};
 		class ObjectsMapper {};
-        class helotaxi {postInit = 1;};
+        class IntLight {};
 	};
 };
 

@@ -316,7 +316,7 @@ class CfgVehicles
 		};
 	};
 		///////////////////////////////////////////////////////////////////
-
+/*
 	class FIR_UH80R;
 	class CLASS(uh80_F_Sand): FIR_UH80R
 		{
@@ -398,7 +398,7 @@ class CfgVehicles
 			1
 		};
 	};
-
+ */
     ////////////////////////////////
 	class CLASS(B_Heli_Transport_01_F_medic): B_Heli_Transport_01_F
 	{
@@ -442,6 +442,66 @@ class CfgVehicles
 			1
 		};
 	};
+    ////////////////////////////////
+    class B_Heli_Light_01_F;
+	class CLASS(mh6): B_Heli_Light_01_F
+	{
+		author = AUTHOR;
+		_generalMacro="B_Heli_Light_01_F";
+		displayName="DPSO MH-6"; /// how is the heli displayed in editor
+		vehicleClass = "Air";
+		faction="BLU_CTRG_F" ;
+		crew="B_Helipilot_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		side=1;
+		scope = 2;         // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;  // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+		attendant=1;
+        weapons[] = {"CMFlareLauncher"};
+        magazines[] = {"168Rnd_CMFlare_Chaff_Magazine"};
+		class EventHandlers
+		{
+			class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\heli_light_01_ext_dpso_co.paa)
+		};
 
+	};
+
+    class B_Heli_Light_01_armed_F;
+	class CLASS(ah6): B_Heli_Light_01_armed_F
+	{
+		author = AUTHOR;
+		_generalMacro="B_Heli_Light_01_armed_F";
+		displayName="DPSO AH-6"; /// how is the heli displayed in editor
+		vehicleClass = "Air";
+		faction="BLU_CTRG_F" ;
+		crew="B_Helipilot_F";
+		typicalCargo[]=
+		{
+			"B_Soldier_F"
+		};
+		side=1;
+		scope = 2;         // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;  // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+		attendant=1;
+        weapons[] = {"M134_minigun","missiles_DAR","CMFlareLauncher"};
+        magazines[] = {"5000Rnd_762x51_Belt","24Rnd_missiles","168Rnd_CMFlare_Chaff_Magazine"};
+		class EventHandlers
+		{
+			class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			QPATHTOF(data\heli_light_01_ext_dpso_co.paa),
+            "a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"
+		};
+
+	};
 
 };

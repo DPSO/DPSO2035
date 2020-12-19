@@ -38,30 +38,6 @@ if (hasInterface) then {
     player setVariable ["ace_advanced_fatigue_performanceFactor",2, true];
 };
 
-private _dpsoisis = player getVariable "dpsoisis";
-
-call {
-	if (_dpsoisis isEqualto 0) exitwith {_isis = "Weapons"};
-	if (_dpsoisis isEqualto 1) exitwith {_isis = "Communications"};
-	if (_dpsoisis isEqualto 2) exitwith {_isis = "Medic"};
-	if (_dpsoisis isEqualto 3) exitwith {_isis = "Engineer"};
-};
-
-
-private _DPSOis = [
-	"DPSOis",
-	"What am I " + _isis,
-	"",
-	{
-        echo _isis;
-    },
-	{true},
-	{},
-	[_area]
-] call ACE_interact_menu_fnc_createAction;
-
-[this, 0, ["ACE_MainActions"], _DPSOis] call ACE_interact_menu_fnc_addActionToObject;
-
 ////////////////////////////////////////////////////////////////////////////////////////////////
 private _DPSOmakecom = [
 	"DPSOmakecom",

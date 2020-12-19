@@ -25,7 +25,7 @@ class CfgFunctions {
 		class RankRole {
 
 			file = "z\dpso\addons\rankrole\Functions";
-			class rankrole {postInit = 1;};
+			class rank {postInit = 1;};
             class makecom {};
             class makeeng {};
             class makewep {};
@@ -52,8 +52,8 @@ class CfgFunctions {
 
 
 class Extended_PreInit_EventHandlers {
-	dpsorankrole = "call compile preprocessFileLineNumbers 'z\dpso\addons\rankrole\XEH_preInit.sqf'";
+	dpsorank = "call compile preprocessFileLineNumbers 'z\dpso\addons\rankrole\XEH_preInit.sqf'";
 };
 class Extended_PostInit_EventHandlers {
-	dpsorankrole = "call dpso_rankrole_fnc_rankrole";
+	dpsorank = "call dpso_rankrole_fnc_rank";
 };
