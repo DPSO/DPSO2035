@@ -1,6 +1,6 @@
 #define COMPONENT heavylifter
 #define COMPONENT_BEAUTIFIED Heavy Lifter
-#include "\z\dpso\addons\main\script_mod.hpp"
+#include "\z\dpso\addons\Main\script_mod.hpp"
 
 // #define DRAW_ATTACHPOS_INFO
 // #define ALLOW_QUICK_PREP

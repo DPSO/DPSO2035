@@ -33,15 +33,6 @@ class CfgFunctions {
             class role {};
 		};
 	};
-	class dpso_drongo {
-
-		tag = "dpso_drongo";
-		class RankRole {
-
-			file = "z\dpso\addons\rankrole\Functions";
-			class drongo;
-		};
-	};
 };
 
 

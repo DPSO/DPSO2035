@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@dpsonxt"
-project_version = "4.0.0"
+project_version = "8.0.0"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""

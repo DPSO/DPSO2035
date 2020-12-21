@@ -1,5 +1,5 @@
 #include "\a3\ui_f\hpp\defineResinclDesign.inc"
-#include "\z\dpso\addons\main\script_mod.hpp"
+#include "\z\dpso\addons\Main\script_mod.hpp"
 /*
  *	ARMA EXTENDED ENVIRONMENT
  *	\DPSO_mainmenu\scripts\versionInfo.sqf

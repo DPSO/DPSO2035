@@ -34,6 +34,7 @@ call {
 	if (_Type isEqualto 0) exitwith {_Type = "Vanilla"};
 	if (_Type isEqualto 1) exitwith {_Type = "Winter"};
 	if (_Type isEqualto 2) exitwith {_Type = "Aegis"};
+    if (_Type isEqualto 3) exitwith {_Type = "RHS"};
 };
 
 if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
@@ -50,8 +51,12 @@ private [
 
 _ArsenalType = call {
 	if (_Type isEqualTo "Vanilla") exitwith {
-		_AvailableItems = [
+        _AvailableItems = [
             "kat_X_AED",
+            "ItemcTab",
+            "ItemAndroid",
+            "ItemcTabHCam",
+            "ItemMicroDAGR",
             "DPSO_mopp",
             "ALIVE_Tablet",
             "MS_Strobe_Mag_1",
@@ -207,7 +212,7 @@ _ArsenalType = call {
             "MRH_MT_FoldedSatcomAntenna"
         ];
 
-		_AvailableHeadgear = [
+        _AvailableHeadgear = [
             "H_HelmetHBK_headset_F",
             "H_HelmetHBK_chops_F",
             "H_HelmetHBK_ear_F",
@@ -408,7 +413,7 @@ _ArsenalType = call {
             "H_HelmetB_light_black"
         ];
 
-		_AvailableGoggles = [
+        _AvailableGoggles = [
             "NVGogglesB_blk_F",
             "NVGogglesB_grn_F",
             "NVGogglesB_gry_F",
@@ -537,7 +542,7 @@ _ArsenalType = call {
             "NVGoggles_SSU_tna"
         ];
 
-		_AvailableUniforms = [
+        _AvailableUniforms = [
             "U_B_CBRN_Suit_01_MTP_F",
             "U_B_CBRN_Suit_01_Tropic_F",
             "U_B_CBRN_Suit_01_Wdl_F",
@@ -645,7 +650,7 @@ _ArsenalType = call {
             "U_B_Wetsuit"
         ];
 
-		_AvailableVests = [
+        _AvailableVests = [
             "V_PlateCarrierGL_blk",
             "V_PlateCarrierGL_rgr",
             "V_PlateCarrierGL_mtp",
@@ -815,7 +820,7 @@ _ArsenalType = call {
             "V_SSU_Tactical_Vest_MCAM_Woodland"
         ];
 
-		_AvailableBackpacks = [
+        _AvailableBackpacks = [
             "B_AssaultPack_cbr",
             "B_SSU_RadioBag_MCAM_Alpine",
             "B_SSU_RadioBag_AOR1",
@@ -969,7 +974,7 @@ _ArsenalType = call {
             "B_SSU_TacticalPack_MCAM_Woodland"
         ];
 
-		_AvailableAttachments = [
+        _AvailableAttachments = [
             "optic_Nightstalker",
             "optic_tws",
             "optic_tws_mg",
@@ -1200,7 +1205,7 @@ _ArsenalType = call {
             "qipTPL_optic_Nightstalker"
         ];
 
-		_AvailableMagazines = [
+        _AvailableMagazines = [
             "DSA_11Rnd_45ACP_Mag",
             "DSA_25Rnd_45ACP_Mag",
             "DSA_30Rnd_45ACP_Mag_SMG_01",
@@ -1568,7 +1573,7 @@ _ArsenalType = call {
             "APERSMine_Range_Mag"
         ];
 
-		_AvailableWeapons = [
+        _AvailableWeapons = [
             "LMG_03_F",
             "arifle_TRG21_GL_F",
             "MMG_01_hex_F",
@@ -1878,11 +1883,16 @@ _ArsenalType = call {
             "dpso_hgun_P07_blk_F",
             "hgun_P07_blk_F"
         ];
+
 	};
 
 	if (_type isEqualTo "Winter") exitwith {
-		_AvailableItems = [
+        		_AvailableItems = [
             "kat_X_AED",
+            "ItemcTab",
+            "ItemAndroid",
+            "ItemcTabHCam",
+            "ItemMicroDAGR",
             "DPSO_mopp",
             "MS_Strobe_Mag_1",
             "MS_Strobe_Mag_2",
@@ -3797,11 +3807,16 @@ _ArsenalType = call {
             "bear_MXC_white_F",
             "bear_MXM_white_F"
         ];
+
 	};
 
 	if (_type isEqualTo "Aegis") exitwith {
-		_AvailableItems = [
+        _AvailableItems = [
             "kat_X_AED",
+            "ItemcTab",
+            "ItemAndroid",
+            "ItemcTabHCam",
+            "ItemMicroDAGR",
             "DPSO_mopp",
             "ALIVE_Tablet",
             "kat_aatKit",
@@ -5960,8 +5975,14 @@ _ArsenalType = call {
             "hgun_G17_khaki_F",
             "LAMBS_hgun_P07_blk_F"
         ];
+
+	};
+
+	if (_type isEqualTo "RHS") exitwith {
+
 	};
 };
+
 
 if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
 	[_object, _AvailableHeadGear, true] call ace_arsenal_fnc_addVirtualItems;

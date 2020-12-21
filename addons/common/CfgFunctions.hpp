@@ -70,39 +70,6 @@ class CfgFunctions {
 			class needRestart {};
 			class needRestartLocal {};
 		};
-
-		class Sounds {
-			file = "z\dpso\addons\common\functions\sounds";
-			class decibelToGain {};
-			class gainToDecibel {};
-			class getSoundDistance {};
-			class getSoundDuration {};
-			class getSoundFile {};
-			class getSoundPitch {};
-			class getSoundVolume {};
-			class isSpeaking {};
-			class loop3dSound {};
-			class loop3dSoundLocal {};
-			class play3dSound {};
-			class play3dSoundLocal {};
-			class playSound {};
-			class playSoundLocal {};
-			class playSound3d {};
-			class say3d {};
-			class say3dLocal {};
-			class speak3d {};
-			class speak3dLocal {};
-			class stop3dSound {};
-			class stop3dSoundLocal {};
-		};
-
-		class Videos {
-			file = "z\dpso\addons\common\functions\videos";
-			class playVideo {};
-			class playVideoOnce {};
-			class videoKeyDown {};
-		};
-
 	};
 
 };

@@ -20,8 +20,8 @@ class Cfg3DEN {
                     w = "80 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 4;
-                    strings[] = {"None", "Vanilla", "Winter", "Aegis"};
+                    columns = 5;
+                    strings[] = {"None", "Vanilla", "Winter", "Aegis", "RHS"};
                 };
             };
         };
