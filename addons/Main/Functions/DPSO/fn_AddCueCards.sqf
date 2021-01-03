@@ -111,7 +111,7 @@ _npAction = [
 	_title = format ["Show %1", _name];
 	_id = format ["cueCardAction_%1", _forEachIndex];
 
-	diag_log format ["[[LOGGING]]  ID: %1    Title: %2", _id, _title];
+	//diag_log format ["[[LOGGING]]  ID: %1    Title: %2", _id, _title];
 
 	_action = [
 		_id,
