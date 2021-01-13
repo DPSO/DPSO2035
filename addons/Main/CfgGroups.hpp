@@ -602,9 +602,7 @@ class CfgGroups {
     };
 };
 
-
 class CBA_Extended_EventHandlers_base;
-
 class CfgVehicles {
 
     class B_recon_F;
@@ -624,8 +622,8 @@ class CfgVehicles {
 
         uniformClass = "dpso_U_CombatUniformMC";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier2_brn990","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_rf7800str","","","","","","","",""};
 
@@ -646,8 +644,8 @@ class CfgVehicles {
 
         uniformClass = "dpso_U_CombatUniformMC";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier2_brn991","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_rf7800str","","","","","","","",""};
 
@@ -668,8 +666,8 @@ class CfgVehicles {
 
         uniformClass = "dpso_U_CombatUniformMC";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier2_brn992","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_rf7800str","","","","","","","",""};
 
@@ -689,8 +687,8 @@ class CfgVehicles {
 
         uniformClass = "dpso_U_CombatUniformMC";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier2_brn993","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_rf7800str","","","","","","","",""};
 
@@ -712,8 +710,8 @@ class CfgVehicles {
 
         uniformClass = "dpso_U_CombatUniformMC";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier2_brn995","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_rf7800str","","","","","","","",""};
 
@@ -734,16 +732,13 @@ class CfgVehicles {
 
         uniformClass = "dpso_B_HeliPilotCoveralls";
         backpack = "";
-        weapons[] = {"dpso_MX_BlackCamo", "dpso_Walther_P99", "Throw", "Put", "Binocular"};
-        magazines[] = {"dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","dpso_30Rnd_65x39_caseless_BlackCamo_mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
+        weapons[] = {"rhs_weap_hk416d10", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
+        magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","MiniGrenade","MiniGrenade","SmokeShell","SmokeShellGreen","Chemlight_green","Chemlight_green"};
         items[] = {"DPSO_FirstAid","ACE_MapTools","ACE_EarPlugs","ACRE_PRC152","MRH_BluForTransponder","MRH_SoldierTab"};
         linkedItems[] = {"dpso_Item_Vest_PlateCarrier_Black999","H_Beret_02","","ItemMap","ItemCompass","ItemWatch","TFAR_anprc152","","","","","","","",""};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
         };
-
-
     };
-
 };
