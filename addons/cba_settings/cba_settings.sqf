@@ -189,7 +189,7 @@ ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 3;
 ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 1;
-force force ace_medical_limping = 1;
+force force ace_medical_limping = 2;
 force force ace_medical_painCoefficient = 1;
 force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.15;
@@ -199,7 +199,7 @@ force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
 force force ace_medical_statemachine_cardiacArrestTime = 360;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 2;
-force force ace_medical_treatment_advancedBandages = 1;
+force force ace_medical_treatment_advancedBandages = 2;
 force force ace_medical_treatment_advancedDiagnose = true;
 force force ace_medical_treatment_advancedMedication = true;
 force force ace_medical_treatment_allowBodyBagUnconscious = true;
@@ -234,17 +234,15 @@ force force ace_medical_treatment_treatmentTimeTourniquet = 7;
 force force ace_medical_treatment_woundReopenChance = 1;
 force force ace_medical_treatment_woundStitchTime = 5;
 
-
 // ACE Name Tags
 force force ace_nametags_showCursorTagForVehicles = false;
 force force ace_nametags_showNamesForAI = false;
 
-
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.2;
+force force ace_nightvision_aimDownSightsBlur = 0.1;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.2;
-force force ace_nightvision_fogScaling = 0.2;
+force force ace_nightvision_effectScaling = 0.1;
+force force ace_nightvision_fogScaling = 0.1;
 force force ace_nightvision_noiseScaling = 0.1;
 force force ace_nightvision_shutterEffects = true;
 
@@ -331,7 +329,6 @@ force force ace_ui_gunnerAmmoCount = false;
 force force ace_ui_gunnerLaunchableCount = false;
 force force ace_ui_gunnerZeroing = true;
 
-
 // ACE Vehicle Lock
 force force ace_vehiclelock_defaultLockpickStrength = 20;
 force force ace_vehiclelock_lockVehicleInventory = true;
@@ -415,7 +412,6 @@ force force acex_viewrestriction_preserveView = true;
 force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = false;
 
-
 // DPSO
 force force dpso_tmf_adminMenu_endLogToRPT = false;
 force force dpso_tmf_adminMenu_printToChat = 1;
@@ -432,7 +428,6 @@ force force dpso_tmf_spectator_followCameraEnabled = true;
 force force dpso_tmf_spectator_freeCameraEnabled = true;
 force force dpso_tmf_spectator_isJIPAllowed = 1;
 force force dpso_tmf_spectator_showGroupMarkers = 1;
-
 
 // DPSO AI
 force force DPSO_AI_AimingAccuracy = 0.1;
@@ -540,38 +535,33 @@ force force dpso_bodybag_destroyChance = 20;
 force force dpso_afm_pointing_vehicleEnabled = true;
 
 // DPSO QS Icons
-force DPSO_QS_ST_AINames = false;
-force DPSO_QS_ST_colorInjured = [0.75,0.55,0,0.75];
-force DPSO_QS_ST_enableGroupIcons = true;
-force DPSO_QS_ST_gps_enableUnitIcons = true;
-force DPSO_QS_ST_GPSDist = 300;
-force DPSO_QS_ST_GPSshowGroupOnly = false;
-force DPSO_QS_ST_GPSshowNames = false;
-force DPSO_QS_ST_groupTextFactionOnly = false;
-force DPSO_QS_ST_iconColor_CIVILIAN = [0.4,0,0.5,0.65];
-force DPSO_QS_ST_iconColor_EAST = [0.5,0,0,0.65];
-force DPSO_QS_ST_iconColor_RESISTANCE = [0,0.5,0,0.65];
-force DPSO_QS_ST_iconColor_UNKNOWN = [0.7,0.6,0,0.5];
-force DPSO_QS_ST_iconColor_WEST = [0,0.3,0.6,0.65];
-force DPSO_QS_ST_iconMapText = true;
-force DPSO_QS_ST_iconTextFonts = 5;
-force DPSO_QS_ST_iconUpdatePulseDelay = 0;
-force DPSO_QS_ST_map_enableUnitIcons = true;
-force DPSO_QS_ST_MasterEnable = false;
-force DPSO_QS_ST_MedicalIconColor = [1,0.41,0,1];
-force DPSO_QS_ST_MedicalSystem = 0;
-force DPSO_QS_ST_showAI = false;
-force DPSO_QS_ST_showAIGroups = false;
-force DPSO_QS_ST_showAINames = false;
-force DPSO_QS_ST_showCivilianIcons = false;
-force DPSO_QS_ST_showFactionOnly = true;
-force DPSO_QS_ST_showGroupHudIcons = false;
-force DPSO_QS_ST_showGroupMapIcons = true;
-force DPSO_QS_ST_showGroupOnly = false;
-force DPSO_QS_ST_showMedicalWounded = true;
-force DPSO_QS_ST_showMOS = true;
-force DPSO_QS_ST_showMOS_range = 3500;
-force DPSO_QS_ST_showOwnGroup = false;
+force force DPSO_QS_ST_AINames = true;
+force force DPSO_QS_ST_colorInjured = [0.75,0.55,0,0.75];
+force force DPSO_QS_ST_enableGroupIcons = true;
+force force DPSO_QS_ST_gps_enableUnitIcons = true;
+force force DPSO_QS_ST_GPSDist = 1000;
+force force DPSO_QS_ST_GPSshowGroupOnly = false;
+force force DPSO_QS_ST_GPSshowNames = true;
+force force DPSO_QS_ST_groupTextFactionOnly = false;
+force force DPSO_QS_ST_iconMapText = true;
+force force DPSO_QS_ST_iconTextFonts = 5;
+force force DPSO_QS_ST_iconUpdatePulseDelay = 0;
+force force DPSO_QS_ST_map_enableUnitIcons = false;
+force force DPSO_QS_ST_MasterEnable = true;
+force force DPSO_QS_ST_MedicalIconColor = [1,0.41,0,1];
+force force DPSO_QS_ST_MedicalSystem = 3;
+force force DPSO_QS_ST_showAI = true;
+force force DPSO_QS_ST_showAIGroups = true;
+force force DPSO_QS_ST_showAINames = false;
+force force DPSO_QS_ST_showCivilianIcons = false;
+force force DPSO_QS_ST_showFactionOnly = false;
+force force DPSO_QS_ST_showGroupHudIcons = false;
+force force DPSO_QS_ST_showGroupMapIcons = true;
+force force DPSO_QS_ST_showGroupOnly = false;
+force force DPSO_QS_ST_showMedicalWounded = true;
+force force DPSO_QS_ST_showMOS = false;
+force force DPSO_QS_ST_showMOS_range = 0;
+force force DPSO_QS_ST_showOwnGroup = false;
 
 // DPSO Quick Actions
 force force dpso_quickActions_add_detonator = true;
@@ -590,9 +580,8 @@ force force dpso_afm_spectator_allowAIUnconscious = false;
 force force dpso_afm_spectator_allowUnconscious = true;
 force force dpso_afm_spectator_civilianSide = false;
 force force dpso_afm_spectator_civilianSideUnconscious = false;
-force force dpso_afm_spectator_enabled = true;
-force force dpso_afm_spectator_freeCamera = true;
-force force dpso_afm_spectator_freeCameraUnconscious = true;
+force force dpso_afm_spectator_freeCamera = false;
+force force dpso_afm_spectator_freeCameraUnconscious = false;
 force force dpso_afm_spectator_sides = 1;
 force force dpso_afm_spectator_sidesUnconscious = 0;
 force force dpso_afm_spectator_TPPCamera = false;
@@ -608,19 +597,6 @@ force DPSO_Zeus_Module_AISpawnsIndep = true;
 force DPSO_Zeus_Module_AISpawnsWest = true;
 force DPSO_Zeus_Module_CivilianSpawns = true;
 force DPSO_Zeus_Module_SafeZone = true;
-
-// dzn Extended Jamming
-force force dzn_EJAM_dud_ChanceSettings = 30;
-force force dzn_EJAM_fail_to_eject_ChanceSettings = 20;
-force force dzn_EJAM_fail_to_extract_ChanceSettings = 20;
-force force dzn_EJAM_feed_failure_2_ChanceSettings = 20;
-force force dzn_EJAM_feed_failure_ChanceSettings = 30;
-force force dzn_EJAM_Force = true;
-force force dzn_EJAM_ForceOverallChance = true;
-force force dzn_EJAM_MappingSettings = "[""arifle_MX_F"",0.05,45,10,45,0,0]";
-force force dzn_EJAM_OverallChanceSetting = 0.01;
-force force dzn_EJAM_SubsonicJamEffectSetting = "20";
-force force dzn_EJAM_SubsonicMagazinesSettings = """cup_30rnd_subsonic_545x39_ak_m"",""cup_20rnd_subsonic_545x39_aksu_m"",""cup_30rnd_subsonic_545x39_ak74m_m"",""cup_30rnd_subsonic_545x39_ak74_plum_m"",""cup_30rnd_subsonic_762x39_ak47_m"",""cup_20rnd_subsonic_762x39_amd63_m"",""cup_30rnd_subsonic_762x39_ak47_bakelite_m"",""cup_30rnd_subsonic_762x39_ak103_bakelite_m"",""cup_30rnd_subsonic_762x39_akm_bakelite_desert_m"",""cup_30rnd_subsonic_545x39_fort224_m"",""rhs_30rnd_545x39_7u1_ak"",""rhs_45rnd_545x39_7u1_ak"",""rhs_30rnd_762x39mm_u"",""rhs_30rnd_762x39mm_bakelite_u"",""rhs_30rnd_762x39mm_polymer_u"",""hlc_30rnd_545x39_s_ak"",""hlc_30rnd_545x39_s_ak_plum"",""hlc_30rnd_545x39_s_ak_black"",""hlc_20rnd_762x51_s_fal"",""hlc_10rnd_762x51_s_fal"",""hlc_20rnd_762x51_s_g3""";
 
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
@@ -689,7 +665,6 @@ force force SSS_setting_restoreCrewOnRTB = true;
 force force SSS_setting_slingLoadSearchRadius = 100;
 force force SSS_setting_slingLoadWhitelist = "";
 force force SSS_setting_useChatNotifications = true;
-
 
 // Tao's Folding Map Rewrite
 force force tao_rewrite_main_allowadjust = true;

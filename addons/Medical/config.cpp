@@ -35,3 +35,8 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "CfgFunctions.hpp"
+
+class ace_medical_replacementItems {
+    ItemType_401[] = {{"ACE_fieldDressing",2},{"kat_Painkiller",1},{"ACE_tourniquet",2}};
+    ItemType_619[] = {{"ACE_fieldDressing",4},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_salineIV_500",3},{"ACE_tourniquet",2},{"ACE_splint",2}};
+};

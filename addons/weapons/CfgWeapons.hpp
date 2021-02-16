@@ -1,4 +1,10 @@
 class CfgWeapons {
+    class Man;
+        class CAManBase : Man {
+            minGunElev = -89;
+            maxGunElev = 89;
+        };
+        
     class arifle_MX_Black_F;
     class CLASS(MX_BlackCamo): arifle_MX_Black_F {
         dlc = QUOTE(PREFIX);

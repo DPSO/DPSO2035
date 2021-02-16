@@ -1,6 +1,5 @@
 #include "script_component.hpp"
 
-
 class CfgPatches
 {
 	class DPSO_Modules
@@ -15,7 +14,7 @@ class CfgPatches
             "dpso_operator_993",
             "dpso_flight_crew_999"
         };
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
 		version = DPSO_VERSION;
 		authors[] = {"YonV"};
@@ -27,7 +26,7 @@ class CfgPatches
 		name = COMPONENT_NAME;
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {};
         versionDesc = "$STR_DPSO_Addon_Title";
         DPSO_VERSION_CONFIG;
@@ -35,18 +34,13 @@ class CfgPatches
 };
 
 
-#include "Dialogs\CfgDisplays.hpp"
-
-#include "CfgRespawnTemplates.hpp"
-#include "CfgMarkers.hpp"
-#include "CfgEden.hpp"
-#include "CfgSettings.hpp"
-#include "CfgVehicleClasses.hpp"
-//#include "displayEden.hpp"
-
 class Extended_PreInit_EventHandlers {
     class DPSO_Main_Event {
         init = "call compile preprocessFileLineNumbers 'z\dpso\Addons\Main\XEH_preInit.sqf'";
+		
+    };
+	class No_Neg_Rating {
+        init = "[] call DPSO_fnc_noneg";
     };
 };
 
@@ -73,11 +67,48 @@ class CfgFunctions {
     #include "cfgFunctions.hpp"
 };
 
+#include "Dialogs\CfgDisplays.hpp"
+#include "CfgRespawnTemplates.hpp"
+#include "CfgMarkers.hpp"
+#include "CfgEden.hpp"
+#include "CfgSettings.hpp"
+#include "CfgVehicleClasses.hpp"
+#include "displayEden.hpp"
+#include "CfgWorlds.hpp"
 #include "Functions\CHVD\dialog.hpp"
 #include "Functions\YAINA\General\crewNamesTitles.hpp"
-
 #include "CfgGroups.hpp"
+
+class CfgNetworkMessages
+{
+	class AdvancedTowingRemoteExecClient
+	{
+		module = "AdvancedTowing";
+		parameters[] = {"ARRAY","STRING","OBJECT","BOOL"};
+	};
+	
+	class AdvancedTowingRemoteExecServer
+	{
+		module = "AdvancedTowing";
+		parameters[] = {"ARRAY","STRING","BOOL"};
+	};
+	class AdvancedSlingLoadingRemoteExecClient
+	{
+		module = "AdvancedSlingLoading";
+		parameters[] = {"ARRAY","STRING","OBJECT","BOOL"};
+	};
+	
+	class AdvancedSlingLoadingRemoteExecServer
+	{
+		module = "AdvancedSlingLoading";
+		parameters[] = {"ARRAY","STRING","BOOL"};
+	};
+};
+
+
+
 class CfgScriptPaths
 {
-	DPSODisplays = "z\dpso\addons\Main\Scripts\UI\Displays\";
+	DPSODisplays="z\dpso\addons\main\Scripts\UI\Displays\";
 };
+

@@ -5,7 +5,7 @@ class CfgPatches {
 
 	class DPSO_Items {
 		name = "$STR_DPSO_Items_Title";
-		requiredVersion = REQUIRED_VERSION;
+		requiredVersion = DPSO_REQUIRED_VERSION;
 		requiredAddons[] = {
 			"dpso_main"
 		};

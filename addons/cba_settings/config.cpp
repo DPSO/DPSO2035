@@ -5,7 +5,7 @@ class CfgPatches {
         name = "$STR_CBA_Settings_Component";
         units[] = {};
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
+        requiredVersion = DPSO_REQUIRED_VERSION;
         requiredAddons[] = {"cba_settings"};
         author = "$STR_CBA_Author";
         authors[] = {"commy2"};

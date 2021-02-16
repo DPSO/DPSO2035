@@ -8,7 +8,7 @@ if (hasInterface) then {
 
 
     player setVariable ["ace_medical_medicclass",0, true];
-    player setVariable ["ACE_isEOD",0, true];
+    player setVariable ["ACE_isEOD",false, true];
     player setVariable ["ace_isEngineer",0, true];
 
     player setUnitTrait ["LoadCoef",.6];
@@ -16,4 +16,5 @@ if (hasInterface) then {
 
 };
 
-echo "Communications";
+[ format [hint_tpl_default, "Communications"] ] call DPSO_fnc_hintGlobal;
+

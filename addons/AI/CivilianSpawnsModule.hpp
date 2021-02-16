@@ -28,16 +28,6 @@ class DPSO_ModuleCivilianSpawns: Module_F
 				class values
 				{
 					class CIV_F					{name = "Default Civilians (Altis)";						value = "CIV_F";};
-					class UK3CB_CHC_C			{name = "@3CB Factions - Civilians (Chernarus)";			value = "UK3CB_CHC_C";};
-					class UK3CB_TKC_C			{name = "@3CB Factions - Civilians (Takustan)";				value = "UK3CB_TKC_C";};
-					class CFP_C_AFG 			{name = "@CFP - Civilians (Afghanistan)";					value = "CFP_C_AFG";};
-					class CFP_C_AFRCHRISTIAN 	{name = "@CFP - Civilians (African Christian)";				value = "CFP_C_AFRCHRISTIAN";};
-					class CFP_C_AFRISLAMIC 		{name = "@CFP - Civilians (African Islamic)";				value = "CFP_C_AFRISLAMIC";};
-					class CFP_C_ASIA 			{name = "@CFP - Civilians (Asian)";							value = "CFP_C_ASIA";};
-					class CUP_C_CHERNARUS 		{name = "@CUP - Civilians (Chernarus)";						value = "CUP_C_CHERNARUS";};
-					class CUP_C_SAHRANI 		{name = "@CUP - Civilians (Middle Eastern)";				value = "CUP_C_SAHRANI";};
-					class CUP_C_RU 				{name = "@CUP - Civilians (Russian)";						value = "CUP_C_R";};
-					class CUP_C_TK 				{name = "@CUP - Civilians (Takistan)";						value = "CUP_C_TK";};
 				};
 			};
 		class Side: Combo
@@ -49,9 +39,6 @@ class DPSO_ModuleCivilianSpawns: Module_F
 				class values
 				{
 					class CIVILIAN		{name = "Civilian";								value = "civilian";};
-					/*class WEST  		{name = "Blufor";								value = "west";};
-					class EAST  		{name = "Opfor";								value = "east";};
-					class INDEPENDENT  	{name = "Independent";							value = "independent";};*/ // TODO: make this work
 				};
 			};
 

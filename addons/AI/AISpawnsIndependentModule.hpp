@@ -27,24 +27,6 @@ class DPSO_ModuleAISpawnsIndependent: Module_F
 				defaultValue = """IND_C_F""";
 				class values
 				{
-					class UK3CB_CCM_I 					{name = "@3CB Factions - Chernarus Nationalist Militia";		value = "UK3CB_CCM_I";};
-					class UK3CB_TKA_I 					{name = "@3CB Factions - Takistan National Army";				value = "UK3CB_TKA_I";};
-					class UK3CB_TKM_I 					{name = "@3CB Factions - Takistan Tribal Fighters";				value = "UK3CB_TKM_I";};
-					class UK3CB_TKP_I 					{name = "@3CB Factions - Takistan National Police";				value = "UK3CB_TKP_I";};
-					class UK3CB_UN_I 					{name = "@3CB Factions - UN Peacekeepers";						value = "UK3CB_UN_I";};
-					class CFP_I_ALNUSRA 				{name = "@CFP - al-Nusra Front";								value = "CFP_I_ALNUSRA";};
-					class CFP_I_IS 						{name = "@CFP - Islamic State";									value = "CFP_I_IS";};
-					class CFP_I_SDRebels 				{name = "@CFP - Sudan People's Liberation Movement North";		value = "CFP_I_SDRebels";};
-					class CFP_I_SDRebelsrf 				{name = "@CFP - Sudan Revolutionary Front";						value = "CFP_I_SDRebelsrf";};
-					class CFP_I_SSArmy 					{name = "@CFP - South Sudan People's Defense Force";			value = "CFP_I_SSArmy";};
-					class CFP_I_TUAREG 					{name = "@CFP - Tuareg Rebels";									value = "CFP_I_TUAREG";};
-					class CFP_I_WestUltra 				{name = "@CFP - Western Ultranationalists";						value = "CFP_I_WestUltra";};
-					class CUP_I_NAPA 					{name = "@CUP - National Part of Chernarus";					value = "CUP_I_NAPA";};
-					class CUP_I_PMC_ION 				{name = "@CUP - ION PMC"; 										value = "CUP_I_PMC_ION";};
-					class CUP_I_RACS 					{name = "@CUP - Royal Army Corps of Sahrani"; 					value = "CUP_I_RACS";};
-					class CUP_I_TK_GUE 					{name = "@CUP - Takistani Locals"; 								value = "CUP_I_TK_GUE";};
-					class CUP_I_UN 						{name = "@CUP - United Nations";								value = "CUP_I_UN";};
-					class LIB_US_ARMY 					{name = "@IFA3 - US Army";										value = "LIB_US_ARMY";};
 					class LOP_IRAN 						{name = "@Project OPFOR - Iranian Armed Forces"; 				value = "LOP_IRAN";};
 					class LOP_NAPA 						{name = "@Project OPFOR - Chernarussian National Insurgents";	value = "LOP_NAPA";};
 					class LOP_PESH_IND 					{name = "@Project OPFOR - Kurdish Peshmerga Forces"; 			value = "LOP_PESH_IND";};

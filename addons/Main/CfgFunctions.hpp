@@ -5,7 +5,7 @@ class DPSO_Main {
 	class Main {
 
 		file = "z\dpso\Addons\Main\Functions\DPSO";
-		//class AddCueCards {};
+		class AddCueCards {};
 		class ArsenalLoadSave {};
 		class Diary {};
 		class DynamicSim {};
@@ -16,7 +16,7 @@ class DPSO_Main {
 		class Logs {};
 		class PilotCheck {};
 		class QSRepackMags {};
-		//=class TFARSettings {PostInit = 1;};
+		class TFARSettings {PostInit = 1;};
 		class VanillaFatigue {};
 		class FindReplaceString {};
 		class FindInArrayMap {};
@@ -27,9 +27,14 @@ class DPSO_Main {
 		class GetValues {};
 		class DLog {};
 		class ObjectsMapper {};
-        class IntLight {};
+        // class IntLight {};
+		class noneg {};
+		class novoice { postInit = 1; };
+		class advancedSlingLoadingInit { postInit = 1; };
+		class advancedTowingInit { postInit = 1; };
 	};
 };
+
 
 class CHVD
 {

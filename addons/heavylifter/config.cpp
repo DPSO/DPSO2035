@@ -5,7 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
+        requiredVersion = DPSO_REQUIRED_VERSION;
         requiredAddons[] = {"dpso_MAIN"};
         author = AUTHOR;
         authors[] = {"Jonpas", "DaC"};

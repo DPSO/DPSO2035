@@ -8,7 +8,7 @@ if (hasInterface) then {
     player setUnitTrait ["UAVHacker",false];
     player setVariable ["ace_medical_medicclass",0, true];
 
-    player setVariable ["ACE_isEOD",1, true];
+    player setVariable ["ACE_isEOD",true, true];
     player setVariable ["ace_isEngineer",1, true];
 
 
@@ -16,5 +16,5 @@ if (hasInterface) then {
     player setVariable ["ace_advanced_fatigue_performanceFactor",1.75, true];
 
 };
+[ format [hint_tpl_default, "Engineer"] ] call DPSO_fnc_hintGlobal;
 
-echo "Engineer";

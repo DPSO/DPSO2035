@@ -20,6 +20,8 @@ class CfgPatches {
 #include "cfgCloudlets.hpp"
 #include "cfgLights.hpp"
 #include "cfgImpacts.hpp"
+#include "CfgAmmo.hpp"
+
 
 class Extended_Killed_Eventhandlers {
     class CAManBase {

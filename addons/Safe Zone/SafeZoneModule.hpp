@@ -14,7 +14,7 @@ class DPSO_ModuleSafeZone: Module_F
 	{
 		class SafeZoneEnable: Checkbox
   			{
-				property = "LR_SafeZoneEnable";
+				property = "DPSO_SafeZoneEnable";
 				displayName = "Enabled";
 				tooltip = "Enable/Disable this Safe Zone Module.";
 				typeName = "BOOL";
@@ -22,7 +22,7 @@ class DPSO_ModuleSafeZone: Module_F
 			};
 			class SafeZoneSize: Edit
   			{
-				property = "LR_SafeZoneSize";
+				property = "DPSO_SafeZoneSize";
 				displayName = "Size";
 				tooltip = "Area of Safe Zone around this module in meters";
 				typeName = "NUMBER";
@@ -30,7 +30,7 @@ class DPSO_ModuleSafeZone: Module_F
 			};
 		class SafeZoneDuration: Edit
   			{
-				property = "LR_SafeZoneDuration";
+				property = "DPSO_SafeZoneDuration";
 				displayName = "Duration";
 				tooltip = "How long should the safe zone be active. 0 means permanent.";
 				typeName = "NUMBER";
