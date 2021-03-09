@@ -27,12 +27,33 @@ class DPSO_ModuleAISpawnsWest: Module_F
 				defaultValue = """BLU_F""";
 				class values
 				{
-					class LOP_AA 							{name = "@Project OPFOR - Afghan National Army";				value = "LOP_AA";};
-					class LOP_IA 							{name = "@Project OPFOR - Iraqi Armed Forces";					value = "LOP_IA";};
-					class rhs_faction_usarmy_d 				{name = "@RHS USAF  - USA Army - Desert"; 						value = "rhs_faction_usarmy_d";};
-					class rhs_faction_usarmy_wd 			{name = "@RHS USAF  - USA Army - Woodland"; 					value = "rhs_faction_usarmy_wd";};
 					class BLU_F 							{name = "Vanilla - NATO"; 										value = "BLU_F";};
 					class BLU_T_F							{name = "Vanilla - NATO (Pacific)"; 							value = "BLU_T_F";};
+					class CFP_B_AFARMY 						{name = "@CFP - Afghan Army";									value = "CFP_B_AFARMY";};
+					class CFP_B_AFGPOLICE 					{name = "@CFP - Afghan Police";									value = "CFP_B_AFGPOLICE";};
+					class CFP_B_CAF 						{name = "@CFP - Chadian Armed Forces";							value = "CFP_B_CAF";};
+					class CFP_B_CDF_SNW 					{name = "@CFP - Chernarus Defense Forces [Winter]";				value = "CFP_B_CDF_SNW";};
+					class CFP_B_ILIDF 						{name = "@CFP - Israeli Defense Force";							value = "CFP_B_ILIDF";};
+					class CFP_B_IQARMY 						{name = "@CFP - Iraqi Army";									value = "CFP_B_IQARMY";};
+					class CFP_B_IQPOLICE 					{name = "@CFP - Iraqi Police";									value = "CFP_B_IQPOLICE";};
+					class CFP_B_KEARMY 						{name = "@CFP - Kenyan Defense Force";							value = "CFP_B_KEARMY";};
+					class CFP_B_MLARMY 						{name = "@CFP - Malian Government Forces";						value = "CFP_B_MLARMY";};
+					class CFP_B_NAARMY 						{name = "@CFP - Nigerian Army";									value = "CFP_B_NAARMY";};
+					class CFP_B_PESH 						{name = "@CFP - Peshmerga";										value = "CFP_B_PESH";};
+					class CFP_B_UGARMY 						{name = "@CFP - Uganda People's Defense Force";					value = "CFP_B_UGARMY";};
+					class CFP_B_USARMY_1991_DES 			{name = "@CFP - US Army 1991 [Arid/Desert]";					value = "CFP_B_USARMY_1991_DES";};
+					class CFP_B_USARMY_1991_WDL 			{name = "@CFP - US Army 1991 [Woodland]";						value = "CFP_B_USARMY_1991_WDL";};
+					class CFP_B_USARMY_2003_DES 			{name = "@CFP - US Army 2003 [Arid/Desert]";					value = "CFP_B_USARMY_2003_DES";};
+					class CFP_B_USARMY_2003_WDL 			{name = "@CFP - US Army 2003 [Woodland]";						value = "CFP_B_USARMY_2003_WDL";};
+					class CFP_B_USCIA						{name = "@CFP - US CIA (Middle East)";							value = "CFP_B_USCIA";};
+					class CFP_B_USRANGERS_WDL 				{name = "@CFP - US 75th Rangers (Jungle/Woodland)";				value = "CFP_B_USRANGERS_WDL";};
+					class CFP_B_USSEALS_DES 				{name = "@CFP - US Navy Seals (Arid / Desert)";					value = "CFP_B_USSEALS_DES";};
+					class CFP_B_USSEALS_WDL 				{name = "@CFP - US Navy Seals (Jungle / Woodland)";				value = "CFP_B_USSEALS_WDL";};
+					class CFP_B_YPG 						{name = "@CFP - YPG";											value = "CFP_B_YPG";};
+					class CUP_B_CZ 							{name = "@CUP - Army of the Czech Republic";					value = "CUP_B_CZ";};
+					class CUP_B_GB 							{name = "@CUP - British Armed Forces"; 							value = "CUP_B_GB";};
+					class CUP_B_GER 						{name = "@CUP - Bundeswehr"; 									value = "CUP_B_GER";};
+					class CUP_B_US_Army 					{name = "@CUP - United States Army"; 							value = "CUP_B_US_Army";};
 				};
 			};
 		class GarrRadius: Edit

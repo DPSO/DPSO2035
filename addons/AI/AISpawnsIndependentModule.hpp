@@ -27,20 +27,18 @@ class DPSO_ModuleAISpawnsIndependent: Module_F
 				defaultValue = """IND_C_F""";
 				class values
 				{
-					class LOP_IRAN 						{name = "@Project OPFOR - Iranian Armed Forces"; 				value = "LOP_IRAN";};
-					class LOP_NAPA 						{name = "@Project OPFOR - Chernarussian National Insurgents";	value = "LOP_NAPA";};
-					class LOP_PESH_IND 					{name = "@Project OPFOR - Kurdish Peshmerga Forces"; 			value = "LOP_PESH_IND";};
-					class LOP_PMC 						{name = "@Project OPFOR - Private Military Company"; 			value = "LOP_PMC";};
-					class LOP_RACS 						{name = "@Project OPFOR - Royal Army Corps of Sahrani";			value = "LOP_RACS";};
-					class LOP_UA 						{name = "@Project OPFOR - Ultranationalists";					value = "LOP_UA";};
-					class LOP_UKR 						{name = "@Project OPFOR - Ukrainian Armed Forces"; 				value = "LOP_UKR";};
-					class LOP_UN 						{name = "@Project OPFOR - United Nations"; 						value = "LOP_UN";};
-					class LOP_UVF 						{name = "@Project OPFOR - Ulster Volunteer Force"; 				value = "LOP_UVF";};
-					class rhsgref_faction_cdf_ground	{name = "@RHS GREF - Chernarus (Ground Forces)"; 				value = "rhsgref_faction_cdf_ground";};
-					class rhsgref_faction_chdkz_g 		{name = "@RHS GREF - ChDKZ Insurgents"; 						value = "rhsgref_faction_chdkz_g";};
-					class rhsgref_faction_nationalist	{name = "@RHS GREF - Nationalist Militia"; 						value = "rhsgref_faction_nationalist";};
-					class rhssaf_faction_army 			{name = "@RHS SAF - SAF (KOV)"; 								value = "rhssaf_faction_army";};
-					class rhssaf_faction_un 			{name = "@RHS SAF - SAF (UN Peacekeepers)"; 					value = "rhssaf_faction_un";};
+					class CFP_I_ALNUSRA 				{name = "@CFP - al-Nusra Front";								value = "CFP_I_ALNUSRA";};
+					class CFP_I_IS 						{name = "@CFP - Islamic State";									value = "CFP_I_IS";};
+					class CFP_I_SDRebels 				{name = "@CFP - Sudan People's Liberation Movement North";		value = "CFP_I_SDRebels";};
+					class CFP_I_SDRebelsrf 				{name = "@CFP - Sudan Revolutionary Front";						value = "CFP_I_SDRebelsrf";};
+					class CFP_I_SSArmy 					{name = "@CFP - South Sudan People's Defense Force";			value = "CFP_I_SSArmy";};
+					class CFP_I_TUAREG 					{name = "@CFP - Tuareg Rebels";									value = "CFP_I_TUAREG";};
+					class CFP_I_WestUltra 				{name = "@CFP - Western Ultranationalists";						value = "CFP_I_WestUltra";};					
+					class CUP_I_NAPA 					{name = "@CUP - National Part of Chernarus";					value = "CUP_I_NAPA";};
+					class CUP_I_PMC_ION 				{name = "@CUP - ION PMC"; 										value = "CUP_I_PMC_ION";};
+					class CUP_I_RACS 					{name = "@CUP - Royal Army Corps of Sahrani"; 					value = "CUP_I_RACS";};
+					class CUP_I_TK_GUE 					{name = "@CUP - Takistani Locals"; 								value = "CUP_I_TK_GUE";};
+					class CUP_I_UN 						{name = "@CUP - United Nations";								value = "CUP_I_UN";};
 					class IND_F							{name = "Vanilla - AAF";										value = "IND_F";};
 					class IND_C_F 						{name = "Vanilla - Syndikat"; 									value = "IND_C_F";};
 

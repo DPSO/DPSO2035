@@ -15,4 +15,4 @@ if (hasInterface) then {
 
 };
 
-[ format [hint_tpl_default, "Medical"] ] call DPSO_fnc_hintGlobal;
+[ format [hint_tpl_default, "Medical"] ] call DPSO_fnc_hint;

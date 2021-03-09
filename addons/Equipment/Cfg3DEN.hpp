@@ -20,8 +20,8 @@ class Cfg3DEN {
                     w = "80 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 5;
-                    strings[] = {"None", "Vanilla", "Winter", "Aegis", "RHS"};
+                    columns = 6;
+                    strings[] = {"None", "DPSO", "Winter", "incognito", "casual","RHS"};
                 };
             };
         };
@@ -55,7 +55,7 @@ class Cfg3DEN {
         //             h = "5 * (pixelH * pixelGrid * 0.50)";
         //             rows = 1;
         //             columns = 4;
-        //             strings[] = {"None", "Vanilla", "Winter", "RHS"};
+        //             strings[] = {"None", "Limited", "Standard", "MERT"};
         //         };
         //     };
         // };

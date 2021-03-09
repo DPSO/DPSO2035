@@ -72,7 +72,7 @@ class RscDisplayMain: RscStandardDisplay {
                 };
 
                 class Button: Button {
-                    tooltip = "$STR_DPSO_VersionInfo_Tooltip";
+                    tooltip = "$STR_VERSIONInfo_Tooltip";
                     url = URL;
                 };
 

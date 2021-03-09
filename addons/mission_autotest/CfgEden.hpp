@@ -158,13 +158,13 @@ class Cfg3DEN {
                             control = QGVAR(respawnDialog);
                             defaultValue = "true";
                         };
-                        // class dynsim {
-                        //     property = "dynsim";
-                        //     displayName = CSTRING(dynsim);
-                        //     tooltip = CSTRING(dynsimDesc);
-                        //     control = QGVAR(dynsim);
-                        //     defaultValue = "true";
-                        // };
+                        class dynsim {
+                            property = "dynsim";
+                            displayName = CSTRING(dynsim);
+                            tooltip = CSTRING(dynsimDesc);
+                            control = QGVAR(dynsim);
+                            defaultValue = "true";
+                        };
                         class aiPosession {
                             property = "aiPosession";
                             displayName = CSTRING(AIPosession);
@@ -265,11 +265,11 @@ class Cfg3DEN {
             attributeSave = "true";
             ATTRIBUTE_CONTROLS
         };
-        // class GVAR(dynsim): Title {
-        //     attributeLoad = QUOTE(_this call FUNC(testdynsim));
-        //     attributeSave = "true";
-        //     ATTRIBUTE_CONTROLS
-        // };
+        class GVAR(dynsim): Title {
+            attributeLoad = QUOTE(_this call FUNC(testdynsim));
+            attributeSave = "true";
+            ATTRIBUTE_CONTROLS
+        };
         class GVAR(aiPosession): Title {
             attributeLoad = QUOTE(_this call FUNC(testAIPosession));
             attributeSave = "true";

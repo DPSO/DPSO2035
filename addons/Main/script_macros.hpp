@@ -1,6 +1,7 @@
-//#include "\z\ace\addons\Main\script_macros.hpp"
+#define DEBUG_SYNCHRONOUS
+// #include "\x\cba\addons\main\script_macros_common.hpp"
+// #include "\x\cba\addons\xeh\script_xeh.hpp"
 
-//#include "\x\cba\addons\main\script_macros_common.hpp"
 #define DFUNC(module) TRIPLES(ADDON,fnc,module)
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP

@@ -558,7 +558,7 @@ def get_project_version(version_increments=[]):
         input("Press Enter to continue...")
         print("Resuming build...")
 
-    print_yellow("{} DPSO_VERSION set to {}".format(project.lstrip("@").upper(),versionStamp))
+    print_yellow("{} VERSION set to {}".format(project.lstrip("@").upper(),versionStamp))
     project_version = versionStamp
     return project_version
 

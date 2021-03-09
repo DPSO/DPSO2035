@@ -31,7 +31,7 @@ class CfgVehicles
 		_generalMacro="Heli_Transport_03_base_F";
 		displayName="Huron MedEvac (Unarmed)"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{
@@ -73,7 +73,7 @@ class CfgVehicles
 			_generalMacro="Heli_Transport_03_base_F";
 			displayName="Huron MedEvac (Sand Unarmed)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -115,7 +115,7 @@ class CfgVehicles
 			_generalMacro="Heli_Transport_03_base_F";
 			displayName="Huron MedEvac (Tropic Unarmed)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -158,7 +158,7 @@ class CfgVehicles
 			_generalMacro="Heli_Transport_03_base_F";
 			displayName="Huron (Sand)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -197,7 +197,7 @@ class CfgVehicles
 			_generalMacro="Heli_Transport_03_base_F";
 			displayName="Huron (Tropic)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -241,7 +241,7 @@ class CfgVehicles
 			_generalMacro="B_Heli_Transport_01_F";
 			displayName="GhostHawk(Sand)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -281,7 +281,7 @@ class CfgVehicles
 		_generalMacro="B_Heli_Transport_01_F";
 		displayName="GhostHawk(Tropic)"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{
@@ -324,7 +324,7 @@ class CfgVehicles
 			_generalMacro="FIR_UH80R";
 			displayName="GhostHawk UH80R (Sand)"; /// how is the heli displayed in editor
 			vehicleClass = "Air";
-			faction="BLU_CTRG_F" ;
+			faction= "DPSO_Faction";
 			crew="B_Helipilot_F";
 			typicalCargo[]=
 			{
@@ -364,7 +364,7 @@ class CfgVehicles
 		_generalMacro="FIR_UH80R";
 		displayName="GhostHawk UH80R(Tropic)"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{
@@ -406,7 +406,7 @@ class CfgVehicles
 		_generalMacro="B_Heli_Transport_01_F";
 		displayName="GhostHawk(MedEvac)"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{
@@ -450,7 +450,7 @@ class CfgVehicles
 		_generalMacro="B_Heli_Light_01_F";
 		displayName="DPSO MH-6"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{
@@ -480,7 +480,7 @@ class CfgVehicles
 		_generalMacro="B_Heli_Light_01_armed_F";
 		displayName="DPSO AH-6"; /// how is the heli displayed in editor
 		vehicleClass = "Air";
-		faction="BLU_CTRG_F" ;
+		faction= "DPSO_Faction";
 		crew="B_Helipilot_F";
 		typicalCargo[]=
 		{

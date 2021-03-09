@@ -24,11 +24,11 @@ class CfgAmmo {
         useFlare = 0;
         irLock = 1;
     };
-    class rhs_rpg26_rocket;
-    class rhs_rpg7v2_pg7vl : rhs_rpg26_rocket {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
-        airLock = 1; 
-        allowAgainstInfantry = 1; 
-        cost = 40;
-    };
+    // class rhs_rpg26_rocket;
+    // class rhs_rpg7v2_pg7vl : rhs_rpg26_rocket {
+    //     aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+    //     airLock = 1; 
+    //     allowAgainstInfantry = 1; 
+    //     cost = 40;
+    // };
 };

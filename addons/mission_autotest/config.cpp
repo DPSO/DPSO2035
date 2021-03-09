@@ -14,7 +14,7 @@ class CfgPatches
 		name = "DPSO - Mission Autotest";
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = "REQUIRED_VERSION";
+		requiredVersion = "DPSO_REQUIRED_VERSION";
 		requiredAddons[] = {"dpso_MAIN"};
 		author = "$STR_dpso_main_Author";
 		authors[] = {"TMF Team","Jonpas"};

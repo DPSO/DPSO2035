@@ -76,9 +76,9 @@ class CfgWeapons {
         baseWeapon = QCLASS(Walther_P99);
     };
 
-    class LAMBS_hgun_P07_blk_F : hgun_P07_F {
+    class CLASS(hgun_P07_blk_F) : hgun_P07_F {
         author = "nopryl.no";
-        baseWeapon = "LAMBS_hgun_P07_blk_F";
+        baseWeapon = QCLASS(hgun_P07_blk_F);
         //displayName = "P07 9 mm (Black)";
         displayName = "P99 (Black)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\pistol\p07.paa)};
@@ -123,9 +123,9 @@ class CfgWeapons {
     };
 
     class LMG_03_F;
-    class LAMBS_LMG_03_brn_F : LMG_03_F {
+    class CLASS(LMG_03_brn_F) : LMG_03_F {
         author = "nopryl.no";
-        baseWeapon = "LAMBS_LMG_03_base_F";
+        baseWeapon = QCLASS(LMG_03_brn_F),;
         //displayName = "LIM-85 5.56 mm (Brown)";
         displayName = "FN Minimi SPW (Brown)";
         hiddenSelectionsTextures[] = {

@@ -6,7 +6,7 @@ class CfgPatches {
     requiredAddons[] = {
         "A3_Functions_F"
     };
-    version = DPSO_VERSION;
+     DPSO_version = DPSO_VERSION;
     versionStr = DPSO_VERSION_STR;
     author = "nkenny";
         url = URL;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TACS">
+<Project name="dpso">
     <Package name="Weapons">
         <Key ID="STR_dpso_Weapons_Box_Weapons">
             <English>[DPSO] Weapons</English>

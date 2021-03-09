@@ -10,7 +10,7 @@ class CfgPatches {
         author = ECSTRING(main,Author);
         authors[] = {"Jonpas"};
         url = ECSTRING(main,URL);
-        VERSION_CONFIG;
+        DPSO_VERSION_CONFIG;
     };
 };
 

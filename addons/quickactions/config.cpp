@@ -8,7 +8,7 @@ class CfgPatches
         requiredAddons[] = {
             "cba_common"
 		};
-        version = DPSO_VERSION;
+         DPSO_version = DPSO_VERSION;
         versionStr = DPSO_VERSION_STR;
 		author = "diwako";
 		url = URL;

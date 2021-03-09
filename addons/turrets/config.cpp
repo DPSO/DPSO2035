@@ -8,7 +8,7 @@ class CfgPatches {
         "A3_Weapons_F_Exp",
         "A3_Weapons_F_Tank"
     }; 
-    version = DPSO_VERSION;
+     DPSO_version = DPSO_VERSION;
     versionStr = DPSO_VERSION_STR;
     author = "nkenny";
     authorUrl = URL;

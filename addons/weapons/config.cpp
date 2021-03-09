@@ -25,8 +25,8 @@ class CfgPatches {
             QCLASS(MX_GL_BlackCamo),
             QCLASS(Walther_P99),
             QCLASS(Walther_P99_Tan),
-            "LAMBS_LMG_03_brn_F",
-            "LAMBS_hgun_P07_blk_F"
+            QCLASS(LMG_03_brn_F),
+            QCLASS(hgun_P07_blk_F)
         };
         requiredVersion = DPSO_REQUIRED_VERSION;
         requiredaddons[] = {

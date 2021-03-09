@@ -14,4 +14,4 @@ if (hasInterface) then {
 
 };
 
-[ format [hint_tpl_default, "Weapons"] ] call DPSO_fnc_hintGlobal;
+[ format [hint_tpl_default, "Weapons"] ] call DPSO_fnc_hint;

@@ -35,7 +35,7 @@ force force ace_advanced_fatigue_enableStaminaBar = true;
 force force ace_advanced_fatigue_loadFactor = 0.2;
 force force ace_advanced_fatigue_performanceFactor = 5;
 force force ace_advanced_fatigue_recoveryFactor = 5;
-force force ace_advanced_fatigue_swayFactor = 0.2;
+force force ace_advanced_fatigue_swayFactor = 0.1;
 force force ace_advanced_fatigue_terrainGradientFactor = 0.2;
 
 // ACE Advanced Throwing
@@ -239,11 +239,11 @@ force force ace_nametags_showCursorTagForVehicles = false;
 force force ace_nametags_showNamesForAI = false;
 
 // ACE Nightvision
-force force ace_nightvision_aimDownSightsBlur = 0.1;
+force force ace_nightvision_aimDownSightsBlur =0;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0.1;
-force force ace_nightvision_fogScaling = 0.1;
-force force ace_nightvision_noiseScaling = 0.1;
+force force ace_nightvision_effectScaling = 0;
+force force ace_nightvision_fogScaling = 0;
+force force ace_nightvision_noiseScaling = 0;
 force force ace_nightvision_shutterEffects = true;
 
 // ACE Overheating
@@ -283,7 +283,7 @@ force force ace_respawn_savePreDeathGear = true;
 force force ace_scopes_correctZeroing = true;
 force force ace_scopes_deduceBarometricPressureFromTerrainAltitude = true;
 force force ace_scopes_defaultZeroRange = 100;
-force force ace_scopes_enabled = false;
+force force ace_scopes_enabled = true;
 force force ace_scopes_forceUseOfAdjustmentTurrets = true;
 force force ace_scopes_overwriteZeroRange = true;
 force force ace_scopes_simplifiedZeroing = false;
@@ -408,9 +408,26 @@ force force acex_viewrestriction_modeSelectiveLand = 0;
 force force acex_viewrestriction_modeSelectiveSea = 0;
 force force acex_viewrestriction_preserveView = true;
 
+// AI
+force force cfp_autoEquipNVG = true;
+
+// CBA UI
+cba_ui_notifyLifetime = 4;
+cba_ui_StorePasswords = 1;
+
 // CBA Weapons
 force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = false;
+cba_events_repetitionMode = 1;
+force force cba_optics_usePipOptics = false;
+
+// CUP
+force force CUP_CheckCfgPatches = true;
+force force CUP_Vehicles_PreventBarrelClip = true;
+
+// CUP Static Weapons
+force force CUP_staticWeapons_allowMovement = true;
+force force CUP_staticWeapons_allowRotation = true;
 
 // DPSO
 force force dpso_tmf_adminMenu_endLogToRPT = false;
@@ -491,7 +508,7 @@ force force dpso_afm_friendly_fire_loggingEnabled = true;
 force force dpso_afm_grass_enabled = true;
 
 // DPSO Insurgents
-force force dpso_afm_insurgents_enabled_CUP = false;
+force force dpso_afm_insurgents_enabled_CUP = true;
 force force dpso_afm_insurgents_enabled_Vanilla = true;
 
 // DPSO Main
@@ -534,9 +551,32 @@ force force dpso_bodybag_destroyChance = 20;
 // DPSO Pointing
 force force dpso_afm_pointing_vehicleEnabled = true;
 
+// DPSO qipBFT
+force force dpso_bft_bftEnabled = true;
+force force dpso_bft_friendlySides_CIVILIAN = [0,2];
+force force dpso_bft_friendlySides_EAST = [3];
+force force dpso_bft_friendlySides_RESISTANCE = [1,3];
+force force dpso_bft_friendlySides_WEST = [2];
+force force dpso_bft_friendlySidesDynamic = true;
+force force dpso_bft_groupIconsInteraction = "hover";
+force force dpso_bft_medicalSystem = "ACE";
+force force dpso_bft_requireItemGPS = true;
+force force dpso_bft_showAIGroups = true;
+force force dpso_bft_showAINames = true;
+force force dpso_bft_showCivilians = false;
+force force dpso_bft_showGroupIcons = true;
+force force dpso_bft_showGroupText = true;
+force force dpso_bft_showLifeState = true;
+force force dpso_bft_showOwnFactionOnly = true;
+force force dpso_bft_showOwnGroup = false;
+force force dpso_bft_showOwnGroupUnits = true;
+force force dpso_bft_showPlayerNames = true;
+force force dpso_bft_showUnitNames = true;
+force force dpso_bft_teamColors = "ACE";
+force force dpso_bft_updateInterval = 0;
+
 // DPSO QS Icons
 force force DPSO_QS_ST_AINames = true;
-force force DPSO_QS_ST_colorInjured = [0.75,0.55,0,0.75];
 force force DPSO_QS_ST_enableGroupIcons = true;
 force force DPSO_QS_ST_gps_enableUnitIcons = true;
 force force DPSO_QS_ST_GPSDist = 1000;
@@ -544,11 +584,9 @@ force force DPSO_QS_ST_GPSshowGroupOnly = false;
 force force DPSO_QS_ST_GPSshowNames = true;
 force force DPSO_QS_ST_groupTextFactionOnly = false;
 force force DPSO_QS_ST_iconMapText = true;
-force force DPSO_QS_ST_iconTextFonts = 5;
 force force DPSO_QS_ST_iconUpdatePulseDelay = 0;
 force force DPSO_QS_ST_map_enableUnitIcons = false;
-force force DPSO_QS_ST_MasterEnable = true;
-force force DPSO_QS_ST_MedicalIconColor = [1,0.41,0,1];
+force force DPSO_QS_ST_MasterEnable = false;
 force force DPSO_QS_ST_MedicalSystem = 3;
 force force DPSO_QS_ST_showAI = true;
 force force DPSO_QS_ST_showAIGroups = true;
@@ -597,6 +635,34 @@ force DPSO_Zeus_Module_AISpawnsIndep = true;
 force DPSO_Zeus_Module_AISpawnsWest = true;
 force DPSO_Zeus_Module_CivilianSpawns = true;
 force DPSO_Zeus_Module_SafeZone = true;
+
+// GRAD Trenches
+force force grad_trenches_functions_allowBigEnvelope = true;
+force force grad_trenches_functions_allowCamouflage = true;
+force force grad_trenches_functions_allowDigging = true;
+force force grad_trenches_functions_allowGiantEnvelope = true;
+force force grad_trenches_functions_allowLongEnvelope = true;
+force force grad_trenches_functions_allowShortEnvelope = true;
+force force grad_trenches_functions_allowSmallEnvelope = true;
+force force grad_trenches_functions_allowTrenchDecay = false;
+force force grad_trenches_functions_allowVehicleEnvelope = true;
+force force grad_trenches_functions_bigEnvelopeDigTime = 40;
+force force grad_trenches_functions_bigEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_buildFatigueFactor = 1;
+force force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
+force force grad_trenches_functions_decayTime = 1800;
+force force grad_trenches_functions_giantEnvelopeDigTime = 90;
+force force grad_trenches_functions_giantEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_LongEnvelopeDigTime = 100;
+force force grad_trenches_functions_LongEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_shortEnvelopeDigTime = 15;
+force force grad_trenches_functions_shortEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_smallEnvelopeDigTime = 30;
+force force grad_trenches_functions_smallEnvelopeRemovalTime = -1;
+force force grad_trenches_functions_stopBuildingAtFatigueMax = true;
+force force grad_trenches_functions_timeoutToDecay = 7200;
+force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
+force force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 
 // KAT - ADV Medical: Airway
 force force kat_airway_Accuvac_time = 8;
@@ -648,6 +714,55 @@ force force kat_circulation_useLocation_AED = 0;
 // KAT - ADV Medical: Misc
 force force kat_misc_enable = true;
 
+
+// LAMBS Danger
+force force lambs_danger_combatShareRange = 250;
+force force lambs_danger_CQB_formations_COLUMN = true;
+force force lambs_danger_CQB_formations_DIAMOND = true;
+force force lambs_danger_CQB_formations_ECH LEFT = true;
+force force lambs_danger_CQB_formations_ECH RIGHT = true;
+force force lambs_danger_CQB_formations_FILE = true;
+force force lambs_danger_CQB_formations_LINE = true;
+force force lambs_danger_CQB_formations_STAG COLUMN = true;
+force force lambs_danger_CQB_formations_VEE = true;
+force force lambs_danger_CQB_formations_WEDGE = true;
+force force lambs_danger_CQB_range = 60;
+force force lambs_danger_debug_Drawing = false;
+force force lambs_danger_debug_FSM = false;
+force force lambs_danger_debug_FSM_civ = false;
+force force lambs_danger_debug_functions = false;
+force force lambs_danger_disableAIAutonomousManoeuvres = false;
+force force lambs_danger_disableAICallouts = false;
+force force lambs_danger_disableAIDeployStaticWeapons = false;
+force force lambs_danger_disableAIFindStaticWeapons = false;
+force force lambs_danger_disableAIFleeing = false;
+force force lambs_danger_disableAIGestures = false;
+force force lambs_danger_disableAIHideFromTanksAndAircraft = false;
+force force lambs_danger_disableAIImediateAction = false;
+force force lambs_danger_disableAIPlayerGroup = false;
+force force lambs_danger_disableAIPlayerGroupReaction = false;
+force force lambs_danger_disableAIPlayerGroupSuppression = false;
+force force lambs_danger_disableAutonomousFlares = false;
+force force lambs_danger_disableAutonomousSmokeGrenades = false;
+force force lambs_danger_maxRevealValue = 1;
+force force lambs_danger_minFriendlySuppressionDistance = 5;
+force force lambs_danger_minSuppression_range = 20;
+force force lambs_danger_panic_chance = 10;
+force force lambs_danger_radio_backpack = 2000;
+force force lambs_danger_radio_disabled = false;
+force force lambs_danger_radio_EAST = 500;
+force force lambs_danger_radio_GUER = 500;
+force force lambs_danger_radio_shout = 200;
+force force lambs_danger_radio_WEST = 500;
+force force lambs_danger_RenderExpectedDestination = false;
+
+// LAMBS Danger Eventhandlers
+force force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
+force force lambs_eventhandlers_ExplosionReactionTime = 9;
+
+// LAMBS Danger WP
+force force lambs_wp_autoAddArtillery = true;
+
 // Simplex Support Services
 force force SSS_setting_adminFullAccess = false;
 force force SSS_setting_adminLimitSide = false;
@@ -665,19 +780,6 @@ force force SSS_setting_restoreCrewOnRTB = true;
 force force SSS_setting_slingLoadSearchRadius = 100;
 force force SSS_setting_slingLoadWhitelist = "";
 force force SSS_setting_useChatNotifications = true;
-
-// Tao's Folding Map Rewrite
-force force tao_rewrite_main_allowadjust = true;
-force force tao_rewrite_main_allowshake = false;
-force force tao_rewrite_main_closemap = true;
-force force tao_rewrite_main_enablemap = true;
-force force tao_rewrite_main_gridref = true;
-tao_rewrite_main_isNightMap = false;
-force force tao_rewrite_main_mapicon = true;
-force force tao_rewrite_main_maplock = true;
-force force tao_rewrite_main_prefmap = false;
-force force tao_rewrite_main_reposmap = true;
-force force tao_rewrite_main_updateInterval = 0;
 
 // TFAR - Clientside settings
 TFAR_default_radioVolume = 6;
@@ -753,36 +855,3 @@ force force Fat_Lurch_ShowEl = true;
 force force Fat_Lurch_ShowNorth = true;
 force force Fat_Lurch_ShowTarget = true;
 
-// Zeus Enhanced
-zen_camera_adaptiveSpeed = true;
-zen_camera_defaultSpeedCoef = 1;
-zen_camera_fastSpeedCoef = 1;
-zen_camera_followTerrain = true;
-force zen_common_ascensionMessages = false;
-force zen_common_autoAddObjects = true;
-force zen_common_cameraBird = false;
-zen_common_darkMode = true;
-force zen_common_disableGearAnim = true;
-zen_common_preferredArsenal = 1;
-zen_compat_ace_hideModules = false;
-zen_context_menu_enabled = 2;
-zen_editor_addGroupIcons = true;
-zen_editor_declutterEmptyTree = true;
-zen_editor_disableLiveSearch = false;
-zen_editor_moveDisplayToEdge = true;
-force zen_editor_parachuteSounds = true;
-zen_editor_previews_enabled = true;
-zen_editor_randomizeCopyPaste = false;
-zen_editor_removeWatermark = true;
-zen_editor_unitRadioMessages = 0;
-zen_placement_enabled = false;
-zen_visibility_enabled = true;
-zen_vision_enableBlackHot = false;
-zen_vision_enableBlackHotGreenCold = false;
-zen_vision_enableBlackHotRedCold = false;
-zen_vision_enableGreenHotCold = false;
-zen_vision_enableNVG = true;
-zen_vision_enableRedGreenThermal = false;
-zen_vision_enableRedHotCold = false;
-zen_vision_enableWhiteHot = true;
-zen_vision_enableWhiteHotRedCold = false;

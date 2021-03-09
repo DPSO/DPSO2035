@@ -10,7 +10,7 @@ class CfgPatches {
         author = AUTHOR;
         authors[] = {"Jonpas"};
         url = URL;
-        VERSION_CONFIG;
+        DPSO_VERSION_CONFIG;
     };
 };
 

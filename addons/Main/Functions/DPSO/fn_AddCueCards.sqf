@@ -62,6 +62,16 @@ _cueCardsData = [
 	[
 		"z\dpso\addons\Media\images\Cue Cards\medproces.paa",
 		"Medical Process"
+	],
+	// 	11 - Call for Fire
+	[
+		"z\dpso\addons\Media\images\Cue Cards\cff.paa",
+		"Call for Fire"
+	],
+	// 	12 - Method of Fire and Control
+	[
+		"z\dpso\addons\Media\images\Cue Cards\mfc.paa",
+		"Method of Fire and Control"
 	]
 ];
 

@@ -10,6 +10,6 @@ class CfgPatches {
         author = "$STR_CBA_Author";
         authors[] = {"commy2"};
         url = URL;
-        VERSION_CONFIG;
+        DPSO_VERSION_CONFIG;
     };
 };

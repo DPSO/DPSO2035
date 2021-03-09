@@ -16,7 +16,7 @@ class CfgPatches {
 			"O. Jemineh"
 		};
 		url = URL;
-		DPSO_VERSION_CONFIG;
+		VERSION_CONFIG;
 	};
 
 };

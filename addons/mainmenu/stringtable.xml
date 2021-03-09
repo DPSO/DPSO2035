@@ -23,7 +23,7 @@
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="VersionInfo">
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_VersionInfo_Tooltip">
+			<Key ID="STR_VERSIONInfo_Tooltip">
 				<Original>Download latest and report issues:</Original>
 				<German>Neuste Version und Probleme melden:</German>
 			</Key>

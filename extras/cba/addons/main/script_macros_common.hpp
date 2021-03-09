@@ -55,7 +55,7 @@
 #endif
 
 #ifndef VERSION_CONFIG
-    #define VERSION_CONFIG version = DPSO_VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
+    #define VERSION_CONFIG version = VERSION; versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
 #endif
 
 #define ADDON DOUBLES(PREFIX,COMPONENT)
@@ -1117,7 +1117,7 @@ Author:
 #define BWC_CONFIG(NAME) class NAME { \
         units[] = {}; \
         weapons[] = {}; \
-        requiredVersion = DPSO_REQUIRED_VERSION; \
+        requiredVersion = REQUIRED_VERSION; \
         requiredAddons[] = {}; \
         version = DPSO_VERSION; \
 }

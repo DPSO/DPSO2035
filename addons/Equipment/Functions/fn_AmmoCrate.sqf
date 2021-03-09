@@ -76,6 +76,9 @@ _handlerIndex = _box addEventHandler
         _box addItemCargoGlobal ["DPSO_FirstAid",1];
         _box addItemCargoGlobal ["DPSO_MedicKit",1];
         _box addItemCargoGlobal ["DPSO_mopp",1];
+		_box addItemCargoGlobal ["HandGrenade",8];
+		_box addItemCargoGlobal ["SmokeShell",8];
+		_box addItemCargoGlobal ["ACE_M84",8];
 		}
 	];
 _box setVariable ["DPSO_AmmoCrateEHIndex", _handlerIndex, true];

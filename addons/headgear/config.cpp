@@ -5,6 +5,20 @@ class CfgPatches
   {
     units[] = {};
     weapons[] = {
+        QCLASS(Cap_Headphones_BlackLogo),
+        QCLASS(Cap_BlackLogo),
+        QCLASS(Cap_TanLogo),
+        QCLASS(Cap_Earpiece_BlackLogo),
+        QCLASS(Cap_Earpiece_TanLogo),
+        QCLASS(Cap_Backwards_BlackLogo),
+        QCLASS(Cap_Backwards_TanLogo),
+        QCLASS(Cap_Headphones_Blackcow),
+        QCLASS(Cap_Blackcow),
+        QCLASS(Cap_Tancow),
+        QCLASS(Cap_Earpiece_Blackcow),
+        QCLASS(Cap_Earpiece_Tancow),
+        QCLASS(Cap_Backwards_Blackcow),
+        QCLASS(Cap_Backwards_Tancow),
         QCLASS(H_MilCap_m98),
         QCLASS(H_MilCap_snow),
         QCLASS(H_Booniehat_m98),
@@ -172,6 +186,141 @@ class cfgWeapons {
         author = AUTHOR;
         displayName = "Enhanced Combat Helmet (Snow)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\texture\Helmet_snow.paa)};
+    };
+
+//cap
+    class HelmetBase;
+    class H_Cap_headphones: HelmetBase {
+        class ItemInfo;
+    };
+    class H_Cap_red: HelmetBase {
+        class ItemInfo;
+    };
+    class CLASS(Cap_Headphones_BlackLogo): H_Cap_headphones {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Headphones_BlackLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blacklogo_co.paa)};
+
+        class ItemInfo: ItemInfo {
+            hiddenSelections[] = {"camo"};
+        };
+    };
+
+
+    class CLASS(Cap_BlackLogo): H_Cap_red {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_BlackLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
+    };
+    class CLASS(Cap_TanLogo): H_Cap_red {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_TanLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
+    };
+
+
+    #define MACRO_EARPIECE_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        model = QPATHTOF(data\cap_earpiece.p3d); \
+        class ItemInfo: ItemInfo { \
+            mass = 5; \
+            uniformModel = QPATHTOF(data\cap_earpiece.p3d); \
+        };
+
+    class CLASS(Cap_Earpiece_BlackLogo): H_Cap_red {
+        MACRO_EARPIECE_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayname = CSTRING(Cap_Earpiece_BlackLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
+    };
+    class CLASS(Cap_Earpiece_TanLogo): H_Cap_red {
+        MACRO_EARPIECE_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayname = CSTRING(Cap_Earpiece_TanLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
+    };
+
+
+    #define MACRO_BACKWARDS_COMMON \
+        dlc = QUOTE(PREFIX); \
+        scope = 2; \
+        model = QPATHTOF(data\cap_backwards.p3d); \
+        class ItemInfo: ItemInfo { \
+            uniformModel = QPATHTOF(data\cap_backwards.p3d); \
+        };
+
+    class CLASS(Cap_Backwards_BlackLogo): H_Cap_red {
+        MACRO_BACKWARDS_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Backwards_BlackLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blacklogo_co.paa)};
+    };
+    class CLASS(Cap_Backwards_TanLogo): H_Cap_red {
+        MACRO_BACKWARDS_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Backwards_TanLogo);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tanlogo_co.paa)};
+    };
+//cap cow
+
+    class CLASS(Cap_Headphones_Blackcow): H_Cap_headphones {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Headphones_Blackcow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_headphones_blackcow_co.paa)};
+
+        class ItemInfo: ItemInfo {
+            hiddenSelections[] = {"camo"};
+        };
+    };
+
+    class CLASS(Cap_Blackcow): H_Cap_red {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Blackcow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
+    };
+    class CLASS(Cap_Tancow): H_Cap_red {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Tancow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
+    };
+
+    class CLASS(Cap_Earpiece_Blackcow): H_Cap_red {
+        MACRO_EARPIECE_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayname = CSTRING(Cap_Earpiece_Blackcow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
+    };
+    class CLASS(Cap_Earpiece_Tancow): H_Cap_red {
+        MACRO_EARPIECE_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayname = CSTRING(Cap_Earpiece_Tancow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
+    };
+
+    class CLASS(Cap_Backwards_Blackcow): H_Cap_red {
+        MACRO_BACKWARDS_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Backwards_Blackcow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_blackcow_co.paa)};
+    };
+    class CLASS(Cap_Backwards_Tancow): H_Cap_red {
+        MACRO_BACKWARDS_COMMON
+        author = "Pomigit, Jonpas, Rory";
+        displayName = CSTRING(Cap_Backwards_Tancow);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\cap_tancow_co.paa)};
     };
 
 };

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TAC">
+<Project name="DPSO">
     <Package name="RatelMarker">
         <Key ID="STR_dpso_RatelMarker_DisplayName">
             <English>RATEL Marker</English>

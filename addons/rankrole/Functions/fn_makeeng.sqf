@@ -16,5 +16,5 @@ if (hasInterface) then {
     player setVariable ["ace_advanced_fatigue_performanceFactor",1.75, true];
 
 };
-[ format [hint_tpl_default, "Engineer"] ] call DPSO_fnc_hintGlobal;
+[ format [hint_tpl_default, "Engineer"] ] call DPSO_fnc_hint;
 

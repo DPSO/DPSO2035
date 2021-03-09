@@ -7,15 +7,15 @@ class CfgPatches
 		author = AUTHOR;
 		name = COMPONENT_NAME;
 		url = URL;
-		units[] = {
-            "dpso_operator_990",
-            "dpso_operator_991",
-            "dpso_operator_992",
-            "dpso_operator_993",
-            "dpso_flight_crew_999"
-        };
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
+		units[] = {};
+		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredAddons[] = {
+			"A3_UI_F",
+			"cba_main",
+			"cba_xeh",
+			"cba_ui",
+            "cba_jr"
+		};
 		version = DPSO_VERSION;
 		authors[] = {"YonV"};
 		weapons[] = {};
@@ -26,7 +26,7 @@ class CfgPatches
 		name = COMPONENT_NAME;
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = REQUIRED_VERSION;
+		requiredVersion = DPSO_REQUIRED_VERSION;
 		requiredAddons[] = {};
         versionDesc = "$STR_DPSO_Addon_Title";
         DPSO_VERSION_CONFIG;
@@ -56,11 +56,22 @@ class CfgFactionClasses {
         side = 7;
     };
     class DPSO_Faction: NO_CATEGORY {
-		displayName = DPSO_FACTION;
+		displayName = "DPSO"; //Faction name in-game
 		icon = LOGO_PATH;
 		priority = 0;
-		side = 1;
+		side = 1; // 1 Blufor 2 opfor 3 independant i think.
 	};
+	class QIPBFT: NO_CATEGORY {
+        displayName = "DPSO QIPBFT";
+        priority = 2;
+        side = 7;
+    };
+	class CLASS(IND) {
+        displayName = "DPSO";
+        icon = LOGO_PATH;
+        side = 2;
+        priority = 2;
+    };
 };
 
 class CfgFunctions {
@@ -77,7 +88,7 @@ class CfgFunctions {
 #include "CfgWorlds.hpp"
 #include "Functions\CHVD\dialog.hpp"
 #include "Functions\YAINA\General\crewNamesTitles.hpp"
-#include "CfgGroups.hpp"
+
 
 class CfgNetworkMessages
 {

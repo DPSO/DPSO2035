@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TAC">
+<Project name="DPSO">
     <Package name="HeavyLifter">
         <Key ID="STR_dpso_HeavyLifter_Helper">
             <English>Heavy Duty Hooks</English>

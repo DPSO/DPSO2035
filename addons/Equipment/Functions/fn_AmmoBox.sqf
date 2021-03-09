@@ -31,10 +31,11 @@ private _Type = _container getVariable ["DPSO_LimitedAmmoSelect", -1];
 if ((_Type isEqualto -1) || (_Type isEqualTo "None")) exitwith {};
 
 call {
-
-	if (_Type isEqualto 0) exitwith {_Type = "Vanilla"};
-	if (_Type isEqualto 1) exitwith {_Type = "Aegis"};
-	if (_Type isEqualto 2) exitwith {_Type = "RHS"};
+	if (_Type isEqualto 0) exitwith {_Type = "SMA-SPS"};
+	if (_Type isEqualto 1) exitwith {_Type = "Winter"};
+	if (_Type isEqualto 2) exitwith {_Type = "NI"};
+    if (_Type isEqualto 3) exitwith {_Type = "CUP"};
+    if (_Type isEqualto 3) exitwith {_Type = "RHS"};
 };
 
 private ["_ContainerItems"];

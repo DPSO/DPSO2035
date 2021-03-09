@@ -8,9 +8,9 @@ class CfgPatches
 		name = NAME;
 		url = URL;
 		units[] = {};
-		requiredVersion = REQUIRED_VERSION;
+		requiredVersion = DPSO_REQUIRED_VERSION;
 		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = VERSION;
+		version = DPSO_VERSION;
 		authors[] = {"Mokka"};
 		weapons[] = {};
 	};

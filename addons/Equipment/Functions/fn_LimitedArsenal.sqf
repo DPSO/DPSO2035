@@ -27,14 +27,14 @@ if (!isServer) exitwith {};
 
 params [
 	"_object",
-	["_Type", "Vanilla"],
+	["_Type", "DPSO"],
 	["_Duration", 0]
 ];
 
 call {
-	if (_Type isEqualto 0) exitwith {_Type = "Vanilla"};
+	if (_Type isEqualto 0) exitwith {_Type = "DPSO"};
 	if (_Type isEqualto 1) exitwith {_Type = "Winter"};
-	if (_Type isEqualto 2) exitwith {_Type = "Aegis"};
+	if (_Type isEqualto 2) exitwith {_Type = "UnderCover"};
     if (_Type isEqualto 3) exitwith {_Type = "RHS"};
 };
 
@@ -51,7 +51,7 @@ private [
 ];
 
 call {
-	if (_Type isEqualTo "Vanilla") exitwith {
+	if (_Type isEqualTo "DPSO") exitwith {
 		_AvailableItems = [
 			"ItemWatch",
 			"ItemCompass",
@@ -107,7 +107,6 @@ call {
 		_AvailableWeapons = [];
 		_AvailableBackpacks = [];
 	};
-
 if (_Type isEqualTo "ACETFAR") exitwith {
 		_AvailableItems = [
 			"ItemWatch",
@@ -233,6 +232,8 @@ if (_type isEqualTo "Aegis") exitwith {
 		_AvailableAttachments = [];
 		_AvailableBackpacks = [];
 	};
+
+
 
 if (_type isEqualTo "RHS") exitwith {
         _AvailableItems = [
