@@ -78,7 +78,6 @@ class CfgVehicles {
 		_generalMacro="Box_NATO_AmmoVeh_F";
 		hiddenSelectionsTextures[]=
 		{
-			"z\dpso\addons\Equipment\data\dpsobox_signs_caa.paa",
             "z\dpso\addons\Equipment\data\ammodpsoA_co.paa",
 		};
         class TransportMagazines
@@ -122,7 +121,6 @@ class CfgVehicles {
 		_generalMacro="Box_NATO_AmmoVeh_F";
 		hiddenSelectionsTextures[]=
 		{
-			"z\dpso\addons\Equipment\data\dpsobox_signs_caa.paa",
             "z\dpso\addons\Equipment\data\ammodpsoCA_co.paa",
 		};
         class TransportMagazines
@@ -167,7 +165,6 @@ class CfgVehicles {
 		_generalMacro="Box_NATO_AmmoVeh_F";
 		hiddenSelectionsTextures[]=
 		{
-			"z\dpso\addons\Equipment\data\dpsobox_signs_caa.paa",
             "z\dpso\addons\Equipment\data\ammodpsoIA_co.paa",
 		};
         class TransportMagazines
