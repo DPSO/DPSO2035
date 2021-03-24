@@ -148,12 +148,12 @@
             <German>Überprüft, ob der Respawn-Dialog deaktiviert ist.</German>
             <French>Vérifie que la boite de dialogue de réapparition soit activé.</French>
         </Key>
-        <Key ID="STR_dpso_Mission_Autotest_dynsim">
+        <Key ID="STR_dpso_Mission_Autotest_DynamicSIM">
             <English>Dynamic Simulation:</English>
             <German>Dynamic Simulation:</German>
             <French>Dynamic Simulation:</French>
         </Key>
-        <Key ID="STR_dpso_Mission_Autotest_dynsimDesc">
+        <Key ID="STR_dpso_Mission_Autotest_DynamicSIMDesc">
             <English>Checks if respawn Dynamic Simulation is disabled.</English>
             <German>Checks if respawn Dynamic Simulation is disabled.</German>
             <French>Checks if respawn Dynamic Simulation is disabled</French>

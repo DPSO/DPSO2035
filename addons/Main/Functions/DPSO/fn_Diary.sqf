@@ -13,8 +13,8 @@ player createDiaryRecord ["Diary", ["Long Range Frequencies",
 <br/><font face='PuristaLight' color='#6C8EBF'>Channel: 3 - Frequency:51Mhz - Detachment 991 Net</font>
 <br/><font face='PuristaLight' color='#6C8EBF'>Channel: 4 - Frequency:52Mhz - Detachment 992 Net</font>
 <br/><font face='PuristaLight' color='#6C8EBF'>Channel: 5 - Frequency:53Mhz - Detachment 993 Net</font>
-<br/><font face='PuristaLight' color='#D3D3D3'>Channel: 6 - Frequency:59Mhz - CAS - Fires</font>
-<br/><font face='PuristaLight' color='#D60025'>Channel: 7 - Frequency:60Mhz - Flight Net</font>
+<br/><font face='PuristaLight' color='#D3D3D3'>Channel: 6 - Frequency:59Mhz - Flight Net</font>
+<br/><font face='PuristaLight' color='#D60025'>Channel: 7 - Frequency:60Mhz - CAS - Fires</font> 
 <br/><font face='PuristaLight' color='#D79B00'>Channel: 8 - Frequency:69Mhz - Air 2 Ground Net - Common on all radios/font>
 "
 ]];

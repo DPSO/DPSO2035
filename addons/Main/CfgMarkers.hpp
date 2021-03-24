@@ -48,5 +48,35 @@ class CfgMarkers {
 		scope = 2;
 		color[] = {1, 1, 1, 1};
 	};
+	class iconassultd {
+		name = "Assult";
+		icon = "z\dpso\addons\Media\images\map\assult.paa";
+		size = 24;
+		shadow = true;
+		scope = 2;
+		color[] = {1, 1, 1, 1};
+	};
+	class iconsupportd {
+		name = "Support";
+		icon = "z\dpso\addons\Media\images\map\support.paa";
+		size = 24;
+		shadow = true;
+		scope = 2;
+		color[] = {1, 1, 1, 1};
+	};
+	class icondpsox {
+		name = "X";
+		icon = "z\dpso\addons\Media\images\map\x.paa";
+		size = 24;
+		shadow = true;
+		scope = 2;
+		color[] = {1, 1, 1, 1};
+	};
+	class hd_dot {
+		scope=01;
+	};
+	class mil_objective	{
+		scope=2;
+	};
 
 };

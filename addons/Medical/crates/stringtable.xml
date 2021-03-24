@@ -8,13 +8,13 @@
 		<Container name="Medical_Crates">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Crates_Title">
-				<Original>DPSO Medical Crates</Original>
+				<English>DPSO Medical Crates</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Crates_Author">
-				<Original>DPSO-Team</Original>
+				<English>DPSO-Team</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Crates_URL">
-				<Original>https://github.com/DPSOmod/DPSO</Original>
+				<English>https://github.com/DPSOmod/DPSO</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -24,83 +24,83 @@
 		<Container name="Crate_Medical">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Default">
-				<Original>Medical Crate (Default)</Original>
+				<English>Medical Crate (Default)</English>
 				<German>Sanitätskiste (Standard)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Default_Open">
-				<Original>Open Medical Crate</Original>
+				<English>Open Medical Crate</English>
 				<German>Sanitätskiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Equipment">
-				<Original>Medical Crate (Equipment)</Original>
+				<English>Medical Crate (Equipment)</English>
 				<German>Sanitätskiste (Ausrüstung)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Equipment_Open">
-				<Original>Open Equipment Crate</Original>
+				<English>Open Equipment Crate</English>
 				<German>Ausrüstungskiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Dressing">
-				<Original>Medical Crate (Dressing)</Original>
+				<English>Medical Crate (Dressing)</English>
 				<German>Sanitätskiste (Verbände)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Dressing_Open">
-				<Original>Open Dressing Crate</Original>
+				<English>Open Dressing Crate</English>
 				<German>Verbandskiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Medicine">
-				<Original>Medical Crate (Medicine)</Original>
+				<English>Medical Crate (Medicine)</English>
 				<German>Sanitätskiste (Medikamente)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Medicine_Open">
-				<Original>Open Medicine Crate</Original>
+				<English>Open Medicine Crate</English>
 				<German>Medikamentenkiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Transfusion">
-				<Original>Medical Crate (Transfusion)</Original>
+				<English>Medical Crate (Transfusion)</English>
 				<German>Sanitätskiste (Infusionen)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Transfusion_Open">
-				<Original>Open Transfusion Crate</Original>
+				<English>Open Transfusion Crate</English>
 				<German>Infusionskiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_TransfusionEx">
-				<Original>Medical Crate (Transfusion+)</Original>
+				<English>Medical Crate (Transfusion+)</English>
 				<German>Sanitätskiste (Infusionen+)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_TransfusionEx_Open">
-				<Original>Open Transfusion+ Crate</Original>
+				<English>Open Transfusion+ Crate</English>
 				<German>Infusionskiste+ öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Ordnance">
-				<Original>Medical Crate (Ordnance)</Original>
+				<English>Medical Crate (Ordnance)</English>
 				<German>Sanitätskiste (Material)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Ordnance_Open">
-				<Original>Open Ordnance Crate</Original>
+				<English>Open Ordnance Crate</English>
 				<German>Materialkiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_Supplies">
-				<Original>Medical Crate (Supplies)</Original>
+				<English>Medical Crate (Supplies)</English>
 				<German>Sanitätskiste (Nachschub)</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_Supplies_Open">
-				<Original>Open Supply Crate</Original>
+				<English>Open Supply Crate</English>
 				<German>Nachschubkiste öffnen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Crate_Medical_OpenLid">
-				<Original>Open Cover</Original>
+				<English>Open Cover</English>
 				<German>Deckel aufklappen</German>
 			</Key>
 			<Key ID="STR_DPSO_Crate_Medical_CloseLid">
-				<Original>Close Cover</Original>
+				<English>Close Cover</English>
 				<German>Deckel zuklappen</German>
 			</Key>
 			<!-- =============================================================================== -->

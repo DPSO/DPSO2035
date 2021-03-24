@@ -27,7 +27,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply140";
             mass = 50;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -58,7 +58,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_black_co.paa)};
     };
@@ -71,7 +71,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply140";
             mass = 50;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -102,7 +102,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrierfull_green_co.paa)};
     };
@@ -117,7 +117,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -148,7 +148,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_990.paa)};
     };
@@ -161,7 +161,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -192,7 +192,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_990.paa)};
     };
@@ -205,7 +205,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -236,7 +236,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_990.paa)};
     };
@@ -249,7 +249,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -280,7 +280,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_990.paa)};
     };
@@ -293,7 +293,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -324,7 +324,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_990.paa)};
     };
@@ -337,7 +337,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -368,7 +368,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_990.paa)};
     };
@@ -384,7 +384,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -415,7 +415,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_991.paa)};
     };
@@ -428,7 +428,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -459,7 +459,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_991.paa)};
     };
@@ -472,7 +472,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -503,7 +503,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_991.paa)};
     };
@@ -516,7 +516,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -547,7 +547,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_991.paa)};
     };
@@ -560,7 +560,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -591,7 +591,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_991.paa)};
     };
@@ -604,7 +604,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -635,7 +635,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_991.paa)};
     };
@@ -651,7 +651,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -682,7 +682,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_992.paa)};
     };
@@ -695,7 +695,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -726,7 +726,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_992.paa)};
     };
@@ -739,7 +739,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -770,7 +770,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_992.paa)};
     };
@@ -783,7 +783,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -814,7 +814,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_992.paa)};
     };
@@ -827,7 +827,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -858,7 +858,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_992.paa)};
     };
@@ -871,7 +871,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -902,7 +902,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_992.paa)};
     };
@@ -918,7 +918,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -949,7 +949,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_993.paa)};
     };
@@ -962,7 +962,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -993,7 +993,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_993.paa)};
     };
@@ -1006,7 +1006,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1037,7 +1037,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_993.paa)};
     };
@@ -1050,7 +1050,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1081,7 +1081,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_993.paa)};
     };
@@ -1094,7 +1094,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1125,7 +1125,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_993.paa)};
     };
@@ -1138,7 +1138,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1169,7 +1169,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_993.paa)};
     };
@@ -1185,7 +1185,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1216,7 +1216,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_999.paa)};
     };
@@ -1229,7 +1229,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1260,7 +1260,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_999.paa)};
     };
@@ -1273,7 +1273,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1304,7 +1304,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_999.paa)};
     };
@@ -1317,7 +1317,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1348,7 +1348,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_999.paa)};
     };
@@ -1361,7 +1361,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1392,7 +1392,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_999.paa)};
     };
@@ -1405,7 +1405,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1436,7 +1436,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_999.paa)};
     };
@@ -1455,7 +1455,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1486,7 +1486,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_black_co_995.paa)};
     };
@@ -1499,7 +1499,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1530,7 +1530,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_green_co_995.paa)};
     };
@@ -1543,7 +1543,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1574,7 +1574,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_coyote_co_995.paa)};
     };
@@ -1587,7 +1587,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1618,7 +1618,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_khaki_co_995.paa)};
     };
@@ -1631,7 +1631,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1662,7 +1662,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_marpat_co_995.paa)};
     };
@@ -1675,7 +1675,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1706,7 +1706,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
         hiddenSelectionsTextures[] = {QPATHTOF(data\vest_platecarrier_white_co_995.paa)};
     };
@@ -1726,7 +1726,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1757,7 +1757,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -1770,7 +1770,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1801,7 +1801,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green990): V_PlateCarrierGL_rgr {
@@ -1813,7 +1813,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1844,7 +1844,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White990): V_PlateCarrierGL_rgr {
@@ -1856,7 +1856,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1887,7 +1887,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -1903,7 +1903,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1934,7 +1934,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -1947,7 +1947,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -1978,7 +1978,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green991): V_PlateCarrierGL_rgr {
@@ -1990,7 +1990,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2021,7 +2021,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White991): V_PlateCarrierGL_rgr {
@@ -2033,7 +2033,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2064,7 +2064,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2081,7 +2081,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2112,7 +2112,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2125,7 +2125,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2156,7 +2156,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green992): V_PlateCarrierGL_rgr {
@@ -2168,7 +2168,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2199,7 +2199,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White992): V_PlateCarrierGL_rgr {
@@ -2211,7 +2211,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2242,7 +2242,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2257,7 +2257,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2288,7 +2288,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2301,7 +2301,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2332,7 +2332,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green993): V_PlateCarrierGL_rgr {
@@ -2344,7 +2344,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2375,7 +2375,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White993): V_PlateCarrierGL_rgr {
@@ -2387,7 +2387,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2418,7 +2418,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2433,7 +2433,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2464,7 +2464,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2477,7 +2477,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2508,7 +2508,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green999): V_PlateCarrierGL_rgr {
@@ -2520,7 +2520,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2551,7 +2551,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White999): V_PlateCarrierGL_rgr {
@@ -2563,7 +2563,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2594,7 +2594,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2610,7 +2610,7 @@
             hiddenSelections[] = {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2641,7 +2641,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2654,7 +2654,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2685,7 +2685,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_Green995): V_PlateCarrierGL_rgr {
@@ -2697,7 +2697,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2728,7 +2728,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
     class CLASS(Item_Vest_PlateCarrierHeavy_White995): V_PlateCarrierGL_rgr {
@@ -2740,7 +2740,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2771,7 +2771,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2790,7 +2790,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2821,7 +2821,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 990
@@ -2834,7 +2834,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2865,7 +2865,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2879,7 +2879,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2910,7 +2910,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 991
@@ -2923,7 +2923,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2954,7 +2954,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -2968,7 +2968,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -2999,7 +2999,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 992
@@ -3012,7 +3012,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3043,7 +3043,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -3057,7 +3057,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3088,7 +3088,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 993
@@ -3101,7 +3101,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3132,7 +3132,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -3146,7 +3146,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3177,7 +3177,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 999
@@ -3190,7 +3190,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3221,7 +3221,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -3235,7 +3235,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3266,7 +3266,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
 		};
     };
     // carrier 995
@@ -3279,7 +3279,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 90;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3310,7 +3310,7 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };
 
@@ -3325,7 +3325,7 @@
 			hiddenSelections[]= {"camo"};
             containerClass = "Supply180";
             mass = 60;
-            class HitpointsProtectionInfo
+/*             class HitpointsProtectionInfo
 			{
 				class Neck
 				{
@@ -3356,6 +3356,6 @@
 					hitpointName = "HitBody";
 					passThrough = 0.2;
 				};
-			};
+			}; */
         };
     };

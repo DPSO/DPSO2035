@@ -8,13 +8,13 @@
 		<Container name="Backpacks">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_Title">
-				<Original>DPSO Backpacks</Original>
+				<English>DPSO Backpacks</English>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Author">
-				<Original>DPSO-Team</Original>
+				<English>DPSO-Team</English>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_URL">
-				<Original>https://purplesmoke.info</Original>
+				<English>https://purplesmoke.info</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>

@@ -16,4 +16,4 @@ PREP(testRespawnDelay);
 PREP(testRespawnDialog);
 PREP(testRespawnMode);
 PREP(testTargetDebug);
-PREP(testdynsim);
+PREP(testDynamicSIM);
