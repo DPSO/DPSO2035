@@ -7,7 +7,7 @@ class DPSO_Main {
 		file = "z\dpso\Addons\Main\Functions\DPSO";
 		class AddCueCards {};
 		class ArsenalLoadSave {};
-		class Diary {};
+		//class Diary {};
 		class DynamicSim {};
 		class DynamicGroups {};
 		class Earplugs {};

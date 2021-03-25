@@ -84,7 +84,7 @@ class CfgFunctions {
 #include "CfgEden.hpp"
 #include "CfgSettings.hpp"
 #include "CfgVehicleClasses.hpp"
-#include "displayEden.hpp"
+//#include "displayEden.hpp"
 #include "CfgWorlds.hpp"
 #include "Functions\CHVD\dialog.hpp"
 #include "Functions\YAINA\General\crewNamesTitles.hpp"

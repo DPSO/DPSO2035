@@ -72,6 +72,11 @@ _cueCardsData = [
 	[
 		"z\dpso\addons\Media\images\Cue Cards\mfc.paa",
 		"Method of Fire and Control"
+	],
+	// 	13 - Rotary Landing 
+	[
+		"z\dpso\addons\Media\images\Cue Cards\landingb.paa",
+		"Rotary Landing"
 	]
 ];
 
