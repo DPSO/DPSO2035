@@ -7,7 +7,7 @@ class DPSO_Main {
 		file = "z\dpso\Addons\Main\Functions\DPSO";
 		class AddCueCards {};
 		class ArsenalLoadSave {};
-		//class Diary {};
+		class Diary {};
 		class DynamicSim {};
 		class DynamicGroups {};
 		class Earplugs {};
@@ -27,7 +27,7 @@ class DPSO_Main {
 		class GetValues {};
 		class DLog {};
 		class ObjectsMapper {};
-        // class IntLight {};
+        class IntLight {};
 		class noneg {};
 		class novoice { postInit = 1; };
 		class advancedSlingLoadingInit { postInit = 1; };
