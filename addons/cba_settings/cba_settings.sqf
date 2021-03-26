@@ -172,12 +172,12 @@ force force ace_maptools_drawStraightLines = true;
 
 // ACE Medical
 force force ace_medical_ai_enabledFor = 2;
-force force ace_medical_AIDamageThreshold = 1;
-force force ace_medical_bleedingCoefficient = 0.1;
+force force ace_medical_AIDamageThreshold = 0.7 // Decreased AI damage threshold so AI dies in single headshot and few torso taps depending on vest
+force force ace_medical_bleedingCoefficient = 0.5;
 force force ace_medical_blood_bloodLifetime = 900;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 500;
-force force ace_medical_fatalDamageSource = 0;
+force force ace_medical_fatalDamageSource = 0; // Sum of Trauma death condition
 force force ace_medical_feedback_bloodVolumeEffectType = 2;
 force force ace_medical_feedback_painEffectType = 2;
 force force ace_medical_fractureChance = 0.45;
@@ -191,8 +191,8 @@ ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 1;
 force force ace_medical_limping = 2;
 force force ace_medical_painCoefficient = 1;
-force force ace_medical_playerDamageThreshold = 2;
-force force ace_medical_spontaneousWakeUpChance = 0.15;
+force force ace_medical_playerDamageThreshold = 3.5; // Increased damage threshold for players, high caliber weapons should still be fatal
+force force ace_medical_spontaneousWakeUpChance = 0.35; // Stabilised players will wake up fast
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 2.45;
 force force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
@@ -216,14 +216,14 @@ force force ace_medical_treatment_cprSuccessChance = 0.4;
 force force ace_medical_treatment_holsterRequired = 0;
 force force ace_medical_treatment_litterCleanupDelay = 600;
 force force ace_medical_treatment_locationEpinephrine = 0;
-force force ace_medical_treatment_locationPAK = 0;
+force force ace_medical_treatment_locationPAK = 3;
 force force ace_medical_treatment_locationsBoostTraining = true;
-force force ace_medical_treatment_locationSurgicalKit = 0;
+force force ace_medical_treatment_locationSurgicalKit = 0; // Surgical Kit anywhere
 force force ace_medical_treatment_maxLitterObjects = 500;
 force force ace_medical_treatment_medicEpinephrine = 1;
 force force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicPAK = 1;
-force force ace_medical_treatment_medicSurgicalKit = 1;
+force force ace_medical_treatment_medicSurgicalKit = 1; // Medics can stitch
 force force ace_medical_treatment_timeCoefficientPAK = 5;
 force force ace_medical_treatment_treatmentTimeAutoinjector = 5;
 force force ace_medical_treatment_treatmentTimeBodyBag = 15;
@@ -411,7 +411,47 @@ force force acex_viewrestriction_preserveView = true;
 // AI
 force force cfp_autoEquipNVG = true;
 
+// AIME - Change Ammo
+force force AIME_change_ammo_settingAmmoClass = true;
+force force AIME_change_ammo_settingVehicleAmmoClass = true;
+
+// AIME - Group
+force force AIME_group_settingDropLeaderAction = true;
+
+// AIME - Inventory
+force force AIME_inventory_settingAssembleAction = true;
+force force AIME_inventory_settingBackpackAction = true;
+force force AIME_inventory_settingHolderAction = true;
+force force AIME_inventory_settingOpenAction = true;
+
+// AIME - Main
+force force AIME_main_settingHide = true;
+
+// AIME - UAV and GPS Terminals
+force force AIME_uav_terminal_gps_action = true;
+force force AIME_uav_terminal_term_action = true;
+force force AIME_uav_terminal_uav_action = true;
+
+// AIME - Vehicle Controls
+force force AIME_vehicle_controls_settingArtyComputerAction = true;
+force force AIME_vehicle_controls_settingCollisionAction = true;
+force force AIME_vehicle_controls_settingEngineAction = true;
+force force AIME_vehicle_controls_settingFlapsAction = true;
+force force AIME_vehicle_controls_settingGearAction = true;
+force force AIME_vehicle_controls_settingHoverAction = true;
+force force AIME_vehicle_controls_settingLightsAction = true;
+force force AIME_vehicle_controls_settingManualAction = true;
+force force AIME_vehicle_controls_settingUserActions = true;
+
+// AIME - Vehicle Seats
+force force AIME_vehicle_seats_settingChangeAction = true;
+force force AIME_vehicle_seats_settingForceEject = true;
+force force AIME_vehicle_seats_settingGetInAction = true;
+force force AIME_vehicle_seats_settingGetOutAction = true;
+force force AIME_vehicle_seats_settingTurnOutAction = true;
+
 // CBA UI
+cba_diagnostic_ConsoleIndentType = -1;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
@@ -419,7 +459,10 @@ cba_ui_StorePasswords = 1;
 force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = false;
 cba_events_repetitionMode = 1;
-force force cba_optics_usePipOptics = false;
+cba_optics_usePipOptics = false;
+
+// Community Base Addons - Network
+force force cba_network_loadoutValidation = 1;
 
 // CUP
 force force CUP_CheckCfgPatches = true;

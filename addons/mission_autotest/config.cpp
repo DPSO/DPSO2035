@@ -181,6 +181,14 @@ class Cfg3DEN
 							control = "dpso_mission_autotest_targetDebug";
 							defaultValue = "true";
 						};
+						class DynamicSIM
+						{
+							property = "DynamicSIM";
+							displayName = "$STR_dpso_Mission_Autotest_DynamicSIM";
+							tooltip = "$STR_dpso_Mission_Autotest_DynamicSIMDesc";
+							control = "dpso_mission_autotest_DynamicSIM";
+							defaultValue = "False";
+						};
 						class findings
 						{
 							property = "findings";
@@ -682,6 +690,40 @@ class Cfg3DEN
 		class dpso_mission_autotest_targetDebug: Title
 		{
 			attributeLoad = "_this call dpso_mission_autotest_fnc_testTargetDebug";
+			attributeSave = "true";
+			class Controls: Controls
+			{
+				class Title: Title{};
+				class Value: ctrlEdit
+				{
+					idc = 100;
+					type = 2;
+					colorBackground[] = {0,0,0,0.5};
+					text = "";
+					colorText[] = {1,1,1,1};
+					colorDisabled[] = {1,1,1,0.25};
+					colorSelection[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R', 0.77])","(profilenamespace getvariable ['GUI_BCG_RGB_G', 0.51])","(profilenamespace getvariable ['GUI_BCG_RGB_B', 0.08])",1};
+					canModify = 0;
+					autocomplete = "";
+					x = "48 * (pixelW * pixelGrid * 0.50)";
+					y = "0 * 5 * (pixelH * pixelGrid * 0.50)";
+					w = "(82 - (1.5 * 5)) * (pixelW * pixelGrid * 0.50)";
+					h = "5 * (pixelH * pixelGrid * 0.50)";
+				};
+				class Picture: RscPicture
+				{
+					text = "\z\dpso\addons\mission_autotest\UI\pass.paa";
+					idc = 101;
+					x = "(48 + 82 - (1.5 * 5)) * (pixelW * pixelGrid * 0.50)";
+					y = 0;
+					w = "5 * (pixelW * pixelGrid * 0.50)";
+					h = "5 * (pixelH * pixelGrid * 0.50)";
+				};
+			};
+		};
+		class dpso_mission_autotest_DynamicSIM: Title
+		{
+			attributeLoad = "_this call dpso_mission_autotest_fnc_testDynamicSIM";
 			attributeSave = "true";
 			class Controls: Controls
 			{

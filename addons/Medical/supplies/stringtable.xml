@@ -8,13 +8,13 @@
 		<Container name="Medical_Supplies">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Supplies_Title">
-				<Original>DPSO Medical Supplies</Original>
+				<English>DPSO Medical Supplies</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Author">
-				<Original>DPSO-Team</Original>
+				<English>DPSO-Team</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_URL">
-				<Original>https://github.com/DPSOmod/DPSO</Original>
+				<English>https://github.com/DPSOmod/DPSO</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -24,15 +24,15 @@
 		<Container name="Interactions">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Supplies_Action_FirstAid">
-				<Original>Unpack Boo Boo Bag</Original>
+				<English>Unpack Boo Boo Bag</English>
 				<German>Erste-Hilfe-Pack auspacken</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Action_MedicKit">
-				<Original>Unpack Medical Kit</Original>
+				<English>Unpack Medical Kit</English>
 				<German>Verbandskasten auspacken</German>
 			</Key>
             <Key ID="STR_DPSO_Medical_Supplies_Action_mopp">
-				<Original>Unpack MOPP Bag</Original>
+				<English>Unpack MOPP Bag</English>
 				<German>Erste-Hilfe-Pack auspacken</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -43,15 +43,15 @@
 		<Container name="Messages">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Supplies_Progress_FirstAid">
-				<Original>Unpack Boo Boo Bag...</Original>
+				<English>Unpack Boo Boo Bag...</English>
 				<German>Erste-Hilfe-Pack auspacken...</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Progress_MedicKit">
-				<Original>Unpack Medical Kit...</Original>
+				<English>Unpack Medical Kit...</English>
 				<German>Verbandskasten auspacken...</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Progress_mopp">
-				<Original>Unpack faster, come on faster...</Original>
+				<English>Unpack faster, come on faster...</English>
 				<German>Erste-Hilfe-Pack auspacken...</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -62,29 +62,29 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_FirstAid_DisplayName">
-				<Original>Boo Boo Bag</Original>
+				<English>Boo Boo Bag</English>
 				<German>Erste-Hilfe-Pack</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_FirstAid_Description">
-				<Original>Contains material for first aid</Original>
+				<English>Contains material for first aid</English>
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_mopp_DisplayName">
-				<Original>o shit o shit o shit MOPP Bag</Original>
+				<English>o shit o shit o shit MOPP Bag</English>
 				<German>MOPP4</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_mopp_Description">
-				<Original>Contains material for MOPP 4</Original>
+				<English>Contains material for MOPP 4</English>
 				<German>MOPP 4</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_MedicKit_DisplayName">
-				<Original>Medical Kit</Original>
+				<English>Medical Kit</English>
 				<German>Verbandskasten</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_MedicKit_Description">
-				<Original>Contains material for Medics</Original>
+				<English>Contains material for Medics</English>
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->

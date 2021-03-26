@@ -8,13 +8,13 @@
 		<Container name="Medical_Area">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_Title">
-				<Original>DPSO Medical Area</Original>
+				<English>DPSO Medical Area</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Author">
-				<Original>DPSO-Team</Original>
+				<English>DPSO-Team</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_URL">
-				<Original>https://github.com/DPSOmod/DPSO</Original>
+				<English>https://github.com/DPSOmod/DPSO</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -24,12 +24,12 @@
 		<Container name="CBA_Categories">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_CBA_Category">
-				<Original>DPSO Medical</Original>
+				<English>DPSO Medical</English>
 				<German>DPSO Medizinisch</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_CBA_Category_Common">
-				<Original>Dressing Station</Original>
+				<English>Dressing Station</English>
 				<German>Verbandsplatz</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -40,29 +40,29 @@
 		<Container name="CBA_Settings">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_CBA_Construct_Time_Title">
-				<Original>Time to construct</Original>
+				<English>Time to construct</English>
 				<German>Zeit zum Aufbauen</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_CBA_Construct_Time_Tip">
-				<Original>Indicates how much time passes (seconds) until the dressing station is constructed.</Original>
+				<English>Indicates how much time passes (seconds) until the dressing station is constructed.</English>
 				<German>Gibt an, wieviel Zeit vergeht (Sekunden), bis der Verbandsplatz aufgebaut ist.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_CBA_Dismantle_Time_Title">
-				<Original>Time to dismantle</Original>
+				<English>Time to dismantle</English>
 				<German>Zeit zum Abbauen</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_CBA_Dismantle_Time_Tip">
-				<Original>Indicates how much time passes (seconds) until the dressing station is dismantled.</Original>
+				<English>Indicates how much time passes (seconds) until the dressing station is dismantled.</English>
 				<German>Gibt an, wieviel Zeit vergeht (Sekunden), bis der Verbandsplatz abgebaut ist.</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_CBA_Enable_Defibrillator_Title">
-				<Original>Stationary Defibrillator</Original>
+				<English>Stationary Defibrillator</English>
 				<German>Stationärer Defibrillator</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_CBA_Enable_Defibrillator_Tip">
-				<Original>Creates a usable defibrillator (Land_Defibrillator_F).\n(Adjustable in &quot;ADV - ACE CPR&quot;)</Original>
+				<English>Creates a usable defibrillator (Land_Defibrillator_F).\n(Adjustable in &quot;ADV - ACE CPR&quot;)</English>
 				<German>Erstellt einen benutzbaren Defibrillator (Land_Defibrillator_F).\n(Einstellbar in &quot;ADV - ACE CPR&quot;)</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -73,20 +73,20 @@
 		<Container name="Interactions">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_Action_Construct">
-				<Original>Construct Dressing-Station</Original>
+				<English>Construct Dressing-Station</English>
 				<German>Verbandsplatz aufbauen</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Action_Dismantle">
-				<Original>Dismantle Dressing-Station</Original>
+				<English>Dismantle Dressing-Station</English>
 				<German>Verbandsplatz abbauen</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_Action_LightOff">
-				<Original>Light OFF</Original>
+				<English>Light OFF</English>
 				<German>Beleuchtung AUS</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Action_LightOn">
-				<Original>Light ON</Original>
+				<English>Light ON</English>
 				<German>Beleuchtung AN</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -97,20 +97,20 @@
 		<Container name="Messages">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_Progress_Construct">
-				<Original>Construct Dressing-Station...</Original>
+				<English>Construct Dressing-Station...</English>
 				<German>Verbandsplatz aufbauen...</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Progress_Dismantle">
-				<Original>Dismantle Dressing-Station...</Original>
+				<English>Dismantle Dressing-Station...</English>
 				<German>Verbandsplatz abbauen...</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Area_Progress_LightOff">
-				<Original>Remove Lights...</Original>
+				<English>Remove Lights...</English>
 				<German>Beleuchtung abbauen...</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Progress_LightOn">
-				<Original>Install Lights...</Original>
+				<English>Install Lights...</English>
 				<German>Beleuchtung anbringen...</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -121,11 +121,11 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_Area_DisplayName">
-				<Original>Dressing-Station</Original>
+				<English>Dressing-Station</English>
 				<German>Verbandsplatz</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_Area_Description">
-				<Original>Allows the treatment of patients in field</Original>
+				<English>Allows the treatment of patients in field</English>
 				<German>Ermöglicht die Behandlung von Patienten im Feld</German>
 			</Key>
 			<!-- =============================================================================== -->

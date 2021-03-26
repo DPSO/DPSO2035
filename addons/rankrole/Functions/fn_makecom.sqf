@@ -14,6 +14,8 @@ if (hasInterface) then {
     player setUnitTrait ["LoadCoef",.6];
     player setVariable ["ace_advanced_fatigue_performanceFactor",1.75, true];
 
+    daoWhitelisted=TRUE;
+    draWhitelisted=TRUE;
 };
 
 [ format [hint_tpl_default, "Communications"] ] call DPSO_fnc_hint;

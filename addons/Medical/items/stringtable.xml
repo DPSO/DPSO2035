@@ -8,13 +8,13 @@
 		<Container name="Medical_Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Medical_Items_Title">
-				<Original>DPSO Medical Items</Original>
+				<English>DPSO Medical Items</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Items_Author">
-				<Original>DPSO-Team</Original>
+				<English>DPSO-Team</English>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Items_URL">
-				<Original>https://github.com/DPSOmod/DPSO</Original>
+				<English>https://github.com/DPSOmod/DPSO</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -24,11 +24,11 @@
 		<Container name="Item_Medical">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_Stethoscope_DisplayName">
-				<Original>Stethoscope</Original>
+				<English>Stethoscope</English>
 				<German>Stethoskop</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_Stethoscope_Description">
-				<Original>Facilitates the diagnosis of patients</Original>
+				<English>Facilitates the diagnosis of patients</English>
 				<German>Erleichtert die Diagnose von Patienten</German>
 			</Key>
 			<!-- =============================================================================== -->

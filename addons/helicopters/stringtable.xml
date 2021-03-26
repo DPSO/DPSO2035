@@ -8,13 +8,13 @@
 		<Container name="Helicopters">
 			<!-- =============================================================================== -->
 			<Key ID="STR_dpso_Helicopters_Title">
-				<Original>Dropping Purple Smoke Helicopters</Original>
+				<English>Dropping Purple Smoke Helicopters</English>
 			</Key>
 			<Key ID="STR_dpso_Helicopters__Author">
-				<Original>Dropping Purple Smoke-Team</Original>
+				<English>Dropping Purple Smoke-Team</English>
 			</Key>
 			<Key ID="STR_dpso_Helicopters__URL">
-				<Original>https://github.com/ghosts-of-battle/mods</Original>
+				<English>https://github.com/ghosts-of-battle/mods</English>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>

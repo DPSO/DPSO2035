@@ -16,9 +16,9 @@ Public: Yes
 */
 
 [
-    ["TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR"],
+    ["ACRE_PRC117F","ACRE_PRC152","ACRE_PRC343","TFAR_anprc152","TFAR_anprc154","ItemGPS","ALIVE_Tablet","TFAR_rf7800str","TFAR_anprc148jem","ItemAndroid","ACE_microDAGR","ACE_DAGR","ItemcTabHCam","ItemMicroDAGR","ItemcTab","ACE_ATragMX","ACE_DAGR","ACE_HuntIR_monitor","ACE_Kestrel4500","ACE_microDAGR"],
     "Tech",
-    "\z\ace\addons\arsenal\data\iconPublic.paa"
+    "\a3\ui_f\data\GUI\Cfg\CommunicationMenu\call_ca.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
 
 [
@@ -32,3 +32,4 @@ Public: Yes
     "Paint",
     "\z\ace\addons\arsenal\data\iconCustom.paa"
 ] call ace_arsenal_fnc_addRightPanelButton;
+
