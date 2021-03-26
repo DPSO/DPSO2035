@@ -279,13 +279,13 @@ IL_config = IL_config + [
 	[["ADF_ASLAV_base_F"], true, [
 		 [ [0.2,-2.5,-0.5], IL_c_red, IL_attenuation, IL_intensity ]
 	],true],
-	[["dpso_B_Heli_Transport_01_F_Sand"], false, [
+	[["DPSO_B_Heli_Transport_01_F_Sand"], false, [
 		 [ [0,2,0], IL_c_red, IL_attenuation, IL_intensity ]
 	],true],
-	[["dpso_B_Heli_Transport_01_F_Tropic"], false, [
+	[["DPSO_B_Heli_Transport_01_F_Tropic"], false, [
 		 [ [0,2,0], IL_c_red, IL_attenuation, IL_intensity ]
 	],true],
-	[["dpso_B_Heli_Transport_01_F_medic"], false, [
+	[["DPSO_B_Heli_Transport_01_F_medic"], false, [
 		 [ [0,2,0], IL_c_red, IL_attenuation, IL_intensity ]
 	],true]
 ];

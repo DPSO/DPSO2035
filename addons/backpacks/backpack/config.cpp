@@ -8,7 +8,7 @@ class CfgPatches
       QCLASS(AssaultPack_m98),
     };
     weapons[] = {};
-    requiredVersion = 1.82;
+    requiredVersion = REQUIRED_VERSION;
     requiredaddons[] = {
         "A3_Characters_F_Beta",
         "A3_Characters_F",

@@ -1,6 +1,6 @@
 #define COMPONENT uniform
 #define COMPONENT_BEAUTIFIED Uniform
-#include "\z\dpso\addons\Main\script_mod.hpp"
+#include "\z\dpso\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_UNIFORM
     #define DEBUG_MODE_FULL

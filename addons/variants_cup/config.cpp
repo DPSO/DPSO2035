@@ -9,10 +9,10 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"dpso_units", "CUP_AirVehicles_C130J"};
-        author = ECSTRING(main,Author);
+        requiredAddons[] = {"DPSO_units", "CUP_AirVehicles_C130J"};
+        author = AUTHOR;
         authors[] = {"GilleeDoo", "Tyrone"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

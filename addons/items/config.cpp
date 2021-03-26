@@ -4,10 +4,10 @@
 class CfgPatches {
 
 	class DPSO_Items {
-		name = "$STR_DPSO_Items_Title";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		name = COMPONENT_NAME;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_main"
+			"DPSO_main"
 		};
 		units[] = {
 			"DPSO_Item_ClothingCard",
@@ -91,11 +91,11 @@ class CfgPatches {
 			"DPSO_Shovel",
 			"DPSO_Wrench"
 		};
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};
-		url = "$STR_DPSO_Items_URL";
+		url = URL;
 		VERSION_CONFIG;
 	};
 

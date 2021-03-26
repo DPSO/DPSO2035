@@ -8,13 +8,13 @@
 		<Container name="Backpacks_Kitbag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_Kitbag_Title">
-				<English>DPSO Backpacks Carryall</English>
+				<Original>DPSO Backpacks Carryall</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,123 +24,123 @@
 		<Container name="Kitbag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BLACK">
-				<English>Kitbag (Black)</English>
+				<Original>Kitbag (Black)</Original>
 				<German>Seesack (Schwarz)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BLACK_MEDIC">
-				<English>Kitbag (Black MED)</English>
+				<Original>Kitbag (Black MED)</Original>
 				<German>Seesack (Schwarz MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BW_D">
-				<English>Kitbag (BW Tropic)</English>
+				<Original>Kitbag (BW Tropic)</Original>
 				<German>Seesack (BW Tropen)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BW_D_MEDIC">
-				<English>Kitbag (BW Tropic MED)</English>
+				<Original>Kitbag (BW Tropic MED)</Original>
 				<German>Seesack (BW Tropen MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BW_W">
-				<English>Kitbag (BW Camo)</English>
+				<Original>Kitbag (BW Camo)</Original>
 				<German>Seesack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_BW_W_MEDIC">
-				<English>Kitbag (BW Camo MED)</English>
+				<Original>Kitbag (BW Camo MED)</Original>
 				<German>Seesack (BW Fleck MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_COYOTE">
-				<English>Kitbag (Coyote)</English>
+				<Original>Kitbag (Coyote)</Original>
 				<German>Seesack (Coyote)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_COYOTE_MEDIC">
-				<English>Kitbag (Coyote MED)</English>
+				<Original>Kitbag (Coyote MED)</Original>
 				<German>Seesack (Coyote MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_DARK">
-				<English>Kitbag (Green Dark)</English>
+				<Original>Kitbag (Green Dark)</Original>
 				<German>Seesack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_DARK_MEDIC">
-				<English>Kitbag (Green Dark MED)</English>
+				<Original>Kitbag (Green Dark MED)</Original>
 				<German>Seesack (Grün Dunkel MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_DGTL">
-				<English>Kitbag (Green Digital)</English>
+				<Original>Kitbag (Green Digital)</Original>
 				<German>Seesack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_DGTL_MEDIC">
-				<English>Kitbag (Green Digital MED)</English>
+				<Original>Kitbag (Green Digital MED)</Original>
 				<German>Seesack (Grün Digital MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_RNGR">
-				<English>Kitbag (Green Ranger)</English>
+				<Original>Kitbag (Green Ranger)</Original>
 				<German>Seesack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_GREEN_RNGR_MEDIC">
-				<English>Kitbag (Green Ranger MED)</English>
+				<Original>Kitbag (Green Ranger MED)</Original>
 				<German>Seesack (Grün Ranger MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_HEX_CAMO">
-				<English>Kitbag (Hex Camo)</English>
+				<Original>Kitbag (Hex Camo)</Original>
 				<German>Seesack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_HEX_CAMO_MEDIC">
-				<English>Kitbag (Hex Camo MED)</English>
+				<Original>Kitbag (Hex Camo MED)</Original>
 				<German>Seesack (Hex Camo MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_HEX_GREEN">
-				<English>Kitbag (Hex Green)</English>
+				<Original>Kitbag (Hex Green)</Original>
 				<German>Seesack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_HEX_GREEN_MEDIC">
-				<English>Kitbag (Hex Green MED)</English>
+				<Original>Kitbag (Hex Green MED)</Original>
 				<German>Seesack (Hex Grün MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MARPAT_D">
-				<English>Kitbag (MARPAT-D)</English>
+				<Original>Kitbag (MARPAT-D)</Original>
 				<German>Seesack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MARPAT_D_MEDIC">
-				<English>Kitbag (MARPAT-D MED)</English>
+				<Original>Kitbag (MARPAT-D MED)</Original>
 				<German>Seesack (MARPAT-D MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MARPAT_W">
-				<English>Kitbag (MARPAT-W)</English>
+				<Original>Kitbag (MARPAT-W)</Original>
 				<German>Seesack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MARPAT_W_MEDIC">
-				<English>Kitbag (MARPAT-W MED)</English>
+				<Original>Kitbag (MARPAT-W MED)</Original>
 				<German>Seesack (MARPAT-W MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MTP">
-				<English>Kitbag (MTP)</English>
+				<Original>Kitbag (MTP)</Original>
 				<German>Seesack (MTP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_MTP_MEDIC">
-				<English>Kitbag (MTP MED)</English>
+				<Original>Kitbag (MTP MED)</Original>
 				<German>Seesack (MTP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_OCP">
-				<English>Kitbag (OCP)</English>
+				<Original>Kitbag (OCP)</Original>
 				<German>Seesack (OCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_OCP_MEDIC">
-				<English>Kitbag (OCP MED)</English>
+				<Original>Kitbag (OCP MED)</Original>
 				<German>Seesack (OCP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_UCP">
-				<English>Kitbag (UCP)</English>
+				<Original>Kitbag (UCP)</Original>
 				<German>Seesack (UCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_UCP_MEDIC">
-				<English>Kitbag (UCP MED)</English>
+				<Original>Kitbag (UCP MED)</Original>
 				<German>Seesack (UCP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_WDL">
-				<English>Kitbag (Wood Classic)</English>
+				<Original>Kitbag (Wood Classic)</Original>
 				<German>Seesack (Wald Klassisch)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Kitbag_01_WDL_MEDIC">
-				<English>Kitbag (Wood Classic MED)</English>
+				<Original>Kitbag (Wood Classic MED)</Original>
 				<German>Seesack (Wald Klassisch MED)</German>
 			</Key>
 			<!-- =============================================================================== -->

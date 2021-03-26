@@ -212,7 +212,7 @@ class CfgVehicles {
             base = "";
             assembleTo = "";
             displayName = "";
-            dissasembleTo[] = {"dpso_portable_boat_backpack"};
+            dissasembleTo[] = {"DPSO_portable_boat_backpack"};
         };
         class EventHandlers : EventHandlers {
             class dpso_mtc_portable_boat {
@@ -234,7 +234,7 @@ class CfgVehicles {
         class assembleInfo {
             primary = 1;
             base = "";
-            assembleTo = "dpso_mtc_portable_boat_boat";
+            assembleTo = "DPSO_mtc_portable_boat_boat";
             displayName = "Portable Boat";
             dissasembleTo[] = {};
         };

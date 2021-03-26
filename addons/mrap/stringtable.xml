@@ -2,19 +2,19 @@
 <Project name="Arma_Extended_Environment">
 
 	<!-- ####################################################################################### -->
-	<Package name="dpso_Helicopters">
+	<Package name="DPSO_Helicopters">
 
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="Helicopters">
 			<!-- =============================================================================== -->
-			<Key ID="STR_dpso_mrap_Title">
-				<English>Dropping Purple Smoke Helicopters</English>
+			<Key ID="STR_DPSO_mrap_Title">
+				<Original>Dropping Purple Smoke Helicopters</Original>
 			</Key>
-			<Key ID="STR_dpso_mrap_Author">
-				<English>Dropping Purple Smoke-Team</English>
+			<Key ID="STR_DPSO_mrap_Author">
+				<Original>Dropping Purple Smoke-Team</Original>
 			</Key>
-			<Key ID="STR_dpso_mrap_URL">
-				<English>https://github.com/ghosts-of-battle/mods</English>
+			<Key ID="STR_DPSO_mrap_URL">
+				<Original>https://github.com/ghosts-of-battle/mods</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>

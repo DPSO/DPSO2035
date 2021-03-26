@@ -11,16 +11,16 @@ class CfgPatches {
             "qipTPL_Vector_Designator",
             "qipTPL_optic_Nightstalker"
         };
-        requiredVersion = DPSO_REQUIRED_VERSION;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "dpso_MAIN",
+            "DPSO_MAIN",
             "ace_vector",
             "A3_Weapons_F",
             "cba_jr"
         };
         author = AUTHOR;
         authors[] = {"YonV"};
-        DPSO_VERSION_CONFIG;
+        VERSION_CONFIG;
     };
 };
 

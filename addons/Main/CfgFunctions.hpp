@@ -4,10 +4,10 @@ class DPSO_Main {
 	tag = "DPSO";
 	class Main {
 
-		file = "z\dpso\Addons\Main\Functions\DPSO";
+		file = "z\dpso\addons\main\Functions\DPSO";
 		class AddCueCards {};
 		class ArsenalLoadSave {};
-		class Diary {};
+		//class Diary {};
 		class DynamicSim {};
 		class DynamicGroups {};
 		class Earplugs {};
@@ -27,7 +27,7 @@ class DPSO_Main {
 		class GetValues {};
 		class DLog {};
 		class ObjectsMapper {};
-        class IntLight {};
+        // class IntLight {};
 		class noneg {};
 		class novoice { postInit = 1; };
 		class advancedSlingLoadingInit { postInit = 1; };
@@ -41,7 +41,7 @@ class CHVD
 	tag = "CHVD";
 	class script
 	{
-		file = "z\dpso\Addons\Main\Functions\CHVD";
+		file = "z\dpso\addons\main\Functions\CHVD";
 		class onSliderChange {};
 		class onLBSelChanged {};
 		class onLBSelChanged_syncmode {};
@@ -67,7 +67,7 @@ class YAINA_F {
 	tag = "YAINA_F";
 
 	class General {
-		file = "z\dpso\Addons\Main\Functions\YAINA\General";
+		file = "z\dpso\addons\main\Functions\YAINA\General";
 		class crewNames {};
 		class formatDuration {};
 		class showFPS {};

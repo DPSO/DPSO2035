@@ -5,12 +5,12 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = DPSO_REQUIRED_VERSION;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"A3_Ui_F"};
         author = ECSTRING(main,Author);
         authors[] = {"Drofseh"};
         url = ECSTRING(main,URL);
-        DPSO_VERSION_CONFIG;
+        VERSION_CONFIG;
     };
 };
 

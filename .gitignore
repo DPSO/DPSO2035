@@ -1,52 +1,8 @@
-# Exclude documentation output and temp data
-docs/
-tools/DPSO-fundamentals/Working Data
-tools/DPSO-fundamentals/Data
 
-# Exclude the Natural Docs binary files
-tools/Natural Docs
-tools/_Natural Docs
-.git/*
-# IDEA stuff
-.idea/
-.pbo
-*.iml
-
-\.vscode/launch.json
-out/
-\.vscode/settings\.json
-
-
-# Build output
-addons/*.pbo
-
-# Releases
+## Added by HEMTT
 releases/*
-DPSO-Fundamentals/release*
-hemtt
-hemtt.exe
-symbols/*
-
-# Bikey
 *.biprivatekey
-
-
-*.biprivatekey
-hemtt\.exe
-.hemtt/local
-armake2\.exe
 keys/*
-releases/*
+.hemtt/local
 *.pbo
-*.bisign
-
-build.bat
-
-lint.bat
-
-sqf/*
-
-tools/stringtableChecker/node_modules
-
-.vscode/
-*.cache
+####

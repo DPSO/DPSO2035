@@ -1,3 +1,8 @@
+#include "script_component.hpp"
+
+#include "XEH_PREP.sqf"
+
+
 // Reporting AI
 [
     "DPSO_AI_Reporting",

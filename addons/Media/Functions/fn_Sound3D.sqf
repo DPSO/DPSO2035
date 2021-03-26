@@ -13,9 +13,9 @@ Arguments:
 
 Examples:
 	(begin example)
-		[Speaker, "AirRaid", 500] call DPSO_fnc_Sound3D;
-		[Jason, "JohnCena", 250] call DPSO_fnc_Sound3D;
-		[this, "NukeAlarm", 250] call DPSO_fnc_Sound3D;
+		[Speaker, "AirRaid", 500] call dpso_fnc_Sound3D;
+		[Jason, "JohnCena", 250] call dpso_fnc_Sound3D;
+		[this, "NukeAlarm", 250] call dpso_fnc_Sound3D;
 	(end)
 
 Author:

@@ -8,13 +8,13 @@
 		<Container name="Backpacks_Carryall">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_Carryall_Title">
-				<English>DPSO Backpacks Carryall</English>
+				<Original>DPSO Backpacks Carryall</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,131 +24,131 @@
 		<Container name="Carryall">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BLACK">
-				<English>Carryall (Black)</English>
+				<Original>Carryall (Black)</Original>
 				<German>Großer Rucksack (Schwarz)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BLACK_MEDIC">
-				<English>Carryall (Black MED)</English>
+				<Original>Carryall (Black MED)</Original>
 				<German>Großer Rucksack (Schwarz MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BW_D">
-				<English>Carryall (BW Tropic)</English>
+				<Original>Carryall (BW Tropic)</Original>
 				<German>Großer Rucksack (BW Tropen)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BW_D_MEDIC">
-				<English>Carryall (BW Tropic MED)</English>
+				<Original>Carryall (BW Tropic MED)</Original>
 				<German>Großer Rucksack (BW Tropen MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BW_W">
-				<English>Carryall (BW Camo)</English>
+				<Original>Carryall (BW Camo)</Original>
 				<German>Großer Rucksack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_BW_W_MEDIC">
-				<English>Carryall (BW Camo MED)</English>
+				<Original>Carryall (BW Camo MED)</Original>
 				<German>Großer Rucksack (BW Fleck MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_COYOTE">
-				<English>Carryall (Coyote)</English>
+				<Original>Carryall (Coyote)</Original>
 				<German>Großer Rucksack (Coyote)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_COYOTE_MEDIC">
-				<English>Carryall (Coyote MED)</English>
+				<Original>Carryall (Coyote MED)</Original>
 				<German>Großer Rucksack (Coyote MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_DARK">
-				<English>Carryall (Green Dark)</English>
+				<Original>Carryall (Green Dark)</Original>
 				<German>Großer Rucksack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_DARK_MEDIC">
-				<English>Carryall (Green Dark MED)</English>
+				<Original>Carryall (Green Dark MED)</Original>
 				<German>Großer Rucksack (Grün Dunkel MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_DGTL">
-				<English>Carryall (Green Digital)</English>
+				<Original>Carryall (Green Digital)</Original>
 				<German>Großer Rucksack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_DGTL_MEDIC">
-				<English>Carryall (Green Digital MED)</English>
+				<Original>Carryall (Green Digital MED)</Original>
 				<German>Großer Rucksack (Grün Digital MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_RNGR">
-				<English>Carryall (Green Ranger)</English>
+				<Original>Carryall (Green Ranger)</Original>
 				<German>Großer Rucksack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_GREEN_RNGR_MEDIC">
-				<English>Carryall (Green Ranger MED)</English>
+				<Original>Carryall (Green Ranger MED)</Original>
 				<German>Großer Rucksack (Grün Ranger MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_HEX_CAMO">
-				<English>Carryall (Hex Camo)</English>
+				<Original>Carryall (Hex Camo)</Original>
 				<German>Großer Rucksack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_HEX_CAMO_MEDIC">
-				<English>Carryall (Hex Camo MED)</English>
+				<Original>Carryall (Hex Camo MED)</Original>
 				<German>Großer Rucksack (Hex Camo MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_HEX_GREEN">
-				<English>Carryall (Hex Green)</English>
+				<Original>Carryall (Hex Green)</Original>
 				<German>Großer Rucksack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_HEX_GREEN_MEDIC">
-				<English>Carryall (Hex Green MED)</English>
+				<Original>Carryall (Hex Green MED)</Original>
 				<German>Großer Rucksack (Hex Grün MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MARPAT_D">
-				<English>Carryall (MARPAT-D)</English>
+				<Original>Carryall (MARPAT-D)</Original>
 				<German>Großer Rucksack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MARPAT_D_MEDIC">
-				<English>Carryall (MARPAT-D MED)</English>
+				<Original>Carryall (MARPAT-D MED)</Original>
 				<German>Großer Rucksack (MARPAT-D MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MARPAT_W">
-				<English>Carryall (MARPAT-W)</English>
+				<Original>Carryall (MARPAT-W)</Original>
 				<German>Großer Rucksack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MARPAT_W_MEDIC">
-				<English>Carryall (MARPAT-W MED)</English>
+				<Original>Carryall (MARPAT-W MED)</Original>
 				<German>Großer Rucksack (MARPAT-W MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MTP">
-				<English>Carryall (MTP)</English>
+				<Original>Carryall (MTP)</Original>
 				<German>Großer Rucksack (MTP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_MTP_MEDIC">
-				<English>Carryall (MTP MED)</English>
+				<Original>Carryall (MTP MED)</Original>
 				<German>Großer Rucksack (MTP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_OCP">
-				<English>Carryall (OCP)</English>
+				<Original>Carryall (OCP)</Original>
 				<German>Großer Rucksack (OCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_OCP_MEDIC">
-				<English>Carryall (OCP MED)</English>
+				<Original>Carryall (OCP MED)</Original>
 				<German>Großer Rucksack (OCP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_UCP">
-				<English>Carryall (UCP)</English>
+				<Original>Carryall (UCP)</Original>
 				<German>Großer Rucksack (UCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_UCP_MEDIC">
-				<English>Carryall (UCP MED)</English>
+				<Original>Carryall (UCP MED)</Original>
 				<German>Großer Rucksack (UCP MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_WDL">
-				<English>Carryall (Wood Classic)</English>
+				<Original>Carryall (Wood Classic)</Original>
 				<German>Großer Rucksack (Wald Klassisch)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_WDL_MEDIC">
-				<English>Carryall (Wood Classic MED)</English>
+				<Original>Carryall (Wood Classic MED)</Original>
 				<German>Großer Rucksack (Wald Klassisch MED)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_WDL2">
-				<English>Carryall (Woodland)</English>
+				<Original>Carryall (Woodland)</Original>
 				<German>Großer Rucksack (Waldtarn)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_Carryall_01_WDL2_MEDIC">
-				<English>Carryall (Woodland MED)</English>
+				<Original>Carryall (Woodland MED)</Original>
 				<German>Großer Rucksack (Waldtarn MED)</German>
 			</Key>
 			<!-- =============================================================================== -->

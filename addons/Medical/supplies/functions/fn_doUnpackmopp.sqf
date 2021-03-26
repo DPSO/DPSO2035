@@ -64,7 +64,7 @@ if (isNull _unit) exitWith {};
 		private _overflow = true;
 
 			[_unit, "U_B_CBRN_Suit_01_MTP_F",1, _order, _overflow] call DPSO_fnc_addItem;
-			[_unit, "dpso_Respirator_Black",1, _order, _overflow] call DPSO_fnc_addItem;
+			[_unit, "DPSO_Respirator_Black",1, _order, _overflow] call DPSO_fnc_addItem;
 			[_unit, "ACE_adenosine",4, _order, _overflow] call DPSO_fnc_addItem;
 
 

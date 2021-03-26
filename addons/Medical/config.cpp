@@ -5,9 +5,9 @@ class CfgPatches {
 
 	class DPSO_medical {
 		author = AUTHOR;
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_MAIN",
+			"DPSO_MAIN",
             "ace_arsenal",
             "cba_main",
             "ace_medical",

@@ -43,11 +43,11 @@ class CfgPatches
         QCLASS(H_HelmetB_trop)
 
     };
-    requiredVersion = DPSO_REQUIRED_VERSION;
+    requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
         "A3_Characters_F_EPB"
     };
-    version = DPSO_VERSION;
+    version = VERSION;
     author = AUTHOR;
 
   };

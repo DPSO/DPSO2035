@@ -8,7 +8,7 @@ class CfgWeapons {
 
 	class DPSO_ClothingCard: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_ClothingCard_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_ClothingCard_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\ClothingCard.jpg";
@@ -23,7 +23,7 @@ class CfgWeapons {
 
 	class DPSO_WeaponCard: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_WeaponCard_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_WeaponCard_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\WeaponCard.jpg";
@@ -40,7 +40,7 @@ class CfgWeapons {
 
 	class DPSO_ProtestSign: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_ProtestSign_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_ProtestSign_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\ProtestSign.jpg";
@@ -57,7 +57,7 @@ class CfgWeapons {
 
 	class DPSO_File_V1: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V1_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_V1_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V1.jpg";
@@ -72,7 +72,7 @@ class CfgWeapons {
 
 	class DPSO_File_V2: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V2_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_V2_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V2.jpg";
@@ -87,7 +87,7 @@ class CfgWeapons {
 
 	class DPSO_File_V3: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V3_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_V3_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V3.jpg";
@@ -102,7 +102,7 @@ class CfgWeapons {
 
 	class DPSO_File_V4: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V4_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_V4_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V4.jpg";
@@ -117,7 +117,7 @@ class CfgWeapons {
 
 	class DPSO_File_V5: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V5_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_V5_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V5.jpg";
@@ -132,7 +132,7 @@ class CfgWeapons {
 
 	class DPSO_MoneyPile: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MoneyPile_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_MoneyPile_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\MoneyPile.jpg";
@@ -147,7 +147,7 @@ class CfgWeapons {
 
 	class DPSO_Notepad: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Notepad_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Notepad_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Notepad.jpg";
@@ -162,7 +162,7 @@ class CfgWeapons {
 
 	class DPSO_Wallet: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Wallet_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Wallet_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Wallet.jpg";
@@ -179,7 +179,7 @@ class CfgWeapons {
 
 	class DPSO_Battery: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Battery_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Battery.jpg";
@@ -194,7 +194,7 @@ class CfgWeapons {
 
 	class DPSO_Battery_Car: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_Car_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Battery_Car_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\CarBattery_V2.jpg";
@@ -209,7 +209,7 @@ class CfgWeapons {
 
 	class DPSO_Battery_Truck: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_Truck_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Battery_Truck_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\CarBattery_V1.jpg";
@@ -224,7 +224,7 @@ class CfgWeapons {
 
 	class DPSO_Camera_V1: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Camera_V1_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Camera_V1_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Camera_V1.jpg";
@@ -239,7 +239,7 @@ class CfgWeapons {
 
 	class DPSO_HandyCam: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_HandyCam_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_HandyCam_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\HandyCam.jpg";
@@ -254,7 +254,7 @@ class CfgWeapons {
 
 	class DPSO_MobilePhone_Old: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MobilePhoneOld_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_MobilePhoneOld_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\MobilePhone_Old.jpg";
@@ -269,7 +269,7 @@ class CfgWeapons {
 
 	class DPSO_MobilePhone_Smart: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MobilePhoneSmart_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_MobilePhoneSmart_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\MobilePhone_Smart.jpg";
@@ -288,7 +288,7 @@ class CfgWeapons {
 
 	class DPSO_Tablet_V1: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Tablet_V1_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Tablet_V1_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Tablet_V1.jpg";
@@ -303,7 +303,7 @@ class CfgWeapons {
 
 	class DPSO_Tablet_V2: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Tablet_V2_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Tablet_V2_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Tablet_V2.jpg";
@@ -318,13 +318,13 @@ class CfgWeapons {
 
 	// TOOLS
 
-	class DPSO_Axe_V1: ACE_ItemCore {
+	class DPSO_dpso_V1: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
-		displayName = "$STR_DPSO_Item_Axe_V1_DisplayName";
-		descriptionShort = "$STR_DPSO_Item_Axe_V1_Description";
-		editorPreview = "\z\dpso\addons\items\data\previews\Axe_V1.jpg";
-		model = "\A3\Structures_F\Items\Tools\Axe_F.p3d";
+		author = AUTHOR;
+		displayName = "$STR_DPSO_Item_axe_V1_DisplayName";
+		descriptionShort = "$STR_DPSO_Item_axe_V1_Description";
+		editorPreview = "\z\dpso\addons\items\data\previews\axe_V1.jpg";
+		model = "\A3\Structures_F\Items\Tools\axe_F.p3d";
 		picture = "\z\dpso\addons\items\data\ui\axe_v1_ca.paa";
 		icon = "iconObject_1x1";
 		mapSize = 0.015;
@@ -333,13 +333,13 @@ class CfgWeapons {
 		};
 	};
 
-	class DPSO_Axe_V2: ACE_ItemCore {
+	class DPSO_dpso_V2: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
-		displayName = "$STR_DPSO_Item_Axe_V2_DisplayName";
-		descriptionShort = "$STR_DPSO_Item_Axe_V2_Description";
-		editorPreview = "\z\dpso\addons\items\data\previews\Axe_V2.jpg";
-		model = "\A3\Structures_F\Items\Tools\Axe_fire_F.p3d";
+		author = AUTHOR;
+		displayName = "$STR_DPSO_Item_axe_V2_DisplayName";
+		descriptionShort = "$STR_DPSO_Item_axe_V2_Description";
+		editorPreview = "\z\dpso\addons\items\data\previews\axe_V2.jpg";
+		model = "\A3\Structures_F\Items\Tools\axe_fire_F.p3d";
 		picture = "\z\dpso\addons\items\data\ui\axe_v2_ca.paa";
 		icon = "iconObject_1x1";
 		mapSize = 0.015;
@@ -350,7 +350,7 @@ class CfgWeapons {
 
 	class DPSO_Bucket: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Bucket_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Bucket_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Bucket.jpg";
@@ -365,7 +365,7 @@ class CfgWeapons {
 
 	class DPSO_CanOpener: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_CanOpener_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_CanOpener_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\CanOpener.jpg";
@@ -380,7 +380,7 @@ class CfgWeapons {
 
 	class DPSO_Crowbar: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Crowbar_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Crowbar_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Crowbar.jpg";
@@ -395,7 +395,7 @@ class CfgWeapons {
 
 	class DPSO_DrillAku: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DrillAku_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_DrillAku_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\DrillAku.jpg";
@@ -410,7 +410,7 @@ class CfgWeapons {
 
 	class DPSO_DuctTape: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DuctTape_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_DuctTape_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\DuctTape.jpg";
@@ -425,7 +425,7 @@ class CfgWeapons {
 
 	class DPSO_File: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_File_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\File.jpg";
@@ -440,7 +440,7 @@ class CfgWeapons {
 
 	class DPSO_FireExtinguisher: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_FireExtinguisher_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_FireExtinguisher_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\FireExtinguisher.jpg";
@@ -455,7 +455,7 @@ class CfgWeapons {
 
 	class DPSO_Hammer: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Hammer_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Hammer_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Hammer.jpg";
@@ -470,7 +470,7 @@ class CfgWeapons {
 
 	class DPSO_MetalWire: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MetalWire_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_MetalWire_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\MetalWire.jpg";
@@ -485,7 +485,7 @@ class CfgWeapons {
 
 	class DPSO_MultiMeter: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MultiMeter_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_MultiMeter_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\MultiMeter.jpg";
@@ -500,7 +500,7 @@ class CfgWeapons {
 
 	class DPSO_Pliers: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Pliers_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Pliers_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Pliers.jpg";
@@ -515,7 +515,7 @@ class CfgWeapons {
 
 	class DPSO_Rope: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Rope_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Rope_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Rope.jpg";
@@ -530,7 +530,7 @@ class CfgWeapons {
 
 	class DPSO_Saw: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Saw_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Saw_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Saw.jpg";
@@ -545,7 +545,7 @@ class CfgWeapons {
 
 	class DPSO_Screwdriver_V1: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Screwdriver_V1_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Screwdriver_V1_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Screwdriver_V1.jpg";
@@ -560,7 +560,7 @@ class CfgWeapons {
 
 	class DPSO_Screwdriver_V2: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Screwdriver_V2_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Screwdriver_V2_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Screwdriver_V2.jpg";
@@ -575,7 +575,7 @@ class CfgWeapons {
 
 	class DPSO_Shovel: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Shovel_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Shovel_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Shovel.jpg";
@@ -590,7 +590,7 @@ class CfgWeapons {
 
 	class DPSO_Wrench: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Wrench_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Wrench_Description";
 		editorPreview = "\z\dpso\addons\items\data\previews\Wrench.jpg";

@@ -5,14 +5,14 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = DPSO_REQUIRED_VERSION;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "dpso_main",
-            "dpso_common"
+            "DPSO_main",
+            "DPSO_common"
         };
         author = "NemesisRE";
         authors[] = {"baermitumlaut", "commy2"};
-        DPSO_VERSION_CONFIG;
+        VERSION_CONFIG;
     };
 };
 

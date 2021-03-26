@@ -5,8 +5,8 @@ class CfgPatches {
 	
 	class ADDON {
 		author = AUTHOR;
-		 name = COMPONENT_NAME;
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		name = COMPONENT_NAME;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
 			"a3_characters_f_enoch"
 		};
@@ -16,7 +16,7 @@ class CfgPatches {
 			"O. Jemineh"
 		};
 		url = URL;
-		version = DPSO_VERSION;
+		version = VERSION;
 	};
 	
 };

@@ -9,16 +9,16 @@ class CfgPatches
 		author = AUTHOR;
 		name = COMPONENT_NAME;
 		url = URL;
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_MAIN"
+			"DPSO_MAIN"
 		};
 		units[] = {};
 		weapons[] = {};
 		authors[] = {
 			"YonV"
 		};
-		version = DPSO_VERSION;
+		version = VERSION;
 	};
 };
 class CBA_Extended_EventHandlers_base;

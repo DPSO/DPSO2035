@@ -8,13 +8,13 @@
 		<Container name="MainMenu">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_MainMenu_Title">
-				<English>DPSO MainMenu</English>
+				<Original>DPSO MainMenu</Original>
 			</Key>
 			<Key ID="STR_DPSO_MainMenu_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_MainMenu_URL">
-				<English>http://armadocs.purplesmoke.info/</English>
+				<Original>http://armadocs.purplesmoke.info/</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,7 +24,7 @@
 		<Container name="VersionInfo">
 			<!-- =============================================================================== -->
 			<Key ID="STR_VERSIONInfo_Tooltip">
-				<English>Download latest and report issues:</English>
+				<Original>Download latest and report issues:</Original>
 				<German>Neuste Version und Probleme melden:</German>
 			</Key>
 			<!-- =============================================================================== -->

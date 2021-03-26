@@ -44,37 +44,37 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_990";
+                        vehicle = "DPSO_operator_990";
                     };
                 };
 
@@ -89,97 +89,97 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit9 {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit11 {
                         position[] = {30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit12 {
                         position[] = {-30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit13 {
                         position[] = {35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit14 {
                         position[] = {-35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                     class Unit15 {
                         position[] = {40,-40,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_991";
+                        vehicle = "DPSO_operator_991";
                     };
                 };
 
@@ -194,97 +194,97 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit9 {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit11 {
                         position[] = {30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit12 {
                         position[] = {-30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit13 {
                         position[] = {35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit14 {
                         position[] = {-35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                     class Unit15 {
                         position[] = {40,-40,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_992";
+                        vehicle = "DPSO_operator_992";
                     };
                 };
 
@@ -299,97 +299,97 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit9 {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit11 {
                         position[] = {30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit12 {
                         position[] = {-30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit13 {
                         position[] = {35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit14 {
                         position[] = {-35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                     class Unit15 {
                         position[] = {40,-40,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_993";
+                        vehicle = "DPSO_operator_993";
                     };
                 };
 
@@ -405,97 +405,97 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit9 {
                         position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit10 {
                         position[] = {-25,-25,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit11 {
                         position[] = {30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit12 {
                         position[] = {-30,-30,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit13 {
                         position[] = {35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit14 {
                         position[] = {-35,-35,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                     class Unit15 {
                         position[] = {40,-40,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_operator_995";
+                        vehicle = "DPSO_operator_995";
                     };
                 };
 
@@ -511,13 +511,13 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                 };
 
@@ -532,25 +532,25 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "dpso_flight_crew_999";
+                        vehicle = "DPSO_flight_crew_999";
                     };
                 };
 

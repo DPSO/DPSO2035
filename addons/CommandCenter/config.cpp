@@ -5,12 +5,12 @@ class CfgPatches
 	class DPSO_CommandCenter
 	{
 		author = AUTHOR;
-		name = NAME;
+		name = COMPONENT_NAME;
 		url = URL;
 		units[] = {};
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = DPSO_VERSION;
+		version = VERSION;
 		authors[] = {"MitchJC", "Mokka"};
 		weapons[] = {};
 	};

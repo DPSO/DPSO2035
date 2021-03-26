@@ -93,7 +93,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Backpacks_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Backpacks_Kitbag_01_BW_W_MEDIC";
 		descriptionShort = "";
 		editorPreview = QPATHTOF(kitbag\data\previews\kitbag_bw_w.jpg);

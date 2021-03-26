@@ -3,7 +3,7 @@ class DPSO_ModulePortableFOB_Camp: Module_F
 	scope = 2;
 	displayName = "Portable FOB - Camp";
 	icon = "\z\dpso\addons\media\images\logo_sm_ca.paa";
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_modulePortableFOB_Camp";
 	functionPriority = 2;
 	isGlobal = 0;
@@ -52,7 +52,7 @@ class DPSO_ModulePortableFOB_Small: Module_F
 	scope = 2;
 	displayName = "Portable FOB - Small";
 	icon = "\z\dpso\addons\media\images\logo_sm_ca.paa";
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_modulePortableFOB_Small";
 	functionPriority = 2;
 	isGlobal = 0;
@@ -113,7 +113,7 @@ class DPSO_ModulePortableFOB_Medium: Module_F
 	scope = 2;
 	displayName = "Portable FOB - Medium";
 	icon = "\z\dpso\addons\media\images\logo_sm_ca.paa";
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_modulePortableFOB_Medium";
 	functionPriority = 2;
 	isGlobal = 0;
@@ -180,7 +180,7 @@ class DPSO_ModulePortableFOB_Large: Module_F
 	scope = 2;
 	displayName = "Portable FOB - Large";
 	icon = "\z\dpso\addons\media\images\logo_sm_ca.paa";
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_modulePortableFOB_Large";
 	functionPriority = 2;
 	isGlobal = 0;

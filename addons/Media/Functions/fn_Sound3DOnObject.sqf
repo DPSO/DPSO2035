@@ -50,7 +50,7 @@ _dummy setPos (getPos _object);
 _dummy attachTo [_object];
 
 // Play sound on the created object
-[_dummy, _SoundClass, _distance, _pitch] call DPSO_fnc_Sound3D;
+[_dummy, _SoundClass, _distance, _pitch] call dpso_fnc_Sound3D;
 
 // Delete the dummy object after the sound is over (according to the config entry)
 [

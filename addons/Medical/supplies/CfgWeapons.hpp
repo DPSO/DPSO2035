@@ -8,7 +8,7 @@ class CfgWeapons {
 
 	class DPSO_FirstAid: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_FirstAid_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_FirstAid_Description";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\firstaid.jpg";
@@ -22,7 +22,7 @@ class CfgWeapons {
 	};
 	class DPSO_mopp: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_mopp_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_mopp_Description";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\mopp.jpg";
@@ -36,7 +36,7 @@ class CfgWeapons {
 	};
 	class DPSO_MedicKit: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_MedicKit_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_MedicKit_Description";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\medickit.jpg";

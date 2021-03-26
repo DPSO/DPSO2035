@@ -9,7 +9,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Medical_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_Stethoscope_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\items\data\previews\stethoscope.jpg";
 		vehicleClass = "Items";

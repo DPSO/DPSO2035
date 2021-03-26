@@ -204,7 +204,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        displayName = CSTRING(Black);
+        displayName = "Arcadian GT (Black)";
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Contractor)};
@@ -223,7 +223,7 @@ class CfgVehicles {
 
     class CLASS(Arcadian_I_Tan): CLASS(Arcadian_I_Black) {
         scope = 2;
-        displayName = CSTRING(Tan);
+        displayName = "Arcadian GT (Tan)";
         editorPreview = QPATHTOF(ui\Arcadian_Tan.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_tan_co.paa)
@@ -240,7 +240,7 @@ class CfgVehicles {
 
     class CLASS(Arcadian_I_Green): CLASS(Arcadian_I_Black) {
         scope = 2;
-        displayName = CSTRING(Green);
+        displayName = "Arcadian GT (Green)";
         editorPreview = QPATHTOF(ui\Arcadian_Green.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_green_co.paa)

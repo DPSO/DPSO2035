@@ -21,7 +21,7 @@ class CfgPatches
 class CfgFunctions {
 	class dpso_rankrole {
 
-		tag = "dpso_rankrole";
+		tag = "DPSO_rankrole";
 		class RankRole {
 
 			file = "z\dpso\addons\rankrole\Functions";

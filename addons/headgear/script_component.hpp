@@ -1,6 +1,6 @@
 #define COMPONENT headgear
 #define COMPONENT_BEAUTIFIED Headgear
-#include "\z\dpso\addons\Main\script_mod.hpp"
+#include "\z\dpso\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_WEAPONS
     #define DEBUG_MODE_FULL

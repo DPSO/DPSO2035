@@ -57,7 +57,7 @@ class CfgPatches {
         QCLASS(survival_uniform_tigerstripe),
         QCLASS(survival_uniform_woodland)
     };
-    requiredVersion = 1.82;
+    requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
         "A3_Characters_F_Beta",
         "A3_Characters_F",

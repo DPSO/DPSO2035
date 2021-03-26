@@ -30,7 +30,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Medical_Area_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_Area_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\area\data\previews\medical_area.jpg";
 		vehicleClass = "Items";

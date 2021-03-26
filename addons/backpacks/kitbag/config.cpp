@@ -4,11 +4,11 @@ class CfgPatches {
 
 	class DPSO_Backpacks_Kitbag {
 		 name = COMPONENT_NAME;
-		addonRootClass = "dpso_backpacks";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		addonRootClass = "DPSO_backpacks";
+		requiredVersion = REQUIRED_VERSION;
 		requiredaddons[] = {
 			"a3_weapons_f_ammoboxes",
-			"dpso_backpacks"
+			"DPSO_backpacks"
 		};
 		units[] = {
 			QCLASS(Kitbag_01_BLACK),

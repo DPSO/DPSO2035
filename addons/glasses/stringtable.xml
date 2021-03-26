@@ -8,13 +8,13 @@
 		<Container name="Glasses">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Title">
-				<English>DPSO Glasses</English>
+				<Original>DPSO Glasses</Original>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,11 +24,11 @@
 		<Container name="Interactions">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Action_Blindfold_PutOn">
-				<English>Blindfold</English>
+				<Original>Blindfold</Original>
 				<German>Augen verbinden</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Action_Blindfold_Remove">
-				<English>Remove blindfold</English>
+				<Original>Remove blindfold</Original>
 				<German>Augenbinde entfernen</German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -39,71 +39,71 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_RegulatorMask_DisplayName">
-				<English>Regulator Facepiece</English>
+				<Original>Regulator Facepiece</Original>
 				<German>Regulierer-Gesichtsmaske</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_RegulatorMask_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Respirator_DisplayName">
-				<English>APR</English>
+				<Original>APR</Original>
 				<German>Atemschutzgerät</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Black_DisplayName">
-				<English>APR (Black)</English>
+				<Original>APR (Black)</Original>
 				<German>Atemschutzgerät (Schwarz)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Black__Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Olive_DisplayName">
-				<English>APR (Olive)</English>
+				<Original>APR (Olive)</Original>
 				<German>Atemschutzgerät (Oliv)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Olive_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Sand_DisplayName">
-				<English>APR (Sand)</English>
+				<Original>APR (Sand)</Original>
 				<German>Atemschutzgerät (Sand)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Respirator_Sand_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Blindfold_Black_DisplayName">
-				<English>Blindfold (fabric, black)</English>
+				<Original>Blindfold (fabric, black)</Original>
 				<German>Augenbinde (Gewebe, schwarz)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Blindfold_Black_Description">
-				<English>Impairs the view of the wearer</English>
+				<Original>Impairs the view of the wearer</Original>
 				<German>Beeinträchtigt die Sicht des Trägers</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Blindfold_White_DisplayName">
-				<English>Blindfold (fabric, white)</English>
+				<Original>Blindfold (fabric, white)</Original>
 				<German>Augenbinde (Gewebe, weiß)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Blindfold_White_Description">
-				<English>Impairs the view of the wearer</English>
+				<Original>Impairs the view of the wearer</Original>
 				<German>Beeinträchtigt die Sicht des Trägers</German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Glasses_Blindfold_White_Blood_DisplayName">
-				<English>Blindfold (fabric, bloody)</English>
+				<Original>Blindfold (fabric, bloody)</Original>
 				<German>Augenbinde (Gewebe, blutig)</German>
 			</Key>
 			<Key ID="STR_DPSO_Glasses_Blindfold_White_Blood_Description">
-				<English>Impairs the view of the wearer</English>
+				<Original>Impairs the view of the wearer</Original>
 				<German>Beeinträchtigt die Sicht des Trägers</German>
 			</Key>
 			<!-- =============================================================================== -->

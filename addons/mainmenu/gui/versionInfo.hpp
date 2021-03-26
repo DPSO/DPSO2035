@@ -31,7 +31,7 @@ class RscDisplayMain: RscStandardDisplay {
                 class Background: Background {};
                 class BackgroundIcon: BackgroundIcon {};
                 class Icon: Icon {
-                    text = "$STR_DPSO_Addon_Logo";
+                    text = "\z\dpso\addons\media\images\logo_sm_ca.paa";
                 };
 
                 class CurrentVersionInfo: RscText {

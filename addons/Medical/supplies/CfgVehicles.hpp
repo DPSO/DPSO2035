@@ -51,7 +51,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_FirstAid_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\firstaid.jpg";
 		vehicleClass = "Items";
@@ -63,7 +63,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_mopp_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\mopp.jpg";
 		vehicleClass = "Items";
@@ -76,7 +76,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Medical_Supplies_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_MedicKit_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\supplies\data\previews\medickit.jpg";
 		vehicleClass = "Items";

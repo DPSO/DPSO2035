@@ -9,7 +9,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_z\dpso\addons\medical_Crates_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Crate_Medical_Default";
 		editorPreview = "\z\dpso\addons\medical\crates\data\previews\medical_crate.jpg";
 		editorCategory = "EdCat_Supplies";

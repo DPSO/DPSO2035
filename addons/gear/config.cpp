@@ -5,11 +5,11 @@ class CfgPatches {
 	
 	class DPSO_Gear {
 		name = "$STR_DPSO_Gear_Title";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {};
 		units[] = {};
 		weapons[] = {};
-		author = "$STR_DPSO_Gear_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

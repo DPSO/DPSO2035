@@ -3,9 +3,9 @@
 class CfgPatches {
 	
 	class DPSO_Medical_Area {
-		name = "$STR_DPSO_Medical_Area_Title";
+		name = COMPONENT_NAME;
 		addonRootClass = "DPSO_Medical";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
 			"a3_props_f_enoch",
 			"DPSO_medical"
@@ -16,7 +16,7 @@ class CfgPatches {
 		weapons[] = {
 			"DPSO_MedicArea"
 		};
-		author = "$STR_DPSO_Medical_Area_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

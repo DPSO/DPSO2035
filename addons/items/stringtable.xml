@@ -8,13 +8,13 @@
 		<Container name="Items">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Items_Title">
-				<English>DPSO Items</English>
+				<Original>DPSO Items</Original>
 			</Key>
 			<Key ID="STR_DPSO_Items_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Items_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,20 +24,20 @@
 		<Container name="Cards">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_ClothingCard_DisplayName">
-				<English>Clothing Card</English>
+				<Original>Clothing Card</Original>
 				<German>Kleidermarke</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_ClothingCard_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_WeaponCard_DisplayName">
-				<English>Weapon Card</English>
+				<Original>Weapon Card</Original>
 				<German>Waffenkarte</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_WeaponCard_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -48,11 +48,11 @@
 		<Container name="Protest">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_ProtestSign_DisplayName">
-				<English>Protest Sign</English>
+				<Original>Protest Sign</Original>
 				<German>Protest-Schild</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_ProtestSign_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -63,74 +63,74 @@
 		<Container name="Intel">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_V1_DisplayName">
-				<English>File (Documents)</English>
+				<Original>File (Documents)</Original>
 				<German>Akte (Dokumente)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_V1_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_V2_DisplayName">
-				<English>File (Research)</English>
+				<Original>File (Research)</Original>
 				<German>Akte (Forschung)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_V2_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_V3_DisplayName">
-				<English>File (Photos)</English>
+				<Original>File (Photos)</Original>
 				<German>Akte (Fotos)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_V3_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_V4_DisplayName">
-				<English>File (Top Secret)</English>
+				<Original>File (Top Secret)</Original>
 				<German>Akte (Streng Geheim)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_V4_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_V5_DisplayName">
-				<English>Document (Top Secret)</English>
+				<Original>Document (Top Secret)</Original>
 				<German>Dokument (Streng Geheim)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_V5_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_MoneyPile_DisplayName">
-				<English>Moneypile</English>
+				<Original>Moneypile</Original>
 				<German>Geldhaufen</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_MoneyPile_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Notepad_DisplayName">
-				<English>Notepad</English>
+				<Original>Notepad</Original>
 				<German>Notizblock</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Notepad_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Wallet_DisplayName">
-				<English>Wallet</English>
+				<Original>Wallet</Original>
 				<German>Brieftasche</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Wallet_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -141,83 +141,83 @@
 		<Container name="Electronics">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Battery_DisplayName">
-				<English>Battery</English>
+				<Original>Battery</Original>
 				<German>Batterie</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Battery_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Battery_Car_DisplayName">
-				<English>Battery (Car)</English>
+				<Original>Battery (Car)</Original>
 				<German>Batterie (Auto)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Battery_Car_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Battery_Truck_DisplayName">
-				<English>Battery (Truck)</English>
+				<Original>Battery (Truck)</Original>
 				<German>Batterie (LKW)</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Battery_Truck_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Camera_V1_DisplayName">
-				<English>Camera</English>
+				<Original>Camera</Original>
 				<German>Kamera</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Camera_V1_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_HandyCam_DisplayName">
-				<English>HandyCam</English>
+				<Original>HandyCam</Original>
 				<German>Handkamera</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_HandyCam_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_MobilePhoneOld_DisplayName">
-				<English>Mobile Phone</English>
+				<Original>Mobile Phone</Original>
 				<German>Mobiltelefon</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_MobilePhoneOld_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_MobilePhoneSmart_DisplayName">
-				<English>Smartphone</English>
+				<Original>Smartphone</Original>
 				<German>Smartphone</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_MobilePhoneSmart_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Tablet_V1_DisplayName">
-				<English>Tablet</English>
+				<Original>Tablet</Original>
 				<German>Tablet</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Tablet_V1_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Tablet_V2_DisplayName">
-				<English>Rugged Tablet</English>
+				<Original>Rugged Tablet</Original>
 				<German>Robustes Tablet</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Tablet_V2_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
@@ -227,174 +227,174 @@
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="Tools">
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_Item_Axe_V1_DisplayName">
-				<English>Axe</English>
+			<Key ID="STR_DPSO_Item_dpso_V1_DisplayName">
+				<Original>Axe</Original>
 				<German>Axt</German>
 			</Key>
-			<Key ID="STR_DPSO_Item_Axe_V1_Description">
-				<English></English>
+			<Key ID="STR_DPSO_Item_dpso_V1_Description">
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_Item_Axe_V2_DisplayName">
-				<English>Axe (Fire)</English>
+			<Key ID="STR_DPSO_Item_dpso_V2_DisplayName">
+				<Original>Axe (Fire)</Original>
 				<German>Axt (Feuerwehr)</German>
 			</Key>
-			<Key ID="STR_DPSO_Item_Axe_V2_Description">
-				<English></English>
+			<Key ID="STR_DPSO_Item_dpso_V2_Description">
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Bucket_DisplayName">
-				<English>Bucket</English>
+				<Original>Bucket</Original>
 				<German>Eimer</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Bucket_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_CanOpener_DisplayName">
-				<English>Can Opener</English>
+				<Original>Can Opener</Original>
 				<German>Dosenöffner</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_CanOpener_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Crowbar_DisplayName">
-				<English>Crowbar</English>
+				<Original>Crowbar</Original>
 				<German>Brecheisen</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Crowbar_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_DrillAku_DisplayName">
-				<English>Akku Drill</English>
+				<Original>Akku Drill</Original>
 				<German>Akkuschrauber</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_DrillAku_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_DuctTape_DisplayName">
-				<English>DuctTape</English>
+				<Original>DuctTape</Original>
 				<German>Klebeband</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_DuctTape_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_File_DisplayName">
-				<English>File</English>
+				<Original>File</Original>
 				<German>Feile</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_File_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_FireExtinguisher_DisplayName">
-				<English>Fire Extinguisher</English>
+				<Original>Fire Extinguisher</Original>
 				<German>Feuerlöscher</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_FireExtinguisher_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Hammer_DisplayName">
-				<English>Hammer</English>
+				<Original>Hammer</Original>
 				<German>Hammer</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Hammer_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_MetalWire_DisplayName">
-				<English>Metal Wire</English>
+				<Original>Metal Wire</Original>
 				<German>Metalldraht</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_MetalWire_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_MultiMeter_DisplayName">
-				<English>MultiMeter</English>
+				<Original>MultiMeter</Original>
 				<German>MultiMeter</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_MultiMeter_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Pliers_DisplayName">
-				<English>Pliers</English>
+				<Original>Pliers</Original>
 				<German>Zange</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Pliers_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Rope_DisplayName">
-				<English>Rope</English>
+				<Original>Rope</Original>
 				<German>Seil</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Rope_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Saw_DisplayName">
-				<English>Saw</English>
+				<Original>Saw</Original>
 				<German>Säge</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Saw_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Screwdriver_V1_DisplayName">
-				<English>Screwdriver (-)</English>
+				<Original>Screwdriver (-)</Original>
 				<German>Schlitzschraubendreher</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Screwdriver_V1_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Screwdriver_V2_DisplayName">
-				<English>Screwdriver (+)</English>
+				<Original>Screwdriver (+)</Original>
 				<German>Kreuzschlitzschraubendreher</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Screwdriver_V2_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Shovel_DisplayName">
-				<English>Shovel</English>
+				<Original>Shovel</Original>
 				<German>Schaufel</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Shovel_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Wrench_DisplayName">
-				<English>Wrench</English>
+				<Original>Wrench</Original>
 				<German>Schraubenschlüssel</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Wrench_Description">
-				<English></English>
+				<Original></Original>
 				<German></German>
 			</Key>
 			<!-- =============================================================================== -->

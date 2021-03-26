@@ -13,10 +13,10 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"dpso_main", "CUP_Wheeled_SUV"};
-        author = ECSTRING(main,Author);
+        requiredAddons[] = {"DPSO_main", "CUP_Wheeled_SUV"};
+        author = AUTHOR;
         authors[] = {"TyroneMF", "GilleeDoo"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

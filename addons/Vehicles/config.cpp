@@ -33,9 +33,9 @@ class CfgPatches
             QCLASS(Polaris_I_AT_Green),
             QCLASS(Polaris_B_AT_Green)
         };
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = DPSO_VERSION;
+		version = VERSION;
 		authors[] = {"MitchJC"};
 		weapons[] = {};
 	};

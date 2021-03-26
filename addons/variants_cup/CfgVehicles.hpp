@@ -8,7 +8,7 @@ class CfgVehicles {
         forceInGarage = 1;
         side = 2;
         faction = QCLASS(IND);
-        author = CSTRING(C130J_Author);
+        author = AUTHOR;
         displayName = CSTRING(C130J_DPSO_Name);
         editorPreview = QPATHTOF(ui\C130J_DPSO.jpg);
         crew = QCLASS(Unit_I_PilotHeli);
@@ -21,7 +21,7 @@ class CfgVehicles {
         class TextureSources {
             class ADDON {
                 displayname = CSTRING(C130J_DPSO_Texture_Name);
-                author = CSTRING(C130J_Author);
+                author = AUTHOR;
                 textures[] = {
                     QPATHTOF(data\dpso_c130j_body_co.paa),
                     QPATHTOF(data\dpso_c130j_wings_co.paa)

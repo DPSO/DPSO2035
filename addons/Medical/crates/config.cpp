@@ -3,9 +3,9 @@
 class CfgPatches {
 	
 	class DPSO_Medical_Crates {
-		name = "$STR_DPSO_Medical_Crates_Title";
+		name = COMPONENT_NAME;
 		addonRootClass = "DPSO_Medical";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
 			"DPSO_medical"
 		};
@@ -20,7 +20,7 @@ class CfgPatches {
 			"DPSO_Crate_Medical_Supplies"
 		};
 		weapons[] = {};
-		author = "$STR_DPSO_Medical_Crates_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

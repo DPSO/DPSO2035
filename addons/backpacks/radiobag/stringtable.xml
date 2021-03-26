@@ -8,13 +8,13 @@
 		<Container name="Backpacks_RadioBag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_RadioBag_Title">
-				<English>DPSO Backpacks RadioBag</English>
+				<Original>DPSO Backpacks RadioBag</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -24,63 +24,63 @@
 		<Container name="RadioBag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BLACK">
-				<English>Radio Pack (Black)</English>
+				<Original>Radio Pack (Black)</Original>
 				<German>Funkrucksack (Schwarz)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BW_D">
-				<English>Radio Pack (BW Tropic)</English>
+				<Original>Radio Pack (BW Tropic)</Original>
 				<German>Funkrucksack (BW Tropen)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BW_W">
-				<English>Radio Pack (BW Camo)</English>
+				<Original>Radio Pack (BW Camo)</Original>
 				<German>Funkrucksack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_COYOTE">
-				<English>Radio Pack (Coyote)</English>
+				<Original>Radio Pack (Coyote)</Original>
 				<German>Funkrucksack (Coyote)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_DARK">
-				<English>Radio Pack (Green Dark)</English>
+				<Original>Radio Pack (Green Dark)</Original>
 				<German>Funkrucksack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_DGTL">
-				<English>Radio Pack (Green Digital)</English>
+				<Original>Radio Pack (Green Digital)</Original>
 				<German>Funkrucksack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_RNGR">
-				<English>Radio Pack (Green Ranger)</English>
+				<Original>Radio Pack (Green Ranger)</Original>
 				<German>Funkrucksack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_HEX_CAMO">
-				<English>Radio Pack (Hex Camo)</English>
+				<Original>Radio Pack (Hex Camo)</Original>
 				<German>Funkrucksack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_HEX_GREEN">
-				<English>Radio Pack (Hex Green)</English>
+				<Original>Radio Pack (Hex Green)</Original>
 				<German>Funkrucksack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MARPAT_D">
-				<English>Radio Pack (MARPAT-D)</English>
+				<Original>Radio Pack (MARPAT-D)</Original>
 				<German>Funkrucksack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MARPAT_W">
-				<English>Radio Pack (MARPAT-W)</English>
+				<Original>Radio Pack (MARPAT-W)</Original>
 				<German>Funkrucksack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MTP">
-				<English>Radio Pack (MTP)</English>
+				<Original>Radio Pack (MTP)</Original>
 				<German>Funkrucksack (MTP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_OCP">
-				<English>Radio Pack (OCP)</English>
+				<Original>Radio Pack (OCP)</Original>
 				<German>Funkrucksack (OCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_UCP">
-				<English>Radio Pack (UCP)</English>
+				<Original>Radio Pack (UCP)</Original>
 				<German>Funkrucksack (UCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_WDL">
-				<English>Radio Pack (Woodland)</English>
+				<Original>Radio Pack (Woodland)</Original>
 				<German>Funkrucksack (Waldtarn)</German>
 			</Key>
 			<!-- =============================================================================== -->

@@ -1,6 +1,6 @@
 #define COMPONENT qip_equipment
 #define COMPONENT_BEAUTIFIED QIP_Equipment
-#include "\z\dpso\addons\Main\script_mod.hpp"
+#include "\z\dpso\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_QIP_EQUIPMENT
     #define DEBUG_MODE_FULL

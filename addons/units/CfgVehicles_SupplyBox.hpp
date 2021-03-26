@@ -2,7 +2,7 @@ class B_supplyCrate_F;
 class CLASS(Box_Uniforms): B_supplyCrate_F {
     dlc = QUOTE(PREFIX);
     scope = 2;
-    author = ECSTRING(main,Author);
+    author = AUTHOR;
     displayName = CSTRING(Box_Uniforms);
 
     transportMaxWeapons = 9001;

@@ -8,7 +8,7 @@ class CfgWeapons {
 
 	class DPSO_Stethoscope: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Medical_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_Stethoscope_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_Stethoscope_Description";
 		editorPreview = "\z\dpso\addons\medical\items\data\previews\stethoscope.jpg";

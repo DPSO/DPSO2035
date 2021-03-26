@@ -10,7 +10,7 @@ Arguments:
 
 Examples:
 	(begin example)
-		[this, "1Section"] call DPSO_fnc_Patches;
+		[this, "1Section"] call dpso_fnc_Patches;
 	(end)
 
 Author:

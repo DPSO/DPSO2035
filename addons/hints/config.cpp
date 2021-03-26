@@ -5,13 +5,13 @@ class CfgPatches {
 
 	class DPSO_Hints {
 		name = COMPONENT_NAME;
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_MAIN"
+			"DPSO_MAIN"
 		};
 		units[] = {};
 		weapons[] = {};
-		author = "$STR_DPSO_Hints_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

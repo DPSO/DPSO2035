@@ -3,7 +3,7 @@ class DPSO_ModuleIED: Module_F
 	scope = 2;
 	displayName = "Create IED";
 	icon = "a3\ui_f\data\GUI\Cfg\Hints\IEDs_CA.paa"; //todo: find better icon
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_moduleMakeIED";
 	functionPriority = 2;
 	isGlobal = 1;

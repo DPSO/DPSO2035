@@ -4,12 +4,12 @@ class CfgPatches
     {
         units[] = {};
         weapons[] = {};
-        requiredVersion = DPSO_REQUIRED_VERSION;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_common"
 		};
-         DPSO_version = DPSO_VERSION;
-        versionStr = DPSO_VERSION_STR;
+        version = VERSION;
+        versionStr = VERSION_STR;
 		author = "diwako";
 		url = URL;
     };

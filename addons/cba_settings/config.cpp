@@ -2,14 +2,14 @@
 
 class CfgPatches {
     class cba_settings_userconfig {
-        name = "$STR_CBA_Settings_Component";
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = DPSO_REQUIRED_VERSION;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_settings"};
-        author = "$STR_CBA_Author";
+        author = AUTHOR;
         authors[] = {"commy2"};
         url = URL;
-        DPSO_VERSION_CONFIG;
+        VERSION_CONFIG;
     };
 };

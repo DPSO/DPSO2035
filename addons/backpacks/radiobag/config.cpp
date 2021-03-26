@@ -4,11 +4,11 @@ class CfgPatches {
 
 	class DPSO_Backpacks_RadioBag {
 		name = COMPONENT_NAME;
-		addonRootClass = "dpso_backpacks";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		addonRootClass = "DPSO_backpacks";
+		requiredVersion = REQUIRED_VERSION;
 		requiredaddons[] = {
 			"a3_supplies_f_enoch_bags",
-			"dpso_backpacks"
+			"DPSO_backpacks"
 		};
 		units[] = {
 			QCLASS(RadioBag_01_BLACK),

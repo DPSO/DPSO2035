@@ -1,27 +1,25 @@
-<p align="center">
-    <img src="https://github.com/DPSO/ARMA_Mod/blob/master/DPSO%20Logo%202020_512h.png" width="480">
-</p>
+# DPSOTEN
+[![](https://img.shields.io/badge/Changelog-Link-orange.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/releases/latest)
+[![](https://img.shields.io/badge/Release-10.0.1-blue.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/releases/latest)
+[![](https://img.shields.io/badge/Github-Wiki-lightgrey.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/wiki)
+[![](https://shields.io/badge/-Discord-131544019032342528?logo=discord&logoColor=fff)](https://discord.gg/xUyxRnp)
+[![](https://img.shields.io/badge/DPSO-WEBSITE-green)](https://armadocs.purplesmoke.info/)
 
-<p align="center">
-    <a href="https://github.com/DPSO/ARMA_Mod/releases/latest">
-        <img src="https://img.shields.io/badge/Version-2.4.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
-    </a>
-    <a href="https://github.com/DPSO/ARMA_Mod/issues">
-        <img src="https://img.shields.io/github/issues-raw/DPSO/ARMA_Mod.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
-    </a>
-    <a href="https://github.com/DPSO/ARMA_Mod/releases">
-        <img src="https://img.shields.io/github/downloads/DPSO/ARMA_Mod/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
-    </a>
-    <a href="https://github.com/DPSO/ARMA_Mod/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
-    </a>
-    <a href="https://travis-ci.org/DPSO/ARMA_Mod">
-        <img src="https://img.shields.io/travis/DPSO/ARMA_Mod.svg?style=flat-square&label=Build" alt="ACE Project Template Build Status">
-    </a>
-</p>
+the next cleaner version
 
-<p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases">ACE3</a>.<br/></strong></sup>
-</p>
 
-# DPSO AddOn Project template
+This is the custom mod for DPSO
+Its based on the following projects
+
+- https://github.com/ArmaForces/Mods - GNU GENERAL PUBLIC LICENSE
+- https://github.com/AXEmod/AXE - GNU General Public License (GPLv3)
+- https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
+- https://github.com/DPSO/TheseusServices - GNU General Public License (GPLv2).
+- https://github.com/last-resort-gaming/LRG-Fundamentals - MIT License
+- https://github.com/quies-in-proelium - Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+
+
+(I know I forgot a few, I will work on getting those mentions put in)
+
+All the code in this mod (listed above) is available in the DPSO Git
+https://github.com/DPSO

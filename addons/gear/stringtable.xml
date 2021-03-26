@@ -8,13 +8,13 @@
 		<Container name="Gear">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Gear_Title">
-				<English>DPSO Gear</English>
+				<Original>DPSO Gear</Original>
 			</Key>
 			<Key ID="STR_DPSO_Gear_Author">
-				<English>DPSO-Team</English>
+				<Original>DPSO-Team</Original>
 			</Key>
 			<Key ID="STR_DPSO_Gear_URL">
-				<English>https://purplesmoke.info</English>
+				<Original>https://purplesmoke.info</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>

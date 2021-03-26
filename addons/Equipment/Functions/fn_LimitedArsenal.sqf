@@ -535,7 +535,7 @@ if (_type isEqualTo "RHS") exitwith {
             "100Rnd_65x39_caseless_khaki_mag_tracer",
             "100Rnd_65x39_caseless_black_mag_tracer",
             "ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",
-            "dpso_30Rnd_65x39_caseless_BlackCamo_mag",
+            "DPSO_30Rnd_65x39_caseless_BlackCamo_mag",
             "ACE_100Rnd_65x39_mx_green",
             "ACE_100Rnd_65x39_mx_yellow",
             "ACE_100Rnd_65x39_mx_tracer_green",

@@ -3,9 +3,9 @@
 class CfgPatches {
 	
 	class DPSO_Medical_Items {
-		name = "$STR_DPSO_Medical_Items_Title";
+		name = COMPONENT_NAME;
 		addonRootClass = "DPSO_Medical";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
 			"a3_props_f_orange",
 			"DPSO_medical"
@@ -16,7 +16,7 @@ class CfgPatches {
 		weapons[] = {
 			"DPSO_Stethoscope"
 		};
-		author = "$STR_DPSO_Medical_Items_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

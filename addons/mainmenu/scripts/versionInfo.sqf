@@ -1,5 +1,5 @@
 #include "\a3\ui_f\hpp\defineResinclDesign.inc"
-#include "\z\dpso\addons\Main\script_mod.hpp"
+#include "\z\dpso\addons\main\script_mod.hpp"
 /*
  *	ARMA EXTENDED ENVIRONMENT
  *	\DPSO_mainmenu\scripts\versionInfo.sqf
@@ -66,7 +66,7 @@ if (profileNamespace getVariable ["DPSO_showNewsOnMainMenu", true]) then {
     (_controlsGroup controlsGroupCtrl IDC_MAIN_INFO_BUTTON) ctrlAddEventHandler ["SetFocus", _fnc_onSetFocus];
     (_controlsGroup controlsGroupCtrl IDC_MAIN_INFO_BUTTON) ctrlAddEventHandler ["KillFocus", _fnc_onKillFocus];
 
-    private _versionStr = getText (configFile >> "CfgPatches" >> "dpso_MAIN" >> "versionStr") splitString ".";
+    private _versionStr = getText (configFile >> "CfgPatches" >> "DPSO_MAIN" >> "versionStr") splitString ".";
     _versionStr resize 3;
     _versionStr = _versionStr joinString ".";
 

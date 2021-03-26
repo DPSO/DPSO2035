@@ -307,9 +307,9 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"DPSO_backpacks", "DPSO_headgear", "DPSO_vests", "DPSO_weapons"};
-        author = ECSTRING(main,Author);
+        author = AUTHOR;
         authors[] = {"Pomigit", "BadHabitz", "Jonpas", "Rory", "Kresky", "Tibernius", "Tyrone"};
-        url = ECSTRING(main,URL);
+        url = URL;
         VERSION_CONFIG;
     };
 };

@@ -1,25 +1,24 @@
 #include "script_component.hpp"
 
-class CfgPatches
+class cfgPatches
 {
-	class DPSO_AI
-	{
-		author = AUTHOR;
-		name = NAME;
-		url = URL;
-		units[] = {};
-		requiredVersion = DPSO_REQUIRED_VERSION;
-		requiredAddons[] = {
-			"cba_main",
-			"cba_xeh"
-		};
-		version = DPSO_VERSION;
-		authors[] = {"MitchJC"};
-		weapons[] = {};
-	};
+    class ADDON
+    {
+        name = COMPONENT_NAME;
+        author = "Nick";
+        url = URL;
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"DPSO_common"};
+        VERSION_CONFIG;
+    };
 };
 
-#include "CfgVehicles.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgWaypoints.hpp"
+#include "CfgModules.hpp"
+
 
 class CfgFunctions {
 

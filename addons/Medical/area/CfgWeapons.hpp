@@ -8,7 +8,7 @@ class CfgWeapons {
 
 	class DPSO_MedicArea: ACE_ItemCore {
 		scope = 2;
-		author = "$STR_DPSO_Medical_Area_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Medical_Area_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_Area_Description";
 		editorPreview = "\z\dpso\addons\medical\area\data\previews\medical_area.jpg";

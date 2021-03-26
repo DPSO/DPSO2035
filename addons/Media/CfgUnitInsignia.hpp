@@ -4,7 +4,7 @@ class CfgUnitInsignia
 	{
 		displayName = "990";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\tabs990.paa";
+		texture = "z\dpso\addons\media\images\patches\tabs990.paa";
 		textureVehicle = "";
 	};
 
@@ -12,7 +12,7 @@ class CfgUnitInsignia
 	{
 		displayName = "991";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\tabs991.paa";
+		texture = "z\dpso\addons\media\images\patches\tabs991.paa";
 		textureVehicle = "";
 	};
 
@@ -20,7 +20,7 @@ class CfgUnitInsignia
 	{
 		displayName = "992";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\992assetouter.paa";
+		texture = "z\dpso\addons\media\images\patches\992assetouter.paa";
 		textureVehicle = "";
 	};
 
@@ -28,7 +28,7 @@ class CfgUnitInsignia
 	{
 		displayName = "992 Tab";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\tabs992.paa";
+		texture = "z\dpso\addons\media\images\patches\tabs992.paa";
 		textureVehicle = "";
 	};
 
@@ -36,56 +36,56 @@ class CfgUnitInsignia
 	{
 		displayName = "992 Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\992-patch-512.paa";
+		texture = "z\dpso\addons\media\images\patches\992-patch-512.paa";
 		textureVehicle = "";
 	};
 	class da993
 	{
 		displayName = "993";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\tabs993.paa";
+		texture = "z\dpso\addons\media\images\patches\tabs993.paa";
 		textureVehicle = "";
 	};
 	class da994
 	{
 		displayName = "DPSO Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\2020patch.paa";
+		texture = "z\dpso\addons\media\images\patches\2020patch.paa";
 		textureVehicle = "";
 	};
 	class da995
 	{
 		displayName = "995";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\dpso_995.paa";
+		texture = "z\dpso\addons\media\images\patches\dpso_995.paa";
 		textureVehicle = "";
 	};
 	class da996
 	{
 		displayName = "DPSO Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\2020patch.paa";
+		texture = "z\dpso\addons\media\images\patches\2020patch.paa";
 		textureVehicle = "";
 	};
 	class da997
 	{
 		displayName = "DPSO Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\2020patch.paa";
+		texture = "z\dpso\addons\media\images\patches\2020patch.paa";
 		textureVehicle = "";
 	};
 	class da998
 	{
 		displayName = "DPSO Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\2020patch.paa";
+		texture = "z\dpso\addons\media\images\patches\2020patch.paa";
 		textureVehicle = "";
 	};
 	class ds999
 	{
 		displayName = "999";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\nomad-patch.paa";
+		texture = "z\dpso\addons\media\images\patches\nomad-patch.paa";
 		textureVehicle = "";
 	};
 
@@ -93,14 +93,14 @@ class CfgUnitInsignia
 	{
 		displayName = "DPSO Logo";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\2020patch.paa";
+		texture = "z\dpso\addons\media\images\patches\2020patch.paa";
 		textureVehicle = "";
 	};
 	class bolo
 	{
 		displayName = "DPSO BOLO";
 		author = AUTHOR;
-		texture = "z\dpso\addons\Media\images\tabsbolo.paa";
+		texture = "z\dpso\addons\media\images\patches\tabsbolo.paa";
 		textureVehicle = "";
 	};
 };

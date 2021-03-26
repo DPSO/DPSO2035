@@ -9,7 +9,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_ClothingCard_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\ClothingCard.jpg";
 		vehicleClass = "Items";
@@ -22,7 +22,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_WeaponCard_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\WeaponCard.jpg";
 		vehicleClass = "Items";
@@ -37,7 +37,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_ProtestSign_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\ProtestSign.jpg";
 		vehicleClass = "Items";
@@ -52,7 +52,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V1_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V1.jpg";
 		vehicleClass = "Items";
@@ -65,7 +65,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V2_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V2.jpg";
 		vehicleClass = "Items";
@@ -78,7 +78,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V3_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V3.jpg";
 		vehicleClass = "Items";
@@ -91,7 +91,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V4_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V4.jpg";
 		vehicleClass = "Items";
@@ -104,7 +104,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_V5_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File_V5.jpg";
 		vehicleClass = "Items";
@@ -117,7 +117,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MoneyPile_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\MoneyPile.jpg";
 		vehicleClass = "Items";
@@ -130,7 +130,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Notepad_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Notepad.jpg";
 		vehicleClass = "Items";
@@ -143,7 +143,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Wallet_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Wallet.jpg";
 		vehicleClass = "Items";
@@ -158,7 +158,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Battery.jpg";
 		vehicleClass = "Items";
@@ -171,7 +171,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_Car_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\CarBattery_V2.jpg";
 		vehicleClass = "Items";
@@ -184,7 +184,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Battery_Truck_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\CarBattery_V1.jpg";
 		vehicleClass = "Items";
@@ -197,7 +197,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Camera_V1_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Camera_V1.jpg";
 		vehicleClass = "Items";
@@ -210,7 +210,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_HandyCam_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\HandyCam.jpg";
 		vehicleClass = "Items";
@@ -223,7 +223,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MobilePhoneOld_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\MobilePhone_Old.jpg";
 		vehicleClass = "Items";
@@ -236,7 +236,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MobilePhoneSmart_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\MobilePhone_Smart.jpg";
 		vehicleClass = "Items";
@@ -249,7 +249,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Tablet_V1_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Tablet_V1.jpg";
 		vehicleClass = "Items";
@@ -262,7 +262,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Tablet_V2_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Tablet_V2.jpg";
 		vehicleClass = "Items";
@@ -277,9 +277,9 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DPSO_V1_DisplayName";
-		editorPreview = "\z\dpso\addons\items\data\previews\Axe_V1.jpg";
+		editorPreview = "\z\dpso\addons\items\data\previews\dpso_V1.jpg";
 		vehicleClass = "Items";
 		class TransportItems {
 			MACRO_ADDITEM(DPSO_DPSO_V1,1);
@@ -290,9 +290,9 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DPSO_V2_DisplayName";
-		editorPreview = "\z\dpso\addons\items\data\previews\Axe_V2.jpg";
+		editorPreview = "\z\dpso\addons\items\data\previews\dpso_V2.jpg";
 		vehicleClass = "Items";
 		class TransportItems {
 			MACRO_ADDITEM(DPSO_DPSO_V2,1);
@@ -303,7 +303,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Bucket_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Bucket.jpg";
 		vehicleClass = "Items";
@@ -316,7 +316,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_CanOpener_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\CanOpener.jpg";
 		vehicleClass = "Items";
@@ -329,7 +329,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Crowbar_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Crowbar.jpg";
 		vehicleClass = "Items";
@@ -342,7 +342,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DrillAku_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\DrillAku.jpg";
 		vehicleClass = "Items";
@@ -355,7 +355,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_DuctTape_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\DuctTape.jpg";
 		vehicleClass = "Items";
@@ -368,7 +368,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_File_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\File.jpg";
 		vehicleClass = "Items";
@@ -381,7 +381,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_FireExtinguisher_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\FireExtinguisher.jpg";
 		vehicleClass = "Items";
@@ -394,7 +394,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Hammer_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Hammer.jpg";
 		vehicleClass = "Items";
@@ -407,7 +407,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MetalWire_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\MetalWire.jpg";
 		vehicleClass = "Items";
@@ -420,7 +420,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_MultiMeter_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\MultiMeter.jpg";
 		vehicleClass = "Items";
@@ -433,7 +433,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Pliers_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Pliers.jpg";
 		vehicleClass = "Items";
@@ -446,7 +446,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Rope_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Rope.jpg";
 		vehicleClass = "Items";
@@ -459,7 +459,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Saw_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Saw.jpg";
 		vehicleClass = "Items";
@@ -472,7 +472,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Screwdriver_V1_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Screwdriver_V1.jpg";
 		vehicleClass = "Items";
@@ -485,7 +485,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Screwdriver_V2_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Screwdriver_V2.jpg";
 		vehicleClass = "Items";
@@ -498,7 +498,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Shovel_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Shovel.jpg";
 		vehicleClass = "Items";
@@ -511,7 +511,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = "$STR_DPSO_Items_Author";
+		author = AUTHOR;
 		displayName = "$STR_DPSO_Item_Wrench_DisplayName";
 		editorPreview = "\z\dpso\addons\items\data\previews\Wrench.jpg";
 		vehicleClass = "Items";

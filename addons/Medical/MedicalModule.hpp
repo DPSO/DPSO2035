@@ -3,7 +3,7 @@ class DPSO_ModuleMedical: Module_F
 	scope = 2;
 	displayName = "Medical Facility";
 	icon = "\z\DPSO Fundamentals\addons\media\images\icons\Medical Area.paa";
-	category = "DPSO_Modules";
+	category = "DPSO";
 	function = "DPSO_fnc_moduleMedicalFacility";
 	functionPriority = 4;
 	isGlobal = 1;

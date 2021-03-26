@@ -9,16 +9,16 @@ class CfgPatches
 		author = AUTHOR;
 		name = COMPONENT_NAME;
 		url = URL;
-		requiredVersion = DPSO_REQUIRED_VERSIONRSION;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_MAIN"
+			"DPSO_MAIN"
 		};
 		units[] = {};
 		weapons[] = {};
 		authors[] = {
 			"YonV"
 		};
-		version = DPSO_VERSION;
+		version = VERSION;
 	};
 };
 class CBA_Extended_EventHandlers_base;
@@ -62,7 +62,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit
@@ -108,7 +108,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit
@@ -156,7 +156,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit
@@ -203,7 +203,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit
@@ -252,7 +252,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit
@@ -300,7 +300,7 @@ class CfgVehicles
 		{
 			class _xx_FirstAidKit
 			{
-				name="dpso_FirstAid";
+				name="DPSO_FirstAid";
 				count=10;
 			};
 			class _xx_Medikit

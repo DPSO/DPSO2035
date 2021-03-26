@@ -4,14 +4,14 @@
 class CfgPatches {
 
 	class DPSO_MainMenu {
-		name = "$STR_DPSO_MainMenu_Title";
-		requiredVersion = DPSO_REQUIRED_VERSION;
+		name = COMPONENT_NAME;
+		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"dpso_MAIN"
+			"DPSO_MAIN"
 		};
 		units[] = {};
 		weapons[] = {};
-		author = "$STR_DPSO_MainMenu_Author";
+		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};

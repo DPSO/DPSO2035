@@ -1,3 +1,12 @@
-#define COMPONENT MAIN
+#define COMPONENT main
 
-#include "\z\dpso\addons\Main\script_mod.hpp"
+#include "\z\dpso\addons\main\script_mod.hpp"
+
+#ifdef DEBUG_ENABLED_MAIN
+    #define DEBUG_MODE_FULL
+#endif
+    #ifdef DEBUG_SETTINGS_MAIN
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
+#endif
+
+#include "\z\dpso\addons\main\script_macros.hpp"

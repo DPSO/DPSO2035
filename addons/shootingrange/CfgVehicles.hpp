@@ -1,8 +1,8 @@
 class CfgVehicles {
     class ACE_Module;
     class GVAR(Module): ACE_Module {
-        author = ECSTRING(main,Author);
-        category = "DPSO_Modules";
+        author = AUTHOR;
+        category = "DPSO";
         displayName = CSTRING(Range);
         function = QFUNC(moduleInit);
         scope = 2;
