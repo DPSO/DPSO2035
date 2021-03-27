@@ -17,7 +17,7 @@ params [
     ["_input",[0,0,0]]
 ];
 
-private _dpsoVersion = getMissionConfigValue ["DPSO_version",[0,0,0]];
+private _dpsoVersion = getMissionConfigValue ["VERSION",[0,0,0]];
 
 ([_dpsoVersion,_input] call EFUNC(common,checkVersionArray));
 

@@ -5,7 +5,7 @@ class CfgPatches
 	class DPSO_Equipment
 	{
 		author = AUTHOR;
-        name = COMPONENT_NAME;
+		 name = COMPONENT_NAME;
 		url = URL;
 		units[] = {};
 		requiredVersion = REQUIRED_VERSION;

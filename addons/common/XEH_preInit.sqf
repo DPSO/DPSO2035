@@ -7,7 +7,7 @@ if is3DEN call {
     call FUNC(edenInit);
 };
 
-isDPSO = ((getMissionConfigValue ["DPSO_version",[0,0,0]] select 0) > 0);
+isDPSO = ((getMissionConfigValue ["VERSION",[0,0,0]] select 0) > 0);
 
 
 // Rig up server event handler for variable sync requests.

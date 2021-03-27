@@ -12,6 +12,6 @@ _text = _text + "<font size='14'>by " + getMissionConfigValue ["Author", ""] +"<
 _text = _text + "<font size='12'>Terrain: " + getText (configFile >> "CfgWorlds" >> worldName >> "description") + "</font>";
 
 
-_text = _text + "<br/><br/><font size='12'>This mission was created using DPSO (DPSO Mission Framework).<br/>DPSO Mod v" + getText (ConfigFile >> "CfgPatches" >> "DPSO_main" >> "versionStr") + "<br/>DPSO Mission Template v" + (getMissionConfigValue ["DPSO_version",[0,0,0]] joinString ".") + "</font>";
+_text = _text + "<br/><br/><font size='12'>This mission was created using DPSO (DPSO Mission Framework).<br/>DPSO Mod v" + getText (ConfigFile >> "CfgPatches" >> "DPSO_main" >> "versionStr") + "<br/>DPSO Mission Template v" + (getMissionConfigValue ["VERSION",[0,0,0]] joinString ".") + "</font>";
 
 player createDiaryRecord ["Diary", ["Credits", _text]];

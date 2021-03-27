@@ -2,8 +2,8 @@
 <Project name="dpso">
     <Package name="Common">
         <Key ID="STR_DPSO_Common_DisplayName">
-            <English>ArmaForces - Common</English>
-            <Polish>ArmaForces - Common</Polish>
+            <English>DPSO - Common</English>
+            <Polish>DPSO - Common</Polish>
         </Key>
         <Key ID="STR_DPSO_Common_Enabled">
             <English>Enable component</English>

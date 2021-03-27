@@ -1,4 +1,4 @@
-name = "DPSO_{{version}}"
+name = "DPSO"
 prefix = "dpso"
 author = "DPSO"
 template = "cba"
@@ -13,7 +13,9 @@ files = [
     "logo_dpso_small_ca.paa",
     "logo_dpso_small_glow_ca.paa",
     "logo_sm_ca.paa",
-    "cow.paa"
+    "cow.paa",
+    "extras/addons",
+    "extras/keys"
     ]
 
 exclude = ["*.psd", "*.png", "*.tga"]
@@ -51,4 +53,10 @@ steps_windows = [
     "echo -^> README.md version ready for commit (ignore until release)!"
 ]
 only_release = true
+show_output = true
+
+[scripts.Publish]
+    steps_windows = [
+        "powershell ./tools/Publish.ps1 {{version}} 1675214293 '@dpso'"
+]
 show_output = true
