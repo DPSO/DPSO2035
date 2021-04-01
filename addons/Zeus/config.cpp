@@ -28,10 +28,4 @@ class cfgPatches
 
 #include "cfgVehicles.hpp"
 
-class Extended_PreInit_EventHandlers {
-    class DPSO_Zeus_Event {
-        init = "call compile preprocessFileLineNumbers 'z\dpso\Addons\Zeus\XEH_preInit.sqf'";
-    };
-};
-
 #include "ZenActions.hpp"

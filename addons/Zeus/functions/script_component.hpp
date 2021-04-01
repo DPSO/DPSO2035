@@ -1,1 +1,1 @@
-#include "\x\zeus_additions\addons\main\script_component.hpp"
+#include "\z\dpso\addons\zeus\script_component.hpp"

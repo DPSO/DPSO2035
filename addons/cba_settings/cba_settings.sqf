@@ -440,41 +440,30 @@ force force CUP_Vehicles_PreventBarrelClip = true;
 force force CUP_staticWeapons_allowMovement = true;
 force force CUP_staticWeapons_allowRotation = true;
 
-// DPSO Adminmenu
-force force DPSO_adminMenu_endLogToRPT = false;
-force force DPSO_adminMenu_printToChat = 1;
-
 // DPSO
-force force DPSO_chat_healUsage = 3;
-force force DPSO_chat_radioUsage = 3;
-force force DPSO_chat_rpUsage = 3;
-force force DPSO_chat_specUsage = 3;
-force force DPSO_chat_tpUsage = 3;
-force force DPSO_chat_whisperUsage = 3;
-force force DPSO_common_weaponSafety = true;
-force force DPSO_spectator_canSpectateAllSides = true;
-force force DPSO_spectator_firstPersonCameraEnabled = true;
-force force DPSO_spectator_followCameraEnabled = true;
-force force DPSO_spectator_freeCameraEnabled = true;
-force force DPSO_spectator_isJIPAllowed = 1;
-force force DPSO_spectator_showGroupMarkers = 1;
+force DPSO_spectator_canSpectateAllSides = true;
+force DPSO_spectator_firstPersonCameraEnabled = true;
+force DPSO_spectator_followCameraEnabled = true;
+force DPSO_spectator_freeCameraEnabled = true;
+force DPSO_spectator_isJIPAllowed = 2;
+force DPSO_spectator_showGroupMarkers = 0;
 
 // DPSO AI
-force force DPSO_AI_AimingAccuracy = 0.1;
-force force DPSO_AI_AimingShake = 0.45;
-force force DPSO_AI_AimingSpeed = 0.3;
-force force DPSO_AI_Commanding = 1;
-force force DPSO_AI_Courage = 1;
-force force DPSO_AI_General = 1;
-force force DPSO_AI_InitialAI = true;
-force force DPSO_AI_ReloadSpeed = 0.5;
-force force DPSO_AI_Reporting = false;
-force force DPSO_AI_SpotDistance = 0.4;
-force force DPSO_AI_SpotTime = 0.2;
+force DPSO_AI_AimingAccuracy = 0.4;
+force DPSO_AI_AimingShake = 0.45;
+force DPSO_AI_AimingSpeed = 0.3;
+force DPSO_AI_Commanding = 1;
+force DPSO_AI_Courage = 1;
+force DPSO_AI_General = 1;
+force DPSO_AI_InitialAI = true;
+force DPSO_AI_ReloadSpeed = 0.5;
+force DPSO_AI_Reporting = false;
+force DPSO_AI_SpotDistance = 0.4;
+force DPSO_AI_SpotTime = 0.2;
 
 // DPSO AI Disembark
 force force DPSO_ai_disembark_enabled = true;
-force force DPSO_ai_disembark_stayInImmobileChance = 0.15;
+force force DPSO_ai_disembark_stayInImmobileChance = 0.299874;
 
 // DPSO Back To Game
 force force DPSO_back_to_game_enableAddon = true;
@@ -482,40 +471,32 @@ force force DPSO_back_to_game_removeBody = true;
 force force DPSO_back_to_game_teleportToLeader = true;
 force force DPSO_back_to_game_teleportToVehicle = true;
 
-// DPSO Channels
-force force DPSO_Channels_CommandDuration = 0;
-force force DPSO_Channels_CommandText = true;
-force force DPSO_Channels_CommandVoice = false;
-force force DPSO_Channels_DirectDuration = 0;
-force force DPSO_Channels_DirectText = true;
-force force DPSO_Channels_DirectVoice = false;
-force force DPSO_Channels_GlobalDuration = 0;
-force force DPSO_Channels_GlobalText = true;
-force force DPSO_Channels_GlobalVoice = false;
-force force DPSO_Channels_GroupDuration = 0;
-force force DPSO_Channels_GroupText = true;
-force force DPSO_Channels_GroupVoice = false;
-force force DPSO_Channels_SideDuration = 0;
-force force DPSO_Channels_SideText = true;
-force force DPSO_Channels_SideVoice = false;
-force force DPSO_Channels_VehicleDuration = 0;
-force force DPSO_Channels_VehicleText = true;
-force force DPSO_Channels_VehicleVoice = false;
+// DPSO Chat Commands
+force force DPSO_chat_healUsage = 3;
+force force DPSO_chat_rpUsage = 3;
+force force DPSO_chat_specUsage = 3;
+force force DPSO_chat_tpUsage = 3;
+force force DPSO_chat_whisperUsage = 3;
 
 // DPSO Common
 force force DPSO_common_weaponSafety = true;
 
+// DPSO core
+force force dpso_tactical_view_enabled = true;
+
 // DPSO Creator Actions
-force force DPSO_CreatorActions_Channels = true;
-force force DPSO_CreatorActions_EndMission = true;
-force force DPSO_CreatorActions_Master = true;
+force DPSO_CreatorActions_Channels = true;
+force DPSO_CreatorActions_EndMission = true;
+force DPSO_CreatorActions_Master = true;
 
 // DPSO Fatigue
-force force DPSO_fatigue_highJogCoef = 0.9;
-force force DPSO_fatigue_highJogCoefEnabled = true;
+force force dpso_fatigue_global_sounds = true;
 
 // DPSO Friendly Fire
 force force DPSO_friendly_fire_loggingEnabled = true;
+
+// DPSO FRIES
+force force DPSO_fries_autoAdd = true;
 
 // DPSO Grass
 force force DPSO_grass_enabled = true;
@@ -524,9 +505,20 @@ force force DPSO_grass_enabled = true;
 force force DPSO_insurgents_enabled_CUP = true;
 force force DPSO_insurgents_enabled_Vanilla = true;
 
+// DPSO Interactions
+force force dpso_interactions_backpack_access_enemy = 0;
+force force dpso_interactions_backpack_access_faction = 2;
+force force dpso_interactions_backpack_access_friendly = 1;
+force force dpso_interactions_backpack_access_hint = true;
+force force dpso_interactions_gear_access_enabled = 1;
+force force dpso_interactions_gear_access_hint = true;
+force force dpso_interactions_global_sounds = true;
+force force dpso_interactions_tapshoulder_ai = false;
+dpso_interactions_tapshoulder_hint = true;
+
 // DPSO Main
 force force DPSO_Main_ArsenalSaveLoad = true;
-force force DPSO_Main_CHViewDistance = false;
+force force DPSO_Main_CHViewDistance = true;
 force force DPSO_Main_CueCards = true;
 force force DPSO_Main_Diary = true;
 force force DPSO_Main_DynamicGroups = true;
@@ -534,7 +526,7 @@ force force DPSO_Main_DynamicSim = false;
 force force DPSO_Main_Earplugs = false;
 force force DPSO_Main_FatigueVanilla = true;
 force force DPSO_Main_FlipVehicle = true;
-force DPSO_Main_FPSCounter = false;
+force force DPSO_Main_FPSCounter = true;
 force force DPSO_Main_LockCamVehicle = false;
 force force DPSO_Main_Logging = false;
 force force DPSO_Main_MapIcons = true;
@@ -547,16 +539,11 @@ force force DPSO_Main_VehicleCrewList = false;
 force force DPSO_Main_ViewDistanceMaxDistance = 10000;
 force force DPSO_Main_ViewDistanceMaxObjectDistance = 10000;
 force force DPSO_Main_ViewDistanceNoGrass = false;
+force force DPSO_Main_VoyagerCompass = false;
 
 // DPSO Medical
-force force DPSO_medical_area_constuct_time = 90;
-force force DPSO_medical_area_dismantle_time = 90;
-force force DPSO_medical_consume_tourniquet = false;
-force force DPSO_medical_return_items = true;
-force force DPSO_medical_return_tourniquets = 1;
-force force DPSO_medical_stethoscope_enabled = true;
-force force DPSO_medical_usage_order_medics = 1;
-force force DPSO_medical_usage_order_responder = 0;
+force force dpso_medical_area_constuct_time = 30;
+force force dpso_medical_area_dismantle_time = 30;
 
 // DPSO Miscellaneous
 force force DPSO_bodybag_destroyChance = 20;
@@ -564,55 +551,39 @@ force force DPSO_bodybag_destroyChance = 20;
 // DPSO Pointing
 force force DPSO_pointing_vehicleEnabled = true;
 
-// DPSO qipBFT - BFT
-force force DPSO_QIPBFT_bft_bftEnabled = true;
-force force DPSO_QIPBFT_bft_friendlySides_CIVILIAN = [0,2];
-force force DPSO_QIPBFT_bft_friendlySides_EAST = [3];
-force force DPSO_QIPBFT_bft_friendlySides_RESISTANCE = [1,3];
-force force DPSO_QIPBFT_bft_friendlySides_WEST = [2];
-force force DPSO_QIPBFT_bft_friendlySidesDynamic = true;
-force force DPSO_QIPBFT_bft_groupIconsInteraction = "hover";
-force force DPSO_QIPBFT_bft_medicalSystem = "ACE";
-force force DPSO_QIPBFT_bft_requireItemGPS = true;
-force force DPSO_QIPBFT_bft_showAIGroups = true;
-force force DPSO_QIPBFT_bft_showAINames = true;
-force force DPSO_QIPBFT_bft_showCivilians = false;
-force force DPSO_QIPBFT_bft_showGroupIcons = true;
-force force DPSO_QIPBFT_bft_showGroupText = true;
-force force DPSO_QIPBFT_bft_showLifeState = true;
-force force DPSO_QIPBFT_bft_showOwnFactionOnly = false;
-force force DPSO_QIPBFT_bft_showOwnGroup = true;
-force force DPSO_QIPBFT_bft_showOwnGroupUnits = true;
-force force DPSO_QIPBFT_bft_showPlayerNames = true;
-force force DPSO_QIPBFT_bft_showUnitNames = true;
-force force DPSO_QIPBFT_bft_teamColors = "ACE";
-force force DPSO_QIPBFT_bft_updateInterval = 0;
-
-// DPSO Quick Actions
-force force DPSO_quickActions_add_detonator = true;
-force force DPSO_quickActions_add_fast_rope = true;
-
-// DPSO Quick Actions
-force force DPSO_quickActions_add_detonator = true;
-force force DPSO_quickActions_add_fast_rope = true;
+// DPSO QS Icons
+force force DPSO_QS_ST_AINames = true;
+force force DPSO_QS_ST_enableGroupIcons = true;
+force force DPSO_QS_ST_gps_enableUnitIcons = true;
+force force DPSO_QS_ST_GPSDist = 1000;
+force force DPSO_QS_ST_GPSshowGroupOnly = false;
+force force DPSO_QS_ST_GPSshowNames = true;
+force force DPSO_QS_ST_groupTextFactionOnly = true;
+force force DPSO_QS_ST_iconMapText = true;
+force force DPSO_QS_ST_iconTextFonts = 5;
+force force DPSO_QS_ST_iconUpdatePulseDelay = 0;
+force force DPSO_QS_ST_map_enableUnitIcons = true;
+force force DPSO_QS_ST_MasterEnable = true;
+force force DPSO_QS_ST_MedicalSystem = 3;
+force force DPSO_QS_ST_showAI = true;
+force force DPSO_QS_ST_showAIGroups = true;
+force force DPSO_QS_ST_showAINames = true;
+force force DPSO_QS_ST_showCivilianIcons = false;
+force force DPSO_QS_ST_showFactionOnly = true;
+force force DPSO_QS_ST_showGroupHudIcons = true;
+force force DPSO_QS_ST_showGroupMapIcons = true;
+force force DPSO_QS_ST_showGroupOnly = false;
+force force DPSO_QS_ST_showMedicalWounded = true;
+force force DPSO_QS_ST_showMOS = false;
+force force DPSO_QS_ST_showMOS_range = 0;
+force force DPSO_QS_ST_showOwnGroup = true;
 
 // DPSO Respawn
 force force DPSO_respawn_enabled = true;
-force force DPSO_respawn_time = 6;
-
-// DPSO Remote Sensors
-force DPSO_remotesensors_enabled = true;
+force force DPSO_respawn_time = 06;
 
 // DPSO Safestart
-force force DPSO_safestart_startLocked = true;
-
-// DPSO Spectator
-force force DPSO_spectator_canSpectateAllSides = false;
-force force DPSO_spectator_firstPersonCameraEnabled = false;
-force force DPSO_spectator_followCameraEnabled = true;
-force force DPSO_spectator_freeCameraEnabled = true;
-force force DPSO_spectator_isJIPAllowed = 1;
-force force DPSO_spectator_showGroupMarkers = 0;
+DPSO_safestart_startLocked = true;
 
 // DPSO Tagging
 force force DPSO_tagging_enabled = true;

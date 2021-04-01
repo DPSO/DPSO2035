@@ -19,7 +19,7 @@ class CfgVehicles
         scope = 2;
         displayName = "Spectator: Show Objective";
         category = "Teamwork";
-        icon = "\z\dpso\addons\common\UI\logo_dpso_small_ca.paa";
+        icon = "\z\dpso\addons\media\images\logo_sm_ca.paa";
         function = QFUNC(objectiveModule);
         functionPriority = 0;
         isGlobal = 2;

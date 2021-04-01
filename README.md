@@ -17,7 +17,6 @@ Its based on the following projects
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
 - https://github.com/DPSO/TheseusServices  - GNU General Public License (GPLv2).
 - https://github.com/last-resort-gaming/LRG-Fundamentals - MIT License
-- https://github.com/quies-in-proelium - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 
 - https://github.com/TMF3/TMF - Offical license: Arma Public License Share-Alike (APL-SA)
 - https://github.com/BourbonWarfare/POTATO - GNU General Public License (GPLv2).
 

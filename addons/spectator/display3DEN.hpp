@@ -14,7 +14,7 @@ class display3DEN
                 {
                     text = "DPSO Spectator Settings";
                     action = "edit3DENMissionAttributes 'DPSO_Spectator_Settings';";
-                    picture = "\z\dpso\addons\common\UI\icon_gear_ca";
+                    picture = "\z\dpso\addons\media\images\Icons\icon_gear_ca.paa";
                 };
             };
         };
