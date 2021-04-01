@@ -11,7 +11,7 @@ the next cleaner version
 This is the custom mod for DPSO
 Its based on the following projects
 
-##Its based on the and inspried by following projects
+##Its based on, and inspried by the following projects
 - https://github.com/ArmaForces/Mods  -  GNU GENERAL PUBLIC LICENSE
 - https://github.com/AXEmod/AXE - GNU General Public License (GPLv3)
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
