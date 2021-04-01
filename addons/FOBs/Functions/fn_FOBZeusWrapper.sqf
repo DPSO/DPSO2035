@@ -9,32 +9,32 @@ private _name = "";
 switch (_size) do {
 	case 0: {
 		_fobs = [
-			[_LR_FOBS_CAMPS] call DPSO_fnc_getKeys,
-			[_LR_FOBS_CAMPS] call DPSO_fnc_getValues,
+			[_DPSO_FOBS_CAMPS] call DPSO_fnc_getKeys,
+			[_DPSO_FOBS_CAMPS] call DPSO_fnc_getValues,
 			0
 		];
 		_name = "Camp";
 	};
 	case 1: {
 		_fobs = [
-			[_LR_FOBS_SMALL] call DPSO_fnc_getKeys,
-			[_LR_FOBS_SMALL] call DPSO_fnc_getValues,
+			[_DPSO_FOBS_SMALL] call DPSO_fnc_getKeys,
+			[_DPSO_FOBS_SMALL] call DPSO_fnc_getValues,
 			0
 		];
 		_name = "Small";
 	};
 	case 2: {
 		_fobs = [
-			[_LR_FOBS_MEDIUM] call DPSO_fnc_getKeys,
-			[_LR_FOBS_MEDIUM] call DPSO_fnc_getValues,
+			[_DPSO_FOBS_MEDIUM] call DPSO_fnc_getKeys,
+			[_DPSO_FOBS_MEDIUM] call DPSO_fnc_getValues,
 			0
 		];
 		_name = "Medium";
 	};
 	case 3: {
 		_fobs = [
-			[_LR_FOBS_LARGE] call DPSO_fnc_getKeys,
-			[_LR_FOBS_LARGE] call DPSO_fnc_getValues,
+			[_DPSO_FOBS_LARGE] call DPSO_fnc_getKeys,
+			[_DPSO_FOBS_LARGE] call DPSO_fnc_getValues,
 			0
 		];
 		_name = "Large";

@@ -2,19 +2,19 @@
  *	ARMA EXTENDED ENVIRONMENT
  *	\z\dpso\addons\medical\area\functions\fn_createActions.sqf
  *	by Ojemineh
- *
+ *	
  *	create medical area interactions
- *
+ *	
  *	Arguments:
  *	0: medical area	- <OBJECT>
  *	1: medical menu	- <OBJECT>
- *
+ *	
  *	Return:
  *	nothing
- *
+ *	
  *	Example:
  *	[area1, menu1] call DPSO_medical_area_fnc_createActions;
- *
+ *	
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ if (Not hasInterface) exitWith {};
 
 // -------------------------------------------------------------------------------------------------
 
-private ["_area", "_menu", "_thislist"];
+private ["_area", "_menu"];
 
 _area = [_this, 0, objNull, [objNull]] call BIS_fnc_param;
 _menu = [_this, 1, objNull, [objNull]] call BIS_fnc_param;
@@ -40,13 +40,13 @@ if (isNull _menu) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 private _medical_area_action_dismantle = [
-	"DPSO_Medical_Area_Action_Dismantle",
+	"DPSO_Medical_Area_Action_Dismantle", 
 	localize "STR_DPSO_Medical_Area_Action_Dismantle",
-	"\z\dpso\addons\medical\data\icons\medical_cross_ca.paa",
+	"\z\dpso\addons\medical\data\icons\medical_cross_ca.paa", 
 	{
-		params ["_target", "_player", "_params"];
+		params ["_target", "_player", "_params"]; 
 		[_player, (_params select 0)] call DPSO_medical_area_fnc_doDismantle;
-	},
+	}, 
 	{
 		params ["_target", "_player", "_params"];
 		[_player, (_params select 0)] call DPSO_medical_area_fnc_canDismantle
@@ -60,13 +60,13 @@ private _medical_area_action_dismantle = [
 // -------------------------------------------------------------------------------------------------
 
 private _medical_area_action_lightoff = [
-	"DPSO_Medical_Area_Action_LightOff",
+	"DPSO_Medical_Area_Action_LightOff", 
 	localize "STR_DPSO_Medical_Area_Action_LightOff",
-	"",
+	"", 
 	{
 		params ["_target", "_player", "_params"];
 		[(_params select 0)] call DPSO_medical_area_fnc_doLightOff;
-	},
+	}, 
 	{
 		params ["_target", "_player", "_params"];
 		[(_params select 0)] call DPSO_medical_area_fnc_canLightOff
@@ -80,13 +80,13 @@ private _medical_area_action_lightoff = [
 // -------------------------------------------------------------------------------------------------
 
 private _medical_area_action_lighton = [
-	"DPSO_Medical_Area_Action_LightOn",
+	"DPSO_Medical_Area_Action_LightOn", 
 	localize "STR_DPSO_Medical_Area_Action_LightOn",
-	"",
+	"", 
 	{
 		params ["_target", "_player", "_params"];
 		[(_params select 0)] call DPSO_medical_area_fnc_doLightOn;
-	},
+	}, 
 	{
 		params ["_target", "_player", "_params"];
 		[(_params select 0)] call DPSO_medical_area_fnc_canLightOn
@@ -96,20 +96,3 @@ private _medical_area_action_lighton = [
 ] call ACE_interact_menu_fnc_createAction;
 
 [_menu, 0, ["ACE_MainActions"], _medical_area_action_lighton] call ACE_interact_menu_fnc_addActionToObject;
-
-// -------------------------------------------------------------------------------------------------
-_thislist = units player;
-private _medical_area_group_heal = [
-	"DPSO_Medical_Area_group_heal",
-	"Group Heal",
-	"",
-	{
-        {_x call ace_medical_treatment_fnc_fullHealLocal} foreach _thislist;
-    },
-	{true},
-	{},
-	[_area]
-] call ACE_interact_menu_fnc_createAction;
-
-[_menu, 0, ["ACE_MainActions"], _medical_area_group_heal] call ACE_interact_menu_fnc_addActionToObject;
-

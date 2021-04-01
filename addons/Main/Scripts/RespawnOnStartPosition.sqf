@@ -6,9 +6,9 @@
 */
 	player disableConversation true;
 	[player ,"NoVoice"] remoteExec ["setSpeaker",0,true];
-
+	
 	call DPSO_fnc_PlayerAddActions;
-
+	
 	{_x addCuratorEditableObjects [[player],FALSE];} count allCurators;
 
 
@@ -22,5 +22,5 @@ if (isNil { player getVariable "StartingPos"; } ) then {
 
 if (DPSO_Main_Earplugs) then {
 
-	[] execVM "z\dpso\addons\main\Scripts\Earplugs\earplugs.sqf";
+	[] execVM "z\dpso\addons\Main\Scripts\Earplugs\earplugs.sqf";
 };

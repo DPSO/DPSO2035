@@ -1,4 +1,4 @@
-#include "\z\dpso\addons\AI\script_component.hpp"
+#include "\z\dpso\addons\ai\script_component.hpp"
 params ["_group","_pos","_attached"];
 
 private _waypoint = currentWaypoint _group;

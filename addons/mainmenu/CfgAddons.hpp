@@ -1,9 +1,9 @@
 class CfgAddons {
-
+	
     class PreloadAddons {
-        class DPSO_mainmenu {
-            list[] = {"DPSO_mainmenu"};
+        class dpso_mainmenu {
+            list[] = {"dpso_mainmenu"};
         };
     };
-
+	
 };

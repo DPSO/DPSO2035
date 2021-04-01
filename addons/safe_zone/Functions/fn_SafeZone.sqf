@@ -35,7 +35,7 @@ _ehCode = compileFinal format [
 	if (_checkObject distance2D %1 < %2) exitWith {
 		deleteVehicle _projectile;
 		hintC ""Denied."";
-		playSound ""Denied"";
+		playSound ""Denied""; 
 	}",
     _SafeZoneLocation,
     _SafeZoneSize

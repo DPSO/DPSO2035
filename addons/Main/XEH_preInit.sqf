@@ -85,7 +85,7 @@
     false,
     true,
     {
-         if (_this && { hasinterface }) then  { call DPSO_fnc_QSRepackMags};
+         if (_this && { hasinterface }) then  { call DPSO_fnc_QSRepackMags};        
     }
 ] call CBA_Settings_fnc_init;
 
@@ -228,11 +228,11 @@
     true,
     true,
     {
-		["DPSO-saveMarkers",{
-            [] call LR_MI_fnc_openDialog;
+		["dpso-saveMarkers",{
+            [] call DPSO_MI_fnc_openDialog;
         },"all"] call CBA_fnc_registerChatCommand;
 
-        [] call LR_MI_fnc_loadNotification;
+        [] call DPSO_MI_fnc_loadNotification;
     }
 ] call CBA_Settings_fnc_init;
 

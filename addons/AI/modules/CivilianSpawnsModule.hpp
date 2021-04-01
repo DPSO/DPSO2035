@@ -3,7 +3,7 @@ class DPSO_ModuleCivilianSpawns: Module_F
 	scope = 2;
 	displayName = "AI Spawn - Civilian";
 	icon = "\z\dpso\addons\media\images\Icons\AI CIV.paa";
-	category = "DPSO";
+	category = QUOTE(PREFIX);
 	function = "DPSO_fnc_moduleCivilianSpawns";
 	functionPriority = 2;
 	isGlobal = 0;

@@ -312,14 +312,14 @@ class Cfg3DEN
                     w = ((ATTRIBUTE_TITLE_W+ATTRIBUTE_CONTENT_W) - (4 * SIZE_M) ) * GRID_W;
                 };
                 
-                class EditBriefingSciptName : EditBriefingShortTitle 
+/*                 class EditBriefingSciptName : EditBriefingShortTitle 
                 {
                     idc = 313207;
                     text = "Script location:";
                     tooltip = "Script location to mission root e.g. briefings\briefing_orbat.sqf";
                     y = 5.3 * SIZE_M * GRID_H;
                     w = ((ATTRIBUTE_TITLE_W+ATTRIBUTE_CONTENT_W) - SIZE_M ) * GRID_W;
-                };
+                }; */
                 
                 class EditBriefingScript : EditBriefingShort
                 {

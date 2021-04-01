@@ -7,7 +7,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = QCLASS(IND);
+        faction = QUOTE(PREFIX);
         author = AUTHOR;
         displayName = CSTRING(C130J_DPSO_Name);
         editorPreview = QPATHTOF(ui\C130J_DPSO.jpg);
@@ -27,8 +27,7 @@ class CfgVehicles {
                     QPATHTOF(data\dpso_c130j_wings_co.paa)
                 };
                 factions[] = {
-                    QCLASS(IND),
-                    "DPSO_Faction"
+                    PREFIX
                 };
             };
         };
@@ -38,7 +37,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = "DPSO_Faction";
+        faction = QUOTE(PREFIX);
         crew = "CUP_B_US_Pilot";
         typicalCargo[] = {QCLASS(Unit_B_Engineer)};
     };

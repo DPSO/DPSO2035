@@ -2,18 +2,18 @@
  *	ARMA EXTENDED ENVIRONMENT
  *	\z\dpso\addons\medical\area\functions\fn_doConstruct.sqf
  *	by Ojemineh
- *
+ *	
  *	construct a medical area (dressing station)
- *
+ *	
  *	Arguments:
  *	0: unit - <OBJECT>
- *
+ *	
  *	Return:
  *	nothing
- *
+ *	
  *	Example:
  *	[player] call DPSO_medical_area_fnc_doConstruct;
- *
+ *	
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -29,20 +29,20 @@ if (isNull _unit) exitWith {false};
 // -------------------------------------------------------------------------------------------------
 
 [_unit] spawn {
-
+	
 	params ["_unit"];
-
+	
 	_unit playAction "MedicStart";
-
+	
 	[_unit, "DPSO_Medical_Area_Construct_1", [], 50, 1000] call DPSO_fnc_play3dSound;
-
+	
 	private _isInBuilding = [_unit] call DPSO_fnc_isInBuilding;
 	private _isOnWater = (surfaceIsWater (getPosASL _unit));
-
+	
 	private _pos = getPosASL _unit;
 	private _dir = getDir _unit;
 	private _objects = [];
-
+	
 	private _direction = 0;
 	private _distance = 1.5;
 	private _heading = (_dir + _direction) mod 360;
@@ -54,7 +54,7 @@ if (isNull _unit) exitWith {false};
 	} else {
 		_newPos = [_newX, _newY, (_pos select 2)];
 	};
-
+	
 	private _medArea = createVehicle ["Item_Medikit", [0,0,0], [], 0, "CAN_COLLIDE"];
 	_medArea setDir _dir;
 	_medArea setPosASL _newPos;
@@ -64,14 +64,14 @@ if (isNull _unit) exitWith {false};
 		_medArea setVectorUp [0,0,1];
 	};
 	_medArea setDamage 1;
-
+	
 	if (!_isInBuilding && !_isOnWater) then {
 		private _cltPos = +_newPos;
 		_cltPos set [2,0];
 		private _cutter = createVehicle ["Land_ClutterCutter_medium_F", _cltPos, [], 0, "CAN_COLLIDE"];
 		_objects pushBack _cutter;
 	};
-
+	
 	private _medHpad = createVehicle ["Land_HelipadEmpty_F", [0,0,0], [], 0, "CAN_COLLIDE"];
 	_medHpad setDir _dir;
 	_medHpad setPosASL _newPos;
@@ -81,22 +81,22 @@ if (isNull _unit) exitWith {false};
 		_medHpad setVectorUp [0,0,1];
 	};
 	_objects pushBack _medHpad;
-
-	private _medMenu = "Sign_Sphere10cm_F" createVehicle [0,0,0];
+	
+	private _medMenu = "Sign_Sphere10cm_F" createVehicle [0,0,0]; 
 	_medMenu setDir _dir;
 	_medMenu setPosASL (AGLtoASL (_medArea modelToWorld [0,0,-0.5]));
 	_medMenu setObjectTextureGlobal [0, "#(argb,8,8,3)color(1.0,0.6,0.1,0,ca)"];
 	_objects pushBack _medMenu;
-
+	
 	_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
-
+	
 	DPSO_MEDICAL_AREA_CONSTRUCT_SUCCESS = false;
 	DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE = false;
-
-	private _construct_time = round (missionNamespace getVariable ["DPSO_medical_area_constuct_time", 20]);
+	
+	private _construct_time = round (missionNamespace getVariable ["dpso_medical_area_constuct_time", 20]);
 	if (_construct_time < 3) then { _construct_time = 3; };
 	private _section_time = (_construct_time / 8);
-
+	
 	[
 		_construct_time,
 		[],
@@ -106,19 +106,19 @@ if (isNull _unit) exitWith {false};
 		{true},
 		["isNotInside", "isNotSitting", "isNotSwimming"]
 	] call ACE_common_fnc_progressBar;
-
+	
 	[_unit, _isInBuilding, _isOnWater, _pos, _dir, _objects, _medArea, _construct_time, _section_time] spawn {
-
+		
 		params ["_unit", "_isInBuilding", "_isOnWater", "_pos", "_dir", "_objects", "_medArea", "_construct_time", "_section_time"];
-
+		
 		private ["_direction", "_distance", "_heading", "_newX", "_newY", "_newPos"];
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then { sleep (2 * _section_time); };
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			private _tarp1 = objNull;
-
+			
 			if (!_isInBuilding) then {
 				_direction = 330;
 				_distance = 1.9;
@@ -139,25 +139,25 @@ if (isNull _unit) exitWith {false};
 					_tarp1 setVectorUp [0,0,1];
 				};
 			};
-
+			
 			_objects pushBack _tarp1;
-
+			
 			if (!_isInBuilding && !_isOnWater) then {
 				private _cltPos = +_newPos;
 				_cltPos set [2,0];
 				private _cutter = createVehicle ["Land_ClutterCutter_medium_F", _cltPos, [], 0, "CAN_COLLIDE"];
 				_objects pushBack _cutter;
 			};
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			private _bodybag1 = objNull;
-
+			
 			if (!_isInBuilding) then {
 				_direction = 330;
 				_distance = 1.9;
@@ -178,18 +178,18 @@ if (isNull _unit) exitWith {false};
 					_bodybag1 setVectorUp [0,0,1];
 				};
 			};
-
+			
 			_objects pushBack _bodybag1;
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			private _tarp2 = objNull;
-
+			
 			if (!_isInBuilding) then {
 				_direction = 030;
 				_distance = 1.9;
@@ -210,25 +210,25 @@ if (isNull _unit) exitWith {false};
 					_tarp2 setVectorUp [0,0,1];
 				};
 			};
-
+			
 			_objects pushBack _tarp2;
-
+			
 			if (!_isInBuilding && !_isOnWater) then {
 				private _cltPos = +_newPos;
 				_cltPos set [2,0];
 				private _cutter = createVehicle ["Land_ClutterCutter_medium_F", _cltPos, [], 0, "CAN_COLLIDE"];
 				_objects pushBack _cutter;
 			};
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			private _bodybag2 = objNull;
-
+			
 			if (!_isInBuilding) then {
 				_direction = 030;
 				_distance = 1.9;
@@ -249,28 +249,28 @@ if (isNull _unit) exitWith {false};
 					_bodybag2 setVectorUp [0,0,1];
 				};
 			};
-
+			
 			_objects pushBack _bodybag2;
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			_direction = 0;
-			_distance = 2.2;
+			_distance = 2.2; 
 			_heading = (_dir + _direction) mod 360;
-			_newX = (_pos select 0) + (sin _heading * _distance);
-			_newY = (_pos select 1) + (cos _heading * _distance);
+			_newX = (_pos select 0) + (sin _heading * _distance); 
+			_newY = (_pos select 1) + (cos _heading * _distance); 
 			if (!_isInBuilding && !_isOnWater) then {
 				_newPos = [_newX, _newY, (getTerrainHeightASL [_newX, _newY])];
 			} else {
-				_newPos = [_newX, _newY, (_pos select 2) + 0.00];
+				_newPos = [_newX, _newY, (_pos select 2) + 0.00]; 
 			};
 			private _firstaid = createSimpleObject ["Land_FirstAidKit_01_open_F", [0,0,0]];
-			_firstaid setDir (_dir + 50);
+			_firstaid setDir (_dir + 50); 
 			_firstaid setPosASL _newPos;
 			if (!_isInBuilding && !_isOnWater) then {
 				_firstaid setVectorUp surfaceNormal position _firstaid;
@@ -278,14 +278,14 @@ if (isNull _unit) exitWith {false};
 				_firstaid setVectorUp [0,0,1];
 			};
 			_objects pushBack _firstaid;
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			_direction = 10;
 			_distance = 1.0;
 			_heading = (_dir + _direction) mod 360;
@@ -297,7 +297,7 @@ if (isNull _unit) exitWith {false};
 				_newPos = [_newX, _newY, (_pos select 2) + 0.000];
 			};
 			private _defibrillator = objNull;
-			if ((["adv_aceCPR"] call DPSO_fnc_isAddon) && (missionNamespace getVariable ["DPSO_medical_area_enable_defibrillator", false])) then {
+			if ((["adv_aceCPR"] call DPSO_fnc_isAddon) && (missionNamespace getVariable ["dpso_medical_area_enable_defibrillator", false])) then {
 				_defibrillator = createVehicle ["Land_Defibrillator_F", [0,0,0], [], 0, "CAN_COLLIDE"];
 				_defibrillator setDir (_dir + 60);
 				_defibrillator setPosASL (AGLtoASL (_medArea modelToWorld [0.10,-0.55,-0.30]));
@@ -313,14 +313,14 @@ if (isNull _unit) exitWith {false};
 				};
 			};
 			_objects pushBack _defibrillator;
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 		if (Not DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) then {
-
+			
 			_direction = 350;
 			_distance = 1.15;
 			_heading = (_dir + _direction) mod 360;
@@ -340,7 +340,7 @@ if (isNull _unit) exitWith {false};
 				_bloodbag setVectorUp [0,0,1];
 			};
 			_objects pushBack _bloodbag;
-
+			
 			_direction = 355;
 			_distance = 1.8;
 			_heading = (_dir + _direction) mod 360;
@@ -360,7 +360,7 @@ if (isNull _unit) exitWith {false};
 				_gloves setVectorUp [0,0,1];
 			};
 			_objects pushBack _gloves;
-
+			
 			_direction = 355;
 			_distance = 1.25;
 			_heading = (_dir + _direction) mod 360;
@@ -380,7 +380,7 @@ if (isNull _unit) exitWith {false};
 				_bandage1 setVectorUp [0,0,1];
 			};
 			_objects pushBack _bandage1;
-
+			
 			_direction = 0;
 			_distance = 1.30;
 			_heading = (_dir + _direction) mod 360;
@@ -400,46 +400,46 @@ if (isNull _unit) exitWith {false};
 				_bandage2 setVectorUp [0,0,1];
 			};
 			_objects pushBack _bandage2;
-
+			
 			_medArea setVariable ["DPSO_MedicalArea_Objects", _objects, true];
 			sleep _section_time;
-
+			
 		};
-
+		
 	};
-
+	
 	waitUntil {if ((DPSO_MEDICAL_AREA_CONSTRUCT_SUCCESS) || (DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE)) exitWith {true}; false};
-
+	
 	if (DPSO_MEDICAL_AREA_CONSTRUCT_SUCCESS) exitWith {
-
+		
 		[_medArea, _medMenu] remoteExec ["DPSO_medical_area_fnc_createActions", 0];
-		_medHpad setVariable ["ACE_medical_isMedicalFacility", true, true];
-
+		_medHpad setVariable ["ace_medical_isMedicalFacility", true, true];
+		
 		_unit removeItem "DPSO_MedicArea";
 		_unit playActionNow "MedicStop";
-
+		
 		[_unit, "DPSO_Medical_Area_Construct_1"] call DPSO_fnc_stop3dSound;
-
-		["DPSO_medical_area_constructed", [_unit, _medArea]] call CBA_fnc_globalEvent;
-
+		
+		["dpso_medical_area_constructed", [_unit, _medArea]] call CBA_fnc_globalEvent;
+		
 	};
-
+	
 	if (DPSO_MEDICAL_AREA_CONSTRUCT_FAILURE) exitWith {
-
+		
 		private _delObjects = +_objects;
 		reverse _delObjects;
-
+		
 		{
 			deleteVehicle _x;
 			sleep 0.15;
 		} forEach _delObjects;
-
+		
 		deleteVehicle _medArea;
-
+		
 		_unit playActionNow "MedicStop";
-
+		
 		[_unit, "DPSO_Medical_Area_Construct_1"] call DPSO_fnc_stop3dSound;
-
+		
 	};
-
+	
 };

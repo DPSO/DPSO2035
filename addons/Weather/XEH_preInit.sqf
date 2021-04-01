@@ -7,7 +7,7 @@
     false,
     true,
     {
-        if (_this) then { call LR_fnc_RealWeather};
+        if (_this) then { call DPSO_fnc_RealWeather};
     }
 ] call CBA_Settings_fnc_init;
 

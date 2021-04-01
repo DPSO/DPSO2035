@@ -10,7 +10,15 @@ class cfgPatches
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"DPSO_common"};
+        requiredAddons[] = {
+            "cba_main",
+            "cba_xeh",
+            "ace_common",
+            "ace_medical",
+            "zen_main",
+            "zen_modules",
+            "DPSO_common"
+        };
         VERSION_CONFIG;
     };
 };

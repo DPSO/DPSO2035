@@ -2,8 +2,8 @@ class GVAR(area) : Module_F
 {
     scope = 2;
     displayName = "DPSO Area";
-    category = "DPSO";
-    icon = "\a3\ui_f\data\Map\VehicleIcons\iconObject_1x1_CA.paa";
+    category = QUOTE(PREFIX);
+    icon = "\z\dpso\addons\media\images\Icons\icon_map.paa";
     function = QFUNC(emptyFunction);
     // 0 for server only execution, 1 for global execution, 2 for persistent global execution
     isGlobal = 0;

@@ -2,22 +2,22 @@
  *	ARMA EXTENDED ENVIRONMENT
  *	\z\dpso\addons\hints\functions\fn_hintGlobal.sqf
  *	by Ojemineh
- *
+ *	
  *	extended hint system
- *
+ *	
  *	Arguments:
  *	0: text		- <STRING>
  *	1: color	- <COLOR>	(Index 0-2 OR Array [0,0,1,1])
  *	2: sound	- <NUMBER>	(Index 0-4)
  *	3: delay	- <NUMBER>	(Seconds 5-30)
  *	1: position	- <NUMBER>	(0 top right, 1 top left, 2 bottom left, 3 bottom right)
- *
+ *	
  *	Return:
  *	nothing
- *
+ *	
  *	Example:
  *	[ format [hint_tpl_default, "Hello World"] ] call DPSO_fnc_hintGlobal;
- *
+ *	
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -32,6 +32,6 @@ _position	= [_this, 4, -1, [0]] call BIS_fnc_param;
 
 // -------------------------------------------------------------------------------------------------
 
-[_text, _color, _sound, _delay, _position] remoteExecCall ["DPSO_fnc_hint", 0];
+[_text, _color, _sound, _delay, _position] remoteExecCall ["dpso_fnc_hint", 0];
 
 // -------------------------------------------------------------------------------------------------

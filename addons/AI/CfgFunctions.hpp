@@ -3,7 +3,7 @@ class DPSO_AI {
 	tag = "DPSO";
 	class AI {
 
-		file = "z\dpso\addons\AI\Functions";
+		file = "z\dpso\addons\ai\Functions";
 		class InfantryGarrison {};
 		class moduleAISpawns {};
 		class SetInitialAI {};
@@ -16,7 +16,7 @@ class DPSO_AI {
 
 	class Civilian {
 
-		file = "z\dpso\addons\AI\Functions\Civilians";
+		file = "z\dpso\addons\ai\Functions\Civilians";
 		class CivBreakPatrol {};
 		class CivilianGarrison {};
 		class CivilianPatrol {};
@@ -27,7 +27,7 @@ class DPSO_AI {
 
 	class Civilian_Factions {
 
-		file = "z\dpso\addons\AI\Functions\Factions\Civilian";
+		file = "z\dpso\addons\ai\Functions\Factions\Civilian";
 		class CFP_C_AFG {};
 		class CFP_C_AFRCHRISTIAN {};
 		class CFP_C_AFRISLAMIC {};
@@ -41,7 +41,7 @@ class DPSO_AI {
 
 	class East_Factions {
 
-		file = "z\dpso\addons\AI\Functions\Factions\East";
+		file = "z\dpso\addons\ai\Functions\Factions\East";
 		class CFP_O_ABUSAYYAF {};
 		class CFP_O_ALQAEDA {};
 		class CFP_O_ALSHABAAB {};
@@ -75,7 +75,7 @@ class DPSO_AI {
 
 	class Indep_Factions {
 
-		file = "z\dpso\addons\AI\Functions\Factions\Indep";
+		file = "z\dpso\addons\ai\Functions\Factions\Indep";
 		class CFP_I_ALNUSRA {};
 		class CFP_I_IS {};
 		class CFP_I_SDRebels {};
@@ -94,7 +94,7 @@ class DPSO_AI {
 
 	class West_Factions {
 
-		file = "z\dpso\addons\AI\Functions\Factions\West";
+		file = "z\dpso\addons\ai\Functions\Factions\West";
 		class BLU_F {};
 		class BLU_T_F {};
 		class CFP_B_AFARMY {};
@@ -129,7 +129,7 @@ class DERP {
     tag = "DERP";
 
     class General {
-        file = "z\dpso\addons\AI\Functions";
+        file = "z\dpso\addons\ai\Functions";
         class AIOccupyBuilding {};
         class randomPos {};
         class ZenOccupy {};

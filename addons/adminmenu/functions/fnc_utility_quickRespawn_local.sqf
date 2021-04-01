@@ -60,12 +60,12 @@ if (_oldUnitdata isEqualType []) then {
     [{
         // Run briefing script for our new unit.
         [player] call EFUNC(briefing,generateBriefing);
-        [player] call EFUNC(orbat,createBriefingPage);
+       // [player] call EFUNC(orbat,createBriefingPage);
     }, [], 4] call CBA_fnc_waitAndExecute;
 
     // Reset Orbat.
     // Re-initalize our group markers
-    [player, true] call EFUNC(orbat,setup);
+   // [player, true] call EFUNC(orbat,setup);
 
     // Add all the respawned groups to the map markers as well.
     [] call FUNC(respawnGroupMarkerUpdate);

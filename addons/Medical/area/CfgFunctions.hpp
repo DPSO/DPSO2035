@@ -1,11 +1,11 @@
 class CfgFunctions {
-
+	
 	class DPSO_Medical_Area {
-
-		tag = "DPSO_medical_area";
-
+		
+		tag = "dpso_medical_area";
+		
 		class Medical_Area {
-			file = "\z\dpso\addons\medical\area\functions";
+			file = "z\dpso\addons\medical\area\functions";
 			class canConstruct {};
 			class canDismantle {};
 			class canLightOff {};
@@ -18,7 +18,7 @@ class CfgFunctions {
 			class initialize {};
 			class initSettings {};
 		};
-
+		
 	};
-
+	
 };

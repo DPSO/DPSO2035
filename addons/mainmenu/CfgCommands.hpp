@@ -1,7 +1,7 @@
 class CfgCommands {
-
+	
     allowedHTMLLoadURIs[] += {
-        URL
+        "$STR_DPSO_Addon_URL_Version"
     };
-
+	
 };

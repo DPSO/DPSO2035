@@ -1,3 +1,3 @@
-#include "\z\dpso\addons\AI\script_component.hpp"
+#include "\z\dpso\addons\ai\script_component.hpp"
 
 // Do Nothing.

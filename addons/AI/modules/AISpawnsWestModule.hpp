@@ -3,7 +3,7 @@ class DPSO_ModuleAISpawnsWest: Module_F
 	scope = 2;
 	displayName = "AI Spawn - West";
 	icon = "\z\dpso\addons\media\images\icons\AI WEST.paa";
-	category = "DPSO";
+	category = QUOTE(PREFIX);
 	function = "DPSO_fnc_moduleAISpawns";
 	functionPriority = 2;
 	isGlobal = 0;

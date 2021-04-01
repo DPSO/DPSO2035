@@ -6,7 +6,7 @@ private ["_vehicle", "_fnc_checkAccess"];
 
 switch (DPSO_Main_MaydayAccess) do {
 	case 0: { _fnc_checkAccess = {false}; };
-	case 1: { _fnc_checkAccess = {(_this getVariable ["DPSO_Section", -1]) isEqualTo "ds999"}; };
+	case 1: { _fnc_checkAccess = {(_this getVariable ["DPSO_Section", -1]) isEqualTo "909 EAW"}; };
 	case 2: { _fnc_checkAccess = {true}; };
 	default { _fnc_checkAccess = {true}; };
 };
@@ -25,7 +25,6 @@ switch (DPSO_Main_MaydayAccess) do {
 			_HeliActions =  _vehicle getVariable ["HeliAddActions", false];
 
 			if (not _HeliActions) then {
-				[_vehicle, false] remoteExec ["enableCopilot", 0];
 				_vehicle addAction ["<t color='#00FFFF'>Authorise Co-Pilot</t>", {params ["_target", "_caller", "_actionId", "_arguments"]; [_target, true] remoteExec ["enableCopilot", 0]}, "", 9, false, true, "", '(driver _target isEqualTo _this) && (not isCopilotEnabled _target)'];
 				_vehicle addAction ["<t color='#B33A3A'>Unauthorise Co-Pilot</t>", {params ["_target", "_caller", "_actionId", "_arguments"]; [_target, false] remoteExec ["enableCopilot", 0]}, "", 10, false, true, "", '(driver _target isEqualTo _this) && (isCopilotEnabled _target)'];
 

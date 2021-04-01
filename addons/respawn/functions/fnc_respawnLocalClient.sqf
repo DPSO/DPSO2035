@@ -87,7 +87,7 @@ if (_halo) then {
 };
 
 // Put in PFH to avoid blocking
-if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
+/* if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
     [false] call acre_api_fnc_setSpectator;
     [{
         if (isNull player) exitWith {};
@@ -96,7 +96,7 @@ if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
         [] call EFUNC(acre2,clientInit);
         [_this select 1] call CBA_fnc_removePerFrameHandler;
     }, 0.1] call CBA_fnc_addPerFrameHandler;
-};
+}; */
 
  _groupVarName = format ["GrpRespawn_%1",_groupNum];
 if (_leader) then {

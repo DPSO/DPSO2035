@@ -4,3 +4,4 @@ PREP(generateBriefing);
 PREP(generateLoadoutPage);
 PREP(unitPage);
 PREP(vehiclePage);
+PREP(Diary);

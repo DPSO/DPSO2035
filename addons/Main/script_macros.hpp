@@ -160,4 +160,13 @@ class Extended_PreStart_EventHandlers {                 \
 }
 
 
+#define GETPRVAR(var1,var2) (profileNamespace getVariable [ARR_2(var1,var2)])
+#define SETPRVAR(var1,var2) (profileNamespace setVariable [ARR_2(var1,var2)])
+
+#define FUNC_PATHTO_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\functions\var3.sqf
+
+#define RESUPPLY_TEXT "Spawns in x amount of predefined magazines (not x total!)."
+#define RESUPPLY_DESC "Used for the 'Spawn Ammo Resupply Crate' module. Must be an array of strings."
+
+#define MAGAZINES_DESC "Magazines"
 

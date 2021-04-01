@@ -3,13 +3,13 @@ class RscHTML;
 class RscText;
 class RscStandardDisplay;
 class RscDisplayMain: RscStandardDisplay {
-
+	
     class controls {
-
+		
         class InfoMods: RscControlsGroupNoHScrollbars {
             class Controls;
         };
-
+		
         class InfoNews: InfoMods {
             class Controls: Controls {
                 class Background;
@@ -20,20 +20,20 @@ class RscDisplayMain: RscStandardDisplay {
                 class Button;
             };
         };
-
+		
         class DPSO_InfoNews: InfoNews {
-
+			
             idc = 90090;
             y = "safezoneY + safezoneH - (4 * 2 + 1) * (pixelH * pixelGrid * 2) - 5 * (4 * pixelH)";
-
+			
             class Controls: Controls {
-
+				
                 class Background: Background {};
                 class BackgroundIcon: BackgroundIcon {};
                 class Icon: Icon {
-                    text = "\z\dpso\addons\media\images\logo_sm_ca.paa";
+                    text = "$STR_DPSO_Addon_Logo";
                 };
-
+				
                 class CurrentVersionInfo: RscText {
                     idc = 90091;
                     style = 1;
@@ -48,7 +48,7 @@ class RscDisplayMain: RscStandardDisplay {
                     h = "1 * (pixelH * pixelGrid * 2)";
                     onLoad = "(_this select 0) ctrlEnable false;";
                 };
-
+				
                 class HTTPVersionInfo: RscHTML {
                     idc = 90092;
                     shadow = 0;
@@ -70,16 +70,16 @@ class RscDisplayMain: RscStandardDisplay {
                     h = "1 * (pixelH * pixelGrid * 2)";
                     onLoad = "(_this select 0) ctrlEnable false;";
                 };
-
+				
                 class Button: Button {
-                    tooltip = "$STR_VERSIONInfo_Tooltip";
-                    url = URL;
+                    tooltip = "$STR_DPSO_VersionInfo_Tooltip";
+                    url = "$STR_DPSO_Addon_URL_Releases";
                 };
-
+				
             };
-
+			
         };
-
+		
     };
-
+	
 };

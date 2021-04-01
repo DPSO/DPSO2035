@@ -3,7 +3,7 @@ class DPSO_SafeZone {
 	tag = "DPSO";
 	class Module {
 
-		file = "z\dpso\Addons\safe_zone\Functions";
+		file = "z\dpso\addons\Safe_Zone\Functions";
 		class moduleSafeZone {};
 		class SafeZone {};
 	};
