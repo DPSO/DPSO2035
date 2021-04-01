@@ -6,76 +6,76 @@ if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitwith {};
 _cueCardsData = [
 	// 	0 - CASEVAC Request Card
 	[
-		"z\dpso\addons\Media\images\cuecards\medivac.paa",
+		"z\dpso\addons\media\images\cuecards\medivac.paa",
 		"CASEVAC Request Card"
 	],
 
 	//	1 - Contact Report Card
 	[
-		"z\dpso\addons\Media\images\cuecards\tic.paa",
+		"z\dpso\addons\media\images\cuecards\tic.paa",
 		"Contact Report Card"
 	],
 
 	// 	2 - CAS Checkin  Card
 	[
-		"z\dpso\addons\Media\images\cuecards\cascheck.paa",
+		"z\dpso\addons\media\images\cuecards\cascheck.paa",
 		"CAS Check IN Card"
 	],
 
 	// 	3 - CAS Card
 	[
-		"z\dpso\addons\Media\images\cuecards\casbrief.paa",
+		"z\dpso\addons\media\images\cuecards\casbrief.paa",
 		"CAS Briefing Card"
 	],
 
 	// 	4 - Salute Card
 	[
-		"z\dpso\addons\Media\images\cuecards\salute.paa",
+		"z\dpso\addons\media\images\cuecards\salute.paa",
 		"(SALUTE) Card"
 	],
 	// 	5 - ACE Card
 	[
-		"z\dpso\addons\Media\images\cuecards\ace.paa",
+		"z\dpso\addons\media\images\cuecards\ace.paa",
 		"(ACE) Card"
 	],
 	// 	6 - Front Line Trace ( POSREP ) Card
 	[
-		"z\dpso\addons\Media\images\cuecards\posrep.paa",
+		"z\dpso\addons\media\images\cuecards\posrep.paa",
 		"Front Line Trace ( POSREP ) Card"
 	],
 	// 	7 - Vehicle Report (DEFREP) Card
 	[
-		"z\dpso\addons\Media\images\cuecards\venicle.paa",
+		"z\dpso\addons\media\images\cuecards\venicle.paa",
 		"Vehicle Report (DEFREP) Card"
 	],
 	// 	8 - Bandages
 	[
-		"z\dpso\addons\Media\images\cuecards\bandages.paa",
+		"z\dpso\addons\media\images\cuecards\bandages.paa",
 		"Bandages Notes"
 	],
 	// 	9 - Medical Notes
 	[
-		"z\dpso\addons\Media\images\cuecards\mednotes.paa",
+		"z\dpso\addons\media\images\cuecards\mednotes.paa",
 		"Medical Notes"
 	],
 	// 	10 - Medical Process
 	[
-		"z\dpso\addons\Media\images\cuecards\medproces.paa",
+		"z\dpso\addons\media\images\cuecards\medproces.paa",
 		"Medical Process"
 	],
 	// 	11 - Call for Fire
 	[
-		"z\dpso\addons\Media\images\cuecards\cff.paa",
+		"z\dpso\addons\media\images\cuecards\cff.paa",
 		"Call for Fire"
 	],
 	// 	12 - Method of Fire and Control
 	[
-		"z\dpso\addons\Media\images\cuecards\mfc.paa",
+		"z\dpso\addons\media\images\cuecards\mfc.paa",
 		"Method of Fire and Control"
 	],
 	// 	13 - Rotary Landing 
 	[
-		"z\dpso\addons\Media\images\cuecards\landingb.paa",
+		"z\dpso\addons\media\images\cuecards\landingb.paa",
 		"Rotary Landing"
 	]
 ];

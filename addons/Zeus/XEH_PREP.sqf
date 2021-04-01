@@ -4,7 +4,7 @@ PREP(toggleAllStaticsZeus);
 PREP(toggleAllStaticsZeusServer);
 PREP(toggleAllUnitsZeus);
 PREP(toggleAllUnitsZeusServer);
-PREP(toggleACRESpectator);
+//PREP(toggleACRESpectator);
 PREP(ConfigZeus);
 PREP(moduleAISpawnsEastZeus);
 PREP(moduleAISpawnsIndepZeus);

@@ -56,11 +56,6 @@ class CfgFactionClasses {
 		priority = 0;
 		side = 1; // 1 Blufor 2 opfor 3 independant i think.
 	};
-	class QIPBFT: NO_CATEGORY {
-        displayName = "DPSO QIPBFT";
-        priority = 2;
-        side = 7;
-    };
 	class CLASS(IND) {
         displayName = PREFIX;
         icon = LOGO_PATH;

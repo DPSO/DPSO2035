@@ -47,7 +47,8 @@ if (GVAR(giveMissingRadios)) then {
     GVAR(radioCoreSettings) = [
         // Array of Radio names, min freq, max freq, freq step, freq spacing between channels (for channel alloication
         [["ACRE_PRC343"],2400,2420,0.01,0.1,"default2"],
-        [["ACRE_PRC148","ACRE_PRC152","ACRE_PRC117F"],60,360,0.00625,1,"default"],
+        [["ACRE_PRC148","ACRE_PRC152"],60,179,0.00625,1,"default"],
+        [["ACRE_PRC117F"],180,360,0.00625,1,"default"],
         [["ACRE_SEM52SL"],46,64,0.025,1,"default"],
         [["ACRE_PRC77"],30,75,0.05,10,"default"]
     ];

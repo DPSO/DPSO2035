@@ -408,6 +408,17 @@ force force acex_viewrestriction_modeSelectiveLand = 0;
 force force acex_viewrestriction_modeSelectiveSea = 0;
 force force acex_viewrestriction_preserveView = true;
 
+// ACRE2
+force force acre_sys_core_automaticAntennaDirection = true;
+force force acre_sys_core_fullDuplex = true;
+force force acre_sys_core_ignoreAntennaDirection = true;
+force force acre_sys_core_interference = true;
+force force acre_sys_core_revealToAI = 1;
+force force acre_sys_core_terrainLoss = 0.8;
+force force acre_sys_core_ts3ChannelSwitch = true;
+force force acre_sys_core_unmuteClients = true;
+force force acre_sys_signal_signalModel = 2;
+
 // AI
 force force cfp_autoEquipNVG = true;
 
@@ -429,22 +440,24 @@ force force CUP_Vehicles_PreventBarrelClip = true;
 force force CUP_staticWeapons_allowMovement = true;
 force force CUP_staticWeapons_allowRotation = true;
 
+// DPSO Adminmenu
+force force DPSO_adminMenu_endLogToRPT = false;
+force force DPSO_adminMenu_printToChat = 1;
+
 // DPSO
-force force dpso_tmf_adminMenu_endLogToRPT = false;
-force force dpso_tmf_adminMenu_printToChat = 1;
-force force dpso_tmf_chat_healUsage = 3;
-force force dpso_tmf_chat_radioUsage = 3;
-force force dpso_tmf_chat_rpUsage = 3;
-force force dpso_tmf_chat_specUsage = 3;
-force force dpso_tmf_chat_tpUsage = 3;
-force force dpso_tmf_chat_whisperUsage = 3;
-force force dpso_tmf_common_weaponSafety = true;
-force force dpso_tmf_spectator_canSpectateAllSides = true;
-force force dpso_tmf_spectator_firstPersonCameraEnabled = true;
-force force dpso_tmf_spectator_followCameraEnabled = true;
-force force dpso_tmf_spectator_freeCameraEnabled = true;
-force force dpso_tmf_spectator_isJIPAllowed = 1;
-force force dpso_tmf_spectator_showGroupMarkers = 1;
+force force DPSO_chat_healUsage = 3;
+force force DPSO_chat_radioUsage = 3;
+force force DPSO_chat_rpUsage = 3;
+force force DPSO_chat_specUsage = 3;
+force force DPSO_chat_tpUsage = 3;
+force force DPSO_chat_whisperUsage = 3;
+force force DPSO_common_weaponSafety = true;
+force force DPSO_spectator_canSpectateAllSides = true;
+force force DPSO_spectator_firstPersonCameraEnabled = true;
+force force DPSO_spectator_followCameraEnabled = true;
+force force DPSO_spectator_freeCameraEnabled = true;
+force force DPSO_spectator_isJIPAllowed = 1;
+force force DPSO_spectator_showGroupMarkers = 1;
 
 // DPSO AI
 force force DPSO_AI_AimingAccuracy = 0.1;
@@ -455,18 +468,19 @@ force force DPSO_AI_Courage = 1;
 force force DPSO_AI_General = 1;
 force force DPSO_AI_InitialAI = true;
 force force DPSO_AI_ReloadSpeed = 0.5;
+force force DPSO_AI_Reporting = false;
 force force DPSO_AI_SpotDistance = 0.4;
 force force DPSO_AI_SpotTime = 0.2;
 
 // DPSO AI Disembark
-force force dpso_afm_ai_disembark_enabled = true;
-force force dpso_afm_ai_disembark_stayInImmobileChance = 0.15;
+force force DPSO_ai_disembark_enabled = true;
+force force DPSO_ai_disembark_stayInImmobileChance = 0.15;
 
 // DPSO Back To Game
-force force dpso_afm_back_to_game_enableAddon = true;
-force force dpso_afm_back_to_game_removeBody = true;
-force force dpso_afm_back_to_game_teleportToLeader = true;
-force force dpso_afm_back_to_game_teleportToVehicle = true;
+force force DPSO_back_to_game_enableAddon = true;
+force force DPSO_back_to_game_removeBody = true;
+force force DPSO_back_to_game_teleportToLeader = true;
+force force DPSO_back_to_game_teleportToVehicle = true;
 
 // DPSO Channels
 force force DPSO_Channels_CommandDuration = 0;
@@ -489,8 +503,7 @@ force force DPSO_Channels_VehicleText = true;
 force force DPSO_Channels_VehicleVoice = false;
 
 // DPSO Common
-force force DPSO_debug_enabled = false;
-force force DPSO_showNewsOnMainMenu = true;
+force force DPSO_common_weaponSafety = true;
 
 // DPSO Creator Actions
 force force DPSO_CreatorActions_Channels = true;
@@ -498,18 +511,18 @@ force force DPSO_CreatorActions_EndMission = true;
 force force DPSO_CreatorActions_Master = true;
 
 // DPSO Fatigue
-force force dpso_afm_fatigue_highJogCoef = 0.9;
-force force dpso_afm_fatigue_highJogCoefEnabled = true;
+force force DPSO_fatigue_highJogCoef = 0.9;
+force force DPSO_fatigue_highJogCoefEnabled = true;
 
 // DPSO Friendly Fire
-force force dpso_afm_friendly_fire_loggingEnabled = true;
+force force DPSO_friendly_fire_loggingEnabled = true;
 
 // DPSO Grass
-force force dpso_afm_grass_enabled = true;
+force force DPSO_grass_enabled = true;
 
 // DPSO Insurgents
-force force dpso_afm_insurgents_enabled_CUP = true;
-force force dpso_afm_insurgents_enabled_Vanilla = true;
+force force DPSO_insurgents_enabled_CUP = true;
+force force DPSO_insurgents_enabled_Vanilla = true;
 
 // DPSO Main
 force force DPSO_Main_ArsenalSaveLoad = true;
@@ -546,88 +559,63 @@ force force DPSO_medical_usage_order_medics = 1;
 force force DPSO_medical_usage_order_responder = 0;
 
 // DPSO Miscellaneous
-force force dpso_bodybag_destroyChance = 20;
+force force DPSO_bodybag_destroyChance = 20;
 
 // DPSO Pointing
-force force dpso_afm_pointing_vehicleEnabled = true;
+force force DPSO_pointing_vehicleEnabled = true;
 
-// DPSO qipBFT
-force force dpso_bft_bftEnabled = true;
-force force dpso_bft_friendlySides_CIVILIAN = [0,2];
-force force dpso_bft_friendlySides_EAST = [3];
-force force dpso_bft_friendlySides_RESISTANCE = [1,3];
-force force dpso_bft_friendlySides_WEST = [2];
-force force dpso_bft_friendlySidesDynamic = true;
-force force dpso_bft_groupIconsInteraction = "hover";
-force force dpso_bft_medicalSystem = "ACE";
-force force dpso_bft_requireItemGPS = true;
-force force dpso_bft_showAIGroups = true;
-force force dpso_bft_showAINames = true;
-force force dpso_bft_showCivilians = false;
-force force dpso_bft_showGroupIcons = true;
-force force dpso_bft_showGroupText = true;
-force force dpso_bft_showLifeState = true;
-force force dpso_bft_showOwnFactionOnly = true;
-force force dpso_bft_showOwnGroup = false;
-force force dpso_bft_showOwnGroupUnits = true;
-force force dpso_bft_showPlayerNames = true;
-force force dpso_bft_showUnitNames = true;
-force force dpso_bft_teamColors = "ACE";
-force force dpso_bft_updateInterval = 0;
-
-// DPSO QS Icons
-force force DPSO_QS_ST_AINames = true;
-force force DPSO_QS_ST_enableGroupIcons = true;
-force force DPSO_QS_ST_gps_enableUnitIcons = true;
-force force DPSO_QS_ST_GPSDist = 1000;
-force force DPSO_QS_ST_GPSshowGroupOnly = false;
-force force DPSO_QS_ST_GPSshowNames = true;
-force force DPSO_QS_ST_groupTextFactionOnly = false;
-force force DPSO_QS_ST_iconMapText = true;
-force force DPSO_QS_ST_iconUpdatePulseDelay = 0;
-force force DPSO_QS_ST_map_enableUnitIcons = false;
-force force DPSO_QS_ST_MasterEnable = false;
-force force DPSO_QS_ST_MedicalSystem = 3;
-force force DPSO_QS_ST_showAI = true;
-force force DPSO_QS_ST_showAIGroups = true;
-force force DPSO_QS_ST_showAINames = false;
-force force DPSO_QS_ST_showCivilianIcons = false;
-force force DPSO_QS_ST_showFactionOnly = false;
-force force DPSO_QS_ST_showGroupHudIcons = false;
-force force DPSO_QS_ST_showGroupMapIcons = true;
-force force DPSO_QS_ST_showGroupOnly = false;
-force force DPSO_QS_ST_showMedicalWounded = true;
-force force DPSO_QS_ST_showMOS = false;
-force force DPSO_QS_ST_showMOS_range = 0;
-force force DPSO_QS_ST_showOwnGroup = false;
+// DPSO qipBFT - BFT
+force force DPSO_QIPBFT_bft_bftEnabled = true;
+force force DPSO_QIPBFT_bft_friendlySides_CIVILIAN = [0,2];
+force force DPSO_QIPBFT_bft_friendlySides_EAST = [3];
+force force DPSO_QIPBFT_bft_friendlySides_RESISTANCE = [1,3];
+force force DPSO_QIPBFT_bft_friendlySides_WEST = [2];
+force force DPSO_QIPBFT_bft_friendlySidesDynamic = true;
+force force DPSO_QIPBFT_bft_groupIconsInteraction = "hover";
+force force DPSO_QIPBFT_bft_medicalSystem = "ACE";
+force force DPSO_QIPBFT_bft_requireItemGPS = true;
+force force DPSO_QIPBFT_bft_showAIGroups = true;
+force force DPSO_QIPBFT_bft_showAINames = true;
+force force DPSO_QIPBFT_bft_showCivilians = false;
+force force DPSO_QIPBFT_bft_showGroupIcons = true;
+force force DPSO_QIPBFT_bft_showGroupText = true;
+force force DPSO_QIPBFT_bft_showLifeState = true;
+force force DPSO_QIPBFT_bft_showOwnFactionOnly = false;
+force force DPSO_QIPBFT_bft_showOwnGroup = true;
+force force DPSO_QIPBFT_bft_showOwnGroupUnits = true;
+force force DPSO_QIPBFT_bft_showPlayerNames = true;
+force force DPSO_QIPBFT_bft_showUnitNames = true;
+force force DPSO_QIPBFT_bft_teamColors = "ACE";
+force force DPSO_QIPBFT_bft_updateInterval = 0;
 
 // DPSO Quick Actions
-force force dpso_quickActions_add_detonator = true;
-force force dpso_quickActions_add_fast_rope = true;
+force force DPSO_quickActions_add_detonator = true;
+force force DPSO_quickActions_add_fast_rope = true;
+
+// DPSO Quick Actions
+force force DPSO_quickActions_add_detonator = true;
+force force DPSO_quickActions_add_fast_rope = true;
 
 // DPSO Respawn
-force force dpso_afm_respawn_enabled = true;
-force force dpso_afm_respawn_time = 6;
+force force DPSO_respawn_enabled = true;
+force force DPSO_respawn_time = 6;
+
+// DPSO Remote Sensors
+force DPSO_remotesensors_enabled = true;
 
 // DPSO Safestart
-force force dpso_afm_safestart_startLocked = true;
+force force DPSO_safestart_startLocked = true;
 
 // DPSO Spectator
-force force dpso_afm_spectator_allowAI = false;
-force force dpso_afm_spectator_allowAIUnconscious = false;
-force force dpso_afm_spectator_allowUnconscious = true;
-force force dpso_afm_spectator_civilianSide = false;
-force force dpso_afm_spectator_civilianSideUnconscious = false;
-force force dpso_afm_spectator_freeCamera = false;
-force force dpso_afm_spectator_freeCameraUnconscious = false;
-force force dpso_afm_spectator_sides = 1;
-force force dpso_afm_spectator_sidesUnconscious = 0;
-force force dpso_afm_spectator_TPPCamera = false;
-force force dpso_afm_spectator_TPPCameraUnconscious = false;
-force force dpso_afm_spectator_unconsciousDelay = 12;
+force force DPSO_spectator_canSpectateAllSides = false;
+force force DPSO_spectator_firstPersonCameraEnabled = false;
+force force DPSO_spectator_followCameraEnabled = true;
+force force DPSO_spectator_freeCameraEnabled = true;
+force force DPSO_spectator_isJIPAllowed = 1;
+force force DPSO_spectator_showGroupMarkers = 0;
 
 // DPSO Tagging
-force force dpso_afm_tagging_enabled = true;
+force force DPSO_tagging_enabled = true;
 
 // DPSO Zeus
 force DPSO_Zeus_Module_AISpawnsEast = true;
@@ -780,22 +768,6 @@ force force SSS_setting_restoreCrewOnRTB = true;
 force force SSS_setting_slingLoadSearchRadius = 100;
 force force SSS_setting_slingLoadWhitelist = "";
 force force SSS_setting_useChatNotifications = true;
-
-// TFAR - Clientside settings
-TFAR_default_radioVolume = 6;
-TFAR_intercomDucking = 0.2;
-TFAR_intercomVolume = 0.1;
-TFAR_moveWhileTabbedOut = false;
-TFAR_oldVolumeHint = false;
-TFAR_pluginTimeout = 4;
-TFAR_PosUpdateMode = 0.1;
-TFAR_showChannelChangedHint = true;
-TFAR_ShowDiaryRecord = true;
-TFAR_showTransmittingHint = true;
-TFAR_ShowVolumeHUD = false;
-TFAR_tangentReleaseDelay = 0;
-TFAR_VolumeHudTransparency = 0;
-TFAR_volumeModifier_forceSpeech = false;
 
 // TFAR - Global settings
 force force TFAR_AICanHearPlayer = false;

@@ -44,6 +44,7 @@ if (_oldUnitdata isEqualType []) then {
 
     // ACRE setup
     // Put in PFH to avoid blocking
+/*     
     if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
         [false] call acre_api_fnc_setSpectator;
         [{
@@ -53,7 +54,7 @@ if (_oldUnitdata isEqualType []) then {
             [] call EFUNC(acre2,clientInit);
             [_this select 1] call CBA_fnc_removePerFrameHandler;
         }, 0.1] call CBA_fnc_addPerFrameHandler;
-    };
+    }; */
 
     // Run Briefing Scripts.
     [{

@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class LRG_Weather
+	class DPSO_Weather
 	{
 		author = AUTHOR;
 		name = NAME;
@@ -17,7 +17,7 @@ class CfgPatches
 };
 
 class Extended_PreInit_EventHandlers {
-    class LRG_Weather_Event {
+    class DPSO_Weather_Event {
         init = "call compile preprocessFileLineNumbers 'z\dpso\Addons\Weather\XEH_preInit.sqf'";
     };
 };

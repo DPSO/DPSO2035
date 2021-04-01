@@ -66,3 +66,4 @@ if (isDPSO) then {
         [QGVAR(requestServerSync), [clientOwner]] call CBA_fnc_serverEvent;
     }] call CBA_fnc_execNextFrame;
 }] call CBA_fnc_execNextFrame;
+

@@ -8,7 +8,4 @@ class CfgVehicleClasses {
     class ACEX_Vehicles {
         displayName = "DPSO Vehicles";
     };
-    class QIPBFT_Vehicles {
-        displayName = "DPSO QIPBFT Vehicles";
-    };
 };

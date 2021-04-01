@@ -50,4 +50,3 @@ GVAR(runAfterSettingsInit) = [];
     GVAR(runAfterSettingsInit) = nil;
 }] call CBA_fnc_addEventHandler;
 
-ADDON = true;
