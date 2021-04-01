@@ -17,8 +17,8 @@ class RscDisplayCueCard
 			text = "#(argb,8,8,3)color(1,0,0,0.2)";
 			x = "safezoneX + 5 * (((safezoneW / safezoneH) min 1.2) / 40)";
 			y = "safezoneY + 5 * (((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
-			w = "safezoneW * 0.45";
-			h = "safezoneH * 0.90";
+			w = "safezoneW * 0.26";
+			h = "safezoneH * 0.52";
 			moving = 1;
 			onMouseMoving = "\
 				params [""_control"", ""_xPos"", ""_yPos"", ""_mouseOver""]; \
@@ -92,7 +92,7 @@ class RscDisplayCueCard
         class NotePadBackground: RscPicture
         {
             idc = 1200;
-            text = "z\dpso\addons\Media\images\Cue Cards\notepad_CA.paa";
+            text = "z\dpso\addons\media\images\Cue Cards\notepad_CA.paa";
             x = 0.288594 * safezoneW + safezoneX;
             y = 0.093 * safezoneH + safezoneY;
             w = 0.31 * safezoneW;

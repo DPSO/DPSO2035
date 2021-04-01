@@ -28,7 +28,7 @@ class Cfg3DEN {
     };
     class Object {
         class AttributeCategories {
-            class DPSO_attributes {
+            class PREFIX {
                 displayName = "DPSO Fundamentals";
                 collapsed = 1;
                 class Attributes {

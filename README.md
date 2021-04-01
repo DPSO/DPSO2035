@@ -1,6 +1,6 @@
 # DPSOTEN
 [![](https://img.shields.io/badge/Changelog-Link-orange.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/releases/latest)
-[![](https://img.shields.io/badge/Release-10.0.1-blue.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/releases/latest)
+[![](https://img.shields.io/badge/Release-10.2.1-blue.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/releases/latest)
 [![](https://img.shields.io/badge/Github-Wiki-lightgrey.svg?style=flat-square)](https://github.com/DPSO/DPSOTEN/wiki)
 [![](https://shields.io/badge/-Discord-131544019032342528?logo=discord&logoColor=fff)](https://discord.gg/xUyxRnp)
 [![](https://img.shields.io/badge/DPSO-WEBSITE-green)](https://armadocs.purplesmoke.info/)

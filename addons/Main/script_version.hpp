@@ -1,4 +1,4 @@
 
 #define MAJOR 10
-#define MINOR 0
+#define MINOR 2
 #define PATCH 1

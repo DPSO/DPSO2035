@@ -2,7 +2,7 @@
     dlc = QUOTE(PREFIX); \
     scope = 0; \
     side = 1; \
-    faction = "DPSO_Faction"; \
+    faction = QUOTE(PREFIX); \
     items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs"}; \
     respawnItems[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs"}; \
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"}; \
@@ -39,8 +39,8 @@ class CLASS(operator_990) : CLASS(Unit_Combat_DPSO_Base) {
     scope = 2;
 	displayName = "Operator 990";
 	uniformClass = "DPSO_U_CombatUniformMC";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn990), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn990), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1
@@ -69,8 +69,8 @@ class CLASS(operator_991) : CLASS(Unit_Combat_DPSO_Base) {
     scope = 2;
 	displayName = "Operator 991";
 	uniformClass = "DPSO_U_CombatUniformMC";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn991), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn991), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1
@@ -99,8 +99,8 @@ class CLASS(operator_992) : CLASS(Unit_Combat_DPSO_Base) {
     scope = 2;
 	displayName = "Operator 992";
 	uniformClass = "DPSO_U_CombatUniformMC";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn992), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn992), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1
@@ -129,8 +129,8 @@ class CLASS(operator_993) : CLASS(Unit_Combat_DPSO_Base) {
     scope = 2;
 	displayName = "Operator 993";
 	uniformClass = "DPSO_U_CombatUniformMC";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn993), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn993), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1
@@ -159,8 +159,8 @@ class CLASS(operator_995) : CLASS(Unit_Combat_DPSO_Base) {
     scope = 2;
 	displayName = "Operator 995";
 	uniformClass = "DPSO_U_CombatUniformMC";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn995), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier1_brn995), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1
@@ -189,8 +189,8 @@ class CLASS(flight_crew_999) : CLASS(Unit_Combat_DPSO_Pilot) {
     scope = 2;
 	displayName = "Pilot 999";
 	uniformClass = "DPSO_B_HeliPilotCoveralls";
-    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier_Black999), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
-    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"}
+    linkedItems[] = {QCLASS(Item_Vest_PlateCarrier_Black999), QCLASS(Cap_Earpiece_BlackLogo), "ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
+    respawnLinkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "ItemGPS", "TFAR_rf7800str"};
 
 	headgearList[] = {
         QCLASS(Cap_BlackLogo), 1

@@ -32,7 +32,7 @@ GVAR(aceMedical) = IS_MOD_LOADED(ace_medical_engine);
 GVAR(aceSafemode) = IS_MOD_LOADED(ace_safemode);
 GVAR(aceTagging) = IS_MOD_LOADED(ace_tagging);
 GVAR(acre) = IS_MOD_LOADED(acre_main);
-
+GVAR(tfar) = IS_MOD_LOADED(tfar_core);
 GVAR(playerMarkerIdx) = 0;
 
 // Handling for running code after settings are initialized

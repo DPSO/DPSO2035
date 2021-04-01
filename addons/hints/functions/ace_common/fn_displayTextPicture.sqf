@@ -2,35 +2,35 @@
  *	ARMA EXTENDED ENVIRONMENT
  *	\z\dpso\addons\hints\functions\ace_common\fn_displayTextPicture.sqf
  *	by Ojemineh
- *
- *	replace ace common displayTextPicture
- *
+ *	
+ *	replace ace core displayTextPicture
+ *	
  *	Arguments:
  *	0: text			- <ANY>
  *	1: image		- <STRING>
  *	2: image color	- <ARRAY>
  *	3: target unit	- <OBJECT>
  *	4: size			- <NUMBER>
- *
+ *	
  *	Return:
  *	nothing
- *
+ *	
  *	Example:
  *	["text", "image", [1, 1, 1], ACE_player, 2] call ACE_common_fnc_displayTextPicture
- *
+ *	
  */
 
 // -------------------------------------------------------------------------------------------------
 
 params [["_text", ""], ["_image", "", [""]], ["_imageColor", [1,1,1], [[]]], ["_target", ACE_player, [objNull]], ["_size", 2, [0]]];
 
-private _hint_enabled = (missionNamespace getVariable ["DPSO_hint_enabled", true]);
-private _hint_option_ace = (missionNamespace getVariable ["DPSO_hint_option_ace", true]);
+private _hint_enabled = (missionNamespace getVariable ["dpso_hint_enabled", true]);
+private _hint_option_ace = (missionNamespace getVariable ["dpso_hint_option_ace", true]);
 
 if (_hint_enabled && _hint_option_ace) then {
-
+	
 	if (_target != ACE_player) exitWith {};
-
+	
 	if (typeName _text != "TEXT") then {
 		if (_text isEqualType []) then {
 			if (count _text > 0) then {
@@ -46,11 +46,11 @@ if (_hint_enabled && _hint_option_ace) then {
 			_text = localize _text;
 		};
 	};
-
+	
 	_text = format [hint_tpl_image_3, _image, _imageColor call BIS_fnc_colorRGBtoHTML, _text];
-
-	[_text] call DPSO_fnc_hint;
-
+	
+	[_text] call dpso_fnc_hint;
+	
 } else {
-	[_text, _image, _imageColor, _target, _size] call ace_common_fnc_displayTextPictureEx;
+	[_text, _image, _imageColor, _target, _size] call ACE_common_fnc_displayTextPictureEx;
 };

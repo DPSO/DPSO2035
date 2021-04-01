@@ -36,7 +36,7 @@ class CfgGroups {
                 class dpso_detachment_990 {
                     name = "990";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -81,7 +81,7 @@ class CfgGroups {
                 class dpso_detechment_operations_991 {
                     name = "991";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -186,7 +186,7 @@ class CfgGroups {
                 class dpso_detechment_operations_992 {
                     name = "992";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -291,7 +291,7 @@ class CfgGroups {
                 class dpso_detechment_operations_993 {
                     name = "993";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -397,7 +397,7 @@ class CfgGroups {
                 class dpso_detechment_operations_995 {
                     name = "995";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -503,7 +503,7 @@ class CfgGroups {
                 class dpso_flight_crew_2person {
                     name = "flight crew (2 person)";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -524,7 +524,7 @@ class CfgGroups {
                 class dpso_flight_crew_4 {
                     name = "flight crew (4 person)";
                     side = 1;
-                    faction= "DPSO_Faction";
+                    faction = QUOTE(PREFIX);
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -595,8 +595,6 @@ class CfgGroups {
                 name = "Air";
 
             };
-
-
         };
 
     };

@@ -1,14 +1,14 @@
 class CfgWeapons {
-
+	
 	class CBA_MiscItem;
 	class CBA_MiscItem_ItemInfo;
 	class ACE_ItemCore: CBA_MiscItem {};
-
+	
 	// MEDICAL AREA
-
+	
 	class DPSO_MedicArea: ACE_ItemCore {
 		scope = 2;
-		author = AUTHOR;
+		author = "$STR_DPSO_Medical_Area_Author";
 		displayName = "$STR_DPSO_Item_Medical_Area_DisplayName";
 		descriptionShort = "$STR_DPSO_Item_Medical_Area_Description";
 		editorPreview = "\z\dpso\addons\medical\area\data\previews\medical_area.jpg";
@@ -20,5 +20,5 @@ class CfgWeapons {
 			mass = 20;
 		};
 	};
-
+	
 };

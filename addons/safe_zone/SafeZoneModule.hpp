@@ -2,8 +2,8 @@ class DPSO_ModuleSafeZone: Module_F
 {
 	scope = 2;
 	displayName = "Safe Zone";
-	icon = "\z\dpso\addons\media\images\icons\Safe Zone.paa";
-	category = "DPSO";
+	icon = "\z\dpso\addons\media\images\icons\Safe_Zone.paa";
+	category = QUOTE(PREFIX);
 	function = "DPSO_fnc_moduleSafeZone";
 	functionPriority = 4;
 	isGlobal = 0;

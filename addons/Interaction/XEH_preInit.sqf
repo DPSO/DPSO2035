@@ -40,7 +40,7 @@
 				"SaveMarkers",
 				"Save/Load Markers",
 				"",
-				{[] call LR_MI_fnc_openDialog;},
+				{[] call DPSO_MI_fnc_openDialog;},
 				{DPSO_Main_MapIcons}
 			] call DPSO_fnc_addCreatorAction;
 		};

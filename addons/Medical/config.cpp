@@ -1,42 +1,46 @@
 #include "script_component.hpp"
 
-
-class CfgPatches {
-
-	class DPSO_medical {
+class CfgPatches
+{
+	class DPSO_Medical
+	{
 		author = AUTHOR;
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {
-			"DPSO_MAIN",
-            "ace_arsenal",
-            "cba_main",
-            "ace_medical",
-            "ace_medical_ai",
-            "ace_medical_blood",
-            "ace_medical_damage",
-            "ace_medical_engine",
-            "ace_medical_feedback",
-            "ace_medical_gui",
-            "ace_medical_statemachine",
-            "ace_medical_status",
-            "ace_medical_treatment",
-            "ace_medical_vitals"
-		};
-		units[] = {};
-		weapons[] = {};
-		authors[] = {
-			"O. Jemineh"
-		};
+		name = NAME;
 		url = URL;
-		VERSION_CONFIG;
+		units[] = {};
+		requiredVersion = REQUIRED_VERSION;
+		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
+		version = VERSION;
+		authors[] = {"MitchJC"};
+		weapons[] = {};
 	};
-
 };
 
-#include "CfgEventHandlers.hpp"
-#include "CfgFunctions.hpp"
+class CfgFunctions {
 
-class ace_medical_replacementItems {
-    ItemType_401[] = {{"ACE_fieldDressing",2},{"kat_Painkiller",1},{"ACE_tourniquet",2}};
-    ItemType_619[] = {{"ACE_fieldDressing",4},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_salineIV_500",3},{"ACE_tourniquet",2},{"ACE_splint",2}};
+    #include "cfgFunctions.hpp"
+};
+
+class CfgVehicles
+{
+	class Logic;
+	class Module_F: Logic
+	{
+		class AttributesBase
+		{
+			class Default;
+			class Edit;
+			class Combo;
+			class Checkbox;
+			class CheckboxNumber;
+			class ModuleDescription;
+			class Units;
+		};
+
+		class ModuleDescription
+		{
+			class AnyBrain;
+		};
+	};
+	#include "MedicalModule.hpp"
 };

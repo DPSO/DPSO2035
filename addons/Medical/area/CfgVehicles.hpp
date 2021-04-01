@@ -1,13 +1,13 @@
 class CBA_Extended_EventHandlers;
 class CfgVehicles {
-
+	
 	// INTERACTIONS
-
+	
 	class Man;
 	class CAManBase: Man {
-
+		
 		// exceptions[] = {"isNotDead", "isNotUnconscious", "isNotSurrendering", "isNotHandcuffed", "isNotCarrying", "isNotDragging", "isNotEscorting", "isNotSwimming", "isNotRefueling", "isNotOnLadder", "isNotSitting", "isNotInside", "isNotInZeus", "notOnMap"};
-
+		
 		class ACE_SelfActions {
 			class ACE_Equipment {
 				class DPSO_Medical_Area_Action_Construct {
@@ -20,17 +20,17 @@ class CfgVehicles {
 				};
 			};
 		};
-
+		
 	};
-
+	
 	// MEDICAL AREA
-
+	
 	class Item_Base_F;
 	class DPSO_Item_MedicArea: Item_Base_F {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		author = AUTHOR;
+		author = "$STR_DPSO_Medical_Area_Author";
 		displayName = "$STR_DPSO_Item_Medical_Area_DisplayName";
 		editorPreview = "\z\dpso\addons\medical\area\data\previews\medical_area.jpg";
 		vehicleClass = "Items";
@@ -38,5 +38,5 @@ class CfgVehicles {
 			MACRO_ADDITEM(DPSO_MedicArea,1);
 		};
 	};
-
+	
 };

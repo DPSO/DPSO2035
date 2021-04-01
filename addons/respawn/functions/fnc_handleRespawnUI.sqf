@@ -533,7 +533,7 @@ switch _input do {
         GVAR(respawnHalo) = false;
         hint "Click on the map or click on respawn location to draft a position. Hit enter to confirm. Spacebar toggles HALO option (only for user defined point).";
     };
-    case "toggleSpectator": {
+/*     case "toggleSpectator": {
         if (isClass(configFile >> "CfgPatches" >> "acre_main")) then {
             private _isSpectator = [player] call acre_api_fnc_isSpectator;
             [!_isSpectator] call acre_api_fnc_setSpectator;
@@ -543,7 +543,7 @@ switch _input do {
                 hint "ACRE: Spectator mode activated";  
             };
         };
-    };
+    }; */
     case "respawnMap_onMouseButtonDown": {
         _params params["_fullmapWindow","_type","_x","_y"];
         

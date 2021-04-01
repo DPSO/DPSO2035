@@ -3,7 +3,7 @@ class DPSO_Training {
 	tag = "DPSO";
 	class Training {
 
-		file = "z\dpso\Addons\Training\Functions";
+		file = "z\dpso\addons\Training\Functions";
 		class Casualty {};
 		class ResetTargets {};
 	};

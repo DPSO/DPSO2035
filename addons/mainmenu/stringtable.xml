@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Arma_Extended_Environment">
-
+	
 	<!-- ####################################################################################### -->
 	<Package name="DPSO_MainMenu">
 
@@ -11,10 +11,10 @@
 				<Original>DPSO MainMenu</Original>
 			</Key>
 			<Key ID="STR_DPSO_MainMenu_Author">
-				<Original>DPSO-Team</Original>
+				<Original>DPSO</Original>
 			</Key>
 			<Key ID="STR_DPSO_MainMenu_URL">
-				<Original>http://armadocs.purplesmoke.info/</Original>
+				<Original>https://github.com/DPSOmod/DPSO</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -23,7 +23,7 @@
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="VersionInfo">
 			<!-- =============================================================================== -->
-			<Key ID="STR_VERSIONInfo_Tooltip">
+			<Key ID="STR_DPSO_VersionInfo_Tooltip">
 				<Original>Download latest and report issues:</Original>
 				<German>Neuste Version und Probleme melden:</German>
 			</Key>

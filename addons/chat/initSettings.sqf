@@ -78,7 +78,7 @@ if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,assignGear)))) t
     ] call CBA_fnc_addSetting;
 };
 
-if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
+/* if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
     [
         QGVAR(radioUsage),
         "LIST",
@@ -91,4 +91,4 @@ if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
         ], // default value
         1 // isGlobal
     ] call CBA_fnc_addSetting;
-};
+}; */

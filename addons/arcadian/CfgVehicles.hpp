@@ -203,7 +203,7 @@ class CfgVehicles {
         scopeCurator = 2;
         forceInGarage = 1;
         side = 2;
-        faction = QCLASS(IND);
+        faction = QUOTE(PREFIX);
         displayName = "Arcadian GT (Black)";
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
         crew = QCLASS(Unit_I_Contractor);
@@ -216,7 +216,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = "DPSO_Faction";
+        faction = QUOTE(PREFIX);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
@@ -233,7 +233,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = "DPSO_Faction";
+        faction = QUOTE(PREFIX);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
@@ -250,7 +250,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = "DPSO_Faction";
+        faction = QUOTE(PREFIX);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };

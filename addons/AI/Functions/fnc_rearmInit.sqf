@@ -1,4 +1,4 @@
-#include "\z\dpso\addons\AI\script_component.hpp"
+#include "\z\dpso\addons\ai\script_component.hpp"
 params ["_logic","_units","_activated"];
 sleep 1;
 if(_activated) then {

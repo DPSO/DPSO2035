@@ -1,10 +1,10 @@
 
-class LRG_Weather {
+class DPSO_Weather {
 
-	tag = "LR";
+	tag = "DPSO";
 	class Weather {
 
-		file = "z\dpso\Addons\Weather\Functions";
+		file = "z\dpso\addons\Weather\Functions";
 		class RealWeather {};
 
 	};

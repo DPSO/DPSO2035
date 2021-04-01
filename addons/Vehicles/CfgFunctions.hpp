@@ -3,7 +3,7 @@ class DPSO_Vehicles {
 	tag = "DPSO";
 	class Vehicles {
 
-		file = "z\dpso\Addons\Vehicles\Functions";
+		file = "z\dpso\addons\Vehicles\Functions";
 		class moduleServicing {};
 		class ServiceVehicle {};
 		class setRepairFacility {};

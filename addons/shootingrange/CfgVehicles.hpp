@@ -2,14 +2,14 @@ class CfgVehicles {
     class ACE_Module;
     class GVAR(Module): ACE_Module {
         author = AUTHOR;
-        category = "DPSO";
+        category = QUOTE(PREFIX);
         displayName = CSTRING(Range);
         function = QFUNC(moduleInit);
         scope = 2;
         isGlobal = 1; // Global
         isTriggerActivated = 0;
         isDisposable = 0;
-        icon = QPATHTOF(UI\Icon_Module_ShootingRange_ca.paa);
+        icon = "\z\dpso\addons\media\images\Icons\icon_shooting.paa";
         class Arguments {
             class Name {
                 displayName = CSTRING(Name);

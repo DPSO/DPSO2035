@@ -116,7 +116,7 @@ class Controls
         w = "6.9 * (((safezoneW / safezoneH) min 1.2) / 40)";
         h = "1 *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
     };
-    
+/*      
     class ButtonACRE2Languages: ButtonSelectAll
     {
         idc = IDC_DPSO_ADMINMENU_PMAN_ACRELANGUAGES;
@@ -131,6 +131,7 @@ class Controls
         onButtonClick = QUOTE([ARR_2(QUOTE(QFUNC(modal_ACRE2Radios)),ctrlText (_this select 0))] call FUNC(modal););
         y = "6.6 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
     };
+
     class ButtonAssignGear: ButtonSelectAll
     {
         idc = IDC_DPSO_ADMINMENU_PMAN_ASSIGNGEAR;
@@ -138,6 +139,7 @@ class Controls
         onButtonClick = QUOTE([ARR_2(QUOTE(QFUNC(modal_assignGear)),ctrlText (_this select 0))] call FUNC(modal););
         y = "7.7 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
     };
+*/
     class ButtonAssignTraits: ButtonSelectAll
     {
         idc = IDC_DPSO_ADMINMENU_PMAN_ASSIGNTRAITS;

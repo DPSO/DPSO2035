@@ -31,7 +31,7 @@ class CLASS(Unit_I_Bodyguard): CLASS(Unit_Polo_TP_BS_TP_TB_NoLogo) {
 
 class CLASS(Unit_B_Bodyguard): CLASS(Unit_I_Bodyguard) {
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Contractor): CLASS(Unit_Combat_LS_BS_TP_TB) {
@@ -69,7 +69,7 @@ class CLASS(Unit_I_Contractor): CLASS(Unit_Combat_LS_BS_TP_TB) {
 class CLASS(Unit_B_Contractor): CLASS(Unit_I_Contractor) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_LS_BS_TP_TB) {
@@ -107,7 +107,7 @@ class CLASS(Unit_I_Contractor_GL): CLASS(Unit_Combat_LS_BS_TP_TB) {
 class CLASS(Unit_B_Contractor_GL): CLASS(Unit_I_Contractor_GL) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Engineer): CLASS(Unit_Combat_RS_GS_BP_BB) {
@@ -151,7 +151,7 @@ class CLASS(Unit_I_Engineer): CLASS(Unit_Combat_RS_GS_BP_BB) {
 class CLASS(Unit_B_Engineer): CLASS(Unit_I_Engineer) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -194,7 +194,7 @@ class CLASS(Unit_I_Medic): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_Medic): CLASS(Unit_I_Medic) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_GS_BP_BB) {
@@ -235,7 +235,7 @@ class CLASS(Unit_I_Specialist): CLASS(Unit_Combat_RS_GS_BP_BB) {
 class CLASS(Unit_B_Specialist): CLASS(Unit_I_Specialist) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_TeamLeader): CLASS(Unit_Combat_RS_BS_TP_BB) {
@@ -285,7 +285,7 @@ class CLASS(Unit_I_TeamLeader): CLASS(Unit_Combat_RS_BS_TP_BB) {
 class CLASS(Unit_B_TeamLeader): CLASS(Unit_I_TeamLeader) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_Marksman): CLASS(Unit_Garment_RS_GS_GP_BB) {
@@ -323,7 +323,7 @@ class CLASS(Unit_I_Marksman): CLASS(Unit_Garment_RS_GS_GP_BB) {
 class CLASS(Unit_B_Marksman): CLASS(Unit_I_Marksman) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
@@ -356,7 +356,7 @@ class CLASS(Unit_I_PilotHeli): CLASS(Unit_Combat_RS_BS_GP_BB) {
 class CLASS(Unit_B_PilotHeli): CLASS(Unit_I_PilotHeli) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };
 
 
@@ -394,5 +394,5 @@ class CLASS(Unit_I_VIP): Civilian_F {
 class CLASS(Unit_B_VIP): CLASS(Unit_I_VIP) {
     scope = 2;
     side = 1;
-    faction = "DPSO_Faction";
+    faction = QUOTE(PREFIX);
 };

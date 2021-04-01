@@ -29,6 +29,6 @@ class Extended_PreInit_EventHandlers
 {
 	class DPSO_AI_Event
 	{
-		init = "call compile preProcessFileLineNumbers 'z\dpso\addons\AI\XEH_preInit.sqf'";
+		init = "call compile preProcessFileLineNumbers 'z\dpso\addons\ai\XEH_preInit.sqf'";
 	};
 };

@@ -5,7 +5,7 @@ class CfgPatches
 	class DPSO_Interaction
 	{
 		author = AUTHOR;
-		name = COMPONENT_NAME;
+		name = NAME;
 		url = URL;
 		units[] = {};
 		requiredVersion = REQUIRED_VERSION;

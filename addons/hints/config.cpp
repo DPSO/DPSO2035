@@ -2,26 +2,25 @@
 
 
 class CfgPatches {
-
+	
 	class DPSO_Hints {
+		author = AUTHOR;
 		name = COMPONENT_NAME;
+		url = URL;
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {
-			"DPSO_MAIN"
+			"dpso_main"
 		};
 		units[] = {};
 		weapons[] = {};
-		author = AUTHOR;
 		authors[] = {
 			"O. Jemineh"
 		};
-		url = URL;
 		VERSION_CONFIG;
 	};
-
+	
 };
 
 #include "CfgEventHandlers.hpp"
 #include "CfgFunctions.hpp"
-
 #include "gui\RscHint.hpp"

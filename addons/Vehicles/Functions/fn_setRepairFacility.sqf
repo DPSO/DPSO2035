@@ -34,6 +34,6 @@ if !(_object isKindOf "EmptyDetector") then {
 _object setTriggerActivation ["ANY", "PRESENT", true];
 _object setTriggerStatements [
     "_v = (thislist select 0); { _v isKindOf _x } count [""UAV"", ""Plane"", ""Helicopter"", ""LandVehicle""] > 0 && { speed _v < 1 } && { isTouchingGround _v };",
-    "call { _v = (thisList select 0); if (_v isKindOf ""UAV"") exitWith { [_v] execVM ""z\dpso\Addons\Vehicles\Scripts\uav.sqf""; }; _type = { if (_v isKindOf _x) exitWith { _x } ; nil } count [""UAV"", ""Plane"", ""Helicopter"", ""LandVehicle""];if (_type isEqualTo 0) exitWith {};[_type, _v, 30, 30] execVM ""z\dpso\Addons\Vehicles\Scripts\general.sqf"";};",
+    "call { _v = (thisList select 0); if (_v isKindOf ""UAV"") exitWith { [_v] execVM ""z\dpso\addons\Vehicles\Scripts\uav.sqf""; }; _type = { if (_v isKindOf _x) exitWith { _x } ; nil } count [""UAV"", ""Plane"", ""Helicopter"", ""LandVehicle""];if (_type isEqualTo 0) exitWith {};[_type, _v, 30, 30] execVM ""z\dpso\addons\Vehicles\Scripts\general.sqf"";};",
     ""
 ];

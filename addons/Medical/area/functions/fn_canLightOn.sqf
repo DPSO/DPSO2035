@@ -2,18 +2,18 @@
  *	ARMA EXTENDED ENVIRONMENT
  *	\z\dpso\addons\medical\area\functions\fn_canLightOn.sqf
  *	by Ojemineh
- *
+ *	
  *	check if light can be switched on
- *
+ *	
  *	Arguments:
  *	0: area - <OBJECT>
- *
+ *	
  *	Return:
  *	<BOOLEAN>
- *
+ *	
  *	Example:
  *	[area1] call DPSO_medical_area_fnc_canLightOn;
- *
+ *	
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ if (isNull _area) exitWith {false};
 private _return = false;
 
 _return = (
-	!(_area getVariable ["DPSO_MedicalArea_LightOnInProgress", false]) &&
+	!(_area getVariable ["DPSO_MedicalArea_LightOnInProgress", false]) && 
 	((_area getVariable ["DPSO_MedicalArea_Lights", []]) isEqualTo [])
 );
 

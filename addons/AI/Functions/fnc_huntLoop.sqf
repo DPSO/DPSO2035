@@ -1,4 +1,4 @@
-#include "\z\dpso\addons\AI\script_component.hpp"
+#include "\z\dpso\addons\ai\script_component.hpp"
 // Must be scheduled enviorment (spawned)
 params ["_hunters", "_targetSide", "_position", "_range",["_targets",[]]];
     

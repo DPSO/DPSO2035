@@ -11,7 +11,7 @@
 				<Original>DPSO Medical Area</Original>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_Author">
-				<Original>DPSO-Team</Original>
+				<Original>DPSO</Original>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Area_URL">
 				<Original>https://github.com/DPSOmod/DPSO</Original>
@@ -28,7 +28,7 @@
 				<German>DPSO Medizinisch</German>
 			</Key>
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_Medical_Area_CBA_Category_Common">
+			<Key ID="STR_DPSO_Medical_Area_CBA_Category_core">
 				<Original>Dressing Station</Original>
 				<German>Verbandsplatz</German>
 			</Key>

@@ -18,7 +18,7 @@ class CfgPatches
 
 class Extended_PreInit_EventHandlers {
     class DPSO_Weather_Event {
-        init = "call compile preprocessFileLineNumbers 'z\dpso\Addons\Weather\XEH_preInit.sqf'";
+        init = "call compile preprocessFileLineNumbers 'z\dpso\addons\Weather\XEH_preInit.sqf'";
     };
 };
 

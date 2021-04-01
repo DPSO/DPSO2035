@@ -40,11 +40,11 @@ if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,assignGear)))) t
     ] call CBA_fnc_registerChatCommand;
 };
 
-if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
+/* if (isClass (configFile >> "CfgPatches" >> QUOTE(DOUBLES(PREFIX,acre2)))) then {
     [ // Assign radio
         "radio",
         CHAT_FUNC(Radio),
         "all"
     ] call CBA_fnc_registerChatCommand;
 };
-
+ */

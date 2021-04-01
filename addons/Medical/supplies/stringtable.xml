@@ -11,7 +11,7 @@
 				<Original>DPSO Medical Supplies</Original>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Author">
-				<Original>DPSO-Team</Original>
+				<Original>DPSO</Original>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_URL">
 				<Original>https://github.com/DPSOmod/DPSO</Original>
@@ -28,12 +28,8 @@
 				<German>Erste-Hilfe-Pack auspacken</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Action_MedicKit">
-				<Original>Unpack Medical Kit</Original>
+				<Original>Unpack Medic Bag</Original>
 				<German>Verbandskasten auspacken</German>
-			</Key>
-            <Key ID="STR_DPSO_Medical_Supplies_Action_mopp">
-				<Original>Unpack MOPP Bag</Original>
-				<German>Erste-Hilfe-Pack auspacken</German>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -47,12 +43,8 @@
 				<German>Erste-Hilfe-Pack auspacken...</German>
 			</Key>
 			<Key ID="STR_DPSO_Medical_Supplies_Progress_MedicKit">
-				<Original>Unpack Medical Kit...</Original>
+				<Original>Unpack Medic Bag...</Original>
 				<German>Verbandskasten auspacken...</German>
-			</Key>
-			<Key ID="STR_DPSO_Medical_Supplies_Progress_mopp">
-				<Original>Unpack faster, come on faster...</Original>
-				<German>Erste-Hilfe-Pack auspacken...</German>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container >
@@ -70,21 +62,12 @@
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_Item_Medical_mopp_DisplayName">
-				<Original>o shit o shit o shit MOPP Bag</Original>
-				<German>MOPP4</German>
-			</Key>
-			<Key ID="STR_DPSO_Item_Medical_mopp_Description">
-				<Original>Contains material for MOPP 4</Original>
-				<German>MOPP 4</German>
-			</Key>
-			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Item_Medical_MedicKit_DisplayName">
-				<Original>Medical Kit</Original>
+				<Original>Medic Bag</Original>
 				<German>Verbandskasten</German>
 			</Key>
 			<Key ID="STR_DPSO_Item_Medical_MedicKit_Description">
-				<Original>Contains material for Medics</Original>
+				<Original>Contains material for first aid</Original>
 				<German>Enthält Material für die Erste-Hilfe</German>
 			</Key>
 			<!-- =============================================================================== -->

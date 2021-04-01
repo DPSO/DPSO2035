@@ -11,10 +11,10 @@
 				<Original>DPSO Hint</Original>
 			</Key>
 			<Key ID="STR_DPSO_Hints_Author">
-				<Original>DPSO-Team</Original>
+				<Original>DPSO</Original>
 			</Key>
 			<Key ID="STR_DPSO_Hints_URL">
-				<Original>https://purplesmoke.info</Original>
+				<Original>https://github.com/DPSOmod/DPSO</Original>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
@@ -28,8 +28,8 @@
 				<German>DPSO Hinweise</German>
 			</Key>
 			<!-- =============================================================================== -->
-			<Key ID="STR_DPSO_Hints_CBA_Category_Common">
-				<Original>Common Settings</Original>
+			<Key ID="STR_DPSO_Hints_CBA_Category_core">
+				<Original>core Settings</Original>
 				<German>Allgemeines</German>
 			</Key>
 			<Key ID="STR_DPSO_Hints_CBA_Category_Colors">
