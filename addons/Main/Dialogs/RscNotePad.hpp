@@ -71,7 +71,7 @@ class RscNotepad
         class NotePadBackground: RscPicture
         {
             idc = 1201;
-            text = "z\dpso\addons\media\images\Cue Cards\notepad_CA.paa";
+            text = "z\dpso\addons\media\images\cuecards\notepad_CA.paa";
             x = 0.288594 * safezoneW + safezoneX;
             y = 0.093 * safezoneH + safezoneY;
             w = 0.31 * safezoneW;
