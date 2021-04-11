@@ -482,7 +482,7 @@ force force DPSO_chat_whisperUsage = 3;
 force force DPSO_common_weaponSafety = true;
 
 // DPSO core
-force force dpso_tactical_view_enabled = true;
+force force dpso_tactical_view_enabled = false;
 
 // DPSO Creator Actions
 force DPSO_CreatorActions_Channels = true;
@@ -518,7 +518,7 @@ dpso_interactions_tapshoulder_hint = true;
 
 // DPSO Main
 force force DPSO_Main_ArsenalSaveLoad = true;
-force force DPSO_Main_CHViewDistance = true;
+force force DPSO_Main_CHViewDistance = false;
 force force DPSO_Main_CueCards = true;
 force force DPSO_Main_Diary = true;
 force force DPSO_Main_DynamicGroups = true;
@@ -570,7 +570,7 @@ force force DPSO_QS_ST_showAIGroups = true;
 force force DPSO_QS_ST_showAINames = true;
 force force DPSO_QS_ST_showCivilianIcons = false;
 force force DPSO_QS_ST_showFactionOnly = true;
-force force DPSO_QS_ST_showGroupHudIcons = true;
+force force DPSO_QS_ST_showGroupHudIcons = false;
 force force DPSO_QS_ST_showGroupMapIcons = true;
 force force DPSO_QS_ST_showGroupOnly = false;
 force force DPSO_QS_ST_showMedicalWounded = true;

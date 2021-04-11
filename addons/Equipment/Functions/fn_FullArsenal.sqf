@@ -54,6 +54,10 @@ _ArsenalType = call {
 	if (_Type isEqualTo "DPSO") exitwith {
         _AvailableItems = [
             "ItemCompass",
+            "kat_stethoscope",
+            "Empty_bloodIV_500",
+            "Empty_bloodIV_250",
+            "kat_crossPanel",
             "ACRE_PRC117F",
             "ACRE_PRC152",
             "ACRE_PRC148",
