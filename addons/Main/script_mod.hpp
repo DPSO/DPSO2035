@@ -11,7 +11,7 @@
 #define AUTHOR DPSO
 #define LOGO_PATH "\z\dpso\addons\media\images\logo_sm_ca.paa"
 
-#define URL http://Discord.LastResortGaming.net
+#define URL https://armadocs.purplesmoke.info/
 #define NAME DPSO
 
 // MINIMAL REQUIRED VERSIONS

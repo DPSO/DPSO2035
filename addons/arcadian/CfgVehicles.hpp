@@ -203,8 +203,8 @@ class CfgVehicles {
         scopeCurator = 2;
         forceInGarage = 1;
         side = 2;
-        faction = QUOTE(PREFIX);
-        displayName = "Arcadian GT (Black)";
+        faction = QCLASS(IND);
+        displayName = CSTRING(Black);
         editorPreview = QPATHTOF(ui\Arcadian.jpg);
         crew = QCLASS(Unit_I_Contractor);
         typicalCargo[] = {QCLASS(Unit_I_Contractor)};
@@ -216,14 +216,14 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QUOTE(PREFIX);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
 
     class CLASS(Arcadian_I_Tan): CLASS(Arcadian_I_Black) {
         scope = 2;
-        displayName = "Arcadian GT (Tan)";
+        displayName = CSTRING(Tan);
         editorPreview = QPATHTOF(ui\Arcadian_Tan.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_tan_co.paa)
@@ -233,14 +233,14 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QUOTE(PREFIX);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
 
     class CLASS(Arcadian_I_Green): CLASS(Arcadian_I_Black) {
         scope = 2;
-        displayName = "Arcadian GT (Green)";
+        displayName = CSTRING(Green);
         editorPreview = QPATHTOF(ui\Arcadian_Green.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\arcadian_body_green_co.paa)
@@ -250,7 +250,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QUOTE(PREFIX);
+        faction = QCLASS(BLU);
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };

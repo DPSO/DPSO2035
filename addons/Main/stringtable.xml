@@ -16,6 +16,9 @@
 			<Key ID="STR_DPSO_Main_URL">
 				<Original>https://github.com/DPSOmod/DPSO</Original>
 			</Key>
+			<Key ID="STR_DPSO_main_http">
+				<Original>https://github.com/DPSOmod/DPSO</Original>
+			</Key>
 			<!-- =============================================================================== -->
 		</Container>
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
