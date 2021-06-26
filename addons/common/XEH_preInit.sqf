@@ -3,6 +3,21 @@
 #include "XEH_PREP.sqf"
 #include "initSettings.sqf"
 
+ADDON = false;
+
+DPSO_unit = objNull;
+uiNamespace setVariable ["DPSO_unit", objNull];
+
+enableSaving [false,false]; // Disables save when aborting.
+enableTeamSwitch false; // Disables team switch.
+
+// Disable all AI chatter
+player setVariable ["BIS_noCoreConversations",true]; // Disable AI chatter.
+enableSentences false; // Disable AI chatter.
+enableRadio false; // Disable AI radio.
+
+ADDON = true;
+
 if is3DEN call {
     call FUNC(edenInit);
 };

@@ -7,7 +7,6 @@ class CfgSettings {
             xeh = 0;
             functions = 0;
         };
-		
 		class Versioning {
 			class DPSO {
 				class dependencies {
@@ -16,7 +15,12 @@ class CfgSettings {
 				};
 			};
 		};
-		
+		class DPSO {
+			class dependencies {
+				//ACE will hard exit if this is missing
+				CBA[] = {"cba_main", REQUIRED_CBA_VERSION, "(true)"};
+			};
+		};
 	};
 	
 };

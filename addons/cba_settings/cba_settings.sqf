@@ -465,11 +465,40 @@ force DPSO_AI_SpotTime = 0.2;
 force force DPSO_ai_disembark_enabled = true;
 force force DPSO_ai_disembark_stayInImmobileChance = 0.299874;
 
+// DPSO BFT
+force force DPSO_bft_bftEnabled = true;
+force force DPSO_bft_friendlySides_CIVILIAN = [0,2];
+force force DPSO_bft_friendlySides_EAST = [3];
+force force DPSO_bft_friendlySides_RESISTANCE = [1,3];
+force force DPSO_bft_friendlySides_WEST = [2];
+force force DPSO_bft_friendlySidesDynamic = true;
+force force DPSO_bft_groupIconsInteraction = "hover";
+force force DPSO_bft_medicalSystem = "ACE";
+force force DPSO_bft_requireItemGPS = true;
+force force DPSO_bft_showAIGroups = true;
+force force DPSO_bft_showAINames = true;
+force force DPSO_bft_showCivilians = false;
+force force DPSO_bft_showGroupIcons = true;
+force force DPSO_bft_showGroupText = true;
+force force DPSO_bft_showLifeState = true;
+force force DPSO_bft_showOwnFactionOnly = true;
+force force DPSO_bft_showOwnGroup = true;
+force force DPSO_bft_showOwnGroupUnits = true;
+force force DPSO_bft_showPlayerNames = true;
+force force DPSO_bft_showUnitNames = true;
+force force DPSO_bft_teamColors = "ACE";
+force force DPSO_bft_updateInterval = 0;
+
 // DPSO Back To Game
 force force DPSO_back_to_game_enableAddon = true;
 force force DPSO_back_to_game_removeBody = true;
 force force DPSO_back_to_game_teleportToLeader = true;
 force force DPSO_back_to_game_teleportToVehicle = true;
+
+// DPSO BoC
+force force DPSO_boc_disabled = false;
+force force DPSO_boc_forceWalk = true;
+force force DPSO_boc_removeKilledPlayerChestpack = false;
 
 // DPSO Chat Commands
 force force DPSO_chat_healUsage = 3;
@@ -551,32 +580,6 @@ force force DPSO_bodybag_destroyChance = 20;
 // DPSO Pointing
 force force DPSO_pointing_vehicleEnabled = true;
 
-// DPSO QS Icons
-force force DPSO_QS_ST_AINames = true;
-force force DPSO_QS_ST_enableGroupIcons = true;
-force force DPSO_QS_ST_gps_enableUnitIcons = true;
-force force DPSO_QS_ST_GPSDist = 1000;
-force force DPSO_QS_ST_GPSshowGroupOnly = false;
-force force DPSO_QS_ST_GPSshowNames = true;
-force force DPSO_QS_ST_groupTextFactionOnly = true;
-force force DPSO_QS_ST_iconMapText = true;
-force force DPSO_QS_ST_iconTextFonts = 5;
-force force DPSO_QS_ST_iconUpdatePulseDelay = 0;
-force force DPSO_QS_ST_map_enableUnitIcons = true;
-force force DPSO_QS_ST_MasterEnable = true;
-force force DPSO_QS_ST_MedicalSystem = 3;
-force force DPSO_QS_ST_showAI = true;
-force force DPSO_QS_ST_showAIGroups = true;
-force force DPSO_QS_ST_showAINames = true;
-force force DPSO_QS_ST_showCivilianIcons = false;
-force force DPSO_QS_ST_showFactionOnly = true;
-force force DPSO_QS_ST_showGroupHudIcons = false;
-force force DPSO_QS_ST_showGroupMapIcons = true;
-force force DPSO_QS_ST_showGroupOnly = false;
-force force DPSO_QS_ST_showMedicalWounded = true;
-force force DPSO_QS_ST_showMOS = false;
-force force DPSO_QS_ST_showMOS_range = 0;
-force force DPSO_QS_ST_showOwnGroup = true;
 
 // DPSO Respawn
 force force DPSO_respawn_enabled = true;

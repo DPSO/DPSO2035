@@ -77,7 +77,7 @@
         params ["_value"];
         if ((!isClass (configFile >> "CfgPatches" >> "zen_main")) || (!_value)) exitWith {};
 
-        ["DPSO Fundamentals", "Safe Zone", {_this call DPSO_fnc_moduleSafeZoneZeus}, "\z\dpso\addons\media\images\Icons\Safe Zone.paa"] call zen_custom_modules_fnc_register;
+        ["DPSO Fundamentals", "Safe Zone", {_this call DPSO_fnc_moduleSafeZoneZeus}, "\z\dpso\addons\media\images\Icons\Safe_Zone.paa"] call zen_custom_modules_fnc_register;
     }
 ] call CBA_Settings_fnc_init;
 

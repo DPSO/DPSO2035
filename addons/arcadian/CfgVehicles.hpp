@@ -216,7 +216,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QCLASS(BLU);
+        faction = PREFIX;
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
@@ -233,7 +233,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QCLASS(BLU);
+        faction = PREFIX;
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };
@@ -250,7 +250,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 0;
         side = 1;
-        faction = QCLASS(BLU);
+        faction = PREFIX;
         crew = QCLASS(Unit_B_Contractor);
         typicalCargo[] = {QCLASS(Unit_B_Contractor)};
     };

@@ -284,7 +284,7 @@ if (_type isEqualTo "RHS") exitwith {
             "ACE_surgicalKit",
             "ACE_tourniquet",
             "ACE_splint",
-            "qipTPL_optic_Nightstalker",
+            "DPSO_optic_Nightstalker",
             "kat_Painkiller",
             "kat_larynx",
             "kat_guedel",

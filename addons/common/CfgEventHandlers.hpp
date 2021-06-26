@@ -27,6 +27,9 @@ class Extended_DisplayLoad_EventHandlers {
     class RscDisplayDebriefing {
         dpso_override_end_text = QUOTE(_this call (uiNamespace getVariable 'FUNC(initDisplayDebriefing)'));
     };
+    class RscDiary {
+        ADDON = QUOTE(_this call (uiNamespace getVariable 'FUNC(initDisplayMission)'));
+    };
 };
 
 class Extended_PreInit_EventHandlers {

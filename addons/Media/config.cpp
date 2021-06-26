@@ -18,6 +18,7 @@ class CfgPatches
 
 #include "CfgVehicles.hpp"
 #include "CfgMusic.hpp"
+#include "CfgRadio.hpp"
 #include "CfgSounds.hpp"
 #include "CfgUnitInsignia.hpp"
 class CfgFunctions {

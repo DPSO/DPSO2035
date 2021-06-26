@@ -74,3 +74,15 @@ PREP (isInBuilding);
 PREP (getKeybindString);
 PREP (needRestart);
 PREP (needRestartLocal);
+
+///dpso
+PREP(customMark);
+PREP(initDB);
+PREP(initIntelObject);
+PREP(isAdmin);
+PREP(missionInitialization);
+PREP(playerInit);
+PREP(objectMarkers);
+PREP(paramToBool);
+PREP(rptLog);
+PREP(uavIntro);

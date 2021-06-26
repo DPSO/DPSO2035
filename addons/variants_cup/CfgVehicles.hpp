@@ -7,7 +7,7 @@ class CfgVehicles {
         scope = 2;
         forceInGarage = 1;
         side = 2;
-        faction = QUOTE(PREFIX);
+        faction = QCLASS(IND);
         author = AUTHOR;
         displayName = CSTRING(C130J_DPSO_Name);
         editorPreview = QPATHTOF(ui\C130J_DPSO.jpg);
