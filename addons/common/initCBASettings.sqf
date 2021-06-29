@@ -115,5 +115,3 @@
     1
 ] call CBA_fnc_addSetting;
 
-GVAR(clanLogo) = QPATHTOEF(media,Images\clanLogo.paa);
-GVAR(clanFlag) = QPATHTOEF(media,Images\clanFlag.paa);

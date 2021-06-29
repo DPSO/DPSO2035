@@ -1,8 +1,9 @@
 #define MACRO_DPSO_CLASS_COMMON \
     dlc = QUOTE(PREFIX); \
-    scope = 0; \
+    scope = 2; \
     side = 1; \
     faction = QUOTE(PREFIX); \
+    role = "SpecialOperative"; \
     items[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs"}; \
     respawnItems[] = {"ACE_MapTools","DPSO_FirstAid","ACE_EarPlugs"}; \
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "Head_TK", "Head_Greek"}; \
