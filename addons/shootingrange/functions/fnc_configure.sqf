@@ -71,16 +71,12 @@ if (!(_targetsNew isEqualTo []) && {count (_allTargetsNew select {!(_x in _allTa
     false
 };
 
-private _allTargetsNewControllers = [];
-{
-    {
+private _allTargetsNewControllers = []; { {
         _allTargetsNewControllers pushBackUnique _x;
     } forEach (_x getVariable [QGVAR(controllers), []]);
 } forEach _allTargetsNew;
 
-private _allTargetsOldControllers = [];
-{
-    {
+private _allTargetsOldControllers = []; { {
         _allTargetsOldControllers pushBackUnique _x;
     } forEach (_x getVariable [QGVAR(controllers), []]);
 } forEach _allTargetsOld;

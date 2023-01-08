@@ -9,7 +9,7 @@ if (_type == 20) then {
         hint "Nothing selected to Trigger";
 
     } else {
-        if (typeOf GVAR(adminEyeSelectedObj) == "DPSO_ai_wavespawn") then {
+        if (typeOf GVAR(adminEyeSelectedObj) == "dpso_ai_wavespawn") then {
             // Wave spawner trigger.
             TRACE_1("Admin Eye triggered wave", GVAR(adminEyeSelectedObj));
             [{

@@ -3,114 +3,137 @@
 if !(hasinterface) exitwith {};
 if !(isClass (configFile >> "CfgPatches" >> "ace_main")) exitwith {};
 
+
+    // aircheckin.paa
+    // airdrop.paa
+
+
+    // medband.paa
+    // medbloodloss.paa
+    // medwound.paa
+    // cararrest.paa
+    // casevac.paa
+    // drugs.paa
+
+
 _cueCardsData = [
-	// 	0 - CASEVAC Request Card
-	[
-		"z\dpso\addons\media\images\cuecards\medivac.paa",
-		"CASEVAC Request Card"
-	],
+    //  0 - CASEVAC Request Card
+    [
+        "z\dpso\addons\media\images\cuecards\casevac.paa",
+        "CASEVAC Request Card"
+    ],
 
-	//	1 - Contact Report Card
-	[
-		"z\dpso\addons\media\images\cuecards\tic.paa",
-		"Contact Report Card"
-	],
+    // 1 - ace Report Card
+    [
+        "z\dpso\addons\media\images\cuecards\contact.paa",
+        "Contact Report Card"
+    ],
+    // 2 - Contact Report Card
+    [
+        "z\dpso\addons\media\images\cuecards\ace.paa",
+        "ACE Report Card"
+    ],
+    // 3 - Contact Report Card
+    [
+        "z\dpso\addons\media\images\cuecards\salute.paa",
+        "Salute Report Card"
+    ],
+    //  4 - FAC rotary Request Card
+    [
+        "z\dpso\addons\media\images\cuecards\rotary.paa",
+        "FAC Rotary Request Card"
+    ],
 
-	// 	2 - CAS Checkin  Card
-	[
-		"z\dpso\addons\media\images\cuecards\cascheck.paa",
-		"CAS Check IN Card"
-	],
+    //  5 - FAC fixed wing Orders Card
+    [
+        "z\dpso\addons\media\images\cuecards\jtac.paa",
+        "FAC Fixed Wing Request Card"
+    ],
 
-	// 	3 - CAS Card
-	[
-		"z\dpso\addons\media\images\cuecards\casbrief.paa",
-		"CAS Briefing Card"
-	],
+    //  6 - FAC hlz
+    [
+        "z\dpso\addons\media\images\cuecards\alz.paa",
+        "HLZ Request Card"
+    ],
 
-	// 	4 - Salute Card
-	[
-		"z\dpso\addons\media\images\cuecards\salute.paa",
-		"(SALUTE) Card"
-	],
-	// 	5 - ACE Card
-	[
-		"z\dpso\addons\media\images\cuecards\ace.paa",
-		"(ACE) Card"
-	],
-	// 	6 - Front Line Trace ( POSREP ) Card
-	[
-		"z\dpso\addons\media\images\cuecards\posrep.paa",
-		"Front Line Trace ( POSREP ) Card"
-	],
-	// 	7 - Vehicle Report (DEFREP) Card
-	[
-		"z\dpso\addons\media\images\cuecards\venicle.paa",
-		"Vehicle Report (DEFREP) Card"
-	],
-	// 	8 - Bandages
-	[
-		"z\dpso\addons\media\images\cuecards\bandages.paa",
-		"Bandages Notes"
-	],
-	// 	9 - Medical Notes
-	[
-		"z\dpso\addons\media\images\cuecards\mednotes.paa",
-		"Medical Notes"
-	],
-	// 	10 - Medical Process
-	[
-		"z\dpso\addons\media\images\cuecards\medproces.paa",
-		"Medical Process"
-	],
-	// 	11 - Call for Fire
-	[
-		"z\dpso\addons\media\images\cuecards\cff.paa",
-		"Call for Fire"
-	],
-	// 	12 - Method of Fire and Control
-	[
-		"z\dpso\addons\media\images\cuecards\mfc.paa",
-		"Method of Fire and Control"
-	],
-	// 	13 - Rotary Landing 
-	[
-		"z\dpso\addons\media\images\cuecards\landingb.paa",
-		"Rotary Landing"
-	]
+    //  7 - FAC alz
+    [
+        "z\dpso\addons\media\images\cuecards\hlz.paa",
+        "ALZ Request Card"
+    ],
+    //  8 - FAC gunship
+    [
+        "z\dpso\addons\media\images\cuecards\gunship.paa",
+        "Gunship Request Card"
+    ],
+    //  9 - FAC gunship
+    [
+        "z\dpso\addons\media\images\cuecards\airdrop.paa",
+        "Airdrop Request Card"
+    ],
+
+    //  10 - checkin
+    [
+        "z\dpso\addons\media\images\cuecards\aircheckin.paa",
+        "Aircraft Checkin Card"
+    ],
+
+    //  11 - medical
+    [
+        "z\dpso\addons\media\images\cuecards\medband.paa",
+        "Medical SmartCard Bandages"
+    ],
+
+    //  12 -
+    [
+        "z\dpso\addons\media\images\cuecards\medbloodloss.paa",
+        "Medical SmartCard Blood Loss"
+    ],
+    //  13 -
+    [
+        "z\dpso\addons\media\images\cuecards\medwound.paa",
+        "Medical SmartCard Wounds"
+    ],
+    //  14 -
+    [
+        "z\dpso\addons\media\images\cuecards\cararrest.paa",
+        "Medical SmartCard Cardiac Arrest"
+    ],
+    //  15 -
+    [
+        "z\dpso\addons\media\images\cuecards\drugs.paa",
+        "Medical SmartCard Drugs"
+    ]
 ];
+
 
 // Add Parent Action
 _parentAction = [
-	"CueCardAction",
-	"Cue Cards",
-	"",
-	{diag_log "running parent action"},
-	{true}
+    "CueCardAction",
+    "Cue Cards",
+    "", {diag_log "running parent action"}, {true}
 ] call ace_interact_menu_fnc_createAction;
 
 [player, 1, ["ACE_SelfActions"], _parentAction] call ace_interact_menu_fnc_addActionToObject;
 
 // Add Action to open notepad
 _npAction = [
-	"openNotepad",
-	"Open Notepad",
-	"", // see if this looks nice or not TODO
-	{
-			_this spawn {
-			params ["_target", "_caller"];
+    "openNotepad",
+    "Open Notepad",
+    "", // see if this looks nice or not TODO
+    {
+            _this spawn {
+            params ["_target", "_caller"];
 
-			diag_log format ["[[LOGGING]] Target: %1", _target];
+            diag_log format ["[[LOGGING]] Target: %1", _target];
 
-			disableserialization;
-			([] call bis_fnc_displayMission) createdisplay "RscNotepad";
-			[missionnamespace,"cueCardShown",[_target] + ["Notepad"]] spawn bis_fnc_callScriptedEventHandler;
-		};
-	},
-	{true},
-	{},
-	[],
-	""
+            disableserialization;
+            ([] call bis_fnc_displayMission) createdisplay "RscNotepad";
+            [missionnamespace,"cueCardShown",[_target] + ["Notepad"]] spawn bis_fnc_callScriptedEventHandler;
+        };
+    }, {true}, {},
+    [],
+    ""
 ] call ace_interact_menu_fnc_createAction;
 
 [player, 1, ["ACE_SelfActions", "CueCardAction"], _npAction] call ace_interact_menu_fnc_addActionToObject;
@@ -118,38 +141,36 @@ _npAction = [
 // Add Cue Card Actions
 {
 
-	_x params [
-		"_texture",
-		"_name"
-	];
+    _x params [
+        "_texture",
+        "_name"
+    ];
 
-	_title = format ["Show %1", _name];
-	_id = format ["cueCardAction_%1", _forEachIndex];
+    _title = format ["Show %1", _name];
+    _id = format ["cueCardAction_%1", _forEachIndex];
 
-	diag_log format ["[[LOGGING]]  ID: %1    Title: %2", _id, _title];
+    diag_log format ["[[LOGGING]]  ID: %1    Title: %2", _id, _title];
 
-	_action = [
-		_id,
-		_title,
-		_texture, // see if this looks nice or not TODO
-		{
-			_this spawn {
-				params ["_target", "_caller", "_data"];
+    _action = [
+        _id,
+        _title,
+        _texture, // see if this looks nice or not TODO
+        {
+            _this spawn {
+                params ["_target", "_caller", "_data"];
 
-				diag_log format ["[[LOGGING]] Target: %2    Data: %1", _data, _target];
+                diag_log format ["[[LOGGING]] Target: %2    Data: %1", _data, _target];
 
-				disableserialization;
-				missionNamespace setVariable ["RscDisplayCueCard_data", _data];
-				([] call bis_fnc_displayMission) createdisplay "RscDisplayCueCard";
-				([] call bis_fnc_displayMission) createdisplay "NotepadDialog";
-				[missionnamespace,"cueCardShown",[_target] + _data] spawn bis_fnc_callScriptedEventHandler;
-			};
-		},
-		{true},
-		{},
-		_x,
-		""
-	] call ace_interact_menu_fnc_createAction;
+                disableserialization;
+                missionNamespace setVariable ["RscDisplayCueCard_data", _data];
+                ([] call bis_fnc_displayMission) createdisplay "RscDisplayCueCard";
+                ([] call bis_fnc_displayMission) createdisplay "NotepadDialog";
+                [missionnamespace,"cueCardShown",[_target] + _data] spawn bis_fnc_callScriptedEventHandler;
+            };
+        }, {true}, {},
+        _x,
+        ""
+    ] call ace_interact_menu_fnc_createAction;
 
-	[player, 1, ["ACE_SelfActions", "CueCardAction"], _action] call ace_interact_menu_fnc_addActionToObject;
+    [player, 1, ["ACE_SelfActions", "CueCardAction"], _action] call ace_interact_menu_fnc_addActionToObject;
 } forEach _cueCardsData;

@@ -12,9 +12,8 @@ private _activeFactionCategory = GVAR(currentFactionCategory);
 private _factions = [];
 
 /* Fill Faction categories */
-private _playerFactions = [] call CBA_fnc_hashCreate;
-{
-    private _faction = _x getVariable ["DPSO_assignGear_faction",""];
+private _playerFactions = [] call CBA_fnc_hashCreate; {
+    private _faction = _x getVariable ["dpso_assignGear_faction",""];
     if (_faction != "") then {
         if ([_playerFactions,_faction] call CBA_fnc_hashHasKey) then {
             private _value = [_playerFactions,_faction] call CBA_fnc_hashGet;
@@ -46,8 +45,7 @@ if (_activeFactionCategory == "mission") then {
 
 //Alphabetical sort.
 _factions sort true;
-
-{
+ {
     _x params ["_displayName","_configName"];
     private _players = 0;
     // Mission factioni class overrides so show 0 if configFile class is of same name.

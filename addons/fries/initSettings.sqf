@@ -4,8 +4,8 @@ if (EGVAR(common,aceFastroping)) then {
     [
         QGVAR(autoAdd),
         "CHECKBOX",
-        ["Auto add FRIES", "Automatically add FRIES to helicopters that support them"],
-        "DPSO FRIES",
+        [LSTRING(autoAdd), LSTRING(autoAdd_Description)],
+        COMPONENT_NAME,
         true,
         true
     ] call CBA_fnc_addSetting;

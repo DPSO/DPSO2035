@@ -1,18 +1,15 @@
 #include "script_component.hpp"
 
-class cfgPatches
-{
-    class ADDON
-    {
+class CfgPatches {
+    class ADDON {
         name = COMPONENT_NAME;
         author = "Freddo";
-        url = URL;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"DPSO_common"};
+        requiredAddons[] = {"dpso_common"};
         VERSION_CONFIG;
     };
 };
 
-#include "CfgEventhandlers.hpp"
+#include "CfgEventHandlers.hpp"

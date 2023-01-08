@@ -6,19 +6,21 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 if (isServer) then {
-
     GVAR(tasks) = createHashMap;
     GVAR(tasksArray) = [];
 
-    // Load tasks from config
+    private _cfgTasks = missionConfigFile >> "CfgTasks";
+    private _tag = getTextRaw (_cfgTasks >> "tag");
+
     {
         private _taskConfigName = configName _x;
         private _taskNamespace = [_x] call EFUNC(common,readConfigToNamespace);
         _taskNamespace setVariable ["taskConfigName", _taskConfigName];
+        _taskNamespace setVariable ["taskGlobalTag", _tag];
 
         GVAR(tasks) set [_taskConfigName, _taskNamespace];
         GVAR(tasksArray) pushBack _taskNamespace;
-    } forEach ("true" configClasses (missionConfigFile >> "CfgTasks"));
+    } forEach ("true" configClasses _cfgTasks);
 };
 
 ADDON = true;

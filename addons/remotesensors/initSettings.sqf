@@ -3,10 +3,9 @@
     QGVAR(enabled),
     "CHECKBOX",
     [LSTRING(Enabled), LSTRING(Enabled_Description)],
-    LSTRING(DisplayName),
+    COMPONENT_NAME,
     true,
-    true,
-    {
+    true, {
         if (isServer || {!hasInterface}) exitWith {
             INFO("Server or HC, skipping");
         };

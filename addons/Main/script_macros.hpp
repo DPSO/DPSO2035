@@ -2,48 +2,16 @@
 #include "\z\ace\addons\main\script_macros.hpp"
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 
-#include "script_version.hpp"
-
-// Change PREP to point to folder
 #define DFUNC(module) TRIPLES(ADDON,fnc,module)
-
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
-    #define PREP(var1) TRIPLES(ADDON,fnc,var1) = compile preProcessFileLineNumbers 'PATHTO_SYS(PREFIX,COMPONENT_F,DOUBLES(functions\fnc,var1))'
     #define PREP(fncName) DFUNC(fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
-    #undef PREPMAIN
-    #define PREPMAIN(var1) TRIPLES(PREFIX,fnc,var1) = compile preProcessFileLineNumbers 'PATHTO_SYS(PREFIX,COMPONENT_F,DOUBLES(functions\fnc,var1))'
 #else
     #undef PREP
-    #define PREP(var1) ['PATHTO_SYS(PREFIX,COMPONENT_F,DOUBLES(functions\fnc,var1))', 'TRIPLES(ADDON,fnc,var1)'] call SLX_XEH_COMPILE_NEW
-     #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
-    #undef PREPMAIN
-    #define PREPMAIN(var1) ['PATHTO_SYS(PREFIX,COMPONENT_F,DOUBLES(functions\fnc,var1))', 'TRIPLES(PREFIX,fnc,var1)'] call SLX_XEH_COMPILE_NEW
+    #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
 
 #define ACE_MASSTOKG(x) ((round ((x) * 0.1 * (1/2.2046) * 100)) / 100)
-
-// XEH templates
-#define XEH_POSTINIT                                    \
-class Extended_PostInit_EventHandlers {                 \
-    class ADDON {                                       \
-        init = QUOTE( call COMPILE_FILE(XEH_postInit) );\
-    };                                                  \
-}
-
-#define XEH_PREINIT                                    \
-class Extended_PreInit_EventHandlers {                 \
-    class ADDON {                                      \
-        init = QUOTE( call COMPILE_FILE(XEH_preInit) );\
-    };                                                 \
-}
-
-#define XEH_PRESTART                                    \
-class Extended_PreStart_EventHandlers {                 \
-    class ADDON {                                       \
-        init = QUOTE( call COMPILE_FILE(XEH_preStart) );\
-    };                                                  \
-}
 
 // Expanding on CBA macros
 #define CFUNC(var) EFUNC(common,var)
@@ -54,7 +22,7 @@ class Extended_PreStart_EventHandlers {                 \
 
 // ACE3 reference macros
 #define ACE_PREFIX ace
-
+#define ACE_ADDON(module) DOUBLES(ACE_PREFIX,module)
 #define ACEGVAR(module,var)         TRIPLES(ACE_PREFIX,module,var)
 #define QACEGVAR(module,var)        QUOTE(ACEGVAR(module,var))
 
@@ -64,15 +32,67 @@ class Extended_PreStart_EventHandlers {                 \
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
-// AFM macros
-#define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
+#define GVAR(var1) DOUBLES(ADDON,var1)
+#define EGVAR(var1,var2) TRIPLES(PREFIX,var1,var2)
+#define QGVAR(var1) QUOTE(GVAR(var1))
+#define QEGVAR(var1,var2) QUOTE(EGVAR(var1,var2))
+#define QQGVAR(var1) QUOTE(QGVAR(var1))
+#define QQEGVAR(var1,var2) QUOTE(QEGVAR(var1,var2))
 
-// AFM Debug macros
-#include "\z\dpso\addons\main\script_debug.hpp"
+#define GVARMAIN(var1) GVARMAINS(PREFIX,var1)
+#define QGVARMAIN(var1) QUOTE(GVARMAIN(var1))
+#define QQGVARMAIN(var1) QUOTE(QGVARMAIN(var1))
+
+// DPSO macros
+#define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
 
 // Class
 #define CLASS(var1) DOUBLES(PREFIX,var1)
 #define QCLASS(var1) QUOTE(DOUBLES(PREFIX,var1))
+
+// Extension macros
+#define EXT "TaskForceDagger_mods"
+#define EXT_LOG "TaskForceDagger_mods_log"
+
+// DPSO Debug macros
+#include "\z\dpso\addons\main\script_debug.hpp"
+
+#define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
+    weapon = #WEAPON; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+    name = #ITEM; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDMAGAZINE(MAGAZINE,COUNT) class _xx_##MAGAZINE { \
+    magazine = #MAGAZINE; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDBACKPACK(BACKPACK,COUNT) class _xx_##BACKPACK { \
+    backpack = #BACKPACK; \
+    count = COUNT; \
+}
+
+// Path
+#define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\var3
+#define PATHTOF(var1) PATHTOF_SYS(PREFIX,COMPONENT,var1)
+#define PATHTOEF(var1,var2) PATHTOF_SYS(PREFIX,var1,var2)
+#define QPATHTOF(var1) QUOTE(PATHTOF(var1))
+#define QPATHTOEF(var1,var2) QUOTE(PATHTOEF(var1,var2))
+
+#define PATHTOR_SYS(var1,var2,var3) MAINPREFIX\var1\SUBPREFIX\var2\var3
+#define PATHTOR(var1) PATHTOR_SYS(PREFIX,COMPONENT,var1)
+#define PATHTOER(var1,var2) PATHTOR_SYS(PREFIX,var1,var2)
+#define QPATHTOR(var1) QUOTE(PATHTOR(var1))
+#define QPATHTOER(var1,var2) QUOTE(PATHTOER(var1,var2))
+
+// Class
+#define CLASS(var1) DOUBLES(PREFIX,var1)
+//#define QGVAR(var1) QUOTE(DOUBLES(PREFIX,var1))
 
 // Internal
 /* #define DOUBLES(var1,var2) ##var1##_##var2
@@ -81,7 +101,7 @@ class Extended_PreStart_EventHandlers {                 \
 
 // Main
 #define QUOTE(var1) #var1
-#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH.BUILD); versionAr[] = {MAJOR,MINOR,PATCH,BUILD}
+#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH); versionAr[] = {MAJOR,MINOR,PATCH}
 
 // Stringtable
 #define CSTRING(var1) QUOTE(TRIPLES($STR,ADDON,var1))
@@ -101,17 +121,39 @@ class Extended_PreStart_EventHandlers {                 \
 #define ITEMS_11(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
 #define ITEMS_12(var) QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var), QUOTE(var)
 
+#define ITEM01(id) id
+#define ITEM02(id) id,id
+#define ITEM03(id) id,id,id
+#define ITEM04(id) id,id,id,id
+#define ITEM05(id) id,id,id,id,id
+#define ITEM06(id) id,id,id,id,id,id
+#define ITEM07(id) id,id,id,id,id,id,id
+#define ITEM08(id) id,id,id,id,id,id,id,id
+#define ITEM09(id) id,id,id,id,id,id,id,id,id
+#define ITEM10(id) id,id,id,id,id,id,id,id,id,id
+#define ITEM11(id) id,id,id,id,id,id,id,id,id,id,id
+#define ITEM12(id) id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM13(id) id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM14(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM15(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM16(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM17(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM18(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM19(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM20(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+#define ITEM30(id) id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id
+
+
 #define MACRO_ADDWEAPON(WEAPON,COUNT) \
     class _xx_##WEAPON { \
         weapon = #WEAPON; \
         count = COUNT; \
     }
 
-#define MACRO_ADDITEM(ITEM,COUNT) \
-    class _xx_##ITEM { \
-        name = #ITEM; \
-        count = COUNT; \
-    }
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+    name = #ITEM; \
+    count = COUNT; \
+}
 
 #define MACRO_ADDMAGAZINE(MAGAZINE,COUNT) \
     class _xx_##MAGAZINE { \
@@ -153,6 +195,52 @@ class Extended_PreStart_EventHandlers {                 \
     }; \
     class TransportWeapons {};
 
+#define DEPRECATE_CLASS(CLASS,BASE) class CLASS : BASE { \
+    scope = 1; \
+    scopeCurator = 0; \
+    scopeArsenal = 0; \
+    class Attributes { \
+        class GVAR(deprecated) { \
+            property = QGVAR(deprecated); \
+            control = "Checkbox"; \
+            displayName = QUOTE(Deprecated by 'BASE'); \
+            tooltip = QUOTE(This object has been deprecated. Use 'BASE' instead.); \
+            expression = "'BASE'"; \
+            typeName = "BOOL"; \
+            condition = "objectVehicle"; \
+            defaultValue = 1; \
+        }; \
+    }; \
+}
+
+#define DEPRECATE_CLASS_WITH_BASE(CLASS,BASE) class BASE; \
+DEPRECATE_CLASS(CLASS,BASE)
+
+#define HIDE_CLASS(CLASS,BASE) class CLASS : BASE { \
+    scope = 0; \
+    scopeCurator = 0; \
+    scopeArsenal = 0; \
+}
+
+#define HIDE_CLASS_WITH_BASE(CLASS,BASE) class BASE; \
+HIDE_CLASS(CLASS,BASE)
+
+#define PREVIEW(NAME) editorPreview = QPATHTOF(data\previews\GVAR(NAME).jpg)
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// LOADOUT DEFINES
+
+#define TRANSPORT_MAGAZINE(id,qty) class _xx_##id { magazine = #id; count = qty; };
+#define TRANSPORT_WEAPON(id,qty) class _xx_##id { weapon = #id; count = qty; };
+#define TRANSPORT_BACKPACK(id,qty) class _xx_##id { backpack = #id; count = qty; };
+
+#define LOADOUT_ITEM(id, qty) \
+class _xx_##id { \
+    type = #id; \
+    count = qty; \
+};
 
 #define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
     name = #ITEM; \
@@ -170,3 +258,11 @@ class Extended_PreStart_EventHandlers {                 \
 
 #define MAGAZINES_DESC "Magazines"
 
+// ACRE functions
+#ifdef DEBUG_ACRE_API
+    #define ACRE_FUNC(var1) {if (QUOTE(var1) != QUOTE(isInitialized)) then {INFO_2("API call %1 with %2", QUOTE(DOUBLES(acre_api_fnc,var1)), _this);}; _this call DOUBLES(acre_api_fnc,var1);}
+    #define ACRE_QFUNC(var1) QUOTE(DOUBLES(acre_api_fnc,var1))
+#else
+    #define ACRE_FUNC(var1) DOUBLES(acre_api_fnc,var1)
+    #define ACRE_QFUNC(var1) QUOTE(DOUBLES(acre_api_fnc,var1))
+#endif

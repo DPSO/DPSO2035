@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Arma_Extended_Environment">
-	
+
 	<!-- ####################################################################################### -->
-	<Package name="DPSO_Backpacks">
-		
+	<Package name="dpso_Backpacks">
+
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="Backpacks_RadioBag">
 			<!-- =============================================================================== -->
@@ -19,75 +19,75 @@
 			<!-- =============================================================================== -->
 		</Container>
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-		
+
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 		<Container name="RadioBag">
 			<!-- =============================================================================== -->
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BLACK">
-				<Original>Radio Pack (Black)</Original>
+				<Original>[Dpso] Radio Pack (Black)</Original>
 				<German>Funkrucksack (Schwarz)</German>
 			</Key>
-			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BW_D">
-				<Original>Radio Pack (BW Tropic)</Original>
-				<German>Funkrucksack (BW Tropen)</German>
+			<Key ID="STR_DPSO_Backpacks_RadioBag_ou">
+				<Original>[Dpso] Radio Pack (Urban)</Original>
+				<German>Funkrucksack (Urban)</German>
 			</Key>
-			<Key ID="STR_DPSO_Backpacks_RadioBag_02_BW_W">
-				<Original>Radio Pack (BW Camo)</Original>
+			<Key ID="STR_DPSO_Backpacks_RadioBag_trop">
+				<Original>[Dpso] Radio Pack (Tropic)</Original>
 				<German>Funkrucksack (BW Fleck)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_COYOTE">
-				<Original>Radio Pack (Coyote)</Original>
+				<Original>[Dpso] Radio Pack (Coyote)</Original>
 				<German>Funkrucksack (Coyote)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_DARK">
-				<Original>Radio Pack (Green Dark)</Original>
+				<Original>[Dpso] Radio Pack (Green Dark)</Original>
 				<German>Funkrucksack (Grün Dunkel)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_DGTL">
-				<Original>Radio Pack (Green Digital)</Original>
+				<Original>[Dpso] Radio Pack (Green Digital)</Original>
 				<German>Funkrucksack (Grün Digital)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_GREEN_RNGR">
-				<Original>Radio Pack (Green Ranger)</Original>
+				<Original>[Dpso] Radio Pack (Green Ranger)</Original>
 				<German>Funkrucksack (Grün Ranger)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_HEX_CAMO">
-				<Original>Radio Pack (Hex Camo)</Original>
+				<Original>[Dpso] Radio Pack (Hex Camo)</Original>
 				<German>Funkrucksack (Hex Camo)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_HEX_GREEN">
-				<Original>Radio Pack (Hex Green)</Original>
+				<Original>[Dpso] Radio Pack (Hex Green)</Original>
 				<German>Funkrucksack (Hex Grün)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MARPAT_D">
-				<Original>Radio Pack (MARPAT-D)</Original>
+				<Original>[Dpso] Radio Pack (MARPAT-D)</Original>
 				<German>Funkrucksack (MARPAT-D)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MARPAT_W">
-				<Original>Radio Pack (MARPAT-W)</Original>
+				<Original>[Dpso] Radio Pack (MARPAT-W)</Original>
 				<German>Funkrucksack (MARPAT-W)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_MTP">
-				<Original>Radio Pack (MTP)</Original>
+				<Original>[Dpso] Radio Pack (MTP)</Original>
 				<German>Funkrucksack (MTP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_OCP">
-				<Original>Radio Pack (OCP)</Original>
+				<Original>[Dpso] Radio Pack (OCP)</Original>
 				<German>Funkrucksack (OCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_UCP">
-				<Original>Radio Pack (UCP)</Original>
+				<Original>[Dpso] Radio Pack (UCP)</Original>
 				<German>Funkrucksack (UCP)</German>
 			</Key>
 			<Key ID="STR_DPSO_Backpacks_RadioBag_02_WDL">
-				<Original>Radio Pack (Woodland)</Original>
+				<Original>[Dpso] Radio Pack (Woodland)</Original>
 				<German>Funkrucksack (Waldtarn)</German>
 			</Key>
 			<!-- =============================================================================== -->
 		</Container>
 		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-		
+
 	</Package>
 	<!-- ####################################################################################### -->
-	
+
 </Project>

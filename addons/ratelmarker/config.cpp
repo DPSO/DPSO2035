@@ -6,8 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"DPSO_MAIN"};
-        author = AUTHOR;
+        requiredAddons[] = {"DPSO_main"};
+        author = QAUTHOR;
         authors[] = {"DaC", "Jonpas"};
         url = URL;
         VERSION_CONFIG;

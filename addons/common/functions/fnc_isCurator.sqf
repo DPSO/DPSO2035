@@ -1,19 +1,19 @@
-﻿/*
- *	ARMA EXTENDED ENVIRONMENT
- *	\dpso_common\functions\common\fn_isCurator.sqf
- *	by Ojemineh
- *	
- *	check if unit is curator/zeus
- *	
- *	Arguments:
- *	0: unit - <OBJECT>
- *	
- *	Return:
- *	<BOOLEAN>
- *	
- *	Example:
- *	[player] call dpso_fnc_isCurator;
- *	
+/*
+ * ARMA EXTENDED ENVIRONMENT
+ * \DPSO_common\functions\common\fn_isCurator.sqf
+ * by Ojemineh
+ *
+ * check if unit is curator/zeus
+ *
+ * Arguments:
+ * 0: unit - <OBJECT>
+ *
+ * Return:
+ * <BOOLEAN>
+ *
+ * Example:
+ * [player] call DPSO_common_fnc_isCurator;
+ *
  */
 
 // -------------------------------------------------------------------------------------------------

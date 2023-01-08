@@ -1,9 +1,9 @@
 
 cba_settings_whitelist[] = {
     "admin", // logged in/voted admin
-    admin_YONV
+    ADMIN_YonV
 };
 
 enableDebugConsole[] = {
-    admin_YONV
+    ADMIN_YonV
 };

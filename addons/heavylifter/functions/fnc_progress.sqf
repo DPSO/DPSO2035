@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [heli] call tac_heavylifter_fnc_progress
+ * [heli] call dpso_heavylifter_fnc_progress
  *
  * Public: No
  */

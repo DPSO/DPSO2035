@@ -3,22 +3,22 @@
 
 class CfgPatches {
 
-	class ADDON {
-		name = COMPONENT_NAME;
-		requiredVersion = REQUIRED_VERSION;
-		requiredaddons[] = {
-			"a3_weapons_f",
-			"DPSO_MAIN",
+    class ADDON {
+        name = COMPONENT_NAME;
+        requiredVersion = REQUIRED_VERSION;
+        requiredaddons[] = {
+            "a3_weapons_f",
+            "dpso_main",
             "A3_Supplies_F_Enoch_Bags"
-		};
-		units[] = {};
-		weapons[] = {};
-		author = AUTHOR;
-		authors[] = {
-			"O. Jemineh"
-		};
-		url = URL;
+        };
+        units[] = {};
+        weapons[] = {};
+        author = QAUTHOR;
+        authors[] = {
+            "O. Jemineh"
+        };
+        url = URL;
 
-	};
+    };
 
 };

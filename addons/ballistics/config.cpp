@@ -7,11 +7,11 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"DPSO_main"};
-        author = ECSTRING(main,Author);
-        authors[] = {"BaerMitUmlaut", "Jonpas"};
-        url = ECSTRING(main,URL);
+        author = "";
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "CfgAmmo.hpp"

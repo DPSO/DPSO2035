@@ -1,37 +1,32 @@
-class CfgDebriefing
-{
-    class GVAR(victory)
-    {
+class CfgDebriefing {
+    class GVAR(victory) {
         title = "Mission Successful";
         description = "";
         subtitle = "";
         pictureBackground = "";
-        picture = "\a3\3den\Data\Attributes\TaskStates\succeeded_ca.paa";
+        picture = "\a3\3DEN\Data\Attributes\TaskStates\succeeded_ca.paa";
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(defeat)
-    {
+    class GVAR(defeat) {
         title = "Mission Failed";
         description = "";
         subtitle = "";
         pictureBackground = "";
-        picture = "\a3\3den\Data\Attributes\TaskStates\failed_ca.paa";
+        picture = "\a3\3DEN\Data\Attributes\TaskStates\failed_ca.paa";
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(draw)
-    {
+    class GVAR(draw) {
         title = "Draw";
         description = "";
         subtitle = "";
         pictureBackground = "";
-        picture = "\a3\3den\Data\Attributes\TaskStates\canceled_ca.paa";
+        picture = "\a3\3DEN\Data\Attributes\TaskStates\canceled_ca.paa";
         pictureColor[] = {1.0,1.0,1.0,1};
     };
 
-    class GVAR(technical_issues)
-    {
+    class GVAR(technical_issues) {
         title = "Technical Issues";
         description = "";
         subtitle = "";

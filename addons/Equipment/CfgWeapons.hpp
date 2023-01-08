@@ -1,11 +1,31 @@
+#include "script_component.hpp"
 class CfgWeapons {
+
     class optic_Nightstalker;
     class InventoryOpticsItem_Base_F;
     class ACE_Vector;
+    class Uniform_Base;
+    class VestItem;
+    class V_RebreatherB;
+    class InventoryItem_Base_F;
+    class ItemCore;
+    class UniformItem;
+    class U_B_Wetsuit;
+    class Rifle;
+    class Rifle_Base_F: Rifle {
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
+    class optic_lrps;
+    class Binocular;
 
-    class DPSO_Vector_Designator: ACE_Vector {
+
+    class Laserdesignator: Binocular {
+            visionMode[] = {"Normal","NVG","TI"};
+        };
+    class GVAR(Vector_Designator): ACE_Vector {
         author = "NemesisRE";
-        displayName = "[dpso] ACE Vector Designator (NVG/TI))";
+        displayName = "[DPSO] ACE Vector Designator (NVG/TI))";
         descriptionShort = "Rangefinder/Designator";
         simulation = "weapon";
         magazines[] = {"Laserbatteries"};
@@ -30,15 +50,70 @@ class CfgWeapons {
         maxRange = 5000;
     };
 
-    class DPSO_Vector_Designator_NVG: DPSO_Vector_Designator {
-        displayName = "[dpso] ACE Vector Designator (NVG)";
+    class GVAR(rebreather): V_RebreatherB {
+        author = QAUTHOR;
+        displayName = "[DPSO] Rebreather";
+        class ItemInfo: VestItem {
+            uniformModel = "\A3\Characters_F\Common\equip_rebreather";
+            vestType = "Rebreather";
+            mass = 10;
+            passThrough = 0.8;
+            hiddenSelections[] = {"camo"};
+            containerClass = "Supply180";
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 69;
+                    passThrough = 0.2;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            }
+        };
+    };
+
+    class GVAR(Wetsuit): U_B_Wetsuit {
+        author = QAUTHOR;
+        displayName = "[DPSO] Wetsuit";
+        picture = "\A3\characters_f\data\ui\icon_U_B_Wetsuit_CA.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"A3\Characters_F\Common\Data\diver_suit_nato_co.paa"};
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = "B_diver_F";
+            containerClass = "Supply120";
+            uniformType = "Neopren";
+            mass = 40;
+        };
+    };
+
+    class GVAR(Vector_Designator_NVG): GVAR(Vector_Designator) {
+        displayName = "[DPSO] ACE Vector Designator (NVG)";
         visionMode[] = {"Normal","NVG"};
         thermalMode[] = {};
     };
 
-    class DPSO_optic_Nightstalker: optic_Nightstalker {
+    class GVAR(optic_Nightstalker): optic_Nightstalker {
         author="NemesisRE";
-        displayName="[dpso] Nightstalker";
+        displayName="[DPSO] Nightstalker";
         descriptionShort = "Nightstalker Sight<br />Magnification: 1x-10x";
         class ItemInfo: InventoryOpticsItem_Base_F {
             mass=12;
@@ -88,11 +163,10 @@ class CfgWeapons {
         inertia=0.2;
     };
 
-    class ItemCore;
-    class DPSO_optic_AMS_base: ItemCore {
+    class GVAR(optic_AMS_base): ItemCore {
         author="NemesisRE";
-        displayName="[dpso] AMS Base";
-        descriptionShort="[dpso] AMS (NVG)";
+        displayName="[DPSO] AMS Base";
+        descriptionShort="[DPSO] AMS (NVG)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -151,7 +225,7 @@ class CfgWeapons {
                     opticsZoomMax=1.25;
                     opticsZoomInit=0.75;
                     memoryPointCamera="eye";
-                    visionMode[]={};
+                    visionMode[] = {};
                     discretefov[]={};
                     discreteDistance[]={200};
                     discreteDistanceInitIndex=0;
@@ -164,10 +238,10 @@ class CfgWeapons {
         };
         inertia=0.2;
     };
-    class DPSO_optic_AMSTI_base: ItemCore {
+    class GVAR(optic_AMSTI_base): ItemCore {
         author="NemesisRE";
-        displayName="[dpso] AMS-TI Base";
-        descriptionShort="[dpso] AMS (NVG/TI)";
+        displayName="[DPSO] AMS-TI Base";
+        descriptionShort="[DPSO] AMS (NVG/TI)";
         _generalMacro="optic_AMS_base";
         scope=0;
         scopeCurator=0;
@@ -227,7 +301,7 @@ class CfgWeapons {
                     opticsZoomMax=1.25;
                     opticsZoomInit=0.75;
                     memoryPointCamera="eye";
-                    visionMode[]={};
+                    visionMode[] = {};
                     discretefov[]={};
                     discreteDistance[]={200};
                     discreteDistanceInitIndex=0;
@@ -240,50 +314,851 @@ class CfgWeapons {
         };
         inertia=0.2;
     };
-    class DPSO_optic_AMS: DPSO_optic_AMS_base {
+    class GVAR(optic_AMS): GVAR(optic_AMS_base) {
         author="NemesisRE";
         _generalMacro="optic_AMS";
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[dpso] AMS (Black)";
+        displayName="[DPSO] AMS (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
-    class DPSO_optic_AMS_khk: DPSO_optic_AMS {
+    class GVAR(optic_AMS_khk): GVAR(optic_AMS) {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
-        displayName="[dpso] AMS (Khaki)";
+        displayName="[DPSO] AMS (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
-    class DPSO_optic_AMS_snd: DPSO_optic_AMS {
+    class GVAR(optic_AMS_snd): GVAR(optic_AMS) {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
-        displayName="[dpso] AMS (Sand)";
+        displayName="[DPSO] AMS (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
     };
-    class DPSO_optic_AMSTI: DPSO_optic_AMSTI_base {
+    class GVAR(optic_AMSTI): GVAR(optic_AMSTI_base) {
         author="NemesisRE";
         _generalMacro="optic_AMS";
         scope=2;
         scopeCurator=1;
         scopeArsenal=2;
-        displayName="[dpso] AMS-TI (Black)";
+        displayName="[DPSO] AMS-TI (Black)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_ca.paa";
     };
-    class DPSO_optic_AMSTI_khk: DPSO_optic_AMSTI {
+    class GVAR(optic_AMSTI_khk):  GVAR(optic_AMSTI) {
         author="NemesisRE";
         _generalMacro="optic_AMS_khk";
-        displayName="[dpso] AMS-TI (Khaki)";
+        displayName="[DPSO] AMS-TI (Khaki)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_khk_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_khk_F.p3d";
     };
-    class DPSO_optic_AMSTI_snd: DPSO_optic_AMSTI {
+    class GVAR(optic_AMSTI_snd):  GVAR(optic_AMSTI) {
         author="NemesisRE";
         _generalMacro="optic_AMS_snd";
-        displayName="[dpso] AMS-TI (Sand)";
+        displayName="[DPSO] AMS-TI (Sand)";
         picture="\a3\Weapons_F_Mark\Data\UI\icon_optic_AMS_snd_ca.paa";
         model="\A3\Weapons_F_Mark\Acc\acco_ams_snd_F.p3d";
+    };
+
+/////////////////rhs
+    class rhsusf_acc_sniper_base;
+    class rhsusf_acc_LEUPOLDMK4_2: rhsusf_acc_sniper_base {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class pso1_scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+
+    class rhsusf_acc_premier: rhsusf_acc_LEUPOLDMK4_2 {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class pso1_scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class rhsusf_acc_M8541: rhsusf_acc_premier {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+
+    class rhsusf_acc_nxs_3515x50_base: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class nxs_scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class rhsusf_acc_nxs_3515x50f1_base: rhsusf_acc_sniper_base {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class nxs_scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class rhsusf_acc_nxs_5522x56_base: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class nxs_scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class rhsusf_acc_ACOG_MDO: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class ACOGMDO {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class rhsusf_acc_g33_xps3: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MAG {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+
+
+///////////////////////////////tier1
+    class Tier1_Razor_Gen2_16: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_ADM: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_Geissele: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen2_16_Geissele_Docter: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_ADM: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_ADM_T2: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_Geissele: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Razor_Gen3_110_Geissele_Docter: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_ADM_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_ADM_T2_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_Geissele_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_LeupoldM3A_Geissele_Docter_Desert: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_ADM_Black: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_Geissele_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Shortdot_Geissele_Docter_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_ADM_Black: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_ADM_T1_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_Geissele_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_ATACR18_Geissele_Docter_Black: optic_lrps {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Scope {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+
+    class Tier1_Eotech551_3xMag_Black_Up: ItemCore  {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_L3_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_3xMag_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_L3_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_3xMag_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_L3_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_3xMag_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech551_L3_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech553_3xMag_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech553_L3_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech553_3xMag_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Eotech553_L3_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Eotech551 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Tano_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Tano_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_3xMag_Riser_Tano_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_EXPS3_0_G33_Riser_Tano_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class EXPS3 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT1_Leap_3xMag_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT1 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT1_Leap_3xMag_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT1 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT1_Leap_3xMag_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT1 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT1_Leap_3xMag_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT1 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_3xMag_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT1 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_3xMag_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_3xMag_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_3xMag_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_G33_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_3xMag_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_3xMag_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_3xMag_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_3xMag_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Riser_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_MicroT2_Leap_G33_Riser_Desert_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class MicroT2 {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCQ_G33_Riser_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCQ_G33_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCQ_G33_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCQ_G33_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCQ_G33_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_Riser_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_Riser_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_Riser_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_TanBlack_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_Tan_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
+    };
+    class Tier1_Romeo4T_BCD_G33_Black_Up: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Romeo4T {
+                    visionMode[] = {};
+                };
+            };
+        };
     };
 };

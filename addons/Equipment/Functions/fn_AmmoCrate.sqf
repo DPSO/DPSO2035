@@ -20,8 +20,7 @@ if (_canBeReFreshed) then {_isUnlimited =true};
 _PlayableUnits = [player];
 if (isMultiplayer) then {_PlayableUnits = playableUnits};
 ///get all weapons in all weapons slots for all playable units
-_allPlayerWeapons = [];
-{
+_allPlayerWeapons = []; {
 _mainWeapon = (getUnitloadout _x select 0) select 0;
 _launcher = (getUnitloadout _x select 1) select 0;
 _handGun = (getUnitloadout _x select 2) select 0;
@@ -33,18 +32,17 @@ if(!isNil "_handGun") then {_allPlayerWeapons pushBackUnique _handGun};
 
 
 //get all fitting munitions for said weapons
-_allMagazinesType = [];
-{
+_allMagazinesType = []; {
 private ["_uniquemags","_magazineTypeS"];
 
 //_uniquemags = [];
 _magazineTypeS = getarray (configfile >> "CfgWeapons" >> _x >>"magazines");
 
-	{
-	_uniquemags = _x;
+ {
+ _uniquemags = _x;
 
-	_allMagazinesType pushBackUnique _uniquemags;
-	} forEach _magazineTypeS;
+ _allMagazinesType pushBackUnique _uniquemags;
+ } forEach _magazineTypeS;
 
 
 
@@ -64,23 +62,23 @@ if (_isUnlimited)then {
 _box setVariable ["DPSO_AmmoMagazines", _allMagazinesType];
 
 _handlerIndex = _box addEventHandler
-	["ContainerOpened",
-		{
-		_box = _this select 0;
-		_allMagazinesType = _box getVariable "DPSO_AmmoMagazines";
+ ["ContainerOpened",
+  {
+  _box = _this select 0;
+  _allMagazinesType = _box getVariable "DPSO_AmmoMagazines";
 
 
 
-		clearMagazineCargoGlobal _box;
-		{_box addMagazineCargoGlobal [_x,10];} forEach _allMagazinesType;
-        _box addItemCargoGlobal ["DPSO_FirstAid",1];
-        _box addItemCargoGlobal ["DPSO_MedicKit",1];
+  clearMagazineCargoGlobal _box;
+  {_box addMagazineCargoGlobal [_x,10];} forEach _allMagazinesType;
+        _box addItemCargoGlobal ["DPSO_medbags_FirstAid",1];
+        _box addItemCargoGlobal ["DPSO_medbags_MedicKit",1];
         _box addItemCargoGlobal ["DPSO_mopp",1];
-		_box addItemCargoGlobal ["HandGrenade",8];
-		_box addItemCargoGlobal ["SmokeShell",8];
-		_box addItemCargoGlobal ["ACE_M84",8];
-		}
-	];
+  _box addItemCargoGlobal ["HandGrenade",8];
+  _box addItemCargoGlobal ["SmokeShell",8];
+  _box addItemCargoGlobal ["ACE_M84",8];
+  }
+ ];
 _box setVariable ["DPSO_AmmoCrateEHIndex", _handlerIndex, true];
 
 };
@@ -92,22 +90,22 @@ _box setVariable ["DPSO_AmmoCrateParameters", _params, true];
 
 if (_canBeRefreshed) then {
 _statement =
-	{
+ {
 
-	_box = _this select 0;
-	_params = _box getVariable "DPSO_AmmoCrateParameters";
-	[[_params],
-		{
-		params ["_params"];
-		_box = _params select 0;
-		_handlerIndex = _box getVariable "DPSO_AmmoCrateEHIndex";
-		_box removeEventHandler ["ContainerOpened", _handlerIndex];
-		[_box ,0,["ACE_MainActions","RefreshBoxContents"]] call ace_interact_menu_fnc_removeActionFromObject;
-		_params call DPSO_fnc_AmmoCrate;
-		}
-	] RemoteExec ["Spawn",0,true];
-	//_params call DPSO_fnc_AmmoCrate;
-	};
+ _box = _this select 0;
+ _params = _box getVariable "DPSO_AmmoCrateParameters";
+ [[_params],
+  {
+  params ["_params"];
+  _box = _params select 0;
+  _handlerIndex = _box getVariable "DPSO_AmmoCrateEHIndex";
+  _box removeEventHandler ["ContainerOpened", _handlerIndex];
+  [_box ,0,["ACE_MainActions","RefreshBoxContents"]] call ace_interact_menu_fnc_removeActionFromObject;
+  _params call DPSO_fnc_AmmoCrate;
+  }
+ ] RemoteExec ["Spawn",0,true];
+ //_params call DPSO_fnc_AmmoCrate;
+ };
 _action = ["RefreshBoxContents","Refresh crate content","", _statement , {true},{},[],[0,0,0], 5] call ace_interact_menu_fnc_createAction;
 [_box, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 

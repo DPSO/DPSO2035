@@ -14,19 +14,19 @@ Example:
     Nothing to see here
 
 Author:
-	MitchJC
+    MitchJC
 */
 
 if (!IsServer) exitwith {};
 
 if !(dynamicSimulationSystemEnabled) exitwith {
 
-	enableDynamicSimulationSystem true;
+    enableDynamicSimulationSystem true;
 
-	"Group" setDynamicSimulationDistance 3000;
-	"Vehicle" setDynamicSimulationDistance 3000;
-	"EmptyVehicle" setDynamicSimulationDistance 250;
-	"Prop" setDynamicSimulationDistance 50;
-	"IsMoving" setDynamicSimulationDistanceCoef 3;
+    "Group" setDynamicSimulationDistance 3000;
+    "Vehicle" setDynamicSimulationDistance 3000;
+    "EmptyVehicle" setDynamicSimulationDistance 250;
+    "Prop" setDynamicSimulationDistance 50;
+    "IsMoving" setDynamicSimulationDistanceCoef 3;
 
 };

@@ -1,7 +1,7 @@
 class CfgEditorCategories {
-	
-	class EdCat_DPSO {
-		displayName = "$STR_DPSO_EdCat";
-	};
-	
+
+    class EdCat_DPSO {
+        displayName = "Dropping Purple Smoke";
+    };
+
 };

@@ -21,17 +21,17 @@ _texture = _object getvariable ["RscAttributeDiaryRecord_texture",""];
 _recipients = _object getvariable ["recipients",west];
 _persistent = if (isnil "_recipients") then {_recipients = _caller; false} else {true};
 
-//--- Call scripted event handlers
+//--- Call scripted event handlers 
 {
-	[[_x,"intelObjectFound",[_x,_caller,_object]],"bis_fnc_callscriptedeventhandler",_x] call bis_fnc_mp;
+    [[_x,"intelObjectFound",[_x,_caller,_object]],"bis_fnc_callscriptedeventhandler",_x] call bis_fnc_mp;
 } foreach (objectcurators _object);
 [_object,"intelObjectFound",[_object,_caller]] call bis_fnc_callscriptedeventhandler;
 
 //--- Play taking animation and delete the object afterwards
 _caller playaction "putdown";
 for "_i" from 0 to 1 do {
-	_state = animationstate _caller;
-	waituntil {_state != animationstate _caller};
+    _state = animationstate _caller;
+    waituntil {_state != animationstate _caller};
 };
 
 deletevehicle _object;

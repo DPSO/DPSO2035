@@ -4,19 +4,16 @@
 
 params [["_radios", []], ["_network", -1]];
 
-private _presetName = format ["DPSO_preset%1", _network];
-private _oldPresetName = ["ACRE_PRC343"] call acre_api_fnc_getPreset;
+private _presetName = format ["dpso_preset%1", _network];
+private _oldPresetName = ["ACRE_PRC148"] call acre_api_fnc_getPreset;
 
-if (_network > -1 && !(_presetName isEqualTo _oldPresetName)) then {
-    {
-        _x params ["_radioList"];
-        {
+if (_network > -1 && !(_presetName isEqualTo _oldPresetName)) then { {
+        _x params ["_radioList"]; {
             [_x, _presetName] call acre_api_fnc_setPreset;
         } forEach _radioList;
     } forEach EGVAR(acre,radioCoreSettings);
 };
-
-{
+ {
     if (player canAdd _radio) then {
         player addItem _radio;
         systemChat format ["[DPSO] Added radio: %1", _radio];
@@ -37,10 +34,8 @@ if (_network > -1 && !(_presetName isEqualTo _oldPresetName)) then {
         params ["_unit", "_oldPresetName"];
 
         if (_unit != player) exitWith {};
-
-        {
-            _x params ["_radioList"];
-            {
+ {
+            _x params ["_radioList"]; {
                 [_x, _oldPresetName] call acre_api_fnc_setPreset;
             } forEach _radioList;
         } forEach EGVAR(acre,radioCoreSettings);

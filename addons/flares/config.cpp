@@ -1,16 +1,16 @@
 #include "script_component.hpp"
 
-#ifndef POTATO_LEAN_RHS_CUP_HLC
+#ifndef DPSO_LEAN_RHS_CUP_HLC
 
 class CfgPatches {
     class ADDON {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"DPSO_main"};
-        author = "Potato";
+        requiredAddons[] = {"dpso_common"};
+        author = QAUTHOR;
         authors[] = {"PabstMirror"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        authorUrl = URL;
         VERSION_CONFIG;
     };
 };

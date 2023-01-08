@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [] call tac_ratelmarker_fnc_createMarkerMenu;
+ * [] call DPSO_ratelmarker_fnc_createMarkerMenu;
  *
  * Public: No
  */

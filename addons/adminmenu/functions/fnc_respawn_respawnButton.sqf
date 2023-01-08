@@ -3,9 +3,9 @@
 disableSerialization;
 params ["_display"];
 
- 
+
  if (count GVAR(selectedRespawnGroup) < 1) exitWith { hint "No players selected"; };
-   
+
 private _groupName = ctrlText (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_GROUPNAME);
 
 // respawnMenuFactions control.
@@ -18,9 +18,9 @@ private _markerColor =lbCurSel (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_MAR
 
 private _useMarker = cbChecked (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_GROUPMARKERCHECKBOX);
 if (!_useMarker) then { //GVAR(respawnGroupMarkerCheckBoxVal)
-    _markerType = -1;  
-}; 
-        
+    _markerType = -1;
+};
+
 // Hand over control to the map dialog.
 closeDialog IDD_DPSO_ADMINMENU;
 createDialog QGVAR(respawnMapDialog);

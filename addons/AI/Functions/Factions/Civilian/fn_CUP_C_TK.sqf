@@ -32,7 +32,7 @@ _motPool = [
 "CUP_C_Lada_GreenTK_CIV",
 "CUP_C_Lada_TK2_CIV",
 "CUP_C_S1203_Ambulance_CIV",
-"CUP_C_LR_Transport_CTK",
+"CUP_C_DPSO_Transport_CTK",
 "CUP_C_V3S_Open_TKC",
 "CUP_C_V3S_Covered_TKC",
 "CUP_C_SUV_TK",

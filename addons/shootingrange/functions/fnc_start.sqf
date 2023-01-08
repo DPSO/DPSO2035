@@ -164,8 +164,7 @@ if (_mode > 1) then {
 
     // Prepare target pop-up handling
     GVAR(firstRun) = true;
-
-    {
+ {
         _x setVariable [QGVAR(stayDown), true, true]; // Disable automatic pop-ups
 
         // Pop up all targets in Rampage mode

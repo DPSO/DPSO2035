@@ -20,7 +20,7 @@ _objVD = _viewDist * _percentage min DPSO_Main_ViewDistanceMaxObjectDistance;
 
 sliderSetPosition [_sliderCtrl, _objVD];
 ctrlSetText [_sliderTextboxCtrl, str round _objVD];
-		
+
 call compile format ["%1 = %2", _objVDVar, _objVD];
 call compile format ["profileNamespace setVariable ['%1',%1]", _objVDVar];
 

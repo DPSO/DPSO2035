@@ -57,8 +57,8 @@ params["_fullmapWindow"];
     if (GVAR(adminEyeSelectedObj) isEqualTo _x) then {
         _color = [1,0,0,0.75];
     };
-    _fullmapWindow drawIcon ["\a3\3den\data\cfg3den\logic\texturebackgroundmodule_ca.paa",_color,_pos,26,26,0];
-    _fullmapWindow drawIcon ["\z\dpso\addons\media\images\logo_sm_ca.paa",[0,0,0,0.5],_pos,20,20,0];
+    _fullmapWindow drawIcon ["\a3\3DEN\data\cfg3den\logic\texturebackgroundmodule_ca.paa",_color,_pos,26,26,0];
+    _fullmapWindow drawIcon ["\z\dpso\addons\common\UI\logo_dpso_small_ca.paa",[0,0,0,0.5],_pos,20,20,0];
 
     private _text = "";
     private _wavesRemaining = _x getVariable ["Waves",1];
@@ -73,8 +73,7 @@ params["_fullmapWindow"];
 
     //Render linked units of selected wave spawner.
     if (GVAR(adminEyeSelectedObj) isEqualTo _x) then {
-        private _data = _x getVariable [QEGVAR(ai,waveAdminData), []];
-        {
+        private _data = _x getVariable [QEGVAR(ai,waveAdminData), []]; {
             _x params ["_type", "_entityPos", "_dir"];
             private _icon = getText (configfile >> "CfgVehicles" >> _type >> "icon");
             _fullmapWindow drawLine [_pos, _entityPos, [1, 1, 0, 0.4]];
@@ -83,8 +82,7 @@ params["_fullmapWindow"];
     };
 
     _fullmapWindow drawIcon ["#(argb,8,8,3)color(0,0,0,0)",[1,1,1,1],_pos, 26, 26,0,_text,2,0.035,'PuristaSemibold','right'];
-
-    {
+ {
         private _color = [0,0,1,0.3];
         if (GVAR(adminEyeSelectedObj) isEqualTo _x) then {
             _color = [1,0,0,0.3];
@@ -107,8 +105,8 @@ params["_fullmapWindow"];
     };
 
     //background
-    _fullmapWindow drawIcon ["\a3\3den\data\cfg3den\logic\texturebackgroundmodule_ca.paa",[1,1,1,0.5],_pos,26,26,0];
-    _fullmapWindow drawIcon ["\z\dpso\addons\media\images\logo_sm_ca.paa",[0,0,0,0.5],_pos,20,20,0];
+    _fullmapWindow drawIcon ["\a3\3DEN\data\cfg3den\logic\texturebackgroundmodule_ca.paa",[1,1,1,0.5],_pos,26,26,0];
+    _fullmapWindow drawIcon ["\z\dpso\addons\common\UI\logo_dpso_small_ca.paa",[0,0,0,0.5],_pos,20,20,0];
 
     private _text = format["Garrison (Quantity: %1)",_x getVariable ["aiNumberToSpawn", 0]];
 
@@ -129,8 +127,7 @@ params["_fullmapWindow"];
 {
     if(alive _x) then {
 
-        if(vehicle _x != _x && crew (vehicle _x) select 0 == _x || vehicle _x == _x) then
-        {
+        if(vehicle _x != _x && crew (vehicle _x) select 0 == _x || vehicle _x == _x) then {
             private _icon = (vehicle _x getVariable ["f_cam_icon",""]);
             if(_icon == "") then {
                 _icon = getText (configfile >> "CfgVehicles" >> typeOf (vehicle _x) >> "icon");
@@ -204,7 +201,7 @@ params["_fullmapWindow"];
 private _mousePos = GVAR(respawnMousePos);
 private _i = 1;
 while {true} do {
-    private _var = missionNamespace getVariable[format["DPSO_respawnPoint%1",_i],objNull];
+    private _var = missionNamespace getVariable[format["dpso_respawnPoint%1",_i],objNull];
     if (isNull _var) exitWith {};
     private _pos = (position _var);
 

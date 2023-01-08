@@ -7,8 +7,7 @@ private _ctrlSpectatorListBox = (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_SP
 
 
 
-lbClear _ctrlSpectatorListBox;
-{
+lbClear _ctrlSpectatorListBox; {
     private _found = false;
     private _deadPlayer = _x;
 
@@ -16,12 +15,12 @@ lbClear _ctrlSpectatorListBox;
     //Check if already selected and thus in the selected respawn listBox.
     {
         if (_deadPlayer == (_x select 1)) exitWith {
-            _found = true;  
+            _found = true;
         };
     } forEach GVAR(selectedRespawnGroup);
-    
+
     if (!_found) then {
-        private _name = _deadPlayer getVariable ["DPSO_spectator_name",name _deadPlayer];
+        private _name = _deadPlayer getVariable ["dpso_spectator_name",name _deadPlayer];
         private _idx = _ctrlSpectatorListBox lbAdd _name;
         _ctrlSpectatorListBox lbSetData[_idx,_name];
     };

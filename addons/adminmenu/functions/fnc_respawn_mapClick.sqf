@@ -3,11 +3,11 @@
 disableSerialization;
 
 params["_fullmapWindow","_type","_x","_y"];
-        
+
 if (_type == 0) then { // left click
     private _i = 1;
     private _found = false;
-    private _var = missionNamespace getVariable[format["DPSO_respawnPoint%1",_i],objNull];
+    private _var = missionNamespace getVariable[format["dpso_respawnPoint%1",_i],objNull];
     while {!(isNull _var)} do {
         private _pos = (position _var);
         if (([_x,_y] distance (_fullmapWindow posWorldToScreen _pos)) < 0.1) then {
@@ -15,7 +15,7 @@ if (_type == 0) then { // left click
             _found = true;
         };
         _i = _i + 1;
-        _var = missionNamespace getVariable[format["DPSO_respawnPoint%1",_i],objNull];
+        _var = missionNamespace getVariable[format["dpso_respawnPoint%1",_i],objNull];
     };
     if (!_found) then {
         GVAR(respawnMousePos) = _fullmapWindow posScreenToWorld [_x,_y];

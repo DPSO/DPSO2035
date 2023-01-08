@@ -1,20 +1,20 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\dpso\addons\interactions\functions\inventory\fn_backpack_doAccess.sqf
- *	by Ojemineh
- *	
- *	access targets backpack
- *	
- *	Arguments:
- *	0: player	- <OBJECT>
- *	1: target	- <OBJECT>
- *	
- *	Return:
- *	nothing
- *	
- *	Example:
- *	[player, unit1] call DPSO_interactions_fnc_backpack_doAccess;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\dpso\addons\interactions\functions\inventory\fn_backpack_doAccess.sqf
+ * by Ojemineh
+ *
+ * access targets backpack
+ *
+ * Arguments:
+ * 0: player - <OBJECT>
+ * 1: target - <OBJECT>
+ *
+ * Return:
+ * nothing
+ *
+ * Example:
+ * [player, unit1] call DPSO_interactions_fnc_backpack_doAccess;
+ *
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -32,29 +32,29 @@ if (isNull _target) exitWith {};
 // -------------------------------------------------------------------------------------------------
 
 [_player, _target] spawn {
-	
-	params ["_player", "_target"];
-	
-	private _backpack = (unitBackpack _target);
-	if (_backpack isEqualTo "") exitWith {};
-	
-	[_player, "PutDown"] call ACE_common_fnc_doGesture;
-	
-	uiSleep 0.5;
-	
-	private _soundClass = selectRandom ["DPSO_Action_Backpack_Open_1", "DPSO_Action_Backpack_Open_2"];
-	
-	if (missionNamespace getVariable ["dpso_interactions_global_sounds", false]) then {
-		private _pitch = random [0.8, 1.0, 1.2];
-		[_soundClass, _target, AGLToASL (_target modelToWorld (_target selectionPosition "pelvis")), 20, 1, _pitch, false] call DPSO_fnc_playSound3d;
-	} else {
-		playSound _soundClass;
-	};
-	
-	_player action ["OpenBag", _target];
-	
-	if (isPlayer _target) then {
-		[_player, _target] remoteExecCall ["DPSO_interactions_fnc_backpack_access", _target];
-	};
-	
+
+    params ["_player", "_target"];
+
+    private _backpack = (unitBackpack _target);
+    if (_backpack isEqualTo "") exitWith {};
+
+    [_player, "PutDown"] call ACE_common_fnc_doGesture;
+
+    uiSleep 0.5;
+
+    private _soundClass = selectRandom ["dpso_Action_Backpack_Open_1", "dpso_Action_Backpack_Open_2"];
+
+    if (missionNamespace getVariable ["dpso_interactions_global_sounds", false]) then {
+        private _pitch = random [0.8, 1.0, 1.2];
+        [_soundClass, _target, AGLToASL (_target modelToWorld (_target selectionPosition "pelvis")), 20, 1, _pitch, false] call DPSO_common_fnc_playSound3d;
+    } else {
+        playSound _soundClass;
+    };
+
+    _player action ["OpenBag", _target];
+
+    if (isPlayer _target) then {
+        [_player, _target] remoteExecCall ["dpso_interactions_fnc_backpack_access", _target];
+    };
+
 };

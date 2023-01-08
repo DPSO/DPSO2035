@@ -2,26 +2,25 @@
 Function: DPSO_fnc_GetValues
 
 Description:
-	Get all the values in a map as an array
+    Get all the values in a map as an array
 
 Arguments:
-	_map - The map to get the values from
+    _map - The map to get the values from
 
 Return Values:
-	List of all the values stored in the map
+    List of all the values stored in the map
 
 Examples:
     Nothing to see here
 
 Author:
-	Mokka
+    Mokka
 */
 params ["_map"];
 
 private _values = [];
-
-{
-	_values pushBack (_x select 1);
+ {
+    _values pushBack (_x select 1);
 } forEach _map;
 
 _values;

@@ -1,20 +1,20 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\z\dpso\addons\hints\functions\ace_common\fn_stringToColoredText.sqf
- *	by Ojemineh
- *	
- *	replace ace core displayIcon
- *	
- *	Arguments:
+ * ARMA EXTENDED ENVIRONMENT
+ * \z\dpso\addons\hints\functions\ace_common\fn_stringToColoredText.sqf
+ * by Ojemineh
+ *
+ * replace ace core displayIcon
+ *
+ * Arguments:
  *  0: Text <ANY>
  *  1: Color <ARRAY, STRING>
- *	
- *	Return:
- *	Text <STRING>
- *	
- *	Example:
- *	["text", [0, 1, 2]] call ACE_common_fnc_stringToColoredText
- *	
+ *
+ * Return:
+ * Text <STRING>
+ *
+ * Example:
+ * ["text", [0, 1, 2]] call ACE_common_fnc_stringToColoredText
+ *
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -38,9 +38,9 @@ private _hint_enabled = (missionNamespace getVariable ["dpso_hint_enabled", true
 private _hint_option_ace = (missionNamespace getVariable ["dpso_hint_option_ace", true]);
 
 if (_hint_enabled && _hint_option_ace) then {
-	_return = format ["<t align='center' color='%1' >%2</t>", _color, _string];
+    _return = format ["<t align='center' color='%1' >%2</t>", _color, _string];
 } else {
-	_return = parseText format ["<t align='center' color='%1' >%2</t>", _color, _string];
+    _return = parseText format ["<t align='center' color='%1' >%2</t>", _color, _string];
 };
 
 _return

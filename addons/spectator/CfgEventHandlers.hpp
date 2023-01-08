@@ -1,19 +1,21 @@
-
-XEH_PRESTART;
-XEH_PREINIT;
-
+class Extended_PreStart_EventHandlers {
+    class ADDON {
+        init = QUOTE(call COMPILE_FILE(XEH_preStart));
+    };
+};
+class Extended_PreInit_EventHandlers {
+    class ADDON {
+        init = QUOTE(call COMPILE_FILE(XEH_preInit));
+    };
+};
 class Extended_PostInit_EventHandlers {
     class ADDON {
-        init = QUOTE( call COMPILE_FILE(XEH_postInit) );
-        clientInit = QUOTE( call COMPILE_FILE(XEH_clientPostInit) );
+        init = QUOTE(call COMPILE_FILE(XEH_postInit));
     };
 };
 
-class Extended_Init_EventHandlers {
-    class GVAR(unit) {
-        class ADDON {
-            // Throw player into spectator on launch.
-            init = QUOTE(_this spawn FUNC(initSpectatorUnit));
-        };
+class Extended_DisplayLoad_EventHandlers {
+    class RscDisplayEGSpectator {
+        ADDON = QUOTE(call FUNC(onDisplayLoad));
     };
 };

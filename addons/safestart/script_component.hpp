@@ -12,3 +12,5 @@
 #endif
 
 #include "\z\dpso\addons\main\script_macros.hpp"
+
+#define MISSION_DISPLAY (findDisplay 46)

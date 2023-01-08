@@ -52,7 +52,7 @@ _unit setVariable [QGVAR(chestpack),[[_chestpackClass, _weaponHolder],[_getInID,
 
 // execute vehicle shit
 if !(vehicle _unit isEqualTo _unit) then {
-	[_unit, "", vehicle _unit] call FUNC(EHGetIn);
+    [_unit, "", vehicle _unit] call FUNC(EHGetIn);
 } else {
-	[_unit, "", objNull] call FUNC(EHGetOut);
+    [_unit, "", objNull] call FUNC(EHGetOut);
 };

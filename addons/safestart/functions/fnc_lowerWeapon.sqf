@@ -10,10 +10,11 @@
  * None
  *
  * Example:
- * [bob] call dpso_main_fnc_lowerWeapon
+ * [player] call dpso_safestart_fnc_lowerWeapon
  *
  * Public: Yes
  */
+
 params [
     ["_unit", objNull, [objNull]]
 ];

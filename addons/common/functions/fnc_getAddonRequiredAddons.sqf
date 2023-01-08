@@ -1,19 +1,19 @@
 /*
- *	ARMA EXTENDED ENVIRONMENT
- *	\dpso_common\functions\addons\fn_getAddonRequiredAddons.sqf
- *	by Ojemineh
- *	
- *	get addon required addons
- *	
- *	Arguments:
- *	0: classname - <STRING>
- *	
- *	Return:
- *	<ARRAY>
- *	
- *	Example:
- *	["DPSO_core"] call dpso_fnc_getAddonRequiredAddons;
- *	
+ * ARMA EXTENDED ENVIRONMENT
+ * \DPSO_common\functions\addons\fn_getAddonRequiredAddons.sqf
+ * by Ojemineh
+ *
+ * get addon required addons
+ *
+ * Arguments:
+ * 0: classname - <STRING>
+ *
+ * Return:
+ * <ARRAY>
+ *
+ * Example:
+ * ["dpso_common"] call DPSO_common_fnc_getAddonRequiredAddons;
+ *
  */
 
 // -------------------------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ _classname = [_this, 0, "", [""]] call BIS_fnc_param;
 private _return = [];
 
 if (isClass (configfile >> "CfgPatches" >> _classname)) then {
-	_return = getArray (configfile >> "CfgPatches" >> _classname >> "requiredAddons");
+    _return = getArray (configfile >> "CfgPatches" >> _classname >> "requiredAddons");
 };
 
 _return;

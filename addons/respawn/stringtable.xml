@@ -2,8 +2,8 @@
 <Project name="DPSO">
     <Package name="Respawn">
         <Key ID="STR_DPSO_Respawn_DisplayName">
-            <English>DPSO Respawn</English>
-            <Polish>DPSO Odrodzenie</Polish>
+            <English>Dropping Purple Smoke - Respawn</English>
+            <Polish>Dropping Purple Smoke - Odrodzenie</Polish>
         </Key>
         <Key ID="STR_DPSO_Respawn_Enabled">
             <English>Enable respawn</English>

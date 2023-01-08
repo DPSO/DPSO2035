@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 /*
  * Author: veteran29
- * Join DPSO server from main menu.
+ * Join Dropping Purple Smoke server from main menu.
  * Based on article from KillZonekid
  *
  * Arguments:
@@ -26,10 +26,9 @@ if (isNil "CBA_fnc_log") then {
 // Disable Enchanced Multiplayer Menu for compatiblity with this script
 uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
+INFO("Auto joining to Dropping Purple Smoke Operations Server");
 
-INFO("Auto joining to DPSO server");
-
-GVAR(serverAddress) = "209.127.181.26";
+GVAR(serverAddress) = "172.93.103.5";
 GVAR(serverPort) = "2302";
 GVAR(joinTimeout) = diag_tickTime + 5;
 

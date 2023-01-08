@@ -1,5 +1,4 @@
 #define COMPONENT common
-
 #include "\z\dpso\addons\main\script_mod.hpp"
 
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"

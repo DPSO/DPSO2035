@@ -18,13 +18,13 @@ private _annInterval = _logic getVariable ["AnnInterval", 30];
 private _reqDefKit = _logic getVariable ["ReqDefKit", true];
 
 {
-	[
-		_x,
-		_detTime,
-		_proxRadius,
-		_secondaries,
-		_announce,
-		_annInterval,
-		_reqDefKit
-	] call DPSO_fnc_makeIED;
+    [
+        _x,
+        _detTime,
+        _proxRadius,
+        _secondaries,
+        _announce,
+        _annInterval,
+        _reqDefKit
+    ] call LR_fnc_makeIED;
 } forEach _objects;

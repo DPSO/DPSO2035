@@ -7,10 +7,10 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "DPSO_main",
-            "DPSO_debug_console"
+            "dpso_main",
+            "dpso_debug_console"
         };
-        author = AUTHOR;
+        author = QAUTHOR;
         VERSION_CONFIG;
     };
 };

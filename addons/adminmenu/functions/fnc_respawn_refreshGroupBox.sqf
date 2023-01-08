@@ -5,10 +5,9 @@ params ["_display"];
 
 private _ctrlGroupListBox = (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_GROUPLIST);
 lbClear _ctrlGroupListBox;
-
-{
+ {
     _x params ["_rankIdx","_obj", "_roleIdx"];
-    private _name = _obj getVariable ["DPSO_spectator_name",name _obj];
+    private _name = _obj getVariable ["dpso_spectator_name",name _obj];
     private _idx = _ctrlGroupListBox lbAdd format["%1 - %2", _name, (respawnMenuRoles select _roleIdx) select 1];
     //Set image based on rank
     switch (_rankIdx) do {

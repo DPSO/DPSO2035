@@ -2,71 +2,71 @@
 Function: DPSO_fnc_initInspectableIntel
 
 Description:
-	Initializes a given object as a piece of inspectable intel.
+    Initializes a given object as a piece of inspectable intel.
 
-	Upon interaction, the player that started interaction will have
-	the piece of intel as a full-screen image with the ability to 
-	display supplied text (optionally).
+    Upon interaction, the player that started interaction will have
+    the piece of intel as a full-screen image with the ability to
+    display supplied text (optionally).
 
-	Players can also take the intel, adding the acquired intel
-	to the diary (on the map) of all players.
+    Players can also take the intel, adding the acquired intel
+    to the diary (on the map) of all players.
 
-	The Intel Argument Array needs to supply the following information:
+    The Intel Argument Array needs to supply the following information:
 
-	_texture - The path to the texture of the intel which shall be displayed in full-screen upon inspection
-	_diaryPicture - The path to the picture which shall be displayed in the diary
-	_diaryRecord - Array containing the message in format: [Title, Entry Text]
-	_fullScreenText - Optional: The text to be shown if player clicks button "Read" during inspection
-	_actionTitle - Title of the action to be added to the object for picking up
-	_sharedWith - The side with which the intel shall be shared (default: west)
-	_notifySide - Optional: Notify the player's side through systemChat? (default: no)
+    _texture - The path to the texture of the intel which shall be displayed in full-screen upon inspection
+    _diaryPicture - The path to the picture which shall be displayed in the diary
+    _diaryRecord - Array containing the message in format: [Title, Entry Text]
+    _fullScreenText - Optional: The text to be shown if player clicks button "Read" during inspection
+    _actionTitle - Title of the action to be added to the object for picking up
+    _sharedWith - The side with which the intel shall be shared (default: west)
+    _notifySide - Optional: Notify the player's side through systemChat? (default: no)
 
 Arguments:
-	_object - The object to initialize
-	_args - Intel Argument Array (see above)
+    _object - The object to initialize
+    _args - Intel Argument Array (see above)
 
 Return Values:
-	None
+    None
 
 Examples:
     (begin example)
-	// In the init field of an object in the editor (e.g. a Laptop or Documents)
-	[
-		this,
-		[
-			 "data\images\example.paa"
-			,"data\images\example_small.paa"
-			,[
-				 "Intel Report Nr 332-Charlie"
-				,"Lorem Ipsum dolor sit amet, etc etc"
-			]
-			,"Lorem Ipsum"
-			,"Search Files"
-			,west
-			,true
-		]
-	] call DPSO_fnc_initInspectableIntel;
-	(end)
+    // In the init field of an object in the editor (e.g. a Laptop or Documents)
+    [
+        this,
+        [
+             "data\images\example.paa"
+            ,"data\images\example_small.paa"
+            ,[
+                 "Intel Report Nr 332-Charlie"
+                ,"Lorem Ipsum dolor sit amet, etc etc"
+            ]
+            ,"Lorem Ipsum"
+            ,"Search Files"
+            ,west
+            ,true
+        ]
+    ] call DPSO_fnc_initInspectableIntel;
+    (end)
 
 Author:
-	Mokka,
-	MitchJC
+    Mokka,
+    MitchJC
 */
 
 // TODO: Allow sharing the intel with specific groups, units and whatnot (needs
-// 		 testing, sharing with side and one specific DPSO group works though)
+//    testing, sharing with side and one specific DPSO group works though)
 
 if (!isServer) exitWith {};
 
 _this params ["_object", "_args"];
 _args params [
-	["_texture","a3\data_f\clear_empty.paa"],
-	["_diaryPicture","a3\data_f\clear_empty.paa"],
-	"_diaryRecord",
-	["_fullScreenText", ""],
-	["_actionTitle", "Take Intel"],
-	["_sharedWith", west],
-	["_notifySide", false]
+    ["_texture","a3\data_f\clear_empty.paa"],
+    ["_diaryPicture","a3\data_f\clear_empty.paa"],
+    "_diaryRecord",
+    ["_fullScreenText", ""],
+    ["_actionTitle", "Take Intel"],
+    ["_sharedWith", west],
+    ["_notifySide", false]
 ];
 
 // Make the object inspectable
@@ -79,32 +79,31 @@ _args params [
 
 // Set the diary picture
 _object setVariable [
-	"RscAttributeDiaryRecord_texture",
-	//Path to picture
-	_diaryPicture,
-	true
+    "RscAttributeDiaryRecord_texture",
+    //Path to picture
+    _diaryPicture,
+    true
 ];
 
 
 //Diary Title and Description
 _diaryRecord append [""];
 [
-	_object,
-	"RscAttributeDiaryRecord",
-	//[ Title, Description, "" ]
-	_diaryRecord
+    _object,
+    "RscAttributeDiaryRecord",
+    //[ Title, Description, "" ]
+    _diaryRecord
 ] call BIS_fnc_setServerVariable;
 
 
 if (typeName _sharedWith == "STRING") then {
-	_recipients = [];
-	{
-		if (side _x == west && {_x getVariable ["DPSO_section", "Command"] == _sharedWith}) then {
-			_recipients pushBackUnique _x;
-		};
-	} forEach allGroups;
+    _recipients = []; {
+        if (side _x == west && {_x getVariable ["DPSO_section", "Command"] == _sharedWith}) then {
+            _recipients pushBackUnique _x;
+        };
+    } forEach allGroups;
 } else {
-	_recipients = _sharedWith;
+    _recipients = _sharedWith;
 };
 
 //Diary entry shared with.. follows BIS_fnc_MP target rules
@@ -115,12 +114,11 @@ _object setVariable ["RscAttributeOwners", [_sharedWith], true];
 
 //Add intel object scripted event that systemchats to all clients when found and by who
 if (_notifySide) then {
-	[
-		_object,
-		"IntelObjectFound",
-		{
-			params[ "", "_foundBy" ];
-			[format ["Intel collected by %1", name _foundBy], [1, -0.2], "#339900", 0.5] call DPSO_fnc_dynamicText;
-		}
-	] call BIS_fnc_addScriptedEventHandler;
+    [
+        _object,
+        "IntelObjectFound", {
+            params[ "", "_foundBy" ];
+            [format ["Intel collected by %1", name _foundBy], [1, -0.2], "#339900", 0.5] call DPSO_fnc_dynamicText;
+        }
+    ] call BIS_fnc_addScriptedEventHandler;
 };

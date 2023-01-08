@@ -1,21 +1,18 @@
-class Controls
-{
-    class respawnMenuPlayersText: RscText
-    {
+class Controls {
+    class respawnMenuPlayersText: RscText {
         idc = IDC_DPSO_ADMINMENU_RESP_SPECTATORTEXT;
         text = "Players in Spectator: 0";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = 0;
         y = 0;
         w = DPSO_ADMINMENU_RESP_W_COL1;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class spectatorListBox: RscListBox
-    {
+    class spectatorListBox: RscListBox {
         idc = IDC_DPSO_ADMINMENU_RESP_SPECTATORLIST;
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         sizeEx2 = DPSO_ADMINMENU_STD_SIZEX;
         //rowHeight = 0.97 * DPSO_ADMINMENU_STD_HEIGHT;
@@ -35,15 +32,14 @@ class Controls
         itemSpacing = 0;
 
         tooltip = "tooltip test";
-        
+
         x = "0";
         y = "1.1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL1;
         h = 0.308 * safezoneH;
     };
 
-    class respawnMenuAddButton: GVAR(RscButtonMenu)
-    {
+    class respawnMenuAddButton: GVAR(RscButtonMenu) {
         idc = IDC_DPSO_ADMINMENU_RESP_ADDBUTTON;
         text = "Add";
         x = DPSO_ADMINMENU_RESP_X_COL2;
@@ -52,8 +48,7 @@ class Controls
         h = DPSO_ADMINMENU_STD_HEIGHT;
         onButtonClick=QUOTE((ctrlParent (param [0])) call FUNC(respawn_addAction));
     };
-    class respawnMenuRemoveButton: GVAR(RscButtonMenu)
-    {
+    class respawnMenuRemoveButton: GVAR(RscButtonMenu) {
         idc = IDC_DPSO_ADMINMENU_RESP_REMOVEBUTTON;
         text = "Remove";
         x = DPSO_ADMINMENU_RESP_X_COL2;
@@ -62,42 +57,38 @@ class Controls
         h = DPSO_ADMINMENU_STD_HEIGHT;
         onButtonClick=QUOTE((ctrlParent (param [0])) call FUNC(respawn_removeAction));
     };
-    class respawnMenuRscComboRole: RscCombo
-    {
+    class respawnMenuRscComboRole: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_ROLECOMBO;
         text = "Role";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL2;
         y = "3.3 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL2;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class RankText: RscText
-    {
+    class RankText: RscText {
         idc = -1;
         text = "Unit rank:";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL2;
         y = "4.4 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL2;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    
-    class RankSelector: RscToolbox
-    {
+
+    class RankSelector: RscToolbox {
         idc = IDC_DPSO_ADMINMENU_RESP_RANK;
-        
+
         style="0x02 + 0x30 + 0x800";
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         rows = 2;
         columns = 4;
-        strings[]=
-        {
+        strings[]= {
             "\a3\Ui_f\data\GUI\Cfg\Ranks\private_gs.paa",
             "\a3\Ui_f\data\GUI\Cfg\Ranks\corporal_gs.paa",
             "\a3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa",
@@ -106,8 +97,7 @@ class Controls
             "\a3\Ui_f\data\GUI\Cfg\Ranks\major_gs.paa",
             "\a3\Ui_f\data\GUI\Cfg\Ranks\colonel_gs.paa"
         };
-        tooltips[]=
-        {
+        tooltips[]= {
             "Private",
             "Corporal",
             "Sergeant",
@@ -133,8 +123,7 @@ class Controls
         h = 2*DPSO_ADMINMENU_STD_HEIGHT;
     };
 
-    class respawnMenuVOIP: GVAR(RscButtonMenu)
-    {
+    class respawnMenuVOIP: GVAR(RscButtonMenu) {
         idc = IDC_DPSO_ADMINMENU_RESP_SPECTATORVOIP;
         text = "Toggle Spectator VOIP";
         x = DPSO_ADMINMENU_RESP_X_COL3;
@@ -144,8 +133,7 @@ class Controls
         tooltip = "Toggles the spectator channel for you (ACRE/TFAR), so that you can talk to dead players if alive.";
         onButtonClick = QUOTE((ctrlParent (param [0])) call FUNC(respawn_toggleSpectatorVOIP));
     };
-    class groupListBox: RscListBox
-    {
+    class groupListBox: RscListBox {
         idc = IDC_DPSO_ADMINMENU_RESP_GROUPLIST;
 
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
@@ -174,86 +162,79 @@ class Controls
         h = 0.308 * safezoneH;
     };
 
-    class respawnGroupDetailsText: RscText
-    {
+    class respawnGroupDetailsText: RscText {
         idc = -1;
         text = "Group Details:";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "1.1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL1;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuGroupNameText: RscEdit
-    {
+    class respawnMenuGroupNameText: RscEdit {
         idc = IDC_DPSO_ADMINMENU_RESP_GROUPNAME;
         text = "INSERT_GROUP_NAME";
-        
+
         colorBackground[] = {0.5, 0.5, 0.5, 0.1};
         colorBorder[] = {1, 1, 1, 0.33};
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "2.2 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuFactionCategoryCombo: RscCombo
-    {
+    class respawnMenuFactionCategoryCombo: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_FACTIONCATEGORY;
         text = "FactionCategory"; /*Formerly side */
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "3.3 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuFactionCombo: RscCombo
-    {
+    class respawnMenuFactionCombo: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_FACTION;
         text = "Faction";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "4.4 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuSideCombo: RscCombo
-    {
+    class respawnMenuSideCombo: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_SIDE;
         text = "Side";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "5.5 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    
-    class respawnMenuSpawnMarkerText: RscText
-    {
+
+    class respawnMenuSpawnMarkerText: RscText {
         idc = -1;
         text = "Spawn with ORBAT marker?";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "7.7 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class respawnMenuGroupMarkerCheckbox: RscCheckBox
-    {
+    class respawnMenuGroupMarkerCheckbox: RscCheckBox {
         idc = IDC_DPSO_ADMINMENU_RESP_GROUPMARKERCHECKBOX;
         text = "Give group marker";
         x = DPSO_ADMINMENU_RESP_X_COL4 + (7 * (((safezoneW / safezoneH) min 1.2) / 40));
@@ -262,63 +243,59 @@ class Controls
         h = DPSO_ADMINMENU_STD_HEIGHT;
         //action = "['respawnMenuToggleGroupCheckbox'] spawn dpso_respawn_fnc_handleRespawnUI";
     };
-    class respawnMenuMarkerName: RscEdit
-    {
+    class respawnMenuMarkerName: RscEdit {
         idc = IDC_DPSO_ADMINMENU_RESP_GROUPMARKERNAME;
         text = "INSERT_MARKER_NAME";
-        
+
         // colorBackground[] = {0.5, 0.5, 0.5, 0.1};
         // colorBorder[] = {1, 1, 1, 0.33};
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "8.8 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    
-    
+
+
         //Marker combo boxs
-    class MarkerTypeCombo: RscCombo
-    {
+    class MarkerTypeCombo: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_MARKERTYPE;
         text = "Side";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
-        
+
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "9.9 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    class MarkerColourCombo: RscCombo
-    {
+    class MarkerColourCombo: RscCombo {
         idc = IDC_DPSO_ADMINMENU_RESP_MARKERCOLOUR;
         text = "Side";
-        
+
         sizeEx = DPSO_ADMINMENU_STD_SIZEX;
         font = "RobotoCondensed";
-        
+
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "11 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
     };
-    
-    class respawnMenuSpawnButton: GVAR(RscButtonMenu)
-    {
+
+    class respawnMenuSpawnButton: GVAR(RscButtonMenu) {
         idc = IDC_DPSO_ADMINMENU_RESP_SPAWNBUTTON;
         text = "Spawn Group";
         x = DPSO_ADMINMENU_RESP_X_COL4;
         y = "19 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
         w = DPSO_ADMINMENU_RESP_W_COL4;
         h = DPSO_ADMINMENU_STD_HEIGHT;
-        
+
         onButtonClick=QUOTE((ctrlParent (param [0])) call FUNC(respawn_respawnButton));
     };
-    
+
 
 
     // class respawnMenuCloseButton: GVAR(RscButtonMenu)

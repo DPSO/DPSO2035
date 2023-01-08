@@ -3,7 +3,7 @@ private _fnc_settings = {
         QGVAR(printToChat),
         "LIST",
         ["Print log messages to chat", "Whether to print logged messages to chat. Only visible for admins."],
-        ["DPSO Adminmenu"],
+        [COMPONENT_NAME, "Adminmenu"],
         [[2,1,0],["All Messages", "Only Warnings", "None"],1]
     ] call CBA_fnc_addSetting;
 
@@ -11,12 +11,12 @@ private _fnc_settings = {
         QGVAR(endLogToRPT),
         "CHECKBOX",
         ["Print log to server RPT on mission end", "Toggles whether to print the admin log to server RPT once mission ends."],
-        ["DPSO Adminmenu"],
+        [COMPONENT_NAME, "Adminmenu"],
         false
     ] call CBA_fnc_addSetting;
 };
 
-if is3DEN then _fnc_settings else {
+if is3den then _fnc_settings else {
     [{[] call FUNC(isAuthorized) || isServer},_fnc_settings] call CBA_fnc_waitUntilAndExecute;
 };
 

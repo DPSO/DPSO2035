@@ -31,12 +31,12 @@ _index = _loadoutWithoutAmount find _paramsWithoutAmount;
 // add completely new item
 if (_index isEqualTo -1) then {
 
-	_index = _loadout pushBack _params;
+    _index = _loadout pushBack _params;
 
 } else {
-	_params params ["", "_amount"];
-	_prevAmount = (_loadout select _index) select 1;
-	(_loadout select _index) set [1, _prevAmount + _amount];
+    _params params ["", "_amount"];
+    _prevAmount = (_loadout select _index) select 1;
+    (_loadout select _index) set [1, _prevAmount + _amount];
 };
 
 

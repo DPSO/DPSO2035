@@ -22,11 +22,11 @@ _civVehParkedMax = _logic getVariable ["CivVehParkedMax", 0];
 _Side = toLower _Side;
 
 switch (_Side) do {
-	case "west": {_Side = west;};
-	case "east": {_Side = east;};
-	case "independent": {_Side = independent;};
-	case "civilian": {_Side = civilian;};
-	default {_Side = civilian;};
+    case "west": {_Side = west;};
+    case "east": {_Side = east;};
+    case "independent": {_Side = independent;};
+    case "civilian": {_Side = civilian;};
+    default {_Side = civilian;};
 };
 
 [
@@ -40,4 +40,4 @@ switch (_Side) do {
     [_civPedPatrolsMin, _civPedPatrolsMax],
     [_civVehPatrolsMin, _civVehPatrolsMax],
     [_civVehParkedMin, _civVehParkedMax]
-] call DPSO_fnc_SpawnCivilians;
+] call dpso_fnc_SpawnCivilians;

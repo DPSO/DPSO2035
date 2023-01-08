@@ -1,4 +1,4 @@
-#include "\z\dpso\addons\common\script_component.hpp"
+#include "script_component.hpp"
 
 // IS DPSO mission
 
@@ -18,14 +18,11 @@ if (isDPSO) then {
 };
 
 // TODO - Remove if added to ST HUD.
-[{!isNil "STHud_GetName"},
-{
-    STHud_GetName =
-    {
+[{!isNil "STHud_GetName"}, {
+    STHud_GetName = {
         params ["_unit", "_fullName"];
         private _value = _unit getVariable ["sth_name", []];
-        if ((count(_value) isEqualTo 0) || {!(isPlayer(_unit) isEqualTo (_value select 0))}) then
-        {
+        if ((count(_value) isEqualTo 0) || {!(isPlayer(_unit) isEqualTo (_value select 0))}) then {
             private _newName = name (_unit);
             if (_newName != "") then {
                 _value = [isPlayer(_unit), _newName, _unit call STHud_GetName_Short];
@@ -39,12 +36,10 @@ if (isDPSO) then {
             _unit setVariable ["sth_name", _value, false];
         };
 
-        if (_fullName) then
-        {
+        if (_fullName) then {
             _value select 1;
         }
-        else
-        {
+        else {
             _value select 2;
         };
     };
@@ -66,29 +61,3 @@ if (isDPSO) then {
         [QGVAR(requestServerSync), [clientOwner]] call CBA_fnc_serverEvent;
     }] call CBA_fnc_execNextFrame;
 }] call CBA_fnc_execNextFrame;
-
-["unit", {
-    DPSO_unit = (_this select 0);
-}, true] call CBA_fnc_addPlayerEventHandler;
-
-
-mod_ACE3 = isClass (configFile >> "CfgPatches" >> "ace_common");
-
-if (isServer) then {
-    [{time > 5}, {
-        call FUNC(initDB);
-        call FUNC(rptLog);
-        {
-            private _markerName = "respawn_" + name _x;
-            if !(_markerName in allMapMarkers) then {
-                createMarker [_markerName, ASLtoAGL getPosASL _x];
-            };
-        } forEach allPlayers;
-
-    }] call CBA_fnc_waitUntilAndExecute;
-};
-
-if (hasInterface) then {
-    call compile preprocessFileLineNumbers QPATHTOF(tplCredits.sqf);
-    [] spawn FUNC(missionInitialization);
-};

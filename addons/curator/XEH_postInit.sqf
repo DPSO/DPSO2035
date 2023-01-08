@@ -2,7 +2,7 @@
 
 if (hasInterface) then {
     [QGVAR(objectAdd), player] call CBA_fnc_serverEvent;
-    [["Zeus", "Give yourself Zeus functinality"], {
+    [[LLSTRING(GetZeus), LLSTRING(GetZeus_Description)], {
         params ["_button"];
 
         player call FUNC(assignZeus);

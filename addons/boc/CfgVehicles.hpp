@@ -1,26 +1,26 @@
 class CfgVehicles {
     class ReammoBox;
-	class GVAR(weaponHolder): ReammoBox {
-		scope = 1;
-		author = "DerZade";
-		_generalMacro = QGVAR(weaponHolder);
-		scopeCurator = 0;
-		model = QPATHTOF(model.p3d);
-		accuracy = 0.2;
-		mapSize = 1.39;
-		class TransportMagazines {};
-		forceSupply = 0;
-		memoryPointSupply = "";
-		supplyRadius = 0;
-		showWeaponCargo = 1;
-		transportMaxMagazines = 1e+009;
-		transportMaxWeapons = 1e+009;
-		displayName = "BackpackOnChest WH";
-		destrType = "DestructNo";
-		transportMaxBackpacks = 0;
-		isGround = 0;
-		icon = "iconObject_1x1";
-	};
+    class GVAR(weaponHolder): ReammoBox {
+        scope = 1;
+        author = "DerZade";
+        _generalMacro = QGVAR(weaponHolder);
+        scopeCurator = 0;
+        model = QPATHTOF(model.p3d);
+        accuracy = 0.2;
+        mapSize = 1.39;
+        class TransportMagazines {};
+        forceSupply = 0;
+        memoryPointSupply = "";
+        supplyRadius = 0;
+        showWeaponCargo = 1;
+        transportMaxMagazines = 1e+009;
+        transportMaxWeapons = 1e+009;
+        displayName = "BackpackOnChest WH";
+        destrType = "DestructNo";
+        transportMaxBackpacks = 0;
+        isGround = 0;
+        icon = "iconObject_1x1";
+    };
 
     class Logic;
     class Module_F: Logic {
@@ -42,9 +42,9 @@ class CfgVehicles {
         isGlobal = 0;
         isTriggerActivated = 1;
         isDisposable = 0;
-        is3DEN = 0;
+        is3den = 0;
         author = "DerZade";
-        class Arguments : ArgumentsBaseUnits {
+        class Arguments: ArgumentsBaseUnits {
             class Units: Units {};
             class classname {
                 displayName = "Chestpack classname"; // Argument label
@@ -71,7 +71,7 @@ class CfgVehicles {
                 defaultValue = "_this setObjectTextureGlobal [0, ""#(rgb,8,8,3)color(0,0,1,1)""];";
             };
         };
-        class ModuleDescription : ModuleDescription {
+        class ModuleDescription: ModuleDescription {
             sync[]={"AnyPerson1","AnyPerson2"};
             description = $STR_DPSO_boc_moduleAdd_desc;
             class AnyPerson1 {
@@ -80,7 +80,7 @@ class CfgVehicles {
                 icon = "iconMan"; // Custom icon (can be file path or CfgVehicleIcons entry)
                 side = 1; // Custom side (will determine icon color)
             };
-            class AnyPerson2 : AnyPerson1 {};
+            class AnyPerson2: AnyPerson1 {};
         };
     };
 
@@ -94,9 +94,9 @@ class CfgVehicles {
         isGlobal = 0;
         isTriggerActivated = 1;
         isDisposable = 0;
-        is3DEN = 0;
+        is3den = 0;
         author = "DerZade";
-        class Arguments : ArgumentsBaseUnits {
+        class Arguments: ArgumentsBaseUnits {
             class Units: Units {};
             class classname {
                 displayName = "Backpack classname"; // Argument label
@@ -111,7 +111,7 @@ class CfgVehicles {
                 defaultValue = 0;
             };
         };
-        class ModuleDescription : ModuleDescription {
+        class ModuleDescription: ModuleDescription {
             sync[]={"AnyPerson1","AnyPerson2"};
             description = $STR_DPSO_boc_moduleOnChest_desc;
             class AnyPerson1 {
@@ -120,7 +120,7 @@ class CfgVehicles {
                 icon = "iconMan"; // Custom icon (can be file path or CfgVehicleIcons entry)
                 side = 1; // Custom side (will determine icon color)
             };
-            class AnyPerson2 : AnyPerson1 {};
+            class AnyPerson2: AnyPerson1 {};
         };
     };
 

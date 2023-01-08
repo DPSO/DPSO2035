@@ -13,5 +13,4 @@
 
 #include "\z\dpso\addons\main\script_macros.hpp"
 
-#define admin_YONV "76561198000002705"
-
+#define ADMIN_YonV "76561198000002705"

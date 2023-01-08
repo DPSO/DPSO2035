@@ -11,9 +11,9 @@
  * Description:
  * Will return the color of the inputted side.
  */
- 
+
 //Cache vars for speed
-if (isNil "DPSO_common_blufor_color") then {
+if (isNil "dpso_common_blufor_color") then {
     dpso_common_blufor_color = [blufor] call bis_fnc_sideColor;
     dpso_common_opfor_color = [opfor] call bis_fnc_sideColor;
     dpso_common_indep_color = [independent] call bis_fnc_sideColor;

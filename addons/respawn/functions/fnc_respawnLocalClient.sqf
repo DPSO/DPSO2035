@@ -40,7 +40,7 @@ private _unitName = format["respawnedUnit%1",_number];
 private _init = format["if (local this) then { [this, '%2', '%3'] call dpso_assignGear_fnc_assignGear; dpso_localRespawnedUnit = this; }; this setName '%4'; this setVariable ['dpso_isRespawnUnit',true];  %1 = this; ",_unitName, _faction, _typeOfUnit, profileName];
 private _oldUnit = player;
 
-_class createUnit [_position, _dummyGroup, _init, 0.5, _rankName];    
+_class createUnit [_position, _dummyGroup, _init, 0.5, _rankName];
 
 // Wait till the unit is created
 waitUntil{!isNull dpso_localRespawnedUnit};
@@ -52,8 +52,7 @@ while {dialog} do {closeDialog 0;};
 
 private _radioChannelIndexSpectator = missionNamespace getVariable [QEGVAR(spectator,radioChannel), -1];
 if (_radioChannelIndexSpectator != -1) then {
-    _radioChannelIndexSpectator radioChannelRemove [player];
-    {
+    _radioChannelIndexSpectator radioChannelRemove [player]; {
         _x enableChannel true;
     } forEach [1,2,3,4,5];
 };
@@ -74,7 +73,7 @@ if (_halo) then {
 
         //["HALO"] call BIS_fnc_endLoadingScreen;
         private _jumper = player;
-      
+
         while {(getPos _jumper select 2) > 2} do {
             if (getPos _jumper select 2 < 150) exitWith {
                 private _chute = createVehicle ["Steerable_Parachute_F", position _jumper, [], direction _jumper, 'FLY'];
@@ -87,16 +86,16 @@ if (_halo) then {
 };
 
 // Put in PFH to avoid blocking
-/* if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
+if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
     [false] call acre_api_fnc_setSpectator;
     [{
         if (isNull player) exitWith {};
-        if (isNil "DPSO_acre2_networksCreated") exitWith {}; //Ensure presets are created
-        
+        if (isNil "dpso_acre2_networksCreated") exitWith {}; //Ensure presets are created
+
         [] call EFUNC(acre2,clientInit);
         [_this select 1] call CBA_fnc_removePerFrameHandler;
     }, 0.1] call CBA_fnc_addPerFrameHandler;
-}; */
+};
 
  _groupVarName = format ["GrpRespawn_%1",_groupNum];
 if (_leader) then {

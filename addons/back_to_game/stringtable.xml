@@ -2,8 +2,8 @@
 <Project name="DPSO">
     <Package name="Back_To_Game">
         <Key ID="STR_DPSO_Back_To_Game_DisplayName">
-            <English>DPSO Back To Game</English>
-            <Polish>DPSO Back To Game</Polish>
+            <English>Dropping Purple Smoke - Back To Game</English>
+            <Polish>Dropping Purple Smoke - Back To Game</Polish>
         </Key>
         <Key ID="STR_DPSO_Back_To_Game_EnableAddon">
             <English>Enable Back To Game</English>

@@ -11,7 +11,7 @@
  *
  * Description:
  * Function to gracefully end the mission and display the end mission splash screen.
- * 
+ *
  */
 
 if (!isServer) exitWith {}; // Only run on server.

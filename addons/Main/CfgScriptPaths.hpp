@@ -1,4 +1,3 @@
-class CfgScriptPaths
-{
-	DPSODisplays = "z\dpso\addons\main\Scripts\UI\Displays\";
-}; 
+class CfgScriptPaths {
+    DPSODisplays = "z\dpso\addons\main\Scripts\UI\Displays\";
+};

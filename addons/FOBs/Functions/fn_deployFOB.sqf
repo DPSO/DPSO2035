@@ -2,37 +2,37 @@
 Function: DPSO_fnc_deployFOB
 
 Description:
-	Deploys the FOB.
+    Deploys the FOB.
 
 Arguments:
-	_object - Object whose FOB to deploy
-	_caller - Player that's deploying the FOB
+    _object - Object whose FOB to deploy
+    _caller - Player that's deploying the FOB
 
 Return Values:
-	Nothing.
+    Nothing.
 
 Examples:
     Nothing to see here
 
 Author:
-	Mokka
+    Mokka
 */
 
 if (!isServer) exitWith {
-	_this remoteExec ["DPSO_fnc_deployFOB", 2];
+    _this remoteExec ["DPSO_fnc_deployFOB", 2];
 };
 
 params ["_object", "_caller"];
 
 // sanity checks
 if (_object getVariable ["DPSO_PortableFOB_Deployed", false]) exitWith {
-	systemChat "FOB was already deployed!";
+    systemChat "FOB was already deployed!";
 };
 
 _type = _object getVariable ["DPSO_PortableFOB_Type", "NULL"];
 
 if (_type isEqualTo "NULL") exitWith {
-	systemChat "Invalid FOB type set!";
+    systemChat "Invalid FOB type set!";
 };
 
 _name = _object getVariable ["DPSO_PortableFOB_Name", ""];
@@ -40,7 +40,7 @@ _name = _object getVariable ["DPSO_PortableFOB_Name", ""];
 _size = _object getVariable ["DPSO_PortableFOB_Size", -1];
 
 if (_size < 0) exitWith {
-	systemChat "Invalid FOB size!";
+    systemChat "Invalid FOB size!";
 };
 
 // Don't want to have our FOB controller destroyed when everything is being spawned in...
@@ -58,10 +58,9 @@ _compArray = call (compile format ["call DPSO_fnc_%1", _type]);
 _objects = [_pos, _dir, _compArray, 0, false] call DPSO_fnc_objectsMapper;
 
 // Properly align the objects with the ground etc, only works with ACE for now...
-if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
-	{
-		_x call ace_common_fnc_fixPosition;
-	} forEach _objects;
+if (isClass (configFile >> "CfgPatches" >> "ace_main")) then { {
+        _x call ace_common_fnc_fixPosition;
+    } forEach _objects;
 };
 
 // Add the FOB as a respawn position

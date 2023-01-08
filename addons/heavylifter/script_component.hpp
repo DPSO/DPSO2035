@@ -23,4 +23,3 @@
 #else
     #define HEAVYLIFTER_PREP_TIME 30
 #endif
-

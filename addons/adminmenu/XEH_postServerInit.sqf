@@ -35,8 +35,7 @@ if (isDPSO) then {
 
 
     // Setup units.
-    private _oldGroups = [];
-    {
+    private _oldGroups = []; {
         private _unit = _x;
         _oldGroups pushBackUnique (group _unit);
 

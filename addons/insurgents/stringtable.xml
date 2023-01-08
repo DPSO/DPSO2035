@@ -2,8 +2,8 @@
 <Project name="DPSO">
     <Package name="Insurgents">
         <Key ID="STR_DPSO_Insurgents_DisplayName">
-            <English>DPSO Insurgents</English>
-            <Polish>DPSO Partyzanci</Polish>
+            <English>Dropping Purple Smoke - Insurgents</English>
+            <Polish>Dropping Purple Smoke - Partyzanci</Polish>
         </Key>
         <Key ID="STR_DPSO_Insurgents_Insurgent">
             <English>Insurgent (randomized)</English>

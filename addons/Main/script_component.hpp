@@ -1,5 +1,4 @@
 // COMPONENT
-
 #define COMPONENT main
 #define COMPONENT_BEAUTIFIED Main
 

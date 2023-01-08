@@ -1,6 +1,6 @@
 class ctrlToolbox;
 
-class Cfg3DEN {
+class Cfg3den {
     class Attributes {
         class Default;
         class Title: Default {
@@ -12,7 +12,7 @@ class Cfg3DEN {
             attributeLoad = "(_this controlsGroupCtrl 100) lbSetCurSel (((_value + 1) min 4) max 0);";
             attributeSave = "(lbCurSel (_this controlsGroupCtrl 100)) - 1";
             class Controls: Controls {
-                class Title: Title{};
+                class Title: Title {};
                 class Value: ctrlToolbox {
                     idc = 100;
                     style = "0x02";
@@ -20,8 +20,8 @@ class Cfg3DEN {
                     w = "80 * (pixelW * pixelGrid * 0.50)";
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
-                    columns = 6;
-                    strings[] = {"None", "DPSO", "Winter", "incognito", "casual","RHS"};
+                    columns = 5;
+                    strings[] = {"None", "CAN", "US", "Wint", "Incog"};
                 };
             };
         };
@@ -29,7 +29,7 @@ class Cfg3DEN {
             attributeLoad = "(_this controlsGroupCtrl 100) lbSetCurSel (((_value + 1) min 4) max 0);";
             attributeSave = "(lbCurSel (_this controlsGroupCtrl 100)) - 1";
             class Controls: Controls {
-                class Title: Title{};
+                class Title: Title {};
                 class Value: ctrlToolbox {
                     idc = 100;
                     style = "0x02";
@@ -62,13 +62,12 @@ class Cfg3DEN {
     };
     class Object {
         class AttributeCategories {
-            class DPSO_attributes {
-                displayName = "DPSO Fundamentals";
+            class PREFIX {
                 collapsed = 1;
                 class Attributes {
                     class DPSO_Arsenal_Select {
                         property = QUOTE(DPSO_Arsenal_Select);
-                        control = ArsenalSelect;
+                        control = "ArsenalSelect";
                         displayName = "Full Arsenal Selection:";
                         tooltip = "Removes all items from this container and replaces them with a Full Arsenal of the selected gear.";
                         expression = "if (_value > -1) then {[_this, _value] call DPSO_fnc_FullArsenal;}";
@@ -78,7 +77,7 @@ class Cfg3DEN {
                     };
                         class DPSO_Ammo_Select {
                         property = QUOTE(DPSO_Ammo_Select);
-                        control = ArsenalSelect;
+                        control = "ArsenalSelect";
                         displayName = "Limited Arsenal Selection:";
                         tooltip = "Removes all items from this container and replaces them with a Limited Arsenal of the selected gear, such as Weapons and Ammo.";
                         expression = "if (_value > -1) then {[_this, _value] call DPSO_fnc_LimitedArsenal;}";
@@ -98,7 +97,7 @@ class Cfg3DEN {
                     // };
                         class DPSO_Equipment_Select {
                         property = QUOTE(DPSO_Equipment_Select);
-                        control = EquipmentSelect;
+                        control = "EquipmentSelect";
                         displayName = "Medical Supplies Selection:";
                         tooltip = "Suppliments the equipment is this object with a preset equipment loadout. This doesn't remove currently selected equipment.";
                         expression = "_this setVariable ['%s',_value, true];";
@@ -106,7 +105,6 @@ class Cfg3DEN {
                         condition = "objectHasInventoryCargo";
                         defaultValue = "-1";
                     };
-
                 };
             };
         };

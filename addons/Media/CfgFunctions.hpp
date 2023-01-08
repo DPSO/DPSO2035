@@ -1,12 +1,12 @@
-class DPSO_Media {
+class DPSO {
 
-	tag = "DPSO";
-	class Media {
+    tag = "DPSO";
+    class Media {
 
-		file = "z\dpso\Addons\media\Functions";
-		class Sound3D {};
-		class Sound3DFromPos {};
-		class Sound3DOnObject {};
-		class Patches {};
-	};
+        file = "z\dpso\addons\media\Functions";
+        class Sound3D {};
+        class Sound3DFromPos {};
+        class Sound3DOnObject {};
+        class Patches {};
+    };
 };

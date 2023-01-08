@@ -2,8 +2,8 @@
 <Project name="DPSO">
     <Package name="Pointing">
         <Key ID="STR_DPSO_Pointing_DisplayName">
-            <English>DPSO Pointing</English>
-            <Polish>DPSO Wskazywanie</Polish>
+            <English>Dropping Purple Smoke - Pointing</English>
+            <Polish>Dropping Purple Smoke - Wskazywanie</Polish>
         </Key>
         <Key ID="STR_DPSO_Pointing_Vehicle_Enabled">
             <English>Enable pointing in vehicles</English>

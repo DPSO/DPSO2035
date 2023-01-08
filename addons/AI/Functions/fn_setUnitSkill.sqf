@@ -1,5 +1,5 @@
 /*
-Function: DPSO_fnc_SetUnitSkill
+Function: dpso_fnc_SetUnitSkill
 
 Description:
 	Set the given unit's skill level to the desired one.
@@ -45,7 +45,7 @@ private _skillv = [
     (0.20 + random 0.40)
 ];
 
-if !(isNil "DPSO_AI_AimingAccuracy") then {
+if !(isNil "dpso_AI_AimingAccuracy") then {
     _skillv = [
         (DPSO_AI_AimingAccuracy + random 0.20),
         (DPSO_AI_AimingShake + random 0.20),
@@ -59,8 +59,7 @@ if !(isNil "DPSO_AI_AimingAccuracy") then {
     ];
 };
 
-
-{
+ {
     if (_x < 0) then {_x = 0 };
     if (_x > 1) then {_x = 1 };
 } foreach _skillv;
@@ -70,9 +69,7 @@ private _units = call {
     if ((typeName _target) isEqualTo "ARRAY") exitWith { _target };
     [_target];
 };
-
-{
+ {
     _a = _x;
-    _b = _skillv select _forEachIndex;
-    {_x setSkill [_a, _b]; true } count _units;
+    _b = _skillv select _forEachIndex; {_x setSkill [_a, _b]; true } count _units;
 } forEach _skillt;

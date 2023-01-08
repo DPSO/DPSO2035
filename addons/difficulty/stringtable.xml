@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DPSO">
+    <Package name="Difficulty">
+        <Key ID="STR_DPSO_Difficulty_DifficultyName">
+            <English>DPSO</English>
+        </Key>
+        <Key ID="STR_DPSO_Difficulty_DifficultyDescription">
+            <English>Custom Dropping Purple Smoke settings.</English>
+            <Polish>Własne ustawienia Dropping Purple Smoke.</Polish>
+        </Key>
+    </Package>
+</Project>

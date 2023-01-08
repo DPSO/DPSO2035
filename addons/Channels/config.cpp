@@ -1,19 +1,17 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-	class DPSOFundamentals_Channels
-	{
-		author = AUTHOR;
-		name = NAME;
-		url = URL;
-		units[] = {};
-		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
-		version = VERSION;
-		authors[] = {"MitchJC"};
-		weapons[] = {};
-	};
+class CfgPatches {
+    class DPSOFundamentals_Channels {
+
+        author = QAUTHOR;
+        name = COMPONENT_NAME;
+        units[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"A3_UI_F","cba_main","cba_xeh"};
+        VERSION_CONFIG;
+        authors[] = {"MitchJC"};
+        weapons[] = {};
+    };
 };
 
 class Extended_PreInit_EventHandlers {

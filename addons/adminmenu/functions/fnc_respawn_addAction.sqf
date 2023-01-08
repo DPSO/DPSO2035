@@ -6,9 +6,8 @@ params ["_display"];
 private _ctrlSpectatorListBox = (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_SPECTATORLIST);
 
 private _selection = _ctrlSpectatorListBox lbText (lbCurSel _ctrlSpectatorListBox);
-private _obj = objNull;
-{
-    private _name = _x getVariable ["DPSO_spectator_name",name _x];
+private _obj = objNull; {
+    private _name = _x getVariable ["dpso_spectator_name",name _x];
     if (_selection == _name) exitWith {
         _obj = _x;
     };
@@ -17,7 +16,7 @@ private _obj = objNull;
 if (!(isNull _obj)) then {
     private _role = lbCurSel (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_ROLECOMBO); // Role
     private _rank = GVAR(respawn_rank); // Rank
-    
+
     GVAR(selectedRespawnGroup) pushBack [_rank,_obj,_role];
 };
 

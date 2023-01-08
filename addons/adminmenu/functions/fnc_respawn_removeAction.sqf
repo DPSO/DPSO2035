@@ -5,7 +5,7 @@ params ["_display"];
 
 
 private _ctrlGroupListBox = (_display displayCtrl IDC_DPSO_ADMINMENU_RESP_GROUPLIST);
-        
+
 GVAR(selectedRespawnGroup) deleteAt (lbCurSel _ctrlGroupListBox);
 
 [_display] call FUNC(respawn_refreshSpectatorList);

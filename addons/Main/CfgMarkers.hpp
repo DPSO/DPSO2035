@@ -1,82 +1,260 @@
 class CfgMarkers {
-	// Units
-	class iconcasap {
-		name = "CAS Action Point";
-		icon = "z\dpso\addons\Media\images\map\AP.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconcasbp {
-		name = "CAS Battle Point";
-		icon = "z\dpso\addons\Media\images\map\BP.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconcascp {
-		name = "CAS Control Point";
-		icon = "z\dpso\addons\Media\images\map\CP.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconcasdz {
-		name = "Drop Zone";
-		icon = "z\dpso\addons\Media\images\map\DZ.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconcasep {
-		name = "CAS Egress Point";
-		icon = "z\dpso\addons\Media\images\map\EP.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconcasip {
-		name = "CAS Initiation  Point";
-		icon = "z\dpso\addons\Media\images\map\IP.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconassultd {
-		name = "Assult";
-		icon = "z\dpso\addons\Media\images\map\assult.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class iconsupportd {
-		name = "Support";
-		icon = "z\dpso\addons\Media\images\map\support.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class icondpsox {
-		name = "X";
-		icon = "z\dpso\addons\Media\images\map\x.paa";
-		size = 24;
-		shadow = true;
-		scope = 2;
-		color[] = {1, 1, 1, 1};
-	};
-	class hd_dot {
-		scope=01;
-	};
-	class mil_objective	{
-		scope=2;
-	};
-
+    class iconcasap {
+        name = "CAS Action Point";
+        icon = "z\dpso\addons\Media\images\map\aap.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasbp {
+        name = "CAS Battle Point";
+        icon = "z\dpso\addons\Media\images\map\abp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcascp {
+        name = "CAS Control Point";
+        icon = "z\dpso\addons\Media\images\map\acp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasop {
+        name = "CAS Orbit Point";
+        icon = "z\dpso\addons\Media\images\map\orbit.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasip {
+        name = "CAS Initiation Point";
+        icon = "z\dpso\addons\Media\images\map\aip.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcascck {
+        name = "CAS Communications Point";
+        icon = "z\dpso\addons\Media\images\map\ackp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasep {
+        name = "CAS Egress Point";
+        icon = "z\dpso\addons\Media\images\map\aep.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasdz {
+        name = "Drop Zone";
+        icon = "z\dpso\addons\Media\images\map\DZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasilz {
+        name = "Landing Zone Insertion";
+        icon = "z\dpso\addons\Media\images\map\ILZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcaselz {
+        name = "Landing Zone Extraction";
+        icon = "z\dpso\addons\Media\images\map\ELZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconcasflz {
+        name = "False Landing Zone";
+        icon = "z\dpso\addons\Media\images\map\FLZ.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconassultd {
+        name = "Assult";
+        icon = "z\dpso\addons\Media\images\map\assult.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class iconsupportd {
+        name = "Support";
+        icon = "z\dpso\addons\Media\images\map\support.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsox {
+        name = "X";
+        icon = "z\dpso\addons\Media\images\map\x.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsonrp {
+        name = "Dive Referance Point";
+        icon = "z\dpso\addons\Media\images\map\nrp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsonsp {
+        name = "Dive Special Referance Point";
+        icon = "z\dpso\addons\Media\images\map\nsp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsonnp {
+        name = "Dive Navigation Point";
+        icon = "z\dpso\addons\Media\images\map\nnp.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsodive {
+        name = "Dive Point";
+        icon = "z\dpso\addons\Media\images\map\dive.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsosurface {
+        name = "Surface Point";
+        icon = "z\dpso\addons\Media\images\map\surface.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsoland {
+        name = "Landing Point";
+        icon = "z\dpso\addons\Media\images\map\land.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class icondpsoacrew {
+        name = "Downed Aircrew";
+        icon = "z\dpso\addons\Media\images\map\down.paa";
+        size = 24;
+        shadow = True;
+        scope = 2;
+        color[] = {1, 1, 1, 1};
+    };
+    class GrenMarkerCiv {
+        scope=0;
+    };
+    class GrenMarkerCiv_boat {
+        scope=0;
+    };
+    class GrenMarkerMil {
+        scope=0;
+    };
+    class GrenMarkerMil_boat {
+        scope=0;
+    };
+    class GrenMarkerHunter {
+        scope=0;
+    };
+    class GrenMarkerHunter_dog {
+        scope=0;
+    };
+    class GrenMarkerRST {
+        scope=0;
+    };
+    class GrenMarkerNoice_off {
+        scope=0;
+    };
+    class GrenMarkerNoice_off_w {
+        scope=0;
+    };
+    class GrenMarkerNoice_on {
+        scope=0;
+    };
+    class GrenMarkerNoice_on_w {
+        scope=0;
+    };
+    class GrenMarkerSkull {
+        scope=0;
+    };
+    class GrenMarkerMedic {
+        scope=0;
+    };
+    class GrenMarkerDot {
+        scope=0;
+    };
+    class GrenMarkerSteal {
+        scope=0;
+    };
+    class GrenMarker1st_infantry {
+        scope=0;
+    };
+    class GrenMarker1st_101st_Airborne {
+        scope=0;
+    };
+    class GrenMarkerCiv15x {
+        scope=0;
+    };
+    class GrenMarkerCiv_boat15x {
+        scope=0;
+    };
+    class GrenMarkerMil15x {
+        scope=0;
+    };
+    class GrenMarkerMil_boat15x {
+        scope=0;
+    };
+    class GrenMarkerHunter15x {
+        scope=0;
+    };
+    class GrenMarkerRST15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_off15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_on15x {
+        scope=0;
+    };
+    class GrenMarkerNoice_off_w15X {
+        scope=0;
+    };
+    class GrenMarkerNoice_on_w15x {
+        scope=0;
+    };
+    class GrenMarkerSkull_w15x {
+        scope=0;
+    };
+    class hd_dot {
+        scope=01;
+    };
+    class mil_objective {
+        scope=2;
+    };
 };

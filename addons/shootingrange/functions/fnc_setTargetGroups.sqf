@@ -27,8 +27,7 @@ private _lastMarker = "";
 private _currentTargetGroup = [];
 private _currentTargetInvalidGroup = [];
 private _numTargetsInvalid = count _targetsInvalid;
-
-{
+ {
     if (_forEachIndex != 0 && {_x != _lastMarker}) then {
         _targetGroups pushBack _currentTargetGroup;
         _currentTargetGroup = [];
@@ -60,8 +59,7 @@ TRACE_2("Target Groups",_targetGroups,_targetInvalidGroups);
 // Set targets groups on targets
 {
     private _targetGroup = _x;
-    private _targetInvalidGroup = _targetInvalidGroups select _forEachIndex;
-    {
+    private _targetInvalidGroup = _targetInvalidGroups select _forEachIndex; {
         _x setVariable [QGVAR(targetGroup), _targetGroup];
         _x setVariable [QGVAR(targetInvalidGroup), _targetInvalidGroup];
     } forEach _targetGroup;

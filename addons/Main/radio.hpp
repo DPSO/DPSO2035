@@ -1,9 +1,7 @@
 class RadioProtocolBase;
-class RadioProtocolENG: RadioProtocolBase
-{
-	class Words
-	{
-		__1[] = {}; 
+class RadioProtocolENG: RadioProtocolBase {
+    class Words {
+        __1[] = {}; 
         __1_1[] = {}; 
         __2[] = {}; 
         __2_1[] = {}; 
@@ -657,9 +655,8 @@ class RadioProtocolENG: RadioProtocolBase
         Yousuf[] = {}; 
         zero[] = {}; 
         zulu[] = {};
-		class Combat: Normal
-		{
-			__1[] = {}; 
+        class Combat: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -1313,10 +1310,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class Normal
-		{
-			__1[] = {}; 
+        };
+        class Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -1970,10 +1966,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class CombatEngage: Normal
-		{
-			__1[] = {}; 
+        };
+        class CombatEngage: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -2627,10 +2622,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class NormalContact: Normal
-		{
-			__1[] = {}; 
+        };
+        class NormalContact: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -3284,10 +3278,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class CombatContact: Normal
-		{
-			__1[] = {}; 
+        };
+        class CombatContact: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -3941,10 +3934,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class Stealth: Normal
-		{
-			__1[] = {}; 
+        };
+        class Stealth: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -4598,10 +4590,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class NormalEngage: Normal
-		{
-			__1[] = {}; 
+        };
+        class NormalEngage: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -5255,10 +5246,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class NormalTarget: Normal
-		{
-			__1[] = {}; 
+        };
+        class NormalTarget: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -5912,10 +5902,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class NormalWatch: Normal
-		{
-			__1[] = {}; 
+        };
+        class NormalWatch: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -6569,10 +6558,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class StealthEngage: Normal
-		{
-			__1[] = {}; 
+        };
+        class StealthEngage: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -7226,10 +7214,9 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-		class StealthWatch: Normal
-		{
-			__1[] = {}; 
+        };
+        class StealthWatch: Normal {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -7883,15 +7870,13 @@ class RadioProtocolENG: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
-	};
+        };
+    };
 };
 
-class RadioProtocolENGB: RadioProtocolBase
-{
-	class Words
-		{
-			__1[] = {}; 
+class RadioProtocolENGB: RadioProtocolBase {
+    class Words {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -8545,11 +8530,10 @@ class RadioProtocolENGB: RadioProtocolBase
             Yousuf[] = {}; 
             zero[] = {}; 
             zulu[] = {};
-		};
+        };
 };
-class RadioProtocolPER: RadioProtocolBase
-		{
-			__1[] = {}; 
+class RadioProtocolPER: RadioProtocolBase {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 
@@ -9204,9 +9188,8 @@ class RadioProtocolPER: RadioProtocolBase
             zero[] = {}; 
             zulu[] = {};
 };
-class RadioProtocolGRE: RadioProtocolBase
-		{
-			__1[] = {}; 
+class RadioProtocolGRE: RadioProtocolBase {
+            __1[] = {}; 
             __1_1[] = {}; 
             __2[] = {}; 
             __2_1[] = {}; 

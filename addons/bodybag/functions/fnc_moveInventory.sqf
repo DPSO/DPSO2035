@@ -48,8 +48,7 @@ _items = _items select {_x != "" && {random 100 > GVAR(destroyChance)} };
 _weapons = _weapons select {_x != "" && {random 100 > GVAR(destroyChance)} };
 
 TRACE_2("Body Inventory",_items,_weapons);
-
-{
+ {
     _bodybag addItemCargoGlobal [_x, 1];
 } forEach _items;
 
@@ -74,8 +73,7 @@ if (_backpack != "" && {random 100 > GVAR(destroyChance)}) then {
 
 // Remove possible left-over ground weapon holder
 private _nearHolders = nearestObjects [_bodybag, ["WeaponHolderSimulated"], 3];
-TRACE_1("Near Holders",_nearHolders);
-{
+TRACE_1("Near Holders",_nearHolders); {
     private _holderWeapons = ((getWeaponCargo _x) select 0) select {_x in _weapons};
     if !(_holderWeapons isEqualTo []) exitWith {
         deleteVehicle _x;

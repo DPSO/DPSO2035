@@ -2,7 +2,7 @@
 <Project name="DPSO">
     <Package name="RemoteSensors">
         <Key ID="STR_DPSO_RemoteSensors_DisplayName">
-            <English>DPSO Remote Sensors</English>
+            <English>Dropping Purple Smoke - Remote Sensors</English>
         </Key>
         <Key ID="STR_DPSO_RemoteSensors_Enabled">
             <English>Enable remote sensors on clients</English>

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [[100, 200]] call tac_ratelmarker_fnc_createMarker;
+ * [[100, 200]] call DPSO_ratelmarker_fnc_createMarker;
  *
  * Public: No
  */

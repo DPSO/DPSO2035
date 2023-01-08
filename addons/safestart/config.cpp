@@ -1,4 +1,5 @@
 #include "script_component.hpp"
+
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
@@ -6,12 +7,11 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "DPSO_common"
+            "dpso_common"
         };
-        author = AUTHOR;
+        author = QAUTHOR;
         VERSION_CONFIG;
     };
 };
-
 
 #include "CfgEventHandlers.hpp"

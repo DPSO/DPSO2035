@@ -3,19 +3,18 @@
 class cfgPatches {
     class ADDON {
         author = AUTHOR;
-		name = COMPONENT_NAME;
+        name = COMPONENT_NAME;
         url = URL;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        /* Require CBA and all components below */
         requiredAddons[] = {
-			"A3_UI_F",
-			"cba_main",
-			"cba_xeh",
-			"cba_ui",
+            "A3_UI_F",
+            "cba_main",
+            "cba_xeh",
+            "cba_ui",
             "cba_jr"
-		};
+        };
         VERSION_CONFIG;
     };
 };
@@ -25,10 +24,12 @@ class cfgPatches {
 #include "CfgRespawnTemplates.hpp"
 #include "CfgEventHandlers.hpp"
 #include "CfgFactionClasses.hpp"
-#include "cfgFunctions.hpp"
+#include "CfgFunctions.hpp"
 #include "CfgScriptPaths.hpp"
 #include "CfgEditorCategories.hpp"
 #include "CfgVehicleIcons.hpp"
 #include "CfgWorlds.hpp"
 #include "CfgMarkers.hpp"
 #include "radio.hpp"
+#include "CfgEden.hpp"
+#include "CfgSkeletons.hpp"

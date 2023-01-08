@@ -1,49 +1,116 @@
 [
-    QGVAR(isJIPAllowed),
-    "LIST",
-    ["JIP allowed", "If disallowed JIP players are placed in spectator. Only affects DPSO spectator."],
-    ["DPSO", "Spectator"],
-    [[0,1,2],["Disallow", "Allow", "During Safestart"],2],
-    1
+    QGVAR(enabled),
+    "CHECKBOX",
+    [LSTRING(Enabled), LSTRING(Enabled_Description)],
+    COMPONENT_NAME,
+    false,
+    1, {[_this] call FUNC(toggle)}
 ] call CBA_fnc_addSetting;
+
 [
-    QGVAR(showGroupMarkers),
-    "LIST",
-    ["Show 3D group markers", ""],
-    ["DPSO", "Spectator"],
-    [[0,1],["Groups with players only", "All"], 0],
+    QGVAR(allowUnconscious),
+    "CHECKBOX",
+    [LSTRING(AllowUnconscious), LSTRING(AllowUnconscious_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(unconsciousDelay),
+    "SLIDER",
+    [LSTRING(UnconsciousDelay), LSTRING(UnconsciousDelay_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    [1, 300, 30, 0],
     1
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(followCameraEnabled),
-    "CHECKBOX",
-    ["Follow camera mode enabled", "Allow the usage of the Orbiting camera mode"],
-    ["DPSO", "Spectator"],
-    true,
-    1
+    QGVAR(sides),
+    "LIST",
+    [LSTRING(Sides), LSTRING(Sides_Description)],
+    COMPONENT_NAME,
+    [[0, 1, 2], [LSTRING(Friendly), LSTRING(Own), "str_all_voices"], 0],
+    1, {[_this] call FUNC(restart)}
 ] call CBA_fnc_addSetting;
+
 [
-    QGVAR(freeCameraEnabled),
-    "CHECKBOX",
-    ["Free camera mode enabled", "Allow the usage of the free camera mode"],
-    ["DPSO", "Spectator"],
-    true,
-    1
+    QGVAR(sidesUnconscious),
+    "LIST",
+    [LSTRING(Sides), LSTRING(Sides_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    [[0, 1, 2], [LSTRING(Friendly), LSTRING(Own), "str_all_voices"], 0],
+    1, {[_this] call FUNC(restart)}
 ] call CBA_fnc_addSetting;
+
 [
-    QGVAR(firstPersonCameraEnabled),
+    QGVAR(civilianSide),
     "CHECKBOX",
-    ["Firstperson camera mode enabled", "Allow the usage of the firstperson camera mode"],
-    ["DPSO", "Spectator"],
-    true,
-    1
+    [LSTRING(CivilianSide), LSTRING(CivilianSide_Description)],
+    COMPONENT_NAME,
+    false,
+    1, {[_this] call FUNC(restart)}
 ] call CBA_fnc_addSetting;
+
 [
-    QGVAR(canSpectateAllSides),
+    QGVAR(civilianSideUnconscious),
     "CHECKBOX",
-    ["Spectate all sides", "Disable to only allow the player to spectate their own side"],
-    ["DPSO", "Spectator"],
-    true,
-    1
+    [LSTRING(CivilianSide), LSTRING(CivilianSide_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(allowAI),
+    "CHECKBOX",
+    [LSTRING(AllowAI), LSTRING(AllowAI_Description)],
+    COMPONENT_NAME,
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(allowAIUnconscious),
+    "CHECKBOX",
+    [LSTRING(AllowAI), LSTRING(AllowAI_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(freeCamera),
+    "CHECKBOX",
+    [LSTRING(FreeCamera), LSTRING(FreeCamera_Description)],
+    COMPONENT_NAME,
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(freeCameraUnconscious),
+    "CHECKBOX",
+    [LSTRING(FreeCamera), LSTRING(FreeCamera_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(TPPCamera),
+    "CHECKBOX",
+    [LSTRING(TPPCamera), LSTRING(TPPCamera_Description)],
+    COMPONENT_NAME,
+    false,
+    1, {[_this] call FUNC(restart)}
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(TPPCameraUnconscious),
+    "CHECKBOX",
+    [LSTRING(TPPCamera), LSTRING(TPPCamera_Description)],
+    [COMPONENT_NAME, LSTRING(Unconscious)],
+    false,
+    1, {[_this] call FUNC(restart)}
 ] call CBA_fnc_addSetting;

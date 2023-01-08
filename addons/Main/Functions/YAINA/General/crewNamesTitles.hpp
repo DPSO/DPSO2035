@@ -1,20 +1,20 @@
 
 class RscStructuredText {
-	x=0;
-	y=0;
-	h=0.035;
-	w=0.1;
-	text="";
-	size="( ( ( ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
-	colorText[]={1,1,1,1};
-	shadow=1;
-	class Attributes {
-		font="RobotoCondensed";
-		color="#ffffff";
-		colorLink="#D09B43";
-		align="left";
-		shadow=1;
-	};
+    x=0;
+    y=0;
+    h=0.035;
+    w=0.1;
+    text="";
+    size="( ( ( ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+    colorText[]={1,1,1,1};
+    shadow=1;
+    class Attributes {
+        font="RobotoCondensed";
+        color="#ffffff";
+        colorLink="#D09B43";
+        align="left";
+        shadow=1;
+    };
 };
 
 class RscTitles {
@@ -28,8 +28,7 @@ class RscTitles {
         onLoad = "uiNamespace setVariable ['HudNames', _this select 0]";
 
         class controlsBackground {
-            class HudNames_1 : RscStructuredText
-            {
+            class HudNames_1: RscStructuredText {
                 idc = 99999;
                 type = 13;
                 sizeEx = 0.040;

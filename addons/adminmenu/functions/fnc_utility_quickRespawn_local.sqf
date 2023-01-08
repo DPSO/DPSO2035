@@ -30,8 +30,7 @@ if (_oldUnitdata isEqualType []) then {
     // Re-enable other text/marker channels
     private _radioChannelIndexSpectator = missionNamespace getVariable [QEGVAR(spectator,radioChannel), -1];
     if (_radioChannelIndexSpectator != -1) then {
-        _radioChannelIndexSpectator radioChannelRemove [player];
-        {
+        _radioChannelIndexSpectator radioChannelRemove [player]; {
             _x enableChannel true;
         } forEach [1,2,3,4,5];
     };
@@ -44,28 +43,27 @@ if (_oldUnitdata isEqualType []) then {
 
     // ACRE setup
     // Put in PFH to avoid blocking
-/*     
     if (isClass(configFile >> "CfgPatches" >> "acre_main")) then  {
         [false] call acre_api_fnc_setSpectator;
         [{
             if (isNull player) exitWith {};
-            if (isNil "DPSO_acre2_networksCreated") exitWith {}; //Ensure presets are created
+            if (isNil "dpso_acre2_networksCreated") exitWith {}; //Ensure presets are created
 
             [] call EFUNC(acre2,clientInit);
             [_this select 1] call CBA_fnc_removePerFrameHandler;
         }, 0.1] call CBA_fnc_addPerFrameHandler;
-    }; */
+    };
 
     // Run Briefing Scripts.
     [{
         // Run briefing script for our new unit.
         [player] call EFUNC(briefing,generateBriefing);
-       // [player] call EFUNC(orbat,createBriefingPage);
+        [player] call EFUNC(orbat,createBriefingPage);
     }, [], 4] call CBA_fnc_waitAndExecute;
 
     // Reset Orbat.
     // Re-initalize our group markers
-   // [player, true] call EFUNC(orbat,setup);
+    [player, true] call EFUNC(orbat,setup);
 
     // Add all the respawned groups to the map markers as well.
     [] call FUNC(respawnGroupMarkerUpdate);

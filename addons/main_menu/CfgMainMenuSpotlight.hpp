@@ -2,14 +2,29 @@
 class CfgMainMenuSpotlight {
 
     class GVAR(server1) {
-        text = CSTRING(SpotlightJoin);
+        text = "Dropping Purple Smoke Operations";
         textIsQuote = 0;
         picture = QUOTE(\z\dpso\addons\media\images\logo_sm_ca.paa);
         action = QUOTE(_this call (uiNamespace getVariable QQFUNC(join)));
         actionText = CSTRING(SpotlightHeader);
         condition = QUOTE(true);
     };
-
+    class GVAR(server2) {
+        text = "Dropping Purple Smoke Training";
+        textIsQuote = 0;
+        picture = QUOTE(\z\dpso\addons\media\images\logo_sm_ca.paa);
+        action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joint)));
+        actionText = CSTRING(SpotlightHeader);
+        condition = QUOTE(true);
+    };
+    class GVAR(server3) {
+        text = "Dropping Purple Smoke Events";
+        textIsQuote = 0;
+        picture = QUOTE(\z\dpso\addons\media\images\logo_sm_ca.paa);
+        action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joine)));
+        actionText = CSTRING(SpotlightHeader);
+        condition = QUOTE(true);
+    };
     delete ApexProtocol;
     delete BootCamp;
     delete EastWind;

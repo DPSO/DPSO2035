@@ -18,10 +18,10 @@
 
 
 /* To be added to dev documentation
- * TAC Tag 3-ID = 213
+ * DPSO Tag 3-ID = 213
  * Project 2-ID = 32
  * Control 2-ID = XY
- * IDs: <TAC Tag 6-ID> + <Project 2-ID> + <Control 2-ID>
+ * IDs: <DPSO Tag 6-ID> + <Project 2-ID> + <Control 2-ID>
  */
 #define GUI_ID_INPUT_X 2133201
 #define GUI_ID_INPUT_Y 2133202

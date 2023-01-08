@@ -1,11 +1,11 @@
-class Cfg3DEN {
+class Cfg3den {
     class Object {
         class AttributeCategories {
             class PREFIX {
                 class Attributes {
                     class GVAR(isZeus) {
-                        displayName = "Zeus";
-                        tooltip = "Controls whether unit will have Zeus interface.";
+                        displayName = CSTRING(isZeus);
+                        tooltip = CSTRING(isZeus_Description);
                         property = QGVAR(isZeus);
                         control = "Checkbox";
                         expression = QUOTE(if (_value) then {ARR_2([{[_this] call FUNC(assignZeus)}, _this]) call CBA_fnc_execNextFrame});
@@ -17,4 +17,3 @@ class Cfg3DEN {
         };
     };
 };
- 

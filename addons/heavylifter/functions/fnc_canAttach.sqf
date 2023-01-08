@@ -10,13 +10,11 @@
  * Can Attach Hooks <BOOL>
  *
  * Example:
- * [heli, player] call tac_heavylifter_fnc_canAttach
+ * [heli, player] call dpso_heavylifter_fnc_canAttach
  *
  * Public: No
  */
 
 params ["_vehicle"];
 
-(isNil {_vehicle getVariable QGVAR(prepared)}) &&
-{(crew _vehicle) isEqualTo []} &&
-{count (getArray (configFile >> "CfgVehicles" >> typeOf _vehicle >> QGVAR(AttachPos))) == 3}
+(isNil {_vehicle getVariable QGVAR(prepared)}) && {(crew _vehicle) isEqualTo []} && {count (getArray (configFile >> "CfgVehicles" >> typeOf _vehicle >> QGVAR(AttachPos))) == 3}

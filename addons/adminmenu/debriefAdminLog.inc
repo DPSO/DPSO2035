@@ -13,8 +13,7 @@
     };
 */
 
-class dpso_adminlog
-{
+class dpso_adminlog {
     title = "DPSO Log";
     variable = "DPSO_adminmenu_debrief";
 };

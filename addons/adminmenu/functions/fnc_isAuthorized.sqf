@@ -8,7 +8,7 @@
  *
  * Description:
  * Checks if player is defined as an admin in
- * class DPSO_adminMenu_authorized_players
+ * class DPSO_adminmenu_authorized_players
  *
  * If executed on server then will check if the remote object is a logged in admin.
  * If executed on a object local to the client, then it will check if the client is
@@ -31,8 +31,8 @@ switch true do {
     // Check if remote client is admin (only available for servers)
     case (isServer && {admin owner _unit > 0});
     case (!isMultiplayer);
-    case (is3DEN);
-    case (is3DENMultiplayer): {true};
+    case (is3den);
+    case (is3denMultiplayer): {true};
 
     default {false};
 };

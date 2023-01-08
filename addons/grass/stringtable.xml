@@ -2,8 +2,8 @@
 <Project name="DPSO">
     <Package name="Grass">
         <Key ID="STR_DPSO_Grass_DisplayName">
-            <English>DPSO Grass</English>
-            <Polish>DPSO Trawa</Polish>
+            <English>Dropping Purple Smoke - Grass</English>
+            <Polish>Dropping Purple Smoke - Trawa</Polish>
         </Key>
         <Key ID="STR_DPSO_Grass_Forced">
             <English>Force Grass</English>

@@ -2,16 +2,18 @@
 
 class CfgPatches {
     class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"DPSO_main"};
-        author[] = {"Brandon (TCVM)"};
-        authorUrl = "https://github.com/BourbonWarfare/POTATO";
+        author = "";
+        authors[] = {""};
         VERSION_CONFIG;
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "CfgCloudlets.hpp"
 #include "impactEffects.hpp"
 #include "CfgAmmo.hpp"

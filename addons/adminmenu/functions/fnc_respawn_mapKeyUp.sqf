@@ -16,7 +16,7 @@ if (_type == 28) then {
             _position = GVAR(respawnMousePos);
             _halo = GVAR(respawnHalo);
         } else {
-            private _var = missionNamespace getVariable[format["DPSO_respawnPoint%1",GVAR(respawnMousePos)],objNull];
+            private _var = missionNamespace getVariable[format["dpso_respawnPoint%1",GVAR(respawnMousePos)],objNull];
             if (!isNull _var) then {
                 _position = position _var;
             };
@@ -28,8 +28,7 @@ if (_type == 28) then {
         };
 
         GVAR(respawnGuiParameters) params ["_faction", "_groupName", "_markerType", "_markerColor", "_markerName"];
-
-        {
+ {
             _x params ["_rankIdx","_obj", "_roleIdx"];
             _x set [2,(respawnMenuRoles select _roleIdx) select 0];
         } forEach GVAR(selectedRespawnGroup);

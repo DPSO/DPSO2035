@@ -1,19 +1,19 @@
-﻿/*
- *	ARMA EXTENDED ENVIRONMENT
- *	\dpso_common\functions\common\fn_getUnitInsignia.sqf
- *	by Ojemineh
- *	
- *	get unit insignia
- *	
- *	Arguments:
- *	0: unit - <OBJECT>
- *	
- *	Return:
- *	<STRING>
- *	
- *	Example:
- *	[player] call dpso_fnc_getUnitInsignia;
- *	
+/*
+ * ARMA EXTENDED ENVIRONMENT
+ * \DPSO_common\functions\common\fn_getUnitInsignia.sqf
+ * by Ojemineh
+ *
+ * get unit insignia
+ *
+ * Arguments:
+ * 0: unit - <OBJECT>
+ *
+ * Return:
+ * <STRING>
+ *
+ * Example:
+ * [player] call DPSO_common_fnc_getUnitInsignia;
+ *
  */
 
 // -------------------------------------------------------------------------------------------------

@@ -8,14 +8,14 @@ player createDiaryRecord ["Diary", ["Long Range Frequencies",
 <br/>
 <br/>Below is a list of the default Long Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times.
 <br/>
-<br/><font face='PuristaLight' color='#B85450'>Channel: 1 - Frequency:40Mhz - C2</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>Channel: 2 - Frequency:50Mhz - Detachment 990 Net</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>Channel: 3 - Frequency:51Mhz - Detachment 991 Net</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>Channel: 4 - Frequency:52Mhz - Detachment 992 Net</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>Channel: 5 - Frequency:53Mhz - Detachment 993 Net</font>
-<br/><font face='PuristaLight' color='#D3D3D3'>Channel: 6 - Frequency:59Mhz - Flight Net</font>
-<br/><font face='PuristaLight' color='#D60025'>Channel: 7 - Frequency:60Mhz - CAS - Fires</font> 
-<br/><font face='PuristaLight' color='#D79B00'>Channel: 8 - Frequency:69Mhz - Air 2 Ground Net - Common on all radios/font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 - Frequency:51 Mhz -- C2</font>
+<br/><font face='PuristaLight' color='#6C8EBF'> Channel: 2 - Frequency:52 Mhz -- CANSOF Net</font>
+<br/><font face='PuristaLight' color='#B85450'> Channel: 3 - Frequency:53 Mhz -- USASOC Net</font>
+<br/><font face='PuristaLight' color='#00FF00'> Channel: 4 - Frequency:54 Mhz -- JSOW Net</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 - Frequency:55 Mhz -- SPARE</font>
+<br/><font face='PuristaLight' color='#FF0000'> Channel: 6 - Frequency:56 Mhz -- CAS - Fires Net</font>
+<br/><font face='PuristaLight' color='#00FF00'> Channel: 7 - Frequency:57 Mhz -- Air Group Net</font>
+<br/><font face='PuristaLight' color='#D60025'> Channel: 8 - Frequency:58 Mhz -- CROSSNET - Common on all radios</font>
 "
 ]];
 
@@ -24,72 +24,25 @@ player createDiaryRecord ["Diary", ["Short Range Frequencies",
 "
 <br/><font face='PuristaLight' color='#ffcc00' font size='20' >**LISTENING ON AN UNAUTHORISED FREQUENCY IS STRICTLY PROHIBITED.**</font>
 <br/>
-<br/>Below is a list of the default Short Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times. Don't forget the MERT Frequency!
+<br/>Below is a list of the default Short Range Frequencies. Your role specific frequencies are set on your radio automatically. Ensure you're on the correct frequencies at all times.
 <br/>
-<br/><font face='PuristaLight' color='#6C8EBF'>990 - Channel: 1 - Frequency:101 Mhz</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>990 - Channel: 2 - Frequency:102 Mhz</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>990 - Channel: 3 - Frequency:103 Mhz</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>990 - Channel: 4 - Frequency:104 Mhz</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 1 - Frequency:101 Mhz 	-- SQUADNET 01</font>
+<br/><font face='PuristaLight' color='#fffc00'> Channel: 2 - Frequency:102 Mhz 	-- SQUADNET 02</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 3 - Frequency:103 Mhz 	-- SQUADNET 03</font>
+<br/><font face='PuristaLight' color='#fffc00'> Channel: 4 - Frequency:104 Mhz 	-- SQUADNET 04</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 5 - Frequency:105 Mhz 	-- SQUADNET 05</font>
+<br/><font face='PuristaLight' color='#fffc00'> Channel: 6 - Frequency:106 Mhz 	-- SQUADNET 06</font>
+<br/><font face='PuristaLight' color='#ffcc00'> Channel: 7 - Frequency:107 Mhz 	-- SQUADNET 07</font>
+<br/><font face='PuristaLight' color='#D60025'> Channel: 8 - Frequency:58 Mhz 	-- CROSSNET - Common on all radios</font>
 <br/>
-<br/><font face='PuristaLight' color='#80BF00'>991 - Channel: 1 - Frequency:111 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>991 - Channel: 2 - Frequency:112 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>991 - Channel: 3 - Frequency:113 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>991 - Channel: 4 - Frequency:114 Mhz</font>
+
 <br/>
-<br/><font face='PuristaLight' color='#80BF00'>992 - Channel: 1 - Frequency:121 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>992 - Channel: 2 - Frequency:122 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>992 - Channel: 3 - Frequency:123 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>992 - Channel: 4 - Frequency:124 Mhz</font>
-<br/>
-<br/><font face='PuristaLight' color='#80BF00'>993 - Channel: 1 - Frequency:131 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>993 - Channel: 2 - Frequency:132 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>993 - Channel: 3 - Frequency:133 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>993 - Channel: 4 - Frequency:134 Mhz</font>
-<br/>
-<br/><font face='PuristaLight' color='#80BF00'>999 - Channel: 1 - Frequency:191 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>999 - Channel: 2 - Frequency:192 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>999 - Channel: 3 - Frequency:193 Mhz</font>
-<br/><font face='PuristaLight' color='#80BF00'>999 - Channel: 4 - Frequency:194 Mhz</font>
-<br/>
-<br/><font face='PuristaLight' color='#D3D3D3'>Channel: 7 - Frequency:99 Mhz</font>
-<br/><font face='PuristaLight' color='#D60025' font size='20' >Channel: 8 - Frequency:69 Mhz  AIR-GROUND-NET/font>
 "
 ]];
 
-_PlayerGroup =  group player getVariable ["DPSO_section","null"];
-if !(_PlayerGroup == "ds990") exitwith {};
+player createDiarySubject ["Commands","Commands"];
 
-player createDiarySubject ["DPSO Commands","DPSO Commands"];
-
-player createDiaryRecord ["DPSO Commands", ["TFAR",
-"
-<br/><font face='PuristaLight' color='#40FFFF' font size='20'>Sending Distance Multiplicator</font>
-<br/>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Used to increase or decrease maximum transmission range of TFAR.</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Can be used repeatedly and takes effect immediately. </font>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Higher means longer range. A setting of 3.5 covers all of Altis.</font>
-<br/>
-<br/><font face='PuristaLight' color='#6C8EBF'>Example:</font>
-<br/><execute expression=""copyToClipboard '!tfar_distanceMultiplier 3.5'"">!tfar_distanceMultiplier 3.5</execute>
-
-<br/>
-
-
-
-<br/><font face='PuristaLight' color='#40FFFF' font size='20'>Terrain Interception Coefficient</font>
-<br/>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Used to increase or decrease how much Terrain effects Radio Range.</font>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Can be used repeatedly and take effect immediately. </font>
-<br/><font face='PuristaLight' color='#6C8EBF'>- Higher means Terrain has a greater impact on reducing radio range.</font>
-<br/>
-<br/><font face='PuristaLight' color='#6C8EBF'>Examples:</font>
-<br/><execute expression=""copyToClipboard '!tfar_interceptionCoefficient 0.1'"">!tfar_interceptionCoefficient 0.1</execute>
-
-"
-]];
-
-
-player createDiaryRecord ["DPSO Commands", ["Side Chat",
+player createDiaryRecord ["Commands", ["Side Chat",
 "
 <br/><font face='PuristaLight' color='#40FFFF' font size='20'>Side Chat Duration</font>
 <br/>
@@ -104,7 +57,7 @@ player createDiaryRecord ["DPSO Commands", ["Side Chat",
 "
 ]];
 
-player createDiaryRecord ["DPSO Commands", ["Safe Zone",
+player createDiaryRecord ["Commands", ["Safe Zone",
 "
 <br/><font face='PuristaLight' color='#40FFFF' font size='20'>Safe Zone Enabled</font>
 <br/>
@@ -143,7 +96,7 @@ player createDiaryRecord ["DPSO Commands", ["Safe Zone",
 "
 ]];
 
-player createDiaryRecord ["DPSO Commands", ["Introduction",
+player createDiaryRecord ["Commands", ["Introduction",
 "
 <br/><font face='PuristaLight' color='#40FFFF' font size='20'>DPSO Commands</font>
 <br/>

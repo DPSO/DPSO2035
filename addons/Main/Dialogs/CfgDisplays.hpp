@@ -22,9 +22,8 @@ class RscLadderPicture;
 class VScrollbar;
 class HScrollbar;
 class RscXSliderH;
-class DefaultFont
-{
-	font = "RobotoCondensed";
+class DefaultFont {
+    font = "RobotoCondensed";
 };
 
 #include "RscDisplayCueCard.hpp"

@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "DPSO_common"
         };
-        author = AUTHOR;
+        author = QAUTHOR;
         authors[] = {"veteran29"};
         VERSION_CONFIG;
     };
